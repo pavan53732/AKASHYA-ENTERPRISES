@@ -50,13 +50,25 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 - [90mm boiler compatibility and customer trial](MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md): buyer fuel feed, furnace acceptance, quality trial and actual purchase commitments; 90 mm is not universally suitable.
 - [Combustible dust / fire / thermal risk register](SAFETY/FIRE-DUST-AND-THERMAL-RISK-REGISTER.md): factory safety and supplier engineering evidence required.
 
+## Live vendor pricing and 2027 procurement readiness — updated 22 Nov 2026
+**Prices are public asking prices only; no signed binding supplier quotation has been received or sent by this update.** Owner's ~₹520 lakh fixed CAPEX and ~₹99.43 lakh opening WC are **unchanged planning assumptions** until fully scoped written bids are equalised. Public OEM/seller examples include **EcoStan BM90/100 ₹25.95L**, **Lehra 90mm ₹21.75L**, **Radhe Jumbo90 ₹22.51L**, **Ronak Jumbo90 ₹21.75L**, and Infinite's **IFD3000 ₹42L (1,800 kg/h water evaporation)** vs **IFD5000 ₹68L (3,000 kg/h water evaporation)**. No price listed here includes verified Anakapalli freight, GST, installation and all safety equipment.
+
+**New active procurement files:**
+- [Live machine prices, model differences and price-source links](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
+- [EcoStan, Lehra, Jay Khodiyar, Radhe, Ronak, Infinite supplier contacts / unsent RFQ tracker](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md)
+- [Full turnkey 1,000-MT/month formal RFQ — ready to send](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md)
+- [Side-by-side technical/commercial bid equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md)
+- [₹5.20Cr fixed-CAPEX placeholder and 40% vs 50%-moisture machine options](FINANCE/MACHINERY-CAPEX-REBASE-AND-40-50-MOISTURE-OPTIONS.md)
+
+**Engineering rejection triggers:** two advertised 1.5-TPH presses provide only ~2% nameplate spare capacity under 340 productive hours; a 5-TPH max wood chipper is below the 50% moisture **5.57 wet TPH** requirement; a "2 TPH dryer" without guaranteed **water evaporation** is insufficient. **No supplier is yet technically/commercially selected**.
+
 ## Master DPR and Financial Model Synchronization
-The root [10-page owner Master DPR (PDF)](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) and [8-sheet dynamic financial model (XLSX)](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) are **fully regenerated, formula-verified, and cross-synchronized** with:
+The **previously generated**, owner-side [10-page Master DPR (PDF)](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) and [8-sheet dynamic financial model (XLSX)](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) were **reported as regenerated and cross-synchronized in the prior 37e280b commit** with:
 - The 15-year commodity escalation framework and **15 March 2027 first-disbursement critical path**.
-- The 12-item turnkey capital BOM (₹520L fixed + ₹99.43L WC = ₹619.43L cash required) and **₹8,000/MT floor economics**.
+- The 12-item turnkey capital BOM (₹520L fixed + ₹99.43L WC = ₹619.43L cash required) and **₹8,000/MT owner-observed sale-price assumption**.
 - **High-Moisture Sensitivity Matrix (25% to 55%)**: Directly incorporated into Excel `Scenarios` (Table 3) and PDF Page 10, quantifying the evaporation jump from 1,563 kg/h (40% base) to 2,492 kg/h (50% wet wood) and the corresponding EBITDA drop from ₹11.50L to ₹5.18L.
 - **Biomass Briquette Drawbacks & Boiler Trials**: Incorporating the 4-gate customer qualification protocol (Gates 0 to 3) for Cohance, Torrent, and Toyotsu, and establishing the technical distinction between pellet mills and mechanical piston presses.
-Nine [FACTORY-PHOTOS](FACTORY-PHOTOS/) serve as empirical field reference evidence. All land purchase costs remain excluded (private site lease accommodated in administrative OPEX).
+**The new 22 Nov public price evidence has NOT been re-entered into or independently validated against the binary DPR/XLSX; do not present them as quotation-backed documents.** Nine [FACTORY-PHOTOS](FACTORY-PHOTOS/) serve as empirical field reference evidence. All land purchase costs remain excluded; any land lease/rent amount and its actual treatment in OPEX must be confirmed from the latest cost files and site terms.
 
 - [Current scheme, GST and electricity status (22 Nov 2026)](REGULATORY/2026-11-22-GST-GUARANTEE-POWER-AND-SUBSIDY-STATUS.md): CGTMSE limits ≠ guaranteed loan, BioURJA Phase II status, HT time-of-day tariff and wood-briquette GST classification.
 

@@ -34,3 +34,17 @@ Obtain wear part lifetime **at guaranteed feedstock and 90-mm diameter**, annual
 
 ## High-moisture design correction (new — 22 Nov 2026)
 The 1.563 MT/hour water-evaporation requirement assumes **40% incoming moisture only**. At **50%** and the same output, mass balance instead requires approximately **2.492 MT/hour evaporated water** and **5.57 wet MT/hour log preparation** at 340 productive hours. An indicated 1.8–2.0 MT/h dryer and 3–5 wet TPH chipper would be bottlenecks. **Do not order these models as a guaranteed year-round 1,000-MT/month line** without wet-wood tests and a confirmed pre-drying or longer-hours strategy. For a 50%-moisture two-shift design, evaluate **~2.75–3.0 MT/hour water-evaporation** as a provisional engineering RFP with reserve, not a final price. See [wood-moisture technical note](05-WOOD-MOISTURE-AND-DRYER-SIZING.md).
+
+## New 22 Nov comparative press/dryer evidence
+| OEM reference (public) | Public price/model distinction | Continuous test requirement |
+|---|---|---|
+| EcoStan BM90/100 seller listing | **₹25.95L**, 117 HP, 1.5–2.5 TPH listing **vs** BPM90HD official **89.5 HP**, 1.3–2.0 TPH | Must choose exact model/90mm accessories and test on local hardwood |
+| Lehra 90mm machine | ~**₹21.75L** asking, 87.5 HP/2.0 TPH official reference | Written >=1.6 saleable TPH on approved drywood and agreed upkeep |
+| Radhe Jumbo90 | ~**₹22.51L**, 1.5 TPH listing | **Uncomfortably narrow** 16h duty at 340 productive hours |
+| Ronak Jumbo90 | ~**₹21.75L**, 1.5 TPH | An observed 230 RPM is NOT verified 230 ram strokes/minute |
+| Infinite IFD3000 | ~**₹42L** asking; **1,800 kg water evaporated/h** | Controlled <=40% moisture; 50% case fails 340h requirement |
+| Infinite IFD5000 | ~**₹68L** asking; **3,000 kg water evaporated/h** | Technically promising 50% design; requires guaranteed wood/thermal-electricity and complete safe installation quote |
+
+At rated 1.5 TPH per press, two presses produce **1,020 MT in 340 productive h**, just **2% theoretical margin** over 1,000. If sustainably >=1.6 TPH per press, potential is **1,088 MT** on same hours (~8.8% planning reserve), but **not a warranty**. One shared chipper and one dryer still remain common failure points. Request an OEM witnessed **72 logged production-hour test** on defined wood, including all stop time, real briquette tonnage, rejects and fuel/energy.
+
+Latest prices and evidence: [22 Nov live-price research](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) · [RFQ](../PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md).
