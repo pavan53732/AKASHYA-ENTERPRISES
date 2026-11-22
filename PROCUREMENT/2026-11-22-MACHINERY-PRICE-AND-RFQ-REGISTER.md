@@ -7,6 +7,7 @@
 | Supplier / exact public product | Advertised asking price **₹ lakh per piece** | Capacity / motor, source grade and unresolved condition |
 |---|---:|---|
 | **01 Log preparation, dryer, HM and ancillaries** | **Existing budget estimates only** | Machinery sizing and price evidence unchanged below and in [19-package BOM](COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md); no formal matched turnkey quotes |
+| **05 EcoStan soya-husk seller item code BM90HD** | **16.75** | **[LIST]** 90mm, 89HP, 1.5TPH seller entry with code **ECOSTAN_BM_90_HD**; soya-husk product, cannot be treated as tested hardwood machine or current signed BPM90HD offer. [OEM-linked catalogue section](https://www.biomassbriquette.net/briquetting-machines.html) |
 | **05 EcoStan BM90/100 public seller family** | **25.95** | **[LIST]** 90–100mm family, 1.5–2.5TPH seller; **actual EcoStan BPM90HD [OEM] 1.3–2.0TPH, 89.5HP**. Exact 90HD price unverified. [Listing](https://www.indiamart.com/proddetail/white-coal-biomass-briquette-machine-21168491112.html) / [OEM](https://www.ecostan.com/products/briquetting-machine) |
 | **05 EcoStan broad Biocoal BM family** | **27.15** | **[LIST / low]** family includes 40–100mm, not exact 90HD. [Catalogue](https://www.biomassbriquette.net/briquetting-machines.html) |
 | **05 EcoStan 90mm ambiguous archival reseller** | **17.55** | **[LIST / low]** says >2TPH, inconsistent with OEM 90HD maximum; old/other product. [Reseller](https://www.exportersindia.com/product-detail/biomass-briquette-machine-3455168.htm) |
