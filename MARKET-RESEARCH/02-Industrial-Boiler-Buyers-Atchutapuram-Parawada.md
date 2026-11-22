@@ -28,3 +28,6 @@ The owner's planning rate is **₹8,000/finished MT**, *not* necessarily what ea
 Boiler fuel specification must be trial-certified; **target** ≤10% moisture and tested GCV/ash, not an unmeasured guarantee. Coal/briquette emissions benefits are site and fuel dependent; never promise carbon credit certificates.
 
 Related [competitor price register](01-Local-Competitors-and-Price-Spectrum.md), [price risk and volume ramp](../FINANCE/15-YEAR-INFLATION-AND-CASHFLOW-MODEL.md).
+
+## Buyer fuel-feeding acceptance — new mandatory commercial gate
+The promoter-supplied December 2025 note warns about hazardous manual briquette feeding and compatibility with automatic feeders. **Do not count a technically identified boiler as a 90 mm wood-briquette customer until its utilities/EHS team confirms fuel dimensions, current stoker/firebox/feeding type, applicable emissions consent and buyer trial performance.** A boiler designed for loose paddy husks or pellets may not accept 90 mm solid logs; crushing briquettes can alter fines, labour and sale economics. A signed supply quotation must identify *exactly* the accepted product grade, delivered price, tonnes/month and credit terms. Standard trial form: [90mm boiler acceptance](03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md).

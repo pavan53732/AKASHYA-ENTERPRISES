@@ -29,3 +29,6 @@ Caliper diameter/length, fracture/abrasion, batch moisture, ash, GCV tested by c
 Every Friday until 12 March 2027: lender progress and missing KYC, permit filings, source quotations, quantity-priced timber and buyer letters, CAPEX drift and committed supplier deposits. After commissioning: 90-day real cost benchmarking then updated 15-year model/forward sales contracts.
 
 See [breakdown SOP](../MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) and [project roadmap](../PROJECT-ROADMAP.md).
+
+## Additional measured KPI and stop rules (new)
+Per wood truck measure **moisture range and wood species**, not just average; track **actual kg water removed/hr**, **thermal fuel kg per 1,000 kg water evaporated**, **rejected-fuel MT**, **fines/fragmentation %,** cooling discharge temperature and **buyer boiler trial pass/fail**. Record at 40/45/50% wood conditions and track safe stockpile residence/temperature. When feed moisture exceeds the press's **written OEM limit**, divert to re-drying or stop the press per approved SOP; never force wet stock to preserve shipment numbers. Every customer must approve feeding, grate compatibility and combustion trial before sale claims. See [technical note](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) and [buyer protocol](../MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md).

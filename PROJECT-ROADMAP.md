@@ -9,7 +9,7 @@
 | **05 Dec 2026** | Land/legal/forest lead: short list site and tenure terms | Written site-control options; 15-year desired operating horizon **separate from** land lease and bank loan tenor; written DFO enquiry on wood processing/transit |
 | **08 Dec 2026** | Engineering lead: competitive RFP issued | At least 3 comparable bids for 2 × press, 5–6 TPH wet log intake, minimum 1.6 TPH *water evaporation* plus margin, dryer fuel guarantee, 16/20/24-h duty options |
 | **15 Dec 2026** | Lender engagement + CA: indicative credit eligibility screening | Written bank application checklist; proposed promoter contribution, security, CGTMSE enquiry (if eligible), repayment/DSCR requirements |
-| **20 Dec 2026** | Technical: sample testing and 2-press trial protocol | Wet-wood moisture by species, ash, measured calorific value, briquette moisture, logs/motor sizes, performance warranties |
+| **20 Dec 2026** | Technical: sampling and process/sales trial protocol | At least 3 sample shipments per shortlisted species/supplier, moisture 30–50% envelope; collect 40/45/50% dryer bids and 90 mm boiler feeding trial forms before final PO |
 | **31 Dec 2026** | Engineering/site: final bank-costed BOM and land option | Line diagrams, quotations with GST/freight/erection, civil estimate, APEPDCL feasibility enquiry, 20% CAPEX uncertainty ledger |
 | **10 Jan 2027** | Regulatory owners: permit/consent submissions | APPCB CTE, forest licence/exemption determination, factory plan, fire and land-use applications, acknowledgement IDs; no construction before required permits |
 | **15 Jan 2027** | Finance: submit complete appraisal packet to 2–3 lenders | Detailed cashflows and downside, promoter equity proof, quotations, site title/lease, KYC/IT returns/bank statements, buyer & feedstock letters |
@@ -46,3 +46,8 @@ Promoter = final decision and signoffs; CA/finance lead = KYC, cashflow, applica
 - AP PCB applications: https://apocmms.nic.in/APPCB/
 - APEPDCL official portal: https://apeasternpower.com/
 - Equipment studies: [machine specification](MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md), [quote evidence](PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md)
+
+## Added deadline blockers: wet wood and buyer fuel compatibility
+**By 08 Dec 2026:** All OEM RFPs must request >=1,800–2,000 kg/hour evaporation for 40% reference wood **and an explicitly costed 50%-moisture alternate** sized near 2,750–3,000 kg/hour if keeping 16h/day. **By 20 Dec:** owner field sampling and laboratory moisture method documented; buyer utilities contact and safety-approved 90mm combustion trial checklist prepared. **By 31 Dec:** decide 16/20/24-hour operating schedule only after wood moisture and duty guarantee; do not order an undersized dryer solely to meet March loan paperwork. **By 15 Jan:** include supplier technical acceptance, buyer trial/PO status and 40% vs 50% economics in lender pack. These are engineering/research milestones, not promises that trials or permits will be completed on time.
+
+References: [moisture sizing](MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) · [buyer trial](MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md) · [risk register](SAFETY/FIRE-DUST-AND-THERMAL-RISK-REGISTER.md).

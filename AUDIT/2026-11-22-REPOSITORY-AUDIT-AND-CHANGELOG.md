@@ -31,3 +31,6 @@ Baseline repository included README, project roadmap, four machinery documents, 
 7. Actual costs including property rent and taxes and credible lender-specific principal/interest/moratorium if seeking formal DSCR.
 
 **No user factory photo evidence was altered. No external third-party quotations or bank approvals were fabricated.**
+
+## Follow-on owner research integration — 22 November 2026
+Owner supplied a 13 Dec 2025 note combining Steamax boiler-feeding concerns, generic sustainability benefits and pellet-mill troubleshooting. New source-critical review created and citations classified. Added [full 25–55% wet-wood sensitivity](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md), [buyer 90mm acceptance protocol](../MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md), [fire/dust/thermal hazard register](../SAFETY/FIRE-DUST-AND-THERMAL-RISK-REGISTER.md). Amended original RFP, BOM, owner financial reconciliation, 15-year scenarios limitations, machinery duty, maintenance, operations, buyer list and March lender roadmap. Important: existing PDF and XLSX contain prior physical design baseline, not independently verified supplier moisture performance. **No binary spreadsheet/PDF is modified by this follow-on text update**, and no measured supplier/buyer quote is invented.

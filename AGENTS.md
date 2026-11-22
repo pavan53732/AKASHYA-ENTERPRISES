@@ -12,3 +12,7 @@ Read [README.md](README.md), [PROJECT-ROADMAP.md](PROJECT-ROADMAP.md), [FINANCE/
 9. **Workbook/PDF:** binary financial snapshots in root may lag later Markdown research. Cross-check them explicitly; do not claim spreadsheet formulas tested without actual formula inspection. When updating XLSX, preserve formulas, recalc and verify Summary, CAPEX, Payroll and Scenarios.
 10. **Safety:** do not suggest defeating interlocks, hot-dust transport without engineered controls, or unattended dryer operations.
 11. Commit changes in coherent, documented groups and preserve photo sources; avoid modifying previous field evidence.
+
+12. **Read supplied drawbacks research:** [critical source review](RESEARCH/2025-12-13-BIOMASS-BRIQUETTE-DRAWBACKS-CRITICAL-REVIEW.md). Distinguish pellet-mill observations from piston-press faults. Never universally promise 90 mm boiler compatibility, carbon neutrality or automatic carbon credits.
+13. **Wet-wood moisture test:** all CAPEX/profit statements must label 40%-moisture baseline and include 50%-moisture sensitivity (1,895 wet MT/month, about 2,492 kg/hour water evaporation at 340 productive h) unless actual measured feed shows otherwise. Treat changed thermal fuel, dryer price and lost output as unknown until tested.
+14. **Buyer gate:** record boiler fuel feeding, 90mm compatibility, buyer trial and purchase order before calling any site a customer. See [buyer SOP](MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md).
