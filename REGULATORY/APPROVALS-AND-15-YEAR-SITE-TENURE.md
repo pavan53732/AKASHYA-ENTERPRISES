@@ -25,3 +25,6 @@ Previous roadmap prescribed a 30-m chimney, fixed 50,000-litre fire water, and s
 ## 15-year environmental controls
 Keep source traceability, species/moisture/ash test records, product chain of custody, emissions monitoring, EPR/fire compliance (if applicable), waste disposal registers, hazardous treated-wood exclusion and annually reviewed legal obligations.
 Official reference: https://udyamregistration.gov.in/Important.aspx ; https://apocmms.nic.in/APPCB/ ; https://apeasternpower.com/
+
+## Current tax, financing and tariff checks
+Read [22 Nov 2026 government evidence register](2026-11-22-GST-GUARANTEE-POWER-AND-SUBSIDY-STATUS.md). HSN 4401 / 5% GST is a preliminary match for the described wood briquettes; CA to confirm live applicable notification. CGTMSE ₹10 crore is a scheme guarantee ceiling for eligible credit, **not** automatic funding. MNRE Phase II biomass subsidy requires written budget/project eligibility. Actual APEPDCL power bills must use sanctioned voltage and hourly industrial tariff.

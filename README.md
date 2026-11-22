@@ -55,6 +55,8 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 ## Master DPR and Financial Model Synchronization
 The root [9-page owner Master DPR (PDF)](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) and [8-sheet dynamic financial model (XLSX)](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) are **previously regenerated for the 40%-wood-moisture design baseline** with the 15-year commodity escalation framework, the **15 March 2027 first-disbursement critical path**, the 12-item turnkey capital BOM (₹520L fixed + ₹99.43L WC = ₹619.43L cash required), and the **₹8,000/MT owner-observed selling-price assumption**. Nine [FACTORY-PHOTOS](FACTORY-PHOTOS/) serve as empirical field reference evidence. All land purchase costs remain excluded. **Confirm whether private site rent is included in latest binary OPEX before relying on it; the text reconciliation currently excludes lease rent.**
 
+- [Current scheme, GST and electricity status (22 Nov 2026)](REGULATORY/2026-11-22-GST-GUARANTEE-POWER-AND-SUBSIDY-STATUS.md): CGTMSE limits ≠ guaranteed loan, BioURJA Phase II status, HT time-of-day tariff and wood-briquette GST classification.
+
 ## Five investment decision gates
 **No non-refundable full-line commitment** until 3 comparable turnkey quotes, legally sourced wet-wood supply (with 1,579 MT/mo volume proof), demonstrated briquette sale prospects, DFO/APPCB/site feasibility and formal lender financing conditions. Do not turn ₹8,000 or ₹2,000 public/promoter observed rates into perpetual contracts. Monthly EBITDA and annual projections exclude GST, financing, income taxes and land rent unless explicitly stated.
 

@@ -26,3 +26,6 @@ Earlier owner-side estimate: fixed capex **₹520 lakh** excluding land, net ope
 5. If a lender wants a DSCR model, prepare a **separate bank-case schedule** using its written interest/tenor/moratorium. Do not fabricate EMI or claim an acceptable DSCR.
 
 Sources: https://www.rbi.org.in/Scripts/FAQView.aspx?Id=84 ; https://www.dcmsme.gov.in/CLCS_TUS_Scheme/Credit_Guarantee_Scheme/Scheme_Guidelines.aspx ; https://udyamregistration.gov.in/Important.aspx
+
+## Dated government validation addendum (22 Nov 2026)
+CGTMSE may provide guarantee on eligible MSE credit up to **₹10 crore** under rules effective 1 Apr 2025; **do not enter it as guaranteed borrowing or disbursement**. The BioURJA subsidy remains subject to Phase II funding and formal approval, so use **₹0 subsidy** in the lender base case. Reference APEPDCL HT tariffs and the time-of-day schedule instead of assuming 24-hour uniform ₹6.30 energy charges. CA must determine the correct current HSN/GST for the actual wood briquettes. Detail and primary references: [2026-11-22 statutory/financing status](../REGULATORY/2026-11-22-GST-GUARANTEE-POWER-AND-SUBSIDY-STATUS.md).
