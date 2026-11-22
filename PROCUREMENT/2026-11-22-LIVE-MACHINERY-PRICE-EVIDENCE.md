@@ -144,6 +144,19 @@ Capacities, connected load and fuel are **MANUFACTURER CLAIMS**. Prices are **PU
 
 **Do not add alternative machines together.** A log-to-sawdust ESM machine may perform both chipping and primary grinding; Lehra wet-rated 10TPH chipper-grinder may replace that, not duplicate it. Dry HM is only needed where actual dryer particle and press tolerances demand it.
 
+### Public component prices for photographed equipment
+
+Observed **23 Nov 2026** in INR per listed item. Reconcile GST, freight to Anakapalli, site supports/cabling, commissioning, warranty and validity with the seller. Application and part differences affect comparability.
+
+| Equipment | Public reference and price | Akashya buying scope |
+|---|---|---|
+| **Log receiving apron/belt and deck** | Exact timber-rated size, drive and asking price **unknown**. | Owner **₹6L** allocated inside the **₹14L** feeding/transfer package. Obtain log size, stall torque, infeed deck, guards, controls and rated wet throughput. |
+| **Inclined belt and metering screws** | **₹3.50L/piece** advertised food-grade incline. **₹3L** listed 3 m / 5 TPH Sensograph screw. **₹1.40L** Parul 5 TPH screw with hopper. [Incline](https://www.indiamart.com/proddetail/inclined-belt-conveyor-2859600015948.html) · [Sensograph](https://www.indiamart.com/sensographpackaging/z-conveyor.html) · [Parul](https://www.tradeindia.com/products/screw-conveyor-with-hopper-c8387672.html) | Standalone components in other materials. Price each by actual wood bulk density, incline, length, load, drive, guards, sensors, chutes and supports. |
+| **Process cyclone and airlock** | BSB shot-blasting **5,000 m³/h** cyclone example **~₹2.06L**. Gaps Energy generic airlock **₹30,000**. [Cyclone](https://www.tradeindia.com/products/cyclone-type-dust-collector-c10227535.html) · [Airlock](https://www.tradeindia.com/products/220-volt-450-kilogram-paint-coated-mild-steel-rotary-airlock-valve-8319429.html) | Different duties. Supplier shall price the temperature/erosion-rated cyclone, stand, duct transitions, airlock, differential-pressure monitoring and certified protection for the actual dryer. |
+| **Press flywheel and main drive** | Ronak publishes a main belt and continuous-duty two-wheel arrangement. Exact wheel, hub, shaft and matched belt set **unpriced for the offered press**. [Parts](https://ronakeng.com/spare-parts/) · [Press layout](https://ronakeng.com/briquetting-plant-2/) | Included drive components must be named in the press quote. Obtain a separate landed price and lead time for balancing, overhaul and full replacement. |
+| **Cooling track and supports** | Lehra Fuel Industries public **₹23.75L/set** sample includes press and handling equipment with a **20 ft** cooling line. Separate fitted track rate unknown. [Sample](https://5.imimg.com/data5/SELLER/Doc/2026/4/599355057/JI/VP/UE/253839848/white-coal-making-machine.pdf) | Specify number, section lengths, stands, guards, residence and outlet temperature. Deduct any supplier-included track from the separate allowance. |
+| **Control cabinet and VFD** | Delta **VFD750V43C-2**, **75 kW**, seller displays **₹3,39,999 + 18% GST**, about **₹4.01L inclusive**. [Drive](https://www.industrybuying.com/acvfd-inverter-delta-IND.ACV.622377382) | Single drive comparison. Size per motor, starting duty and protection study. The **₹16–30L** package covers panels, drives, automation and integration. Exact replacements for the selected panel remain unpriced. |
+
 ### Public spare and service-item price checks
 
 **Observed 23 November 2026, in INR per stated piece or kit.** These are individual seller asking prices. Current availability, GST where unstated, and delivered charges to Anakapalli need confirmation. Wood moisture and output do not apply to the standalone offers. Installed service prices need confirmed model/part number, duty, quantities, scope and validity.
