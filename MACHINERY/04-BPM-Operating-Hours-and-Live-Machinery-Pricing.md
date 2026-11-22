@@ -18,16 +18,80 @@
 
 **Published model links:** [EcoStan press](https://www.ecostan.com/products/briquetting-machine), [older EcoStan 90 RPM brochure](https://5.imimg.com/data5/JG/VV/KA/SELLER-49897310/biomass-briquetting-plant.pdf), [Lehra official](https://lehrafuel.com/biomass-briquetting-machine.php), [Ronak 230 RPM](https://ronakeng.com/manual-briquetting-machine/), [JK90](https://jaykhodiyar.com/briquetting-machine/), [EcoStan ESM150](https://www.ecostan.com/products/sawdust-machine), [Infinite dryer size/water/fuel table](https://www.infinitedryer.com/ifd.html).
 
-### EcoStan Briquetting Machine (BM / BPM) family model catalog
-EcoStan manufactures mechanical piston presses across multiple diameter grades. Sizing and power escalate sharply with briquette diameter:
+## Cross-OEM Briquetting Press Lineups & Live Market Prices
 
-| Machine model | Output briquette diameter | OEM claimed output (kg/h) | Total connected rated power | Mechanical application & suitability for Akashya |
-| :--- | :---: | :---: | :---: | :--- |
-| **BPM 40 (BM 40)** | 40 mm | Up to 150 – 250 kg/h | **23 HP (~17 kW)** | Pilot / micro-scale unit; too small for commercial industrial supply |
-| **BPM 60 (BM 60)** | 60 mm | Up to 600 – 1,000 kg/h | **47 HP (~35 kW)** | Small commercial enterprise; unsuitable for 90 mm industrial boiler contracts |
-| **BM 70 HD (BPM 70 HD)** | 70 mm | Up to 700 – 1,300 kg/h | **59 HP (~44 kW)** | Medium industrial press; non-compliant with target 90 mm boiler grate standard |
-| **BPM 90 HD (BM 90 HD)** | **90 mm** | **1,300 – 2,000 kg/h**<br>*(Hardwood tested: 1,400–1,600)* | **88.5–89.5 HP (~66.4 kW)**<br>*(75 HP main + feed/lube)* | **Akashya Enterprises baseline model** (2 units required for 1,000 MT/month) |
-| **BPM 100 HD (BM 100 HD)** | 100 mm | 1,400 – 2,500 kg/h | **115–116 HP (~86 kW)** | Large diameter press; requires explicit client acceptance before substitution |
+### 1. EcoStan Briquetting Machine (BM / BPM) family model catalog
+EcoStan manufactures mechanical piston presses across multiple diameter grades. Sizing, power, and indicative asking prices escalate with diameter:
+
+| Machine model | Output briquette diameter | OEM claimed output (kg/h) | Total connected rated power | Standalone asking price indicator | Mechanical application & suitability for Akashya |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **BPM 40 (BM 40)** | 40 mm | Up to 150 – 250 kg/h | **23 HP (~17 kW)** | **₹7.50–9.50 Lakh** | Pilot / micro-scale unit; too small for commercial industrial supply |
+| **BPM 60 (BM 60)** | 60 mm | Up to 600 – 1,000 kg/h | **47 HP (~35 kW)** | **₹12.00–15.00 Lakh** | Small commercial enterprise; unsuitable for 90 mm industrial boiler contracts |
+| **BM 70 HD (BPM 70 HD)** | 70 mm | Up to 700 – 1,300 kg/h | **59 HP (~44 kW)** | **₹16.00–19.50 Lakh** | Medium industrial press; non-compliant with target 90 mm boiler grate standard |
+| **BPM 90 HD (BM 90 HD)** | **90 mm** | **1,300 – 2,000 kg/h**<br>*(Hardwood tested: 1,400–1,600)* | **88.5–89.5 HP (~66.4 kW)**<br>*(75 HP main + feed/lube)* | **₹18.00–25.95 Lakh**<br>*(BM90/100 market listing ₹25.95L)* | **Akashya Enterprises baseline model** (2 units required for 1,000 MT/month) |
+| **BPM 100 HD (BM 100 HD)** | 100 mm | 1,400 – 2,500 kg/h | **115–116 HP (~86 kW)** | **₹26.00–32.00 Lakh** | Large diameter press; requires explicit client acceptance before substitution |
+
+---
+
+### 2. Lehra Fuel Tech (LBP Series) model catalog
+Lehra Fuel Tech (Ludhiana) manufactures the LBP reciprocating mechanical crank press series:
+
+| Machine model | Output briquette diameter | Production capacity (kg/h) | Motor power requirement | Standalone asking price indicator | Operational notes |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **LBP 60** | 60 mm | ~600 – 900 kg/h | **46 HP (~34 kW)** | **₹10.50–13.50 Lakh** | Requires fine powder feed; small commercial operations |
+| **LBP 70** | 70 mm | ~900 – 1,200 kg/h | **60 HP (~45 kW)** | **₹14.50–17.50 Lakh** | Mid-scale agro-waste conversion; 70 mm finished size |
+| **LBP 90 (Jumbo-90)** | **90 mm** | **1,000 – 2,000 kg/h**<br>*(Hardwood tested: 1,400–1,600)* | **87.5 HP (~65.3 kW)**<br>*(Variant: 69/86 HP)* | **₹18.50–22.00 Lakh**<br>*(Marketplace indicative ~₹21.75L)* | **Target candidate for Akashya line**; twin setup meets 1,000 MT/month |
+| **LBP 100 (Super Jumbo)** | 100 mm | Up to 2,500 kg/h | **114 HP (~85 kW)** | **₹26.00–30.00 Lakh** | High-volume industrial white coal plant architecture |
+
+---
+
+### 3. Jay Khodiyar Machine Tools (JK Series) model catalog
+Jay Khodiyar (Rajkot) produces mechanical ram presses utilizing heavy flywheels and reduction gearing:
+
+| Machine model | Output briquette diameter | Production capacity (kg/h) | Motor power breakdown | Live price indicator (ex-factory) | Operational notes |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Super 65 (JK-65)** | 65 mm | 300 – 800 kg/h | **50–60 HP (~40 kW)** | **₹8.50–11.50 Lakh** | Compact mechanical press; rice husk/groundnut shell |
+| **Supreme 75 (JK-75)** | 75 mm | 700 – 1,500 kg/h | **75–80 HP (~56 kW)** | **₹14.00–17.50 Lakh** | Medium-duty commercial biomass press |
+| **Jumbo 90 (JK-90)** | **90 mm** | **1,200 – 2,000 kg/h**<br>*(Hardwood tested: 1,400–1,650)* | **91 HP (~68 kW)**<br>*(75 HP main, 10 HP feed, 3 HP lube, 3 HP conv)* | **₹21.00–23.00 Lakh** (complete setup)<br>*(₹5.0–8.0L is bare frame anomaly)* | **Target candidate for Akashya line**; 2,000 kg/cm² pressure, ~8.5 MT weight |
+| **Jumbo 100 (JK-100)** | 100 mm | Up to 2,500 kg/h | **115 HP (~86 kW)** | **₹25.00–29.00 Lakh** | High-tonnage briquetting line |
+
+---
+
+### 4. Radhe Group / Radhe Engineering (RICO Series) model catalog
+Radhe Engineering (Rajkot) manufactures mechanical briquetting presses with dual load flywheels:
+
+| Machine model | Output briquette diameter | Production capacity (kg/h) | Motor power requirement | Live price indicator | Operational notes |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **RE-60** | 60 mm | ~500 kg/h | **49 HP (~37 kW)** | **₹9.50–12.50 Lakh** | Small agro-residue setup |
+| **RE-70 / Super 70** | 70 mm | 750 – 900 kg/h | **49–62.5 HP (~37–46 kW)** | **₹14.50–16.50 Lakh** | Mid-scale commercial press |
+| **RICO Jumbo-90** | **90 mm** | **1,200 – 1,500 kg/h** ($\pm 20\%$) | **91–100 HP (~68–75 kW)**<br>*(75 HP main motor, 1440 RPM)* | **₹22.00–22.51 Lakh** | **240 RPM flywheel**, 200 mm stroke length, ~8,500 kg weight |
+| **Jumbo-90 Combo** | 16mm / 25mm / 90mm | 1,000 – 1,200 kg/h (pellets) | **91 HP (~68 kW)** | **₹23.00–26.00 Lakh** | Dual-purpose briquette and pellet combination machine |
+
+---
+
+### 5. Ronak Engineering (Jumbo Series) model catalog
+Ronak Engineering (Rajkot) specializes in crank-type mechanical biomass briquetting presses:
+
+| Machine model | Output briquette diameter | Production capacity (kg/h) | Motor power requirement | Live price indicator | Operational notes |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Ronak 60** | 60 mm | ~500 – 800 kg/h | **45–50 HP (~35 kW)** | **₹9.00–12.00 Lakh** | Small agricultural briquetting unit |
+| **Ronak 70** | 70 mm | ~750 – 1,000 kg/h | **60 HP (~45 kW)** | **₹13.50–16.50 Lakh** | Medium industrial unit |
+| **Ronak Jumbo-90** | **90 mm** | **1,000 – 1,500 kg/h** ($\pm 20\%$) | **91 HP (~68 kW)**<br>*(75 HP main drive + feeder)* | **₹21.00–21.75 Lakh** | **230 RPM shaft speed**, 200 mm stroke, 2,500–3,000 kN nominal force, ~8.5 MT weight |
+
+---
+
+### 6. Infinite Energy Drying Systems (IFD Flash & RFD Rotary-Flash) catalog
+
+| Dryer model | Drying technology | Evaporation capacity (water kg/h) | Dry material throughput | Connected power | Biomass fuel consumption | Live equipment price indicator |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **IFD 750** | Pneumatic Flash | **375 – 750 kg/h** | ~1,000 kg/h | ~30 HP | 75 – 115 kg/h | **₹12.00–15.00 Lakh** |
+| **IFD 1500** | Pneumatic Flash | **1,000 – 1,500 kg/h** | ~2,000 kg/h | ~45 HP | 180 – 250 kg/h | **₹22.00–27.00 Lakh** |
+| **IFD 3000** | Pneumatic Flash | **1,800 kg/h** | **3,000 kg/h** (at <45% inlet) | **67 HP (~50 kW)** | **<440 kg/h** | **₹42.00 Lakh** *(Base 40% case)* |
+| **IFD 5000** | Pneumatic Flash | **3,000 kg/h** | **5,000 kg/h** (at <45% inlet) | **136 HP (~101 kW)** | **<700 kg/h** | **₹68.00 Lakh** *(High-moisture 50% duty)* |
+| **RFD 1500** | Rotary Drum + Flash | **1,500 kg/h** | Rotary drum pre-dry | ~45 HP | ~250–320 kg/h | **₹27.00 Lakh** |
+| **RFD 2000** | Rotary Drum + Flash | **2,000 kg/h** | Handles coarse chips | **~55 HP** | ~350–450 kg/h | **₹32.00 Lakh** |
+| **RFD 3000** | Rotary Drum + Flash | **2,500 – 3,000 kg/h** | High moisture drum | ~90 HP | ~500–600 kg/h | **₹45.00–52.00 Lakh** |
+| **RFD 5000** | Rotary Drum + Flash | **3,000+ kg/h** | Green fibrous biomass | **~130 HP** | ~650–750 kg/h | **₹65.00 Lakh** |
 
 ### What “BPM/hourly strokes” can and cannot tell us
 - **Physical ram rate unknown:** a catalogue crank/shaft **216 RPM** (older EcoStan 90 reference) or **230 RPM** (Ronak Jumbo90) is NOT an OEM-certified **strokes/minute** for the current quote. Require ram-crank ratio, stroke length, sensor-recorded actual strokes during a load trial and exact serial/model.
