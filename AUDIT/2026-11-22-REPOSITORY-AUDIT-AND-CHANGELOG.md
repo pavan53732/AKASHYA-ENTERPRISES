@@ -19,14 +19,14 @@ Baseline repository included README, project roadmap, four machinery documents, 
 | APPCB/DFO boiler and timber claims too categorical | High | Written permit/wood determination and verified operating status required |
 | Buyer volume claimed “documented demand” | High | Documented use, historic boiler consent, paddy-husk substitution and unverified leads separated |
 | photo Markdown broken relative paths | Medium | Corrected photo hyperlinks using ../FACTORY-PHOTOS |
-| Old root PDF/XLSX not guaranteed coherent with current roadmap | High | **Resolved**: Generated 9-page Master DPR & added 8th sheet '15-Year Cash Flow' in XLSX; all formulas & references verified |
+| Old root PDF/XLSX not guaranteed coherent with current roadmap | High | **PARTLY ADDRESSED, REOPENED**: 8-sheet/10-page binaries generated, but Kilo Code later found contradictions and unverified cached calculations; see linked QA findings |
 
 ## Unresolved evidence required before investment
 1. **3 binding engineered full-line quotes** at measured wood moisture; separate press/dryer/furnace/controls/electrical/safety/freight/spares.
 2. Written 15-year site-control option; actual legally permitted timber species, forestry permissions and transport.
 3. Signed or credible buyer demand at claimed prices; quantity-grade-payment verified, not only public listings.
 4. Bank-appraisal acknowledgement, sanction and drawdown conditions; no assumption that FY-end makes approval automatic.
-5. **Binary XLSX and PDF Status**: Successfully regenerated and cross-verified on 22 Nov 2026. The Excel workbook features 8 fully formulaic dynamic sheets (including 15-Year Cash Flow), and the PDF is a complete 9-page Master DPR incorporating turnkey BOM, 15-year inflation outcomes, and the 15 March 2027 financing critical path.
+5. **Binary XLSX and PDF historical status**: Earlier author reported generation/cross-verification; subsequently Kilo Code flagged seven unresolved discrepancies. The current PDF is **10 pages** and workbook **8 sheets**; saved formula caches, source tags and p9/p10 safety/quality wording require new validation before bank distribution.
 6. Power load/cost and APPCB/fire design confirmed by engineering and respective authorities.
 7. Actual costs including property rent and taxes and credible lender-specific principal/interest/moratorium if seeking formal DSCR.
 
@@ -39,3 +39,6 @@ Owner supplied a 13 Dec 2025 note combining Steamax boiler-feeding concerns, gen
 
 ## Deep Research machinery-market integration — 22 November 2026
 Following a new owner-authorised supplier price investigation, added **five new markdown procurement/finance files**: [public price evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md), [six OEM contacts with explicit unsent/zero quote status](../PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md), [formal RFQ](../PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md), [pass/fail + installed-cost bid equalisation](../PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md), [40% vs 50% moisture CAPEX rebase](../FINANCE/MACHINERY-CAPEX-REBASE-AND-40-50-MOISTURE-OPTIONS.md). Updated README, machinery sizing, price evidence, BOM, loan-readiness, 15-year forecast limitations, project roadmap and agents instructions. Public EcoStan/Lehra/Radhe/Ronak press prices and Infinite IFD3000/IFD5000 dryer asking prices are clearly **not** signed executable bids. **No supplier correspondence was sent, no binding quote obtained, no machinery selection/PO/loan sanction, and no XLSX/PDF binary updated by this price-research integration.** The existing 10-page DPR and 8-sheet XLSX remain prior owner planning versions until line-by-line prices and duty are bid-equalised.
+
+## Kilo Code audit reconciliation and correction gate — 22 November 2026
+Reviewed the seven reported binary conflicts against present Markdown source-of-truth rules. Updated README/OWNER-COST to withdraw unsupported formula-verified and bank-ready language. Opened [binary discrepancy ledger](KILOCODE-2026-11-22-BINARY-CONSISTENCY-FINDINGS.md), tracking Excel exact cells and PDF p9/p10, plus requirements for correct 8-sheet/10-page regeneration, formula cached values and approval. **The root XLSX/PDF are not yet corrected by this Markdown change; their file hashes must remain unchanged until a verified binary repair.**
