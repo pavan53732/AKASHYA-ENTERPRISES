@@ -1,44 +1,62 @@
 # Itemised 1,000-MT/month turnkey BOM — owner cost estimate, excluding land
-**22 November 2026.** Scope = 1,000 MT/month saleable briquettes from untreated legally sourced logs and branches. **Every price below is a budget assumption, not a signed supplier quotation.** Public marketplace references for selected isolated machines are linked in the [price register](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md).
+**Baseline 22 November 2026; OEM and rough engineering ranges rechecked 23 November 2026.** Scope = 1,000 MT/month saleable briquettes from untreated legally sourced logs and branches. **Every price below is a budget assumption, not a signed supplier quotation.** Public marketplace references for selected isolated machines are linked in the [price register](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md).
 
-## 1. Machinery and handling (₹ lakh)
-| Item | Quantity / sizing | Budget | Formal quotation status |
-|---|---|---:|---|
-| Log-to-sawdust processing | 1 package, >=5–6 wet tonnes/hour **actual guaranteed** | 34 | **Missing**; generic smaller/different models publicly advertised |
-| Hammer mill + screens + metal removal | 1 integrated package, feed match | 18 | Missing |
-| Intake table, conveyors and feeders | 1 system sized to log diameters | 14 | Missing |
-| Biomass furnace + dryer + cyclones | 1 package, **>=1,800–2,000 kg/h water evaporation guaranteed** at agreed wood moisture | 75 | **Missing**; never substitute ₹13L “2 TPH” material-feed listing |
-| Mechanical piston 90 mm briquette presses | 2 × 90-HD-class, **>=1.471 finished TPH per press** at 340h productive/mo | 52 | Missing; public BM family offers ~₹25.95–27.15L each, not exact delivered quote |
-| Cooling, storage, distribution | 2 press outlets and safe closed conveying | 22 | Missing |
-| Baghouse, dust fire/spark controls | 1 engineered system, airflow and isolation per hazard assessment | 25 | Missing |
-| MCC / drives / automation | VFDs, starters, PLC, emergency interlock, instrumentation | 20 | Missing |
-| Material handling loader | 1 suitable vehicle with bucket | 25 | Missing |
-| 50–60 MT truck weighbridge | 1 calibrated in/out, civil/foundation scope clarified | 13 | Missing |
-| QC tools and workshop | Moisture, weighing, bomb calorimeter test plan, repair tools | 6 | Missing |
-| Initial dies, knives, critical spares | OEM matched | 6 | Missing |
-| **Machinery & handling subtotal** | | **₹310 lakh** | **No complete binding tender** |
+## 1. Machinery and handling — physically ordered line with item prices (₹ lakh)
+**Scope convention:** **[OWNER]** = the original project budget (unchanged), **[EST]** = new broad internal engineering allowance for a *specific integrated scope*, not a supplier listing, **[LIST]** = public one-machine asking-price example, **[OEM]** = maker-published size/power/input. **No line has a signed current delivered-to-Anakapalli offer.** Bands use preliminary 40%-moisture configuration and assume no duplicate double-count of machinery in other packages; 50% performance requires a separate engineered package. Lower and upper totals are **not** a probability interval or a bank quote.
 
-## 2. Construction, power, erection (₹ lakh)
-| Item | Scope | Budget | Evidence |
-|---|---|---:|---|
-| Industrial shed and storage floors | 12,000–15,000 sq ft preliminary | 60 | Civil QS quote missing |
-| Machine foundations | Press and chipper vibration engineering | 24 | Structural quote missing |
-| 11 kV transformer / HT / LT connection | preliminary 630 kVA, **APEPDCL approval needed** | 38 | Power feasibility and firm quotation missing |
-| Yard, drainage and fire water | legal safe storage/traffic and fire design | 20 | Design missing |
-| Freight, cranes, erection and commissioning | Manufacturer-to-Anakapalli delivery, site trial | 24 | Quote missing |
-| Permit, design, certification | Forest/APPCB/fire/factory etc. as applicable | 6 | Permit scope pending |
-| Project contingency | Built-in estimate buffer | 38 | This is NOT a vendor payment |
-| **Civil / utility / installation subtotal** | | **₹210 lakh** | |
-| **Total fixed capital (land excluded)** | | **₹520 lakh** | **Planning basis only** |
+| Process step / hardware (each must appear in turnkey vendor bill) | Required actual input → output and capacity during 340 productive h | Owner ₹L | Rough **scope-integrated allowance ₹L** [EST] | Maker/source and caveat |
+|---|---|---:|---:|---|
+| **01 Log-to-sawdust** (ESM/log eater or wet-rated chipper alternative) | Legally sourced 40% wood **4.64 wet TPH** (50% **5.57**) → screened wet particles suited to dryer **<8mm** if IFD selected; **≥6 wet TPH proved**, ideally more | 34 | **30–52** | [EcoStan ESM150](https://www.ecostan.com/products/sawdust-machine) 3–5TPH,159HP,2–10mm; [Lehra 10TPH Log Eater](https://www.lehrafuel.com/log-eater-10-ton-per-hour.php) 250–300HP (different cost) |
+| **02 Hammer mill + graded screens + magnet** | *After drying* approx **3.08 TPH** dry material, screen to press OEM ≤15×8mm (EcoStan), remove oversize and metal; **do not use a ≤15%-moisture HM to grind 50% wood** | 18 | **14–36** | [EcoStan HM100](https://www.ecostan.com/products/hammer-mill) 2–3TPH/133HP is marginal; HM150 3–4TPH/190HP, verify actual grade and die |
+| **03 Log deck, conveyor, screws, wet/dry feeders** | Wet ≥6TPH, separate dry >3.1TPH; interlocked bunkers, magnetic stone traps, guarding, moisture sampling access | 14 | **10–20** | Length/elevation/metal removal and dosing require layout quote |
+| **04 Biomass furnace + dryer + cyclones/ID fan** | 40% water **1,563kg/h** and dry product ~3.08TPH; 50% water **2,492kg/h**; inlet **<8mm** for Infinite IFD | 75 | **65–105** at 40%; **95–145** at 50% | [Infinite IFD3000](https://www.infinitedryer.com/ifd.html) 1,800kg WATER/h, dry product 3.0TPH at <45% inlet, **₹42L LIST**; IFD5000 3,000kg water/h, **₹68L LIST**; listings exclude several items |
+| **05 Two 90mm mechanical piston presses** | Dry graded 8–12% **~3.08TPH** to >=2.941TPH saleable; **each sustained ≥1.60TPH on local wood** preferred, though theoretical requirement 1.471 | 52 | **44–60** | Maker 90HD/Lehra/Radhe/Ronak/JK90; marketplace pair prices mostly ₹43.5–51.9L, not complete installed package |
+| **06 Press cooling/discharge and safe product storage** | Hot cylindrical briquettes 2.94TPH → cooled weighed 90mm product; no broken/hot product into heaps | 22 | **15–30** | OEM-specific cooling length, 2 outlets, chutes, covered non-combustible stock |
+| **07 Baghouse/dust/explosion + spark/fire engineered package** | Cyclones, filters, explosion vents/isolation, sparks, interlocks; air volume/pressure must be designed from wet/dry particle train | 25 | **20–40** | [Lehra dust collector](https://www.lehrafuel.com/dust-collector.php) 5–40HP family is not explosion-safe turnkey quote |
+| **08 MCC, PLC, VFDs/soft start, sensing and automation** | Whole line signed motor-load list, e-stops, safety lockout, current/vibration/moisture, alarms; PLC reacts to upstream/downstream blockage | 20 | **16–30** | All motor control **inside** electrical panel scope; no double count with HT |
+| **09 Log-yard loader** | 63.2 wet MT/day (40%) or 75.8 wet MT/day (50%), unloading, stockpiles, feeding | 25 | **20–32** | [JCB 3DX market band](https://desimachines.com/backhoe-loader/jcb/) is category indication, **not** a dedicated industrial wheel-loader quote |
+| **10 Pitless 50–60MT weighbridge** | Truck gross/tare wood and finished outbound, calibration/software/approach foundation | 13 | **7–15** | [public 60T listing ~₹5.85L](https://www.electronicweighbridges.co.in/sitemap.html) often *bridge only*, add civil/metrology |
+| **11 QC tools, calibrated moisture test, maintenance workshop** | Moisture per truck, sieving/particle gradation, periodic ash/GCV lab outsourcing, scales, press tooling | 6 | **4–10** | Actual 3rd-party quality laboratory and weighing standards must be priced |
+| **12 Critical spares, knives, die/ram, bearings, airlocks** | 2-press wear sets and blades; replace against tonnes of actual material, keep minimum 1 critical set and supplier lead times | 6 | **5–14** | OEM spare pricing and **wear in hours/MT** absent; FAO historical wear cannot certify these brands |
+| **Total 12 machinery/handling packages** | **Alternatives above are NOT additive**, and band excludes civil/HT/freight budget below | **310** | **250–444** [EST] | No signed complete tender |
+
+### Equipment loading and mechanical reality
+- **At 25 days ×16 scheduled hours ×85% availability = 340 productive hours**, plant must sell **40 MT/day**. An OEM **rated 1.5 TPH each** press pair produces **1,020 MT/mo theoretical** at 340h (mere **2% reserve**) and can miss after feed rejects. Full design asks each press **1.6 TPH sustained** with measured wood.
+- **Incoming 50% wood is not the same as 50% press-feed moisture**; the 90mm press feed is generally **8–12%**. Fine particle, temperature and bulk-density acceptance differs per OEM. The [public OEM comparison](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) has each exact variant and its limits.
+- **Critical line interface:** Infinite IFD prefers **<8mm particles** before entering dryer; EcoStan ESM150 may output **2–10mm**; an ordinary EcoStan HM grinder is specified for **≤15% moisture**, so cannot necessarily be used **before** a dryer with **40–50% wet wood**. A wet-rated size reduction/screen, alternative rotary pre-dryer, and measured size-distribution trial must be costed. Do not assume this is a solved turnkey 90mm line.
+- **No universal "BPM" blows/minute:** EcoStan older machine **216 RPM** and Ronak Jumbo90 **230 RPM** do not establish *physical ram strokes/minute of the offered machine*. Request instrumented live ram frequency, quantity g/stroke, bearing temperature and OEM duty schedule.
+- **Power interface:** Two 89.5HP presses + 159HP ESM150 + 190HP HM150 + 67HP IFD3000 already total **595HP ≈444kW nameplate** excluding auxiliary drives/baghouse. At 50% adding IFD5000 (136HP) increases connected motor names ~52kW more. **630kVA transformer and 150kWh/finished MT electricity estimate require reengineering.**
+
+## 2. Construction, power and erection — separate cash budget (₹ lakh)
+| Package | Original owner budget ₹L | New rough allowance ₹L **[EST]** | What must be included / proved |
+|---|---:|---:|---|
+| **13 Industrial PEB shed, roof, log/finished safe storage floors** | 60 | **55–100** | 12,000–15,000sqft provisional, fire separations, floor load, runoff, ventilation |
+| **14 Press/chipper/fan foundations, vibration anchors** | 24 | **20–40** | Licensed engineer machine loads, site geotechnical and vibration limits |
+| **15 11kV transformer/HT/LT connection/earthing** | 38 | **30–60** | 630kVA currently **unverified**; actual contracted kVA may be 800/1000+; [public 630kVA transformer-only ₹8.5–12.5L](https://www.mahendratransformers.co.in/sitemap.html), **not full HT connection** |
+| **16 Yard/fire water, vehicle road/drains** | 20 | **15–30** | fire pump/tank and APPCB dust controls per authority, segregated wet-chip safety |
+| **17 Packing/freight/insurance/cranes/erection/SAT** | 24 | **20–40** | all OEM equipment to Anakapalli including heavy loading, trial wood and commissioning |
+| **18 Technical permits/engineering/inspection fees** | 6 | **5–12** | site-specific fire/factory/DFO/APPCB design and actual statutory fee verification |
+| **19 Project contingency/reserve (not equipment)** | 38 | **30–70** | site scope, stone/tramp metal handling, commissioning slippage; not quote |
+| **Total construction/site and soft-cost packages** | **210** | **175–352** [EST] | **No formal priced civil, electrical or statutory consultant proposals** |
+| **Total fixed-cost owner base vs rough envelope (land excluded)** | **520** | **₹425–796 lakh** [EST] | Wide engineering envelope, **NOT audited installed tender or revised bank cost** |
+| **Opening working capital separate** | **99.43** | **No new estimate** | existing 40%-wood receivable/inventory model, not machinery |
+| **Original total cash plan (base only)** | **619.43** | **Not reapproved** | do not automatically add old working capital to high-moisture engineering scenario |
+
+**Band math:** 12 machinery package allowances sum **₹250–444L** (internal scope bands), 7 civil/utility/commissioning packages sum **₹175–352L**, hence **₹425–796L provisional fixed** versus existing owner's **₹520L**. This is intentionally broad, *not* a ±range around a guaranteed price. The high-moisture ₹95–145L dryer alternative changes the dryer line and may require wet-size reduction and more HT/civil—**do not simply add its whole value to an already included base dryer**. No GST input credit, land rent, cost of finance, interest during construction, extra opening working capital or high-moisture thermal fuel increase has been approved.
+
+**Anchor prices [LIST, not complete scope]:** two Lehra-class 90mm press listings roughly **₹43.5L**, Infinite IFD3000 **₹42L** and IFD5000 **₹68L**; 630kVA transformer-only approx **₹8.5–12.5L**; 60T weighbridge-only approx **₹5.85L**. Those examples must **never be added directly** to turnkey line-item budgets without deducting overlapping components. Price source detail and confidence labels are in [live evidence](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 
 ## 3. What is excluded or uncertain
 **Excluded:** land acquisition, land lease deposits/rent, financing interest/principal, income tax, any unrecoverable GST, cash-timing delays, unexpected import components and commissioning losses; working capital **₹99.43 lakh** is separate. Loader rental vs ownership and whether weighbridge is shared could cut fixed CAPEX. Contractor civil quote must clarify PEB insulation, foundation reinforcement and site soil conditions. No bank/disbursement or project guarantee arises from this cost table.
 
-## 4. Operating load and electrical interface
-- Per press manufacturer reference 89.5 HP (~66.7 kW) ×2; log machine 159 HP (~118.6 kW) and selected dryer fan power vary.
-- Project connected power **~380–420 kW preliminary**. Sum detailed motors from supplier with starting current, diversity, power factor, demand and daily schedule before final transformer choice.
-- Owner electricity consumption is **150 kWh/MT** as provisional full-line estimate; 1,000 MT => **150,000 kWh/month**. Historical FY2026–27 APERC tariff should be replaced by the actual APEPDCL sanctioned tariff after energisation.
-- Drying 1,579 MT/month wet wood at 40% moisture requires ~532 MT water removal; specify temperature, oxygen/dust safety, fuel and moisture test with supplier.
+## 4. Electrical and process-energy consistency check (do not treat as verified tariff or motor list)
+- Nameplate example (not exact selected machines): **2 × EcoStan 90HD 89.5 HP**, **ESM150 159 HP**, **HM150 190 HP**, **IFD3000 67 HP** ≈ **595 HP =444 kW rated** *before* airlocks, conveyors, baghouse, extraction and auxiliaries. Press and grinder OEM variants can change these values materially. At high moisture, IFD5000 **136 HP** instead of IFD3000 **67 HP** increases nameplate by ~**51.5 kW** before changed fans/furnace. Nominal sum is **not** measured coincident running demand or kWh.
+- Previously listed “connected **380–420 kW**” is **not independently reconciled** with this OEM nameplate example. A **630 kVA** transformer at 0.90 PF could notionally supply **567kW** at rated conditions, but utility-approved capacity must consider motor-start current, power factor correction, harmonics, interlocks, temperature, losses and sanctioned demand. Request a full OEM motor list and qualified AP electrical engineer load study before deciding 630/800/1000 kVA or more. Transformer price alone **is not the HT connection total**.
+- Owner OPEX **150 kWh/saleable MT × 1,000 MT =150,000 kWh/month**. If every kWh is consumed only within the modeled **340 productive hours**, implied **441kW average** plant draw; it may also be used during warm-up, downtime, cleanup and other hours. This **needs reconciliation**, not automatic acceptance alongside the 380–420kW earlier estimate.
+- E.g., if a proposed net running process averages **320kW × 340h =108,800 kWh** plus startup/standby energy, total kWh differs materially. **320kW is hypothetical**, not a supplier guarantee. Request measured **kWh/finished MT** at fixed actual wood feed, fixed ramp and legal shift timetable. Price using latest approved APEPDCL demand and energy/ToD invoice structure, not web generic tariffs.
+- Drier **water removal ≠ dry-product throughput**; calculate both stage-by-stage and include wet mill feasibility. At 40% wood ~**1,563kg water/h** and ~**3.08TPH dry stream**; at 50% **2,492kg water/h** at same finished output. Get normal and maximum **kg of furnace fuel/kg of water actually removed**, not only catalog upper fuel use. The current **₹6L/mo dryer-fuel reserve** is unvalidated.
+
+**Line battery limits:** Quotes must say exactly which vendor supplies primary wet size-reducer, screens, separator, furnace, heat exchanger (if any), cyclone, dust explosion protection, ducting, electrical to MCC, e-stops, controls, 2 press cooling tracks, loader, weighbridge, civil, freight, spares and commissioning. An item repeated in an integrator offer is deducted from the counterpart package.
 
 ## 5. Three compulsory vendor comparisons
 A) one common wood processing + one large dryer + 2 presses;
@@ -49,11 +67,11 @@ Each quote must have **exact tax/delivery/installation cost**, motor list, month
 **Public references:** https://www.indiamart.com/proddetail/white-coal-biomass-briquette-machine-21168491112.html ; https://www.indiamart.com/proddetail/biocoal-briquette-machine-21168481191.html ; https://www.ecostan.com/products/sawdust-machine ; https://www.infinitedryer.com/ifd.html ; https://www.infinitedryer.com/rfd.html . No online listing here is a full turnkey quote.
 
 ## Scope exception: high-moisture alternate option (new)
-The unchanged **₹75 lakh dryer**, **₹34 lakh log processing** and **₹520 lakh complete fixed-capital** figures are **40%-moisture engineering allowances**, not guaranteed 50%-moisture solutions. At 50% wet wood, contractor should separately quote **~2.75–3.0 tonnes/hour water evaporation** (if designing for 16h/day) and wet-log sizing **≥5.57 MT/hour plus appropriate reserve**. Additional dryer/furnace, fuel, blower, baghouse, transformer and civil costs are **TBD** and excluded from stated ₹520 lakh estimate. Compare pre-seasoning versus high-moisture duty in total cost of ownership. See [moisture RFP](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md).
+The owner-reference **₹75 lakh dryer**, **₹34 lakh log processing** and **₹520 lakh complete fixed-capital** figures are **40%-moisture engineering allowances**, not guaranteed 50%-moisture solutions. At 50% wet wood, contractor should separately quote **~2.75–3.0 tonnes/hour water evaporation** (if designing for 16h/day) and wet-log sizing **≥5.57 MT/hour plus appropriate reserve**. Additional dryer/furnace, fuel, blower, baghouse, transformer and civil costs are **TBD** and excluded from stated ₹520 lakh estimate. Compare pre-seasoning versus high-moisture duty in total cost of ownership. See [moisture RFP](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md).
 
 ## 22 Nov 2026 external pricing cross-check — maintain original budget pending equal bids
 The ₹52L for two presses can be compared with **₹43.50L** public dual Lehra/Ronak, **₹45.02L** Radhe and **₹51.90L** EcoStan BM90/100 listing totals, but these **exclude/ambiguously specify ancillary feed and are not identical guaranteed-duty models**. The existing ₹75L complete dryer package cannot simply be replaced by Infinite's public **₹42L IFD3000 or ₹68L IFD5000** price, as the manufacturer excludes or separately prices dust collector, chimney, electrical cabling, civil, GST and freight. No complete 50%-moisture option is formally priced.
 
-A generic **₹4.0–5.5 crore project cost** discussed in price research is a **very low-confidence broad inference**, NOT a bid-equivalent bottom-up BOQ or approved new owner figure. Preserve current ₹520L fixed CAPEX **until** exact installed quotes and site/civil/electrical invoices are equalised. A 5–6 wet TPH nameplate chipper is not guaranteed to perform above **5.57 wet TPH** when fed fresh local logs: request a proved **≥6 wet TPH** actual duty alternative plus headroom. Under-sized one-unit hammer mill, short conveyors and non-explosion-rated dust systems must not be priced as complete line.
+The earlier generic **₹4.0–5.5 crore** internet-price inference was **incomplete** and is **not a reliable ceiling**. This document now exposes a broad **₹4.25–7.96 crore fixed** component-envelope [EST], without signed installed quotations. Upper/lower sums are *budget scenarios*, not independent quotes. Preserve current ₹520L fixed CAPEX **until** exact installed quotes and site/civil/electrical invoices are equalised. A 5–6 wet TPH nameplate chipper is not guaranteed to perform above **5.57 wet TPH** when fed fresh local logs: request a proved **≥6 wet TPH** actual duty alternative plus headroom. Under-sized one-unit hammer mill, short conveyors and non-explosion-rated dust systems must not be priced as complete line.
 
 Documents: [public evidence](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md), [supplier contacts](SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md), [scope and witness test](AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md), [bid comparison](TECHNICAL-COMMERCIAL-BID-EQUALISATION.md).
