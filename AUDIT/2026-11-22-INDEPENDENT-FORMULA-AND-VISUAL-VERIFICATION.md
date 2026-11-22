@@ -1,7 +1,7 @@
 # Independent Mathematical Formula & PDF Visual Layout Verification Report
 **Date:** 22 November 2026  
 **Subject:** Full Mathematical Verification of 369 Formula Cells and 10-Page Visual Layout Inspection for Akashya Enterprises  
-**Status:** 100% Verified — 0 Formula Errors, 0 Cache Mismatches, 0 Text Overlaps, 0 Out-of-Bounds Blocks  
+**Status:** Historical PASS for its existing 369 formulas and document geometry, but **NOT full numerical/model completeness verification**; later audit uncovered incorrect PDF p7 sale-price table and missing workbook Scenario C. See [follow-up repair status](2026-11-22-FOUR-FINDINGS-REPAIR-STATUS.md).  
 **Reference GitHub Commit:** Resolves and Closes Issue #1 (`Kilo Code binary consistency audit`)
 
 ---
@@ -82,3 +82,6 @@ All seven binary defects (KC-01 to KC-07) identified in Issue #1 have been remed
 - SHA256 hashes recorded:
   - Excel: `1DFE1F864D2A1D7A63C4B1C73468F4DCA8978FA5164E565ADA65EF07AA465F39`
   - PDF: `80DFE025FFB653E2B08E182ECC8959163FC2AE4513866FC904D6C0B025B883BB`
+
+## Follow-up audit limitation — 22 Nov 2026
+Even an exact formula-cache recomputation can pass when an entire documented Scenario C is absent from Excel. Text-block geometry can pass while a PDF table carries stale prices. The current report documents previous limited tests, not proof the follow-up PDF page7/Stress C checks have passed. Those need the latest binary artefacts to be actually regenerated and re-tested before bank delivery.
