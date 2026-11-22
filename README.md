@@ -109,6 +109,10 @@ flowchart LR
   * [`MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md) — Side-by-side strategic comparison of 500 MT vs. 1,000 MT vs. Phased Option C (Start at 500 MT, expand to 1,000 MT).
   * [`MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) — Breakdown contingency plan, buffer stock decoupling, critical spare parts inventory, and preventive maintenance SOP.
 
+* **Market Research & Offtake Clients:**
+  * [`MARKET-RESEARCH/01-Local-Competitors-and-Price-Spectrum.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MARKET-RESEARCH/01-Local-Competitors-and-Price-Spectrum.md) — Register of nearby briquette manufacturers (August Briquettes, Sri Datta Bio Fuels, Monomer) and price spectrum analysis (why agro briquettes sell for ₹5,800 while 90mm pure wood commands ₹9,000–₹9,500).
+  * [`MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md) — Documented corporate boiler clients (Cohance Lifesciences, Torrent Pharma, Toyotsu Rare Earths, Visakha Solvents, Teejay) and corporate sales navigation guide.
+
 * **Field Plant Visit Photos (`FACTORY-PHOTOS/`):**
   * [`01-drying-tower-cyclone-mcc-panel.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg) — Pneumatic flash dryer, cyclone separator & MCC electrical panel.
   * [`02-factory-interior-briquette-heap.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg) — Factory shed layout and bulk finished briquettes heap.
