@@ -38,6 +38,11 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 | [MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md](MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md) | Potential boiler buyers, confidence tiers and no purchase-volume guarantee |
 | [AGENTS.md](AGENTS.md) | Source, unit, approval, dates and financial-model controls for other agents |
 
+
+### Further decision controls
+- [Complete ₹520-lakh fixed-capital BOM](PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) — machine-by-machine and site expenditure assumptions with quotation gaps.
+- [Wood and briquette price-protection policy](FINANCE/WOOD-AND-BRIQUETTE-PRICE-PROTECTION-POLICY.md) — wet-wood price exposure, contract indexation options and margin thresholds.
+
 ## Historical files and evidence
 The root [8-page owner PDF](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) and [7-sheet owner XLSX](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) **precede or may not reflect** this full 15-year scenario update. Treat them as **reference snapshots pending binary regeneration and formula-cell verification**; do not present them as updated 15-year projections or lender-certified reports. Nine [FACTORY-PHOTOS](FACTORY-PHOTOS/) are field evidence, not manufacturer performance certification. All land purchase cost remains excluded, while site rent/deposits would require a separate scenario.
 
