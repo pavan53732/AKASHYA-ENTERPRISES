@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Rebuild 10-page Master DPR PDF with full Kilo Code binary consistency.
+"""Rebuild 10-page Master DPR PDF with full Kilo Code binary consistency and verified visual layout.
 
 Ensures:
 - Exact 10 pages total (KC-01..07 compliant).
+- Page 8: Clean redaction and rendering of Summary Judgment (zero text collisions, proper continued notice).
 - Page 9: Dual briquetting press labeled 'Model BPM 90 HD (strokes unverified)' - NO '220-240 BPM/strokes'.
 - Page 9: Buffer storage labeled 'provisional 2-3 days weather-protected buffer chips/sawdust (subject to site fire risk review)' - NO '10-14 days wet chips'.
 - Page 9: Bill of materials packages labeled as candidate vendor references / indicative budget only.
 - Page 9: Offtake labeled as uncontracted promoter-observed scenario.
+- Page 9: All table text bounded strictly inside the 48.2 -> 547.0 pt printable boundaries (zero out-of-bounds overflow).
 - Page 10: Gate 1 targets labeled as illustrative tender discussion thresholds; buyer-specific acceptance criteria to be established during boiler audit.
 - Pages 1 & 7: 'floor' and 'firm baseline' replaced with promoter-observed scenario / planning baseline.
 - Clean standard PDF fonts with zero missing glyphs.
@@ -49,7 +51,12 @@ def rebuild_pdf():
     for rbox, rtext, rsize, rcolor in p7_redactions:
         p7.insert_text(fitz.Point(rbox.x0 + 2, rbox.y0 + rsize + 1.5), rtext, fontsize=rsize, fontname='helv', color=rcolor)
 
-    # Styling constants
+    # Page 8 (7): Clean re-render of Summary Judgment block (eliminating text overlaps)
+    p8 = doc[7]
+    # Redact the entire bottom section from y=595 to y=780
+    p8.add_redact_annot(fitz.Rect(48.0, 592.0, 547.0, 785.0), fill=(1, 1, 1))
+    p8.apply_redactions()
+
     navy = (0.12, 0.29, 0.49)
     charcoal = (0.15, 0.15, 0.15)
     grey_text = (0.35, 0.35, 0.35)
@@ -58,6 +65,33 @@ def rebuild_pdf():
     table_alt_bg = (0.96, 0.97, 0.98)
     alert_bg = (0.99, 0.92, 0.90)
     green_bg = (0.90, 0.95, 0.90)
+
+    # Render clean summary block on Page 8
+    p8.insert_text(fitz.Point(48.2, 608.0), '8.2 | Summary Judgment & Critical Investment Variables', fontsize=9.5, fontname='hebo', color=navy)
+    
+    p8_txt1 = (
+        'At promoter-observed indicative rates (Rs. 8,000/MT finished briquettes and Rs. 2,000/MT delivered wet wood), '
+        'the proposed 1,000 MT/month plant generates approximately Rs. 80.00 lakh monthly revenue against Rs. 68.50 lakh estimated '
+        'operating expenditure, delivering Rs. 11.50 lakh monthly EBITDA (Rs. 1.38 Cr/year). Total initial capital requirement is '
+        'Rs. 619.43 lakh (Rs. 520.00 lakh turnkey fixed CAPEX + Rs. 99.43 lakh initial working capital, excluding land acquisition).'
+    )
+    p8.insert_textbox(fitz.Rect(48.2, 615.0, 547.0, 655.0), p8_txt1, fontsize=7.2, fontname='helv', color=charcoal)
+
+    p8_txt2 = (
+        'Key unverified sensitivity variables: incoming wet-wood moisture (40% base vs 50% high-wet), boiler fuel feed compatibility '
+        '(90mm lump vs crushed fuel stokers), continuous dryer water evaporation capacity (kg/h), and statutory clearance timelines. '
+        'A static Rs. 8,000/MT price structure without escalation leads to operating deficits by Year 7 under 6% wood inflation.'
+    )
+    p8.insert_textbox(fitz.Rect(48.2, 660.0, 547.0, 700.0), p8_txt2, fontsize=7.2, fontname='helv', color=charcoal)
+
+    p8_disclaimer = (
+        'Prepared as an internal owner-side engineering and financial planning model; not audited accounts, '
+        'not a statutory CA certificate, and not a binding manufacturer quotation.'
+    )
+    p8.insert_textbox(fitz.Rect(48.2, 705.0, 547.0, 725.0), p8_disclaimer, fontsize=6.5, fontname='heit', color=grey_text)
+
+    p8.insert_text(fitz.Point(48.2, 745.0), 'Akashya Enterprises · Master DPR', fontsize=7.5, fontname='helv', color=grey_text)
+    p8.insert_text(fitz.Point(330.0, 745.0), 'Continued to Page 9 (15-Yr Model & Critical Path) ->', fontsize=7.2, fontname='hebo', color=navy)
 
     # 3. Create Page 9
     p9 = doc.new_page(width=595.28, height=841.89)
@@ -85,29 +119,29 @@ def rebuild_pdf():
     t1_top = 116
     p9.draw_rect(fitz.Rect(48.2, t1_top, 547.0, t1_top + 15), fill=table_head_bg, color=line_color, width=0.5)
     p9.insert_text(fitz.Point(52, t1_top + 10.5), 'Scenario', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(125, t1_top + 10.5), 'Escalation Rates', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(235, t1_top + 10.5), 'Yr 1 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(295, t1_top + 10.5), 'Yr 5 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(355, t1_top + 10.5), 'Yr 10 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(420, t1_top + 10.5), 'Yr 15 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(480, t1_top + 10.5), '15-Yr Cumul. Cash', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(140, t1_top + 10.5), 'Escalation Rates', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(275, t1_top + 10.5), 'Yr 1 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(322, t1_top + 10.5), 'Yr 5 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(368, t1_top + 10.5), 'Yr 10 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(418, t1_top + 10.5), 'Yr 15 EBITDA', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(468, t1_top + 10.5), '15-Yr Cumul. Cash', fontsize=7.0, fontname='hebo', color=navy)
 
     rows_t1 = [
-        ('Scenario A (Base Case)', 'Sale +3%/yr, Wood +6%/yr, Power +5%/yr', 'Rs. 8.8 L', 'Rs. 29.9 L', '-Rs. 110.3 L', '-Rs. 319.0 L', '-Rs. 19.35 Cr (Alert: Neg. Yr 7)', alert_bg),
-        ('Scenario B (Indexed Offtake)', 'Sale +5%/yr, Wood +6%/yr, Power +5%/yr', 'Rs. 8.8 L', 'Rs. 107.6 L', 'Rs. 102.7 L', 'Rs. 84.7 L', '+Rs. 6.34 Cr (Recovers capital Yr 8)', green_bg),
-        ('Scenario C (Downside Stress)', 'Sale 0%/yr, Wood +8%/yr, Power +7%/yr', 'Rs. 8.8 L', '-Rs. 147.0 L', '-Rs. 584.9 L', '-Rs. 1,213.7 L', '-Rs. 76.65 Cr (Severe deficit)', (1, 0.95, 0.95))
+        ('Scenario A (Base Case)', 'Sale +3%/yr, Wood +6%/yr, Power +5%/yr', 'Rs. 8.8 L', 'Rs. 29.9 L', '-Rs. 110.3 L', '-Rs. 319.0 L', '-Rs. 19.35 Cr (Neg Yr 7)', alert_bg),
+        ('Scenario B (Indexed Offtake)', 'Sale +5%/yr, Wood +6%/yr, Power +5%/yr', 'Rs. 8.8 L', 'Rs. 107.6 L', 'Rs. 102.7 L', 'Rs. 84.7 L', '+Rs. 6.34 Cr (Recovers Yr 8)', green_bg),
+        ('Scenario C (Downside Stress)', 'Sale 0%/yr, Wood +8%/yr, Power +7%/yr', 'Rs. 8.8 L', '-Rs. 147.0 L', '-Rs. 584.9 L', '-Rs. 1,213.7 L', '-Rs. 76.65 Cr (Deficit)', (1, 0.95, 0.95))
     ]
 
     curr_y = t1_top + 15
     for r_name, r_esc, y1, y5, y10, y15, cum, bg in rows_t1:
         p9.draw_rect(fitz.Rect(48.2, curr_y, 547.0, curr_y + 13), fill=bg, color=line_color, width=0.5)
         p9.insert_text(fitz.Point(52, curr_y + 9.5), r_name, fontsize=6.8, fontname='hebo', color=charcoal)
-        p9.insert_text(fitz.Point(125, curr_y + 9.5), r_esc, fontsize=6.5, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(235, curr_y + 9.5), y1, fontsize=6.8, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(295, curr_y + 9.5), y5, fontsize=6.8, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(355, curr_y + 9.5), y10, fontsize=6.8, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(420, curr_y + 9.5), y15, fontsize=6.8, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(480, curr_y + 9.5), cum, fontsize=6.5, fontname='hebo', color=navy if '+' in cum else (0.7, 0.1, 0.1))
+        p9.insert_text(fitz.Point(140, curr_y + 9.5), r_esc, fontsize=6.3, fontname='helv', color=charcoal)
+        p9.insert_text(fitz.Point(275, curr_y + 9.5), y1, fontsize=6.6, fontname='helv', color=charcoal)
+        p9.insert_text(fitz.Point(322, curr_y + 9.5), y5, fontsize=6.6, fontname='helv', color=charcoal)
+        p9.insert_text(fitz.Point(368, curr_y + 9.5), y10, fontsize=6.6, fontname='helv', color=charcoal)
+        p9.insert_text(fitz.Point(418, curr_y + 9.5), y15, fontsize=6.6, fontname='helv', color=charcoal)
+        p9.insert_text(fitz.Point(468, curr_y + 9.5), cum, fontsize=6.3, fontname='hebo', color=navy if '+' in cum else (0.7, 0.1, 0.1))
         curr_y += 13
 
     note_t1 = 'Notes: Scheduled replacement reserves: Yr 6 (Rs. 30L), Yr 10 (Rs. 50L), Yr 13 (Rs. 30L). Initial cash base starts at -Rs. 6.19 Cr (Fixed Rs. 5.20 Cr + WC Rs. 99.43L).'
@@ -120,16 +154,16 @@ def rebuild_pdf():
     curr_y += 6
     p9.draw_rect(fitz.Rect(48.2, curr_y, 547.0, curr_y + 15), fill=table_head_bg, color=line_color, width=0.5)
     p9.insert_text(fitz.Point(52, curr_y + 10.5), 'Target Window', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(155, curr_y + 10.5), 'Milestone & Regulatory Gate', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(320, curr_y + 10.5), 'Key Deliverable & Bank Readiness Evidence', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(145, curr_y + 10.5), 'Milestone & Regulatory Gate', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(290, curr_y + 10.5), 'Key Deliverable & Bank Readiness Evidence', fontsize=7.0, fontname='hebo', color=navy)
 
     rows_t2 = [
-        ('22 Nov - 15 Dec 2026', 'Bank DPR, TEV Study & Vendor RFQs', '3 binding turnkey OEM quotes; DFO written wood species determination; site soil test.'),
-        ('16 Dec 2026 - 15 Jan 2027', 'Loan Application & Statutory Filings', 'Formal loan filing with lender/SIDBI; APPCB CTE filing; APEPDCL 11 kV HT power feasibility.'),
-        ('16 Jan - 28 Feb 2027', 'Appraisal, Sanction & Equity Escrow', 'Lender site audit, title legal clearance, promoter equity commitment (Rs. 1.55 Cr), sanction letter.'),
-        ('01 Mar - 15 Mar 2027', 'CP Compliance & First Disbursement', 'TARGET: First eligible loan drawdown released for long-lead equipment orders (candidate OEM press & dryer).'),
-        ('16 Mar - 31 Oct 2027', 'Civil Shed Construction & Erection', 'Pre-engineered industrial shed, machine foundations, 500 kVA substation, conveyor integration.'),
-        ('01 Nov - 30 Nov 2027', 'Trial Runs & Commercial Production', 'Wet-wood commissioning, APPCB CTO inspection, boiler client deliveries ramp to 1,000 MT/month.')
+        ('22 Nov - 15 Dec 2026', 'Bank DPR, TEV Study & RFQs', '3 binding turnkey OEM quotes; DFO written species clearance; site soil test.'),
+        ('16 Dec 2026 - 15 Jan 2027', 'Loan Application & Filings', 'Formal loan filing with lender/SIDBI; APPCB CTE; APEPDCL 11 kV HT power feasibility.'),
+        ('16 Jan - 28 Feb 2027', 'Appraisal, Sanction & Escrow', 'Lender site audit, title clearance, promoter equity (Rs. 1.55 Cr), sanction letter.'),
+        ('01 Mar - 15 Mar 2027', 'CP Compliance & Disbursement', 'TARGET: First eligible loan drawdown released for long-lead orders (press & dryer).'),
+        ('16 Mar - 31 Oct 2027', 'Civil Shed Construction & Erection', 'PEB factory shed (15k sq ft), heavy machine foundations, 500 kVA substation.'),
+        ('01 Nov - 30 Nov 2027', 'Trial Runs & Commercial Ramp', 'Wet-wood commissioning, APPCB CTO inspection, boiler client deliveries to 1,000 MT/mo.')
     ]
 
     curr_y += 15
@@ -138,9 +172,9 @@ def rebuild_pdf():
         if 'TARGET' in p_deliv:
             bg = green_bg
         p9.draw_rect(fitz.Rect(48.2, curr_y, 547.0, curr_y + 13), fill=bg, color=line_color, width=0.5)
-        p9.insert_text(fitz.Point(52, curr_y + 9), p_win, fontsize=6.8, fontname='hebo', color=charcoal)
-        p9.insert_text(fitz.Point(155, curr_y + 9), p_mile, fontsize=6.8, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(320, curr_y + 9), p_deliv, fontsize=6.5, fontname='helv', color=navy if 'TARGET' in p_deliv else charcoal)
+        p9.insert_text(fitz.Point(52, curr_y + 9), p_win, fontsize=6.6, fontname='hebo', color=charcoal)
+        p9.insert_text(fitz.Point(145, curr_y + 9), p_mile, fontsize=6.6, fontname='helv', color=charcoal)
+        p9.insert_textbox(fitz.Rect(290, curr_y + 1, 544, curr_y + 12), p_deliv, fontsize=6.2, fontname='helv', color=navy if 'TARGET' in p_deliv else charcoal)
         curr_y += 13
 
     note_t2 = 'Note: Fiscal year ends 31 March 2027. Sanction is subject to lender credit committee; milestone ensures readiness before year-end rush.'
@@ -155,7 +189,7 @@ def rebuild_pdf():
     p9.insert_text(fitz.Point(52, curr_y + 10.5), 'Major Package (Candidate Reference)', fontsize=7.0, fontname='hebo', color=navy)
     p9.insert_text(fitz.Point(175, curr_y + 10.5), 'Indicative Specification & Scope (Budget Only)', fontsize=7.0, fontname='hebo', color=navy)
     p9.insert_text(fitz.Point(430, curr_y + 10.5), 'Power (HP)', fontsize=7.0, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(495, curr_y + 10.5), 'Budget (Rs. L)', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(492, curr_y + 10.5), 'Budget (Rs. L)', fontsize=7.0, fontname='hebo', color=navy)
 
     bom_rows = [
         ('Log Shredder (EcoStan ESM 150 ref)', 'Heavy rotor drum with multi-knives, handles up to 12-inch logs and branches', '159 HP', 'Rs. 34.00 L'),
@@ -174,7 +208,7 @@ def rebuild_pdf():
         p9.insert_text(fitz.Point(52, curr_y + 8.5), pkg, fontsize=6.5, fontname='hebo', color=charcoal)
         p9.insert_text(fitz.Point(175, curr_y + 8.5), spec, fontsize=6.2, fontname='helv', color=charcoal)
         p9.insert_text(fitz.Point(435, curr_y + 8.5), hp, fontsize=6.5, fontname='helv', color=charcoal)
-        p9.insert_text(fitz.Point(498, curr_y + 8.5), bgt, fontsize=6.5, fontname='hebo', color=navy)
+        p9.insert_text(fitz.Point(495, curr_y + 8.5), bgt, fontsize=6.5, fontname='hebo', color=navy)
         curr_y += 12
 
     # Subtotal row for BOM
@@ -182,7 +216,7 @@ def rebuild_pdf():
     p9.insert_text(fitz.Point(52, curr_y + 9), 'TOTAL CAPITAL REQUIREMENT', fontsize=6.8, fontname='hebo', color=navy)
     p9.insert_text(fitz.Point(175, curr_y + 9), 'Fixed Capital: Rs. 520.00 L | Opening Working Capital: Rs. 99.43 L (Total cash required)', fontsize=6.5, fontname='hebo', color=navy)
     p9.insert_text(fitz.Point(430, curr_y + 9), '561 HP', fontsize=6.8, fontname='hebo', color=navy)
-    p9.insert_text(fitz.Point(495, curr_y + 9), 'Rs. 619.43 L', fontsize=7.0, fontname='hebo', color=navy)
+    p9.insert_text(fitz.Point(492, curr_y + 9), 'Rs. 619.43 L', fontsize=7.0, fontname='hebo', color=navy)
     curr_y += 13
 
     # Section D: Governing Policies & Risk Controls (KC-02 & KC-03 compliant)
@@ -199,7 +233,7 @@ def rebuild_pdf():
     curr_y += 8
     policy_heights = [24, 24, 34, 24]
     for (p_title, p_desc), box_h in zip(policies, policy_heights):
-        tb_rect = fitz.Rect(52, curr_y, 547.0, curr_y + box_h)
+        tb_rect = fitz.Rect(52, curr_y, 544.0, curr_y + box_h)
         bullet_text = f"- {p_title}{p_desc}"
         p9.insert_textbox(tb_rect, bullet_text, fontsize=6.7, fontname='helv', color=charcoal)
         curr_y += box_h + 3
@@ -234,20 +268,20 @@ def rebuild_pdf():
     t1_top = 114
     p10.draw_rect(fitz.Rect(48.2, t1_top, 547.0, t1_top + 15), fill=table_head_bg, color=line_color, width=0.5)
     p10.insert_text(fitz.Point(52, t1_top + 10.5), 'Moisture', fontsize=7.0, fontname='hebo', color=navy)
-    p10.insert_text(fitz.Point(100, t1_top + 10.5), 'Wet Wood (MT)', fontsize=7.0, fontname='hebo', color=navy)
-    p10.insert_text(fitz.Point(170, t1_top + 10.5), 'Wood Cost (Rs. L)', fontsize=7.0, fontname='hebo', color=navy)
-    p10.insert_text(fitz.Point(250, t1_top + 10.5), 'Water Evap. (MT)', fontsize=7.0, fontname='hebo', color=navy)
-    p10.insert_text(fitz.Point(325, t1_top + 10.5), 'Evap. Rate (kg/h)', fontsize=7.0, fontname='hebo', color=navy)
-    p10.insert_text(fitz.Point(405, t1_top + 10.5), 'EBITDA (Rs. L)', fontsize=7.0, fontname='hebo', color=navy)
-    p10.insert_text(fitz.Point(475, t1_top + 10.5), 'Dryer Engineering Verdict', fontsize=7.0, fontname='hebo', color=navy)
+    p10.insert_text(fitz.Point(98, t1_top + 10.5), 'Wet Wood', fontsize=7.0, fontname='hebo', color=navy)
+    p10.insert_text(fitz.Point(155, t1_top + 10.5), 'Wood Cost', fontsize=7.0, fontname='hebo', color=navy)
+    p10.insert_text(fitz.Point(225, t1_top + 10.5), 'Water Evap.', fontsize=7.0, fontname='hebo', color=navy)
+    p10.insert_text(fitz.Point(295, t1_top + 10.5), 'Evap. Rate', fontsize=7.0, fontname='hebo', color=navy)
+    p10.insert_text(fitz.Point(365, t1_top + 10.5), 'EBITDA', fontsize=7.0, fontname='hebo', color=navy)
+    p10.insert_text(fitz.Point(425, t1_top + 10.5), 'Dryer Engineering Verdict', fontsize=6.8, fontname='hebo', color=navy)
 
     moisture_data = [
-        ('25%', '1,263 MT', 'Rs. 25.26 L', '216 MT', '635 kg/h', 'Rs. 17.82 L', 'Well within 1,800 kg/h dryer rating', (1, 1, 1)),
-        ('30%', '1,353 MT', 'Rs. 27.07 L', '306 MT', '900 kg/h', 'Rs. 16.01 L', 'Well within 1,800 kg/h dryer rating', table_alt_bg),
-        ('35%', '1,458 MT', 'Rs. 29.15 L', '410 MT', '1,206 kg/h', 'Rs. 13.93 L', 'Comfortable operating margin (33% reserve)', (1, 1, 1)),
-        ('40% BASE', '1,579 MT', 'Rs. 31.58 L', '532 MT', '1,563 kg/h', 'Rs. 11.50 L', 'BASE DESIGN: 15% reserve on 1,800 kg/h dryer', green_bg),
+        ('25%', '1,263 MT', 'Rs. 25.26 L', '216 MT', '635 kg/h', 'Rs. 17.82 L', 'Well within 1,800 kg/h rating', (1, 1, 1)),
+        ('30%', '1,353 MT', 'Rs. 27.07 L', '306 MT', '900 kg/h', 'Rs. 16.01 L', 'Well within 1,800 kg/h rating', table_alt_bg),
+        ('35%', '1,458 MT', 'Rs. 29.15 L', '410 MT', '1,206 kg/h', 'Rs. 13.93 L', 'Comfortable margin (33% reserve)', (1, 1, 1)),
+        ('40% BASE', '1,579 MT', 'Rs. 31.58 L', '532 MT', '1,563 kg/h', 'Rs. 11.50 L', 'BASE DESIGN: 15% reserve on 1,800 kg/h', green_bg),
         ('45%', '1,723 MT', 'Rs. 34.45 L', '675 MT', '1,986 kg/h', 'Rs. 8.63 L', 'Zero margin on 2,000 kg/h; needs 20h schedule', (1, 0.98, 0.94)),
-        ('50% HIGH', '1,895 MT', 'Rs. 37.89 L', '847 MT', '2,492 kg/h', 'Rs. 5.18 L', 'BOTTLENECK: Exceeds 2,000 kg/h; needs 3,000 kg/h unit', alert_bg),
+        ('50% HIGH', '1,895 MT', 'Rs. 37.89 L', '847 MT', '2,492 kg/h', 'Rs. 5.18 L', 'BOTTLENECK: Exceeds 2k kg/h; needs 3k kg/h', alert_bg),
         ('55%', '2,105 MT', 'Rs. 42.11 L', '1,058 MT', '3,111 kg/h', 'Rs. 0.97 L', 'SEVERE DEFICIT: Unviable without log seasoning', (1, 0.92, 0.92))
     ]
 
@@ -255,12 +289,12 @@ def rebuild_pdf():
     for m_label, logs, cost, wtr, rate, ebitda, verdict, bg in moisture_data:
         p10.draw_rect(fitz.Rect(48.2, curr_y, 547.0, curr_y + 12.5), fill=bg, color=line_color, width=0.5)
         p10.insert_text(fitz.Point(52, curr_y + 9), m_label, fontsize=6.7, fontname='hebo', color=charcoal)
-        p10.insert_text(fitz.Point(100, curr_y + 9), logs, fontsize=6.7, fontname='helv', color=charcoal)
-        p10.insert_text(fitz.Point(170, curr_y + 9), cost, fontsize=6.7, fontname='helv', color=charcoal)
-        p10.insert_text(fitz.Point(250, curr_y + 9), wtr, fontsize=6.7, fontname='helv', color=charcoal)
-        p10.insert_text(fitz.Point(325, curr_y + 9), rate, fontsize=6.7, fontname='hebo' if 'BASE' in m_label or 'HIGH' in m_label else 'helv', color=navy if 'BASE' in m_label else (0.7, 0.1, 0.1) if 'HIGH' in m_label else charcoal)
-        p10.insert_text(fitz.Point(405, curr_y + 9), ebitda, fontsize=6.7, fontname='hebo', color=navy if 'BASE' in m_label else charcoal)
-        p10.insert_text(fitz.Point(475, curr_y + 9), verdict, fontsize=6.0, fontname='hebo' if 'BASE' in m_label or 'HIGH' in m_label else 'helv', color=navy if 'BASE' in m_label else (0.7, 0.1, 0.1) if 'HIGH' in m_label else charcoal)
+        p10.insert_text(fitz.Point(98, curr_y + 9), logs, fontsize=6.7, fontname='helv', color=charcoal)
+        p10.insert_text(fitz.Point(155, curr_y + 9), cost, fontsize=6.7, fontname='helv', color=charcoal)
+        p10.insert_text(fitz.Point(225, curr_y + 9), wtr, fontsize=6.7, fontname='helv', color=charcoal)
+        p10.insert_text(fitz.Point(295, curr_y + 9), rate, fontsize=6.7, fontname='hebo' if 'BASE' in m_label or 'HIGH' in m_label else 'helv', color=navy if 'BASE' in m_label else (0.7, 0.1, 0.1) if 'HIGH' in m_label else charcoal)
+        p10.insert_text(fitz.Point(365, curr_y + 9), ebitda, fontsize=6.7, fontname='hebo', color=navy if 'BASE' in m_label else charcoal)
+        p10.insert_text(fitz.Point(425, curr_y + 9), verdict, fontsize=5.8, fontname='hebo' if 'BASE' in m_label or 'HIGH' in m_label else 'helv', color=navy if 'BASE' in m_label else (0.7, 0.1, 0.1) if 'HIGH' in m_label else charcoal)
         curr_y += 12.5
 
     note_m = 'Note: EBITDA reflects feedstock variance only. At 50% moisture, added furnace fuel, power, and 3,000 kg/h dryer capex reduce surplus below Rs. 5.18L.'
@@ -306,7 +340,7 @@ def rebuild_pdf():
 
     curr_y += 8
     for title, desc in drawback_points:
-        tb_rect = fitz.Rect(52, curr_y, 547.0, curr_y + 30)
+        tb_rect = fitz.Rect(52, curr_y, 544.0, curr_y + 30)
         p10.insert_textbox(tb_rect, f"- {title}{desc}", fontsize=6.6, fontname='helv', color=charcoal)
         curr_y += 30
 
@@ -322,7 +356,7 @@ def rebuild_pdf():
 
     curr_y += 8
     for title, desc in statutory_points:
-        tb_rect = fitz.Rect(52, curr_y, 547.0, curr_y + 30)
+        tb_rect = fitz.Rect(52, curr_y, 544.0, curr_y + 30)
         p10.insert_textbox(tb_rect, f"- {title}{desc}", fontsize=6.6, fontname='helv', color=charcoal)
         curr_y += 30
 

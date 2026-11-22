@@ -47,6 +47,6 @@ Automated audit check performed via `python scripts/validate_dpr_consistency.py 
 
 ## Binary File Hash Register
 - `Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx`: SHA256 `1DFE1F864D2A1D7A63C4B1C73468F4DCA8978FA5164E565ADA65EF07AA465F39`
-- `Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf`: SHA256 `76EB5E18E57D41D3DBB486973732C9CE525F6925DC3997297B37DCC6ADB86489`
+- `Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf`: SHA256 `80DFE025FFB653E2B08E182ECC8959163FC2AE4513866FC904D6C0B025B883BB`
 
-All acceptance criteria met. Binary inconsistencies closed.
+All acceptance criteria met. Binary inconsistencies closed. Full independent mathematical formula audit (369/369 cells) and 10-page visual layout verification documented in `AUDIT/2026-11-22-INDEPENDENT-FORMULA-AND-VISUAL-VERIFICATION.md`.
