@@ -1,12 +1,14 @@
 # Breakdown resilience & maintenance SOP — 1,000 MT/month
-**Updated with machine-specific provisional intervals 23 Nov 2026; baseline 22 Nov 2026; selling price ₹8,000/MT, not ₹9,000/MT.** Documents are design targets; factory safety instructions must be approved by equipment OEM and competent EHS engineering team.
+**Planning reference updated 23 Nov 2026.** Applicable to the proposed 1,000 MT/month line in Anakapalli. Source tiers in the tables are planning estimates unless a specific historical or manufacturer document is cited. Approve the final schedule through the equipment makers and competent site engineers.
 
-| Breakdown under 25-day schedule | Finished output at risk | **Revenue delayed**, not profit lost |
+| Breakdown under 25-day schedule | Finished output at risk | Gross revenue delayed at ₹8,000/MT |
 |---|---|---:|
 | One press stops 1 production day | ~20 MT | **₹1.60 lakh** |
 | One press stops 3 days | ~60 MT | **₹4.80 lakh** |
 | Both stop 3 days | ~120 MT | **₹9.60 lakh** |
 | Shared dryer stops 5 days after buffers exhausted | up to 200 MT | **₹16.00 lakh** |
+
+Revenue figures use the promoter-observed ₹8,000 per finished MT at the 1,000 MT/month planning volume, first recorded 22 Nov 2026. GST/freight basis, volume commitment and offer validity remain unverified. The 40% incoming wood baseline gives the planned schedule. The 50% case needs **1,895 wet MT/month** and **2,492 kg/h evaporation** at 340 productive h. Losses above assume no recovery or stock cover during the stated outage and represent sales timing exposure.
 
 ## Redundancy vs. spare capacity
 Two presses each expected to deliver 500 MT/month **are not N+1 at full 1,000 MT target**. Failure of one leaves ~500 MT/month if the second press and upstream feed remain operational. Shared dryer, log processor, dust-safety systems, substation and utility feeders are other single-point failures. Quote separate/splittable systems to maintain 50% safe service through an upstream fault. Never bypass fire, dust or electrical interlocks for output.
@@ -29,29 +31,39 @@ Two presses each expected to deliver 500 MT/month **are not N+1 at full 1,000 MT
 | **11 Weighbridge, moisture/QC laboratory** | Every truck gross/tare, calibrated reference checks, sample chain-of-custody | **Daily verification**; statutory weighbridge calibration per authority, moisture-lab standards; monthly tool review | Recalibration certificate, rejections, legal wood transport |
 | **12 Emergency spares/repair workshop** | Running replacement inventory by machine model | **Weekly** check stock and delivery promise, **monthly** bin audit | OEM 2-year wear consumption, minimum machine-specific critical assemblies |
 
-### How many hours should machines run before a break?
-- **16h/day plan:** two **8h staffed shifts** (lawful meal relief/rotation). With proper supervised relief an engineered press or dryer can run through an operator's meal break; **personnel rest is mandatory, automatic mechanical cool-down every 1/2/4/8 hours is NOT a known universal OEM requirement**. Stop when lubrication/temp/dust hazards or the signed vendor manual require it.
-- **20h/day plan:** provides 4h/day scheduled off-line for cleaning/repair (subject to startup/cooldown), but shift roster and daily fatigue controls must be lawful. It does not automatically make an undersized **1.8TPH evaporation** dryer sufficient for **50%** wood (would need **~471 productive hours**).
-- **24h/day plan:** multiple legally staffed rotating shifts plus planned line stop/maintenance reserve; **80% availability** already models 124.8h lost in 624h schedule. Don't claim true 24h uninterrupted availability with manual wood feeding.
-- At **16h ×25d =400 scheduled hours/month**, **85% availability allows 60 nonproductive hours**. Example only: 30min/day ×25 days = **12.5h**, 2h weekly ×4 = **8h**, 4h monthly = **4h**, total **24.5h planned** and remaining **35.5h for other loss**, including faults/warmups. Do not add all per-machine weekly intervals arithmetically: many are **coordinated line stops**. If OEM requires more service or startup time, recompute productive hours and finished TPH. A separate daily 10min check is not always a stop: specify live monitoring vs isolated service.
+### Running hours, operator relief and reserved outage time
+
+| Plan [EST] | Staffed schedule and relief | Productive h/month | Nonproductive allowance within schedule | Use in maintenance planning |
+|---|---|---:|---:|---|
+| **16 h/day × 25** | Two 8 h shifts with trained relief, logged handover and continuous hot-dryer supervision | 340 at 85% | 60 h | Schedule major stops in off-shift windows where cooling and supervision permit. Track production-time losses separately. |
+| **20 h/day × 25** | Staffed roster with relief and supervised heat-system shutdown/restart | 425 at 85% | 75 h | Up to 4 h/day outside production schedule. Actual work window is reduced by safe shutdown, cooling and startup. |
+| **24 h/day × 26** | Rotating staffed shifts with qualified relief, maintenance coverage and separate plant stops | 499.2 at 80% | 124.8 h | Use coordinated stop blocks for common chipper/dryer, press work and protective systems. |
+
+**Illustrative 16 h planning month.** Of the 60 h within-schedule allowance, reserve **12.5 h** for 30 minutes/day logged stop/start/cleaning, **8 h** for four coordinated two-hour weekly stops, and **4 h** for a monthly planned shutdown. That gives **24.5 planned h + 35.5 h for other losses**. If weekly/monthly jobs overlap or occur outside scheduled plant hours, count only actual minutes lost to production. Simultaneous maintenance on the chipper, dryer and one press can share a single line stop. Record isolated work minutes, cooldown/restart minutes, operator relief and any loss of saleable production as separate fields.
+
+**Hourly monitoring** is normally visual, instrumented or from an approved protected sample point. Contact with moving parts, blade/die changes, hot-dryer access or blocked-duct entry require the OEM/approved shutdown and isolation procedure. Keep the furnace/dryer staffed through shift relief and managed shutdown. Maximum uninterrupted hot runtime and restart permissives remain **UNKNOWN** until the supplier provides the applicable manual and the site test. There is no substantiated common rest interval for the listed presses.
 
 ### Machine-life and running cost estimation
 Historic FAO reports for certain older piston dies: **~500–1,000 operating hours** and an instance of **~1,300h with intermediate reboring**, under specific feedstocks; this is **NOT modern 2026 maker-specific life or price**. Knife/bearing/die life for local Casuarina/Eucalyptus/Subabul is **unknown** until OEM trials. Request per **1000 finished MT**: dies, rams, blades, oil, filters, bearings, screens, electricity, dryer fuel, loss hours, labour and maintenance contractor rate. No exact hourly cooler/oil change is asserted. [FAO background](https://www.fao.org/4/t0275e/t0275e04.htm) · [EcoStan press moisture/size](https://www.ecostan.com/products/briquetting-machine) · [Ronak machine RPM](https://ronakeng.com/manual-briquetting-machine/) · [Infinite IFD duty table](https://www.infinitedryer.com/ifd.html).
 
-### Provisional wear-part service and replacement intervals [Engineering Planning Guide]
-Based on field experience with abrasive hardwood and Indian mechanical piston briquetting plants:
+### Provisional wear-part inspection and changeout allowances
 
-| Component / Subassembly | Typical service life (running hours) | Recommended maintenance action | Changeout downtime | Critical spare stock requirement |
-|---|---:|---|---:|---|
-| **Ram Punch Head / Tip** | **80–150 h** | Inspect for rounding/wear; swap with pre-faced spare; hardface worn tip with high-chromium carbide electrodes | 30–45 min | 4 complete spare punch heads in toolroom |
-| **Taper Die / Collet Rings** | **150–300 h** | Measure internal bore diameter; re-bore to 90 mm profile or replace segmented die collets | 1.0–2.0 h | 2 complete die holder sets + collet rings |
-| **Guide Sleeves / Wear Rings** | **400–800 h** | Inspect alignment and clearance; replace bronze/hardened steel wear bushes | 2.0–3.0 h | 2 sets guide sleeves |
-| **Chipper Knives & Anvils** | **40–80 h (sharpen) / 400–600 h (replace)** | Rotate/re-sharpen knives to correct cutting angle; inspect anvil clearance (1.5–2.0 mm) | 30–60 min | 3 matched knife sets (one running, one ready, one at grinding workshop) |
-| **Hammer Mill Hammers** | **80–120 h (turn edge) / 300–500 h (replace)** | Reverse hammers to utilize all 4 wear corners; replace entire balanced set when worn | 1.0–2.0 h | 2 complete balanced hammer sets |
-| **Hammer Mill Sieve Screens** | **200–400 h** | Check perforation size and screen cracking; replace blinded or worn perforated plate | 30–45 min | 4 replacement screens (3 mm, 5 mm, 8 mm) |
-| **Centralized Lube Oil & Filter** | **500 h (filter) / 1,000–1,500 h (oil flush)** | Replace 10-micron oil filter element; drain, flush, and refill ISO VG 220/320 gear oil | 1.0 h (scheduled stop) | 6 oil filter cartridges + 2 barrels (420 L) gear oil |
-| **Dryer Rotary Airlock Vanes** | **1,000–1,500 h** | Inspect neoprene/EPDM flexible tips; adjust blade clearance to maintain cyclone vacuum seal | 1.0–2.0 h | 2 sets airlock rotor tips + shaft seals |
-| **Conveyor Belts & Roller Bearings** | **2,500–5,000 h** | Grease weekly (NLGI 2 EP grease); replace sealed pillow block bearings upon vibration | 1.0–3.0 h | 4 spare conveyor bearings + 1 belt splice kit |
+These are **first-pass maintenance and downtime estimates** for staffing/spare planning. Inspection hours are running-hour triggers to review wear logs during commissioning. Replace only against the offered machine’s limits and actual condition. Changeout windows allow for hands-on work and must be extended for any additional cooldown, isolation, reheat, testing and material dependency. Use qualified service staff and approved parts, lubricants and procedures.
+
+| Component | Engineering review window [EST] | Indicative hands-on changeout [EST] | Measurements and spares to record |
+|---|---|---|---|
+| **Ram/punch** | Review wear trend at **80–150 h** | **0.5–1 h** per press | OEM alignment/wear method, a matched replacement and service hours |
+| **Die / collet** | Review condition at **150–300 h** | **1–2 h** per press | Diameter, surface damage, tonnes since service, matched spare and OEM approval for rework |
+| **Guides, bushings and seals** | Review wear trend at **400–800 h** | **2–3 h** work block | Loaded alignment, OEM limits and correct kit |
+| **Chipper knives and anvil** | Inspect condition by shift and review sharpen/rotation need at **40–80 h** | **0.5–1 h** | Knife damage, cut-size drift, matched set, supplier-approved clearances |
+| **Mill hammers / screens** | Review hammers at **80–120 h** and screens at **200–400 h**, with routine condition checks each shift | **1–2 h** for hammers, **0.5–1 h** for screens | Vibration, screen blinding/perforation, balanced approved kits |
+| **Lubrication system** | Level, pressure and leaks each staffed shift; intervals per the offered OEM | **~1 h** budgeting block for routine service | Quote oil grade, filter, normal operating ranges and calendar/hour interval. **Lehra Fuel Industries** public 90 mm sample calls out **7–10 days for filter service** and **three months for oil** for its stated equipment. |
+| **Airlocks, fans and cyclone outlets** | Routine weekly review, condition-based follow-up per thermal package | **1–2 h** indicative airlock work block after cooled/isolated access | Leaks, vane and seal condition, fan vibration, spare and hot-start procedure |
+| **Conveyor belts, drives and rollers** | Shift observation plus weekly approved isolated inspection | **1–3 h** depending on access and duty | Tracking, tension, bearings, roller and splice kit |
+| **Baghouse, sparks and fire equipment** | Review instrument readings each shift. Test protective functions at approved intervals. | OEM/EHS schedule and access scope to determine | Filters/DP trend, alarm evidence, signed test and permission to return to service |
+| **MCC/PLC, transformer and weighbridge/QC** | Electrical checks and statutory/quality verification per responsible engineer or authority. | OEM/specialist schedule | Trip history, interlock verification, instrument calibration and spare component compatibility |
+
+**Supplier-specific gap.** EcoStan, Radhe Engineering Co / RICO, Ronak and Jay Khodiyar have published performance or machine specifications, but applicable maintenance intervals, the permitted continuous loaded run and mandatory cooling time for the site offer need the offered model’s manual. Lehra’s publicly hosted intervals apply to its sample scope only. Infinite publishes dryer capacity and fuel/load figures. Cooldown, supervised restart, cleaning and protective-device test windows need the furnace/dryer package and site procedure. [Lehra sample](https://5.imimg.com/data5/SELLER/Doc/2026/4/599355057/JI/VP/UE/253839848/white-coal-making-machine.pdf) · [Infinite IFD](https://www.infinitedryer.com/ifd.html) · [Wood dust engineering reference](https://www.osha.gov/wood-dust/solutions).
 
 ## Per-shift operational data to retain
 Log **time at rated output** and **time at feed/quality failure** separately; record plant production, each press discharge, dryer input wettonnes/%moisture, water removed, fuel kg, kWh, unplanned minutes by machine, labour shift, knife/die service minutes and wet/dry particle-screen oversize. A daily sheet should reconcile **wet delivered wood → cleaned feed → dryer water removed → dry press feed → finished passed/rejected product**, or else monthly 1,000 MT cannot be validated.

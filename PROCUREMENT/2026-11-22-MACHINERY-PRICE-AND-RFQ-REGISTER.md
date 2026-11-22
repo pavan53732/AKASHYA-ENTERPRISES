@@ -26,6 +26,8 @@ Prices shown are public asking prices or dated public commercial samples in ₹ 
 **Still unknown for all brands:** exact machine invoice, ₹/HP accessories, verified ram strokes/min (NOT machine RPM), genuine wood-only sustained finished output ≥1.60TPH per press, GST, delivered-to-Anakapalli cost, installation, power measured kWh/MT, spare wear-life and 16/20/24h duty guarantee. The **₹52L owner twin-press cost** remains a working budget, **not an updated actual quote**. Do not derive “minimum whole press factory” from ₹5L Jay listing.
 
 ## Required guaranteed process duty for 1,000 finished MT/month
+
+Use the [ordered 19-package BOM](COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) for the full pricing schedule, the [wet/dry basis by operating hours](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) for matching each motorised stage, and the [equipment maintenance schedule](../MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) for downtime and operator coverage.
 - Schedules: compare **16h × 25d @85% availability** (340 productive hours; two presses each ≥1.471 TPH), **20h × 25d @85%** (425h; ≥1.176 TPH each), **24h × 26d @80%** (~499h; ≥1.002 TPH each).
 - Log intake at 40% moisture: **1,579 MT/month**; ≥4.64 wet MT/hour for 340 effective hours; choose >=5–6 TPH actual performance with reserve. One “up to 5 TPH” ESM150 has narrow headroom. Provide at least one contingency option.
 - Dryer water evaporation: **1,563 kg/h at 40%** and **2,492 kg/h at 50%** at 340 productive hours. Request a separate written guarantee at each inlet moisture, plus **~3,080 kg/h dried output**, final moisture, wet feed, fuel and electrical load.

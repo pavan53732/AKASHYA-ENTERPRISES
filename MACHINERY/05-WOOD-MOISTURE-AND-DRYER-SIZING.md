@@ -35,6 +35,16 @@ A 90mm mechanical press **cannot accept unchipped green logs**. The stages must 
 
 **Caution:** The simplified 3.08 MT/h intermediate number approximates wet-mass minus evaporation and is sensitive to the stage at which dry solids are rejected; use a measured full mass balance before equipment guarantees. Infinite IFD3000 publishes **~3.0 MT/h dry product at <45% input**, already borderline relative to ~3.08 MT/h. The same table says **<50%**, which does not warrant an **exact 50.0%** inlet trial.
 
+| Productive hours per month | 40% wet feed TPH | 40% water kg/h | 50% wet feed TPH | 50% water kg/h | Dried material TPH [approx.] | Saleable combined TPH |
+|---:|---:|---:|---:|---:|---:|---:|
+| 340 | 4.644 | 1563 | 5.573 | 2492 | 3.080 | 2.941 |
+| 425 | 3.715 | 1251 | 4.458 | 1994 | 2.464 | 2.353 |
+| 499.2 | 3.163 | 1065 | 3.796 | 1697 | 2.098 | 2.003 |
+
+All rows are **derived** at the same 1,000 MT/month target and use the same simplified reject allocation. The 425 h and 499.2 h rows correspond to the 20 h and 24 h operating plans. Design margin, outage costs, furnace fuel, pressure losses and allowable material temperature are separate engineering inputs.
+
+For screening/regrind loops, estimate machine circulation as **fresh feed ÷ (1 − per-pass recirculation fraction)** if all rejected oversize returns to the same unit and there are no other branches. At **10% / 20%** recirculation, wet circulation is **5.16 / 5.80 TPH at 40%** and **6.19 / 6.96 TPH at 50%**. Dry full-stream circulation is about **3.42 / 3.85 TPH** under the same assumptions. These are derived planning sensitivities. Measure actual screen rejects and adjust feeders, conveyors and motors along the recycle path. An oversize-only dry hammer mill should instead be sized from the actual oversize stream plus rework.
+
 ## Dryer procurement consequence
 - At **40%**, a true 1,800 kg/h evaporation rating clears the water check. Infinite **RFD2000** is rated at **1,250 kg/h water** and falls short. Its model-number “2000” aligns with an OEM dried-output band, and the **₹32L** public listing is equipment only. [machinery price evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 - At **45%** incoming moisture, required 1,986 kg/h leaves virtually no margin on a 2,000 kg/h dryer.

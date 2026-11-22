@@ -17,6 +17,18 @@
 
 **Source URLs for specifications:** [EcoStan OEM current 90HD](https://www.ecostan.com/products/briquetting-machine), [historical EcoStan90 216 RPM /86.5HP PDF](https://5.imimg.com/data5/KN/SO/RT/SELLER-49897310/briquette-machine.pdf), [Lehra LBP90](https://lehrafuel.com/briquette-press-lbp-90.php), [Ronak OEM](https://ronakeng.com/manual-briquetting-machine/), [Jay Khodiyar official](https://jaykhodiyar.com/briquetting-machine/). **Price links, per-variant confidence and seller-name distinctions:** [single authoritative press-price ledger](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 
+For direct comparison, EcoStan's briquette-only claims are below. A diameter change also requires buyer boiler-feed compatibility and a fresh production trial.
+
+| EcoStan model | Claimed briquettes kg/h | Rated HP | Approx. rated kW [DERIVED] | Model-specific price evidence |
+|---|---:|---:|---:|---|
+| **BPM 40** | 150–250 | 23 | 17 | Exact price unknown. Seller entries use conflicting diameters. |
+| **BPM 60** | 600–1,000 | 47 | 35 | **₹16.75L** public BM60-coded ask. |
+| **BM 70 HD** | 700–1,300 | 59 | 44 | **₹16.75L** public BM70 sawdust ask. HD suffix unconfirmed for that listing. |
+| **BPM 90 HD** | 1,300–2,000 | 89.5 | 67 | **₹16.75L** soya-husk coded listing. Exact wood-duty set price unknown. |
+| **BPM 100 HD** | 1,400–2,500 | 115 | 86 | Exact price unknown. **₹16.75L** rice-straw advert carries a BM100 code with both 90 and 100 mm sizes. |
+
+Rated kW is HP × 0.746, rounded to the nearest kW, before electrical losses or loading factors. All catalogue numbers above are **MANUFACTURER CLAIMS**. Loaded ram strokes/min and sustained local wood output are **UNKNOWN** for the five models. [EcoStan model table](https://www.ecostan.com/products/briquetting-machine) · [seller catalogue](https://www.biomassbriquette.net/briquetting-machines.html).
+
 ## Cross-OEM briquette press families — no invented live prices for unsupported SKU ranges
 | OEM | Other diameter models / verified catalogue outputs | Exact non-90mm price evidence |
 |---|---|---|
@@ -41,6 +53,20 @@ Published machine speeds are **216 RPM** for older EcoStan 90 documentation, **2
 | 24 hours/day | 26 | 624 | 80% | 499.2 | 2.003 | 1.002 |
 
 **20-hour/day duty is not automatically cheaper:** labour cover, legal shifts and rest, night power/time-of-day tariffs, heat loads, preventive maintenance windows and actual loss factor change. Never label 20 h as “2.5 shifts” without compliant roster. **Press redundancy:** with two presses each producing roughly 500 MT/month, one press stopping cuts capacity ≈50%. Shared chipping/drying/power remain common single-point failures; two presses are **N parallel**, not N+1 to deliver the full 1,000 MT target during one press failure.
+
+### Hourly running output vs scheduled-hour production
+
+| Case per 90 mm press [PLANNING ESTIMATE] | Combined saleable TPH while running | Average combined MT per scheduled h at 85% | Saleable MT/day at 16 scheduled h | Saleable MT/month at 340 productive h |
+|---|---:|---:|---:|---:|
+| **1.20 TPH** per press, weak feed/derated case | 2.40 | 2.04 | 32.6 | 816 |
+| **1.471 TPH** per press, target arithmetic | ~2.94 | 2.50 | ~40 | ~1,000 |
+| **1.50 TPH** per press, nominal Radhe/Ronak ceiling reference | 3.00 | 2.55 | 40.8 | 1,020 |
+| **1.60 TPH** per press, RFQ acceptance target | 3.20 | 2.72 | 43.5 | 1,088 |
+| **1.80 TPH** per press, upside test case | 3.60 | 3.06 | 49.0 | 1,224 |
+
+The arithmetic assumes both presses receive enough acceptable feed and the stated rate is **saleable output**. Chipping, the dryer, screening, shared downtime, safe cooling and rejects can reduce shipped tonnes. At **1.60 TPH each** the plant needs **312.5 productive h/month** for 1,000 MT, allowing at most **87.5 total nonproductive hours** in 400 scheduled hours. At **1.50 each** it needs **333.3 productive hours**, just **6.7 productive hours below the 340 h baseline**. These examples describe line sensitivity and cannot be assigned to a supplier as field results.
+
+Use total measured saleable kg over a steady clock interval for output and count only loaded ram cycles over that same interval. A derived diagnostic is **net grams per loaded stroke = saleable kg/h × 1,000 ÷ (60 × measured strokes/min)**. Use a guarded sensor/approved observation point and report motor RPM, flywheel/crank RPM, loaded strokes/min, gross mass and rejects in separate fields. [RFQ operating and downtime schedule](../PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md#mandatory-per-machine-operating-hours-rpm-and-downtime-schedule-supplier-to-fill).
 
 ## Evaporation and wood
 Wet mass = 1,000×(1−0.10)/[(1−0.05)×(1−0.40)] = **1,578.95 MT/mo**. Moisture removed = 1,578.95×0.40 −100 = **531.58 MT/month**. Divide by 340 h → **1.563 MT water evaporated/hour**. Request **1.8–2.0 MT/h verified evaporation guarantee** plus test at 50% incoming wet-basis moisture. A “2 TPH feed dryer” can be insufficient.

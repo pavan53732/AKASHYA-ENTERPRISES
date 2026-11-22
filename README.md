@@ -29,7 +29,7 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 | [FINANCE/LOAN-READINESS-AND-DRAWDOWN-TRACKER.md](FINANCE/LOAN-READINESS-AND-DRAWDOWN-TRACKER.md) | Required banking evidence, sanction and drawdown gates |
 | [FINANCE/15-YEAR-INFLATION-AND-CASHFLOW-MODEL.md](FINANCE/15-YEAR-INFLATION-AND-CASHFLOW-MODEL.md) | Fifteen-year ramp, escalating timber/sales/power/wages, upside/base/downside and replacement CAPEX |
 | [PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md](PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) | Checked **public price anchors vs missing binding vendor quotes**, turnkey scope and tests |
-| [MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md](MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md) | Correct BPM model meanings; 16/20/24 h schedule; press and dryer bottlenecks |
+| [Press models, throughput and shift scenarios](MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md) | EcoStan 40–100 model table, five press suppliers, RPM vs loaded strokes, and productive versus scheduled output |
 | [MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md](MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md) | Corrected ₹8,000 unit-economic and independent-line comparison |
 | [MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md](MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) | Mechanical/electrical uptime, safe buffering and true redundancy |
 | [REGULATORY/APPROVALS-AND-15-YEAR-SITE-TENURE.md](REGULATORY/APPROVALS-AND-15-YEAR-SITE-TENURE.md) | Forest, APPCB, APEPDCL and 15-year land/loan/operating tenure distinctions |
@@ -40,7 +40,7 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 
 
 ### Further decision controls
-- [Complete ₹520-lakh fixed-capital BOM](PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) — machine-by-machine and site expenditure assumptions with quotation gaps.
+- [Costed plant build-up](PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) — ordered receiving-to-dispatch equipment, item-level planning allocations, site works and opening working capital for the 40%-moisture baseline, with the 50% duty and cost gaps identified.
 - [Wood and briquette price-protection policy](FINANCE/WOOD-AND-BRIQUETTE-PRICE-PROTECTION-POLICY.md) — wet-wood price exposure, contract indexation options and margin thresholds.
 
 
