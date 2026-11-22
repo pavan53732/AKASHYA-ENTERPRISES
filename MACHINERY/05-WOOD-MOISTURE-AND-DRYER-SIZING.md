@@ -22,6 +22,19 @@
 
 The EBITDA column holds all non-wood operating costs constant. **Actual high-moisture EBITDA can be lower or monthly output can fall** due to more furnace fuel, power, rejects, oversized dryer purchase and reduced chipper throughput. The 10% moisture is finished product reference, **not automatically dryer-outlet press-feed target**. Obtain exact OEM press-feed moisture and particle-size limits; typical literature describes roughly 8–12% feed moisture but material-specific optimisation is mandatory.
 
+## Crucial size and stage interface — wet pre-grind vs dry hammer mill
+A 90mm mechanical press **cannot accept unchipped green logs**. The stages must match material **size, wet-basis moisture AND tonnes/hour simultaneously**. Example: [EcoStan ESM150](https://www.ecostan.com/products/sawdust-machine) quotes **2–10mm sawdust**, while the [Infinite IFD flash dryer](https://www.infinitedryer.com/ifd.html) says incoming particles **<8mm**; screen/recycle the 8–10mm fraction or obtain a site trial. The [EcoStan HM family](https://www.ecostan.com/products/hammer-mill) is documented for **≤15% feed moisture**, so **do not assume the dry hammer mill can pre-grind wet logs at 40–50%**. Possible plant routes are *wet-rated log eater/grinder to <8mm → flash dryer → dry mill/press* or *coarser chipper → rotary pre-dryer able to accept chips → fine milling/flash finish dryer → press*. Quote both with the same mass balance, actual wet-chip blade clogging and fire controls.
+
+| Plant interface | 40%-moisture reference per productive h | 50%-moisture reference per productive h | OEM acceptance criterion |
+|---|---:|---:|---|
+| Legal log receiving | **4.64 wet MT/h** | **5.57 wet MT/h** | Chipper/sawdust **actual** ≥6wet MT/h with reserve or priced longer schedule |
+| Wet sawdust before dryer | ~4.64 MT/h less measured sorting/metal losses | ~5.57 MT/h less sorting/metal losses | Pass through dryer **<8mm** (IFD), validate distribution not average |
+| Water evaporated | **1.563 MT/h** | **2.492 MT/h** | Real guaranteed evaporation, 10–20% sizing reserve |
+| Dry material after dryer | **~3.08 MT/h** before allocation of modeled 5% solids loss | **~3.08 MT/h** | Both **dryer dry-output** and dry mill must actually support this flow |
+| Finished, saleable 90mm product | **2.941 MT/h** | **2.941 MT/h** | 2 presses each ≥1.60 MT/h tested, not nameplate only |
+
+**Caution:** The simplified 3.08 MT/h intermediate number approximates wet-mass minus evaporation and is sensitive to the stage at which dry solids are rejected; use a measured full mass balance before equipment guarantees. Infinite IFD3000 publishes **~3.0 MT/h dry product at <45% input**, already borderline relative to ~3.08 MT/h. The same table says **<50%**, which does not warrant an **exact 50.0%** inlet trial.
+
 ## Dryer procurement consequence
 - Existing shortlisted 1,800–2,000 kg-water/h dryer **has reasonable nominal margin over the 1,563 kg/h at 40%**, before engineering losses.
 - At **45%** incoming moisture, required 1,986 kg/h leaves virtually no margin on a 2,000 kg/h dryer.
