@@ -1,5 +1,5 @@
 # Ready-to-send REQUEST FOR QUOTATION (RFQ): AKASHYA ENTERPRISES
-**Issue draft:** 22 November 2026 · **Status: NOT SENT** · **Project:** 1,000 MT/month 90-mm binderless wood biomass briquette plant · **Destination:** Anakapalli District, Andhra Pradesh, India · **Subject:** Formal signed techno-commercial quotation for complete mechanical piston briquetting line with dual moisture-duty options.
+**Issue draft:** 22 November 2026 · **Technical BOM/maintenance expansion 23 November 2026** · **Status: NOT SENT** · **Project:** 1,000 MT/month 90-mm binderless wood biomass briquette plant · **Destination:** Anakapalli District, Andhra Pradesh, India · **Subject:** Formal signed techno-commercial quotation for complete mechanical piston briquetting line with dual moisture-duty options.
 
 > To: Sales / Technical Proposals team. Please return a dated, signed offer with your letterhead, GSTIN, responsible contact, quotation reference and validity. This specification is a common-bid comparison basis, not an accepted purchase order.
 
@@ -28,6 +28,8 @@ Separate statutory compliant shift staffing, cleaning, tool/die replacement, nig
 - **High-moisture package:** >=2,750–3,000 **kg of WATER evaporated per hour** for **50% incoming moisture** at 340 productive hours, with feedstock-specific tests; if applicant wishes 1,000 MT monthly at 50% all season, supplier must guarantee system output.
 For **both**: give independently water-evaporation kg/h vs raw material TPH; wet inlet/outlet temperature and moisture; furnace/hot-air generator, burning fuel type, gross heat duty/efficiency, max and *guaranteed normal* thermal fuel kg/h and kg/kg of water evaporated; connected and running electrical loads; cyclone, ID fan, rotary valve, baghouse/explosion protection, flue/chimney, isolation & interlocks; outlet product and exhaust testing. Specify who supplies each.
 
+**C1. CRITICAL wet-wood particle-size compatibility test (mandatory, not optional):** The Infinite IFD brochure states **<8mm inlet particles**, and a separate EcoStan sawdust machine lists **2–10mm outlet**. Confirm percentage >8mm from proposed chipper/sawdust maker, the actual wet-wood primary fine-grinding equipment needed at **40/45/50% incoming moisture**, its 6+ wet TPH throughput, screen and recirculation, resin/wood bark clogging and motor HP. **Dry-rated EcoStan hammer mills are published for up to 15%-moisture material: do not assume they can grind green 40–50% wood ahead of the dryer.** Quote either (i) a **guaranteed wet-rated <8mm route + pneumatic dryer** or (ii) larger chip stage + **rotary pre-dryer** + dry mill/finishing flash dryer. Both routes must guarantee water removal **and** dried-material output **~3.08TPH** at 340 effective hours. Infinite IFD3000 advertises 1,800kg-water/h but also ~3.0TPH dry output at <45% inlet (borderline); IFD5000 advertises 3,000kg-water/h but the brochure says **<50% input**, not exactly 50.0%. No automatic 50% acceptance on marketing tables. [IFD maker](https://www.infinitedryer.com/ifd.html) · [EcoStan sawdust](https://www.ecostan.com/products/sawdust-machine) · [EcoStan HM](https://www.ecostan.com/products/hammer-mill).
+
 **D. All auxiliary production assets:** Log intake and conveyors, magnetic separator, trommel/screens, hammer mills, buffer hoppers/silos with fire-safe storage, dust extraction, loading, cooled briquette tracks, output handling, weighment/packing, workshop/QC requirements, spares and automated controls (MCC/PLC/VFD), platforms/ladders, training and guarded process access.
 
 **E. Electrical and civil:** Provide full motor/connected/running kW list, starting currents, estimated kWh/MT at 40/45/50%, single-line diagram, 11kV/415V connection and transformer recommendation (check proposed 630kVA), machine footprints, loads and vibration/foundation drawings; specify 12,000–15,000 sqft preliminary shed interfaces, fire separation, ducts/chimneys and emergency access.
@@ -39,16 +41,38 @@ For **both**: give independently water-evaporation kg/h vs raw material TPH; wet
 - OEM to specify maintenance schedule and actual **die/ram/knife wear lifetime as tonne of tested wood**, not undocumented days; provide spare part warranty exclusions, critical part shipment time to Andhra Pradesh and field service SLA.
 - Reference at least **two operating industrial plants** at or above comparable real duty with permission for purchaser inspection.
 
+### Mandatory per-machine operating-hours, RPM and downtime schedule (supplier to fill)
+For every listed **01 log intake/loader; 02 chipping/wet grinder; 03 conveyors/magnets; 04 dryer/furnace/airlocks; 05 dry hammer; 06 two presses individually; 07 cooling/finished handling; 08 dust/fire controls; 09 MCC/HT power; 10 weighbridge/QC**, provide a machine-specific sheet with:
+
+| Mandatory field | Exact vendor response required |
+|---|---|
+| Exact OEM make/model and qty | Machine serial family, bill of materials, starter drives and rated kW/HP per motor |
+| Input and output guarantees | **Wet kg/h, moisture %, particle-screen histogram, dry kg/h, saleable 90mm kg/h**, timed trial methodology |
+| RPM vs actual piston ram strokes/min | Motor rpm, crank/flywheel rpm, **verified real ram strokes/min under loaded operation**, stroke length, independent sensor or video timing. **No 'BPM' model-name guess.** |
+| Max sustained duty | Hours continuously runnable under specified actual load, 16/20/24h day permitted by OEM, thermal/pressure/lubrication limits and interlocks |
+| Breaks / cooling / relief | **Any OEM-mandated stop after X hours** (exact hours and duration, if real), pre-shift warm-up/shutdown, legally staffed meal and handover coverage; state **NONE mandated** if so |
+| Maintenance calendar | Live/hourly inspections vs **machine shutdowns** for every shift/day/week/month/quarter/year; isolation and cooling time separately |
+| Service downtime and output loss | Minutes for knife change/screen clean/ram-die change/grease and lubricant, spares and tools, 3-year wear life per **hour and tonne** and part cost |
+| Energy and thermal fuel | Measured running kW vs connected HP/kW, **kWh per finished MT**, heat input, kg furnace fuel/kg actual water evaporated and fuel tests |
+| Warranty/AMC and response | Wear-part exclusions, OEM labour in Anakapalli, dispatch lead times, 2-year AMC price and commissioning labour |
+
+The owner uses **400 scheduled h/month** in the 16h×25-day schedule and assumes **340 productive hours**. **Do not deduct the proposed stops again from 340h**: separately break down 60h available downtime allowance into startup/cleaning, planned preventive maintenance, unplanned breakdown and low-feed causes, then calculate real saleable MT. Illustrative planning only: 0.5h/day ×25 =12.5h; 2h/week ×4 =8h; 4h/month =4h; leaves 35.5h of the 60h allowance for other unproductive conditions; vendor must replace with proven duty cycle. No unsupported universal “one-hour relief after eight hours” may be introduced.
+
+**Elec reconciliation:** Owner's ₹12.92L/mo power assumes **150kWh/finished MT** (=**150,000kWh/month**); spread over 340 productive h that equals **441kW average productive-hour equivalent**, not automatically compatible with older connected-power claim ~380–420kW. One published nominal OEM configuration (**2×89.5HP presses + 159HP ESM + 190HP HM + 67HP IFD3000**) is **~595HP/~444kW nameplate before auxiliaries**. Explain all starting currents, actual coincident demand, measured nonproductive energy and correct utility transformer / PF / HT connection. Base 630kVA is **not approved**; quote alternatives only if engineer supports them.
+
 ## 5. Mandatory price breakout (in ₹; indicate GST and units)
 | Quote line | Seller must fill |
 |---|---|
-| Exact model, quantity and full technical schedule | Model code, BOM, all motors/accessories |
+| Exact model, quantity and full technical schedule | Model code, BOM, all motors/accessories; list input size/moisture and rated wet/dry/saleable kg/h **for each stage** |
 | Ex-works machine price, per item | ₹ excluding GST |
 | Packing/crating/transit insurance | ₹ |
 | Freight FOR Anakapalli site | ₹ |
 | Unloading cranes and on-site assembly | ₹ |
 | Erection, installation, startup and performance acceptance | ₹ |
-| Furnaces, ducting, cyclone, dust/fire protection and chimney | Explicitly INCLUDED or priced as alternate |
+| Wet-rated fine-grinder/sieve before flash dryer | Explicitly INCLUDED / EXCLUDED; **<8mm fraction** and 40/45/50% wood guarantee |
+| Dry hammer/screen and magnets after dryer | Price exact model, motor kW and **dry ≥3.08TPH** with fine sizing and recycler |
+| Furnaces, ducting, cyclone, dust/fire protection and chimney | Explicitly INCLUDED or priced as alternate; separate water evaporation and dry-material output |
+| Shift relief, mandatory cool-down and planned maintenance | Guaranteed daily net productive hours and costed stoppage minutes for every unit |
 | PLC/MCC, VFD/starter panels, cabling and earthing inside vendor battery | Explicitly INCLUDED or priced as alternate |
 | Civil foundations and shed interfaces | Included/excluded and drawing date |
 | Recommended 2-year wear and emergency spares | Item-wise quantities/prices |

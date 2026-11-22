@@ -1,25 +1,36 @@
 # Machinery price evidence and formal RFQ register
-**Research cutoff:** 22 Nov 2026. **Do not confuse a live public *asking price* with a binding quotation.** INR, quoted asking prices may omit GST, delivery to Anakapalli, civil foundations, controls, commissioning, warranties and performance tests.
+**Research first compiled:** 22 Nov 2026. **OEM and public listings rechecked:** 23 Nov 2026. **Do not confuse a live public *asking price* with a binding quotation.** INR, quoted asking prices may omit GST, delivery to Anakapalli, civil foundations, controls, commissioning, warranties and performance tests.
 
-## Published price anchors found during verification
-| Product / listing | Public headline price | Evidence / caveat | Source |
-|---|---:|---|---|
-| Ecostan BM-90/100 family, 1.5–2.5 TPH advertised | ₹25.95 lakh each | **Not** written quote for exact specified BM/BPM 90 HD, scope unknown | https://www.indiamart.com/proddetail/white-coal-biomass-briquette-machine-21168491112.html |
-| Ecostan biocoal 90mm machine | ₹27.15 lakh each | Model and accessories need reconciliation | https://www.indiamart.com/proddetail/biocoal-briquette-machine-21168481191.html |
-| Wood log sawdust machine generic listing | ₹14.95 lakh | Described output inconsistent across listings; **not verified 5–6 TPH ESM150** | https://www.ecostanbiomasssolution.com/tree-branches-sawdust-powder-making-machine-11393879.html |
-| Ecostan forestry-residue 1,000 kg/h machine | ₹20.25 lakh | Different capacity; cannot substitute for full-line chipper | https://www.ecostanbiomasssolution.com/wood-log-sawdust-making-machine-11393877.html |
-| Biomass flash dryer “2 TPH” public listing | ₹13.00 lakh | **Material throughput not demonstrated as 2,000 kg water evaporation/hour** | https://www.gmenterprise.co.in/flash-dryers.html |
-| Infinite IFD3000 technical listing | Quote required | **1,800 kg water evaporated/hour** published, not firm price | https://www.infinitedryer.com/ifd.html |
-| Infinite RFD dryer series | Quote required | Manufacturer lists models up to / above **2,000 kg water evaporated/hour** | https://www.infinitedryer.com/rfd.html |
+## Published machine-price anchors in PROCESS ORDER — not signed quotations
+Prices below are **public advertised requests** on seller pages, NOT exact model/supplier-accredited 2027 offers. **[OEM]** capacity/HP, **[LIST]** headline asking price; all scopes need GST, freight, unloading, wiring, site trials and warranty equalised.
 
-**Do not claim all listed prices are dated executable quotations.** Multiple marketplace products are different capacity/model grades. The working ₹75 lakh dryer and ₹34 lakh log preparation, ₹52 lakh dual presses, ₹310 lakh machinery and ₹520 lakh installed total are **engineering-budget allowances**, not vendor offers. Price discovery is incomplete: integrated dryer, civil, material handling, transformer and turnkey controls have no binding vendor bids as of this research.
+| Production step and seller model | Public price ₹ lakh | Actual source evidence / model distinction |
+|---|---:|---|
+| **01 Green-log sawdust maker** — EcoStan ESM150 | **Price unavailable** | [OEM](https://www.ecostan.com/products/sawdust-machine) 3–5 wetTPH,159HP, 2–10mm outlet; cannot guarantee ≥5.57 wetTPH high-moisture case. Other generic marketplace sawdust makers ₹14.95–20.25L are **different machines**, not ESM150 |
+| **01 Alternative Lehra 10TPH log eater / chipper cum grinder** | **Quote required** | [Lehra 10TPH log eater](https://www.lehrafuel.com/log-eater-10-ton-per-hour.php) **250–300HP**; [10TPH chipper-grinder](https://lehrafuel.com/chipper-cum-grinder.php) ~160HP but different duty/model—cannot directly equate |
+| **02 Dry-rated 3–4TPH hammer-mill and screen** | **~18.05** isolated public OEM-family example | [EcoStan HM](https://www.ecostan.com/products/hammer-mill) HM100 2–3TPH/133HP, HM150 3–4TPH/190HP, **max 15% feed moisture**; [₹18.05L public family listing](https://www.tradeindia.com/products/biomass-hammer-mill-c11393823.html) not exact HM150 delivered |
+| **03 Conveyor and intake system** | **~3 short conveyor only** | Pricing scope for all conveyors/metal removal/hoppers requires full factory drawings; NOT 1 conveyor = whole feeder package |
+| **04 Infinite IFD3000** dryer | **~42** | [Price](https://www.infinitedryer.in/sitemap.html), [OEM](https://www.infinitedryer.com/ifd.html): **1,800kg-water/h, 3,000kg dry product/h at <45% inlet, 67HP**, **<8mm** feed and no warranty exactly 50% moisture; dry-output margin small |
+| **04 Infinite IFD5000** wetwood alternative | **~68** | [Price](https://www.infinitedryer.in/sitemap.html), [OEM](https://www.infinitedryer.com/ifd.html): **3,000kg-water/h, 4,000kg dry product/h at <50% inlet, 136HP**. Nominally solves 50% balance **if exact 50% accepted in written test** |
+| **04 Infinite RFD2000** different family | **~32** | [Listing](https://www.infinitedryer.in/sitemap.html) / [RFD OEM](https://www.infinitedryer.com/rfd.html); 2TPH water class, do not confuse with IFD2000 **1,100kg-water/h** |
+| **05 EcoStan BM90/100 family listing** | **25.95 per press** | [Seller](https://www.indiamart.com/proddetail/white-coal-biomass-briquette-machine-21168491112.html) variant 117HP/90–100 not proven equal [EcoStan 90HD OEM](https://www.ecostan.com/products/briquetting-machine): **89.5HP**, 1.3–2.0TPH |
+| **05 Lehra 90mm / LBP90** | **~21.75 per press indicative** | [OEM](https://lehrafuel.com/biomass-briquetting-machine.php) **up to 2.0TPH/87.5HP**, exact sold configuration unknown |
+| **05 Radhe Jumbo90** | **22.51 per press** | [Advert](https://www.indiamart.com/proddetail/biomass-briquetting-machine-9027637933.html), ~1.5TPH marketed, almost no production reserve for dual press |
+| **05 Ronak Jumbo90** | **21.75 per press** | [Advert](https://www.indiamart.com/proddetail/agro-waste-briquetting-machine-6834346297.html); [OEM](https://ronakeng.com/manual-briquetting-machine/) 1.0–1.5TPH/91HP and **230 machine RPM not certified strokes/minute** |
+| **05 Jay Khodiyar JK90** | **₹8L marketplace anomaly; DO NOT ADOPT** | [OEM](https://jaykhodiyar.com/briquetting-machine/) 1.0–2.0TPH/91HP, 8–12% dry feed. Actual quotation **missing** |
+| **09 Loader / JCB 3DX backhoe** | **Broad ₹27–40L public third-party band** | [Market context](https://desimachines.com/backhoe-loader/jcb/); a JCB 3DX backhoe is **not automatically the correct wood-log industrial wheel loader** |
+| **10 60T weighbridge, bridge-only** | **~5.85** | [Current seller example](https://www.electronicweighbridges.co.in/sitemap.html); pit/approach/legal metrology separately |
+| **15 630kVA transformer only** | **~8.5–12.5** | [Listings](https://www.mahendratransformers.co.in/sitemap.html), [product](https://www.aktransformers.com/category/all-products); excludes sanctioned electricity HT connection and change to 800/1000kVA if required |
+| **Safety, cooling, full HT and commissioning** | **No comparable turnkey offered amount** | Use [19-package itemised low/high owner estimating ranges](COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) only as **internal planning scenarios**, no confirmed quotations |
+
+**Critical plant compatibility:** a flash dryer that handles only **<8mm** feed must not receive output from a 2–10mm maker without screening; a hammer mill declared for ≤15% feed moisture is *not* a tested wet-chip grinder at 40–50%. Size press duty by net output (not RPM), dryer by **both 1.56/2.49TPH water and ~3.08TPH dry stream**, size log feeder by **4.64/5.57 wetTPH** and include the interface motors/energy. **No signed full-line quote has been obtained.**
 
 ## Required guaranteed process duty for 1,000 finished MT/month
 - Schedules: compare **16h × 25d @85% availability** (340 productive hours; two presses each ≥1.471 TPH), **20h × 25d @85%** (425h; ≥1.176 TPH each), **24h × 26d @80%** (~499h; ≥1.002 TPH each).
 - Log intake at 40% moisture: **1,579 MT/month**; ≥4.64 wet MT/hour for 340 effective hours; choose >=5–6 TPH actual performance with reserve. One “up to 5 TPH” ESM150 has narrow headroom. Provide at least one contingency option.
 - Dryer water evaporation: calculated **~1,564 kg/hour** at 40% feed and two-shift schedule. Request **≥1,800–2,000 kg water/hour** *guaranteed* plus actual feed/dry tonnes and power/fuel requirement at incoming 40–50% wet-basis moisture. A “2 TPH dryer” without an evaporation guarantee is NON-COMPLIANT.
 - Trial feed: legally sourced local Casuarina / Eucalyptus / Subabul logs or branches, with diameter distribution, bark/contamination, moisture, particle size and target 90mm briquettes measured.
-- Motor connected load (~380–420 kW) is **not** monthly kWh; demand & transformer sizing are subject to electrical load schedule and APEPDCL feasibility.
+- Earlier ~380–420kW connected load is **unreconciled**: example 2×89.5HP presses +159HP log eater +190HP HM150 +67HP IFD3000 = **~444kW motor rating before auxiliaries**. 150,000kWh/mo over 340h implies **441kW productive-hour equivalent average** (some consumption can occur outside productive h). Require 630/800/1000kVA engineering load alternatives and real energy tests.
 
 ## Bid comparison template (fill after each supplier proposal)
 | Supplier | Quote number/date/validity | Exact model + duty guarantee | Presses | Dryer water evaporation kg/h | Wet wood TPH | Connected kW | Delivered ex-GST capex | GST | Erection | Warranty/service SLA | Status |

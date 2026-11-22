@@ -54,11 +54,15 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 **Prices are public asking prices only; no signed binding supplier quotation has been received or sent by this update.** Owner's ~₹520 lakh fixed CAPEX and ~₹99.43 lakh opening WC are **unchanged planning assumptions** until fully scoped written bids are equalised. Public OEM/seller examples include **EcoStan BM90/100 ₹25.95L**, **Lehra 90mm ₹21.75L**, **Radhe Jumbo90 ₹22.51L**, **Ronak Jumbo90 ₹21.75L**, and Infinite's **IFD3000 ₹42L (1,800 kg/h water evaporation)** vs **IFD5000 ₹68L (3,000 kg/h water evaporation)**. No price listed here includes verified Anakapalli freight, GST, installation and all safety equipment.
 
 **New active procurement files:**
-- [Live machine prices, model differences and price-source links](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
+- [**Detailed OEM press RPM, per-machine capacities, wet/dry inputs, fuel/HP, and public prices** — rechecked 23 Nov](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
 - [EcoStan, Lehra, Jay Khodiyar, Radhe, Ronak, Infinite supplier contacts / unsent RFQ tracker](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md)
 - [Full turnkey 1,000-MT/month formal RFQ — ready to send](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md)
 - [Side-by-side technical/commercial bid equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md)
+- [**Ordered 19-package factory BOM, low/high rough installed estimates, input/output and HP**](PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md)
+- [**Per-machine inspections, run durations, stop windows, safe operator relief and maintenance**](MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md)
 - [₹5.20Cr fixed-CAPEX placeholder and 40% vs 50%-moisture machine options](FINANCE/MACHINERY-CAPEX-REBASE-AND-40-50-MOISTURE-OPTIONS.md)
+
+**23 November engineering estimates, NOT quotations:** the itemised 12 machinery and 7 civil/HT/installation components give a broad **₹4.25–7.96Cr fixed cost planning envelope** excluding land; the previous **₹5.20Cr** remains unchanged as owner budget. A valid supplier quote must address **wet 40–50% wood to <8mm pre-dryer**, a dryer that supports **both 1.563/2.492TPH water evaporation and ~3.08TPH dry product**, 2 press output, and full HT power. **No genuine binding OEM offer yet.**
 
 **Engineering rejection triggers:** two advertised 1.5-TPH presses provide only ~2% nameplate spare capacity under 340 productive hours; a 5-TPH max wood chipper is below the 50% moisture **5.57 wet TPH** requirement; a "2 TPH dryer" without guaranteed **water evaporation** is insufficient. **No supplier is yet technically/commercially selected**.
 
