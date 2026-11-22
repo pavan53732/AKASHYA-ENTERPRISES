@@ -65,7 +65,29 @@ These major manufacturing plants in the immediate Anakapalli–Atchutapuram–Pa
 
 ---
 
-## 🧭 Corporate Stakeholder Navigation: How to Close Boiler Fuel Contracts
+## 🧮 Boiler Fuel Engineering Math & Addressable Monthly Demand
+
+According to Bureau of Energy Efficiency (BEE) industrial standards, industrial boilers consume approximately **180 kg to 250 kg of biomass briquettes per metric tonne of steam produced** (depending on boiler thermal efficiency, feed-water temperature, and fuel GCV ~4,000 kcal/kg).
+
+### Boiler Formula:
+$$\text{Daily Fuel (MT)} = \text{Boiler Capacity (TPH)} \times \text{Running Hours} \times \text{Load Factor} \times 0.220\text{ MT fuel/MT steam}$$
+
+---
+
+### Company-by-Company Addressable Demand Matrix
+
+| Target Company | Location & SEZ | Documented Boiler / Process | Estimated Daily Demand | **Estimated Monthly Demand** | **Monthly Fuel Budget (@ ₹8,000/MT Floor)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Toyotsu Rare Earths** | Plots 2D & 2E, APSEZ Atchutapuram | Documented 12 TPH Steam Boiler | 24 – 42 MT / day | **600 – 1,050 MT / month** | ₹48.00 Lakh – ₹84.00 Lakh |
+| **Cohance Lifesciences** | Atchutapuram Industrial Area | Active Biomass Briquette Boiler | 8 – 18 MT / day | **200 – 450 MT / month** | ₹16.00 Lakh – ₹36.00 Lakh |
+| **Teejay India Pvt Ltd** | Plot 15, Brandix Apparel City | Textile Dyeing & Washing Steam | 15 – 40 MT / day | **375 – 1,000 MT / month** | ₹30.00 Lakh – ₹80.00 Lakh |
+| **Torrent Pharmaceuticals** | Plot 77, JN Pharma City, Parawada | API Sterile Clean Steam Boilers | 4 – 12 MT / day | **100 – 300 MT / month** | ₹8.00 Lakh – ₹24.00 Lakh |
+| **Visakha Solvents** | Plot 15B10, APSEZ Rambilli | Documented 3 TPH Distillation Boiler | 5 – 11 MT / day | **125 – 275 MT / month** | ₹10.00 Lakh – ₹22.00 Lakh |
+| **TOTAL REGIONAL DEMAND**| **Within 25 km of Anakapalli** | **Documented Boiler Cluster** | **56 – 123 MT / day** | **1,400 – 3,075 MT / month** | **₹1.12 Crore – ₹2.46 Crore / month** |
+
+> [!NOTE]
+> **Market Absorption Takeaway:**  
+> Akashya Enterprises' target production of **1,000 MT/month** represents only **32% to 70% of the existing documented boiler fuel consumption** within a 25 km radius. Winning a contract with just **Toyotsu (up to 1,050 MT)** or a combination of **Cohance + Torrent + Visakha Solvents (approx. 700–900 MT)** can absorb 100% of your plant's full capacity!
 
 In corporate factories, fuel purchasing involves four distinct departments. Akashya Enterprises must target all four:
 
