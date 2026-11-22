@@ -1,4 +1,9 @@
 import fitz
+import sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 print("=== STARTING 10-PAGE MASTER DPR VISUAL & LAYOUT INSPECTION ===")
 

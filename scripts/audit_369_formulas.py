@@ -2,6 +2,11 @@ import formulas
 import zipfile
 from xml.etree import ElementTree as ET
 import math
+import sys
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 print("=== STARTING INDEPENDENT 369-FORMULA AUDIT ===")
 

@@ -61,10 +61,24 @@ def main():
                            for r in rows.values() for c in r.findall("m:c",NS)):
         print("Scenario C already present, retaining source workbook")
         return
-    # Never stamp over previous owner entries at the target address.
-    for n in range(41,58):
-        if n in rows and rows[n].find("m:c",NS) is not None:
-            raise RuntimeError(f"Unexpected pre-existing cells in target row {n}; aborting without changes")
+    # Never stamp over previous owner entries at the target address. The current
+    # workbook carries an owner "KEY 15-YEAR STRATEGIC FINDINGS" text block in
+    # A41:A44. Capture and relocate any pure column-A text out of the 41-57 band
+    # (re-added below the new Scenario C table) instead of aborting or overwriting.
+    relocated = []
+    for n in range(41, 58):
+        r = rows.get(n)
+        if r is None:
+            continue
+        cells = r.findall("m:c", NS)
+        if not cells:
+            continue
+        if not all(re.fullmatch(r"A\d+", c.attrib.get("r", "")) for c in cells):
+            raise RuntimeError(f"Unexpected non-column-A cells in target row {n}; aborting without changes")
+        for c in cells:
+            tnode = c.find("m:is/m:t", NS)
+            relocated.append(tnode.text if tnode is not None else None)
+        data.remove(r)
     source=rows.get(25)
     if source is None: raise RuntimeError("Missing Scenario B year-one source row 25")
     original_style={col(c.attrib["r"]):c.attrib.get("s") for c in source.findall("m:c",NS)}
@@ -120,11 +134,18 @@ def main():
             elif n==48:
                 add_cell(row,"M48",formula="'Operating Cost'!$B$23/1000")
         out.append(row)
+    # Re-add the relocated owner "KEY FINDINGS" text below the Scenario C table so
+    # no owner content is lost and the layout reads A, B, C, then key findings.
+    for i, text in enumerate(relocated):
+        row = new_row(59 + i)
+        if text is not None:
+            add_cell(row, f"A{59+i}", text)
+        out.append(row)
     # Append new rows in ascending numeric order; retain all prior rows.
     for row in out:
         data.append(row)
     dim=root.find("m:dimension",NS)
-    if dim is not None:dim.set("ref","A1:M57")
+    if dim is not None:dim.set("ref",f"A1:M{max(57, 58+len(relocated))}")
     parts[part]=ET.tostring(root,encoding="utf-8",xml_declaration=True)
     tmp=XLSX.with_name("_tmp_akashya_stress.xlsx")
     with zipfile.ZipFile(tmp,"w",compression=zipfile.ZIP_DEFLATED) as z:

@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
-"""Repair stale 9000-rupee scale numbers on page 7 of the *current* 10-page DPR.
+"""Regenerate a clean, correct page 7 (Rs. 8,000 scale + payback) of the *current*
+10-page DPR, preserving every other page.
 
-Preserves every other page. Hard-fails if the known row anchors are not found
-rather than claiming success after a silent missed redaction. Designed to run
-AFTER scripts/rebuild_master_dpr.py, since that rebuild preserves old page 7.
+The previous coordinate-patch approach assumed a pristine Rs. 9,000 page, but the
+checked-in PDF (rebuilt in commit de943d8) carries a half-migrated page 7: the
+600/750/850 MT rows still hold Rs. 9,000 figures, the 1000-MT row was already set
+to Rs. 8,000 at shifted x-coordinates, and the payback paragraph is scrambled.
+Patching coordinates cannot reconcile that, so this module clears page 7 and
+redraws it deterministically with Rs. 8,000 economics and a 4.49-year simple
+payback.
+
+Public entry point used by scripts/rebuild_master_dpr.py:
+    fix_page(page) -> bool   # True if the page was (re)drawn, False if already correct
+
+Standalone (used by scripts/run_binary_repairs.py):
+    python scripts/repair_page7_scale.py
 """
 from __future__ import annotations
 import os
@@ -11,110 +22,162 @@ from pathlib import Path
 import fitz
 
 PDF = Path("Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf")
-# Monthly revenue and EBITDA, in lakh, holding the original PDF's non-sales
-# operating costs unchanged. Ref: FINANCE/OWNER-COST-RECONCILIATION.md.
-ROWS = [
-    (600, 54.00, 6.23, 48.00, 0.23),
-    (750, 67.50, 11.96, 60.00, 4.46),
-    (850, 76.50, 15.77, 68.00, 7.27),
-    (1000, 90.00, 21.50, 80.00, 11.50),
+
+# Monthly revenue and operating surplus (Rs. lakh) at Rs. 8,000/MT, holding the
+# original PDF's non-sales operating costs. Ref: FINANCE/OWNER-COST-RECONCILIATION.md.
+VOLUME_ROWS = [
+    ("600 MT", "Rs. 48.00 lakh", "Rs. 0.23 lakh"),
+    ("750 MT", "Rs. 60.00 lakh", "Rs. 4.46 lakh"),
+    ("850 MT", "Rs. 68.00 lakh", "Rs. 7.27 lakh"),
+    ("1000 MT", "Rs. 80.00 lakh", "Rs. 11.50 lakh"),
+]
+# Price x wet-wood-cost EBITDA grid (Rs. lakh/month). Columns: sale 8000/9000/10000.
+GRID_ROWS = [
+    ("Rs. 1,500 / wet MT", "19.39", "29.39", "39.39"),
+    ("Rs. 2,000 / wet MT", "11.50", "21.50", "31.50"),
+    ("Rs. 2,500 / wet MT", "3.60", "13.60", "23.60"),
+    ("Rs. 3,000 / wet MT", "-4.29", "5.71", "15.71"),
 ]
 
-def _row_words(page, ytop, xlo, xhi):
-    return [w for w in page.get_text("words")
-            if abs(w[1]-ytop) < 5 and xlo <= w[0] <= xhi]
+NAVY = (0.12, 0.29, 0.49)
+CHARCOAL = (0.15, 0.15, 0.15)
+GREY = (0.35, 0.35, 0.35)
+LINE = (0.8, 0.8, 0.8)
+HEAD_BG = (0.86, 0.90, 0.95)
+ALT_BG = (0.96, 0.97, 0.98)
+GREEN_BG = (0.90, 0.95, 0.90)
 
-def _text_in_row(page, ytop, xlo, xhi):
-    return " ".join(str(w[4]) for w in _row_words(page, ytop, xlo, xhi))
+LEFT, RIGHT = 48.2, 547.0
+CORRECT = ("48.00", "60.00", "68.00", "80.00", "0.23", "4.46", "7.27", "11.50", "4.49")
+OBSOLETE = ("54.00 lakh", "67.50 lakh", "76.50 lakh", "90.00 lakh",
+            "2.43 years", "627.43 lakh", "257.98 lakh")
 
-def _fit(page, bbox, message, size=8.0):
-    x0,y0,x1,y1=bbox
-    while size >= 6:
-        if fitz.get_text_length(message, fontname="helv", fontsize=size) <= x1-x0-1:
-            page.insert_text((x0, y0+size+1), message,
-                             fontsize=size, fontname="helv", color=(0.11,0.11,0.11))
-            return
-        size-=0.3
-    raise RuntimeError("Page 7 corrected text too wide: "+message)
 
-def fix_page(page):
-    """Return True if a stale page was corrected; False if already corrected."""
+def _is_correct(text: str) -> bool:
+    return all(x in text for x in CORRECT) and not any(x in text for x in OBSOLETE)
+
+
+def _section(page, y, text):
+    page.insert_text(fitz.Point(LEFT, y), text, fontsize=8.2, fontname="hebo", color=NAVY)
+
+
+def _table(page, top, cols, header, rows, row_h=15.0, last_row_green=False):
+    page.draw_rect(fitz.Rect(LEFT, top, RIGHT, top + 15), fill=HEAD_BG, color=LINE, width=0.5)
+    for x, name in zip(cols, header):
+        page.insert_text(fitz.Point(x + 4, top + 10.5), name, fontsize=7.2, fontname="hebo", color=NAVY)
+    y = top + 15
+    for i, row in enumerate(rows):
+        if last_row_green and i == len(rows) - 1:
+            bg = GREEN_BG
+        else:
+            bg = ALT_BG if i % 2 else (1, 1, 1)
+        page.draw_rect(fitz.Rect(LEFT, y, RIGHT, y + row_h), fill=bg, color=LINE, width=0.5)
+        for x, val in zip(cols, row):
+            page.insert_text(fitz.Point(x + 4, y + row_h - 4.5), val, fontsize=7.4,
+                             fontname="helv", color=CHARCOAL)
+        y += row_h
+    return y
+
+
+def _draw(page):
+    page.draw_line(fitz.Point(LEFT, 38), fitz.Point(RIGHT, 38), color=LINE, width=0.5)
+    page.insert_text(fitz.Point(LEFT, 30),
+                     "AKASHYA ENTERPRISES | 1,000 MT/MONTH WOOD BIOMASS BRIQUETTES",
+                     fontsize=8, fontname="hebo", color=NAVY)
+    page.insert_text(fitz.Point(515, 30), "Page 7", fontsize=8, fontname="helv", color=GREY)
+
+    page.insert_text(fitz.Point(LEFT, 56), "7 | Sensitivity: Revenue and Raw Wood Cost",
+                     fontsize=11.5, fontname="hebo", color=NAVY)
+
+    intro = (
+        "The baseline selling price of Rs. 8,000/MT and wet-wood purchase price of Rs. 2,000/MT are "
+        "uncontracted owner-observed scenarios (Pajson Cashew reference). Every Rs. 500/MT movement in "
+        "briquette selling price changes monthly surplus by about Rs. 5.00 lakh at 1,000 MT sales; every "
+        "Rs. 500/MT movement in wet-wood price changes monthly surplus by about Rs. 7.89 lakh at 1,579 MT input."
+    )
+    page.insert_textbox(fitz.Rect(LEFT, 62, RIGHT, 104), intro, fontsize=7.6,
+                        fontname="helv", color=CHARCOAL, lineheight=1.25)
+
+    _section(page, 116, "A | PRICE x RAW-WOOD COST SENSITIVITY - MONTHLY EBITDA (Rs. LAKH)")
+    _table(page, 122, [52, 250, 348, 446],
+           ["Raw wood cost", "Sale Rs. 8,000", "Sale Rs. 9,000", "Sale Rs. 10,000"],
+           GRID_ROWS, row_h=15)
+
+    _section(page, 222, "B | IMPACT OF DIFFERENT MONTHLY PRODUCTION LEVELS (AT Rs. 8,000/MT)")
+    end = _table(page, 228, [52, 250, 420],
+                 ["Volume", "Revenue / month", "Operating surplus"],
+                 VOLUME_ROWS, row_h=15, last_row_green=True)
+    page.insert_textbox(fitz.Rect(LEFT, end + 4, RIGHT, end + 34),
+                        "Scale assumptions hold salaries, demand charges, administrative overhead and "
+                        "baseline maintenance fixed; other expenses move broadly with tonnes sold. Real "
+                        "plants experience downtime and step-change expenses, so these are planning "
+                        "sensitivities, not guaranteed profits.",
+                        fontsize=6.4, fontname="heit", color=GREY, lineheight=1.2)
+
+    _section(page, 345, "C | EXTRA MOISTURE EXPOSURE (40% VS 50% INCOMING WOOD)")
+    moist = (
+        "At 50% incoming wood moisture the same dry-mass balance requires about 1,895 MT wet wood/month "
+        "- an additional 316 MT versus the 40% case. That adds about Rs. 6.32 lakh/month in wood cost alone "
+        "at Rs. 2,000/MT, plus increased drying energy. Measuring moisture on each incoming load therefore "
+        "protects margin."
+    )
+    page.insert_textbox(fitz.Rect(LEFT, 351, RIGHT, 402), moist, fontsize=7.6,
+                        fontname="helv", color=CHARCOAL, lineheight=1.25)
+
+    _section(page, 414, "D | ILLUSTRATIVE SIMPLE INVESTMENT PAYBACK")
+    payback = (
+        "Total provisional cash requirement of Rs. 619.43 lakh divided by full-output EBITDA of "
+        "Rs. 11.499 lakh/month (about Rs. 137.98 lakh/year) gives an illustrative simple pre-tax, "
+        "pre-finance payback of about 4.49 years - only if output and the uncontracted Rs. 8,000/MT "
+        "selling price hold. This is NOT IRR, lender DSCR, or a contractual return; it excludes loan "
+        "costs, rent, income tax, extra drying fuel, and operational disruptions."
+    )
+    page.insert_textbox(fitz.Rect(LEFT, 420, RIGHT, 492), payback, fontsize=7.6,
+                        fontname="helv", color=CHARCOAL, lineheight=1.25)
+
+    page.draw_line(fitz.Point(LEFT, 805), fitz.Point(RIGHT, 805), color=LINE, width=0.5)
+    page.insert_text(fitz.Point(LEFT, 818),
+                     "Akashya Enterprises - Owner Planning Master DPR - 22 Nov 2026 - Anakapalli, AP",
+                     fontsize=8, fontname="helv", color=GREY)
+    page.insert_text(fitz.Point(455, 818), "Continued to Page 8 ->",
+                     fontsize=7.5, fontname="hebo", color=NAVY)
+
+
+def fix_page(page) -> bool:
+    """Redraw page 7 with correct Rs. 8,000 economics. Returns True if changed."""
     if page.number != 6:
         raise ValueError("Expected page 7 (0-index page 6)")
-    words=page.get_text("words")
-    pending=[]
-    for volume,old_rev,old_ebitda,new_rev,new_ebitda in ROWS:
-        hits=[w for w in words if w[4]==str(volume) and 50<w[0]<125 and 280<w[1]<380]
-        if len(hits)!=1:
-            raise RuntimeError("Could not locate exactly one scale row for %s MT" % volume)
-        y=hits[0][1]
-        rev=_text_in_row(page,y,180,335)
-        margin=_text_in_row(page,y,365,535)
-        if f"{new_rev:.2f}" in rev and f"{new_ebitda:.2f}" in margin:
-            continue
-        if f"{old_rev:.2f}" not in rev or f"{old_ebitda:.2f}" not in margin:
-            raise RuntimeError(f"Unexpected source in {volume}-MT row: revenue={rev!r} EBITDA={margin!r}")
-        # Redact only the 2 numeric cells, keeping the original MT volume and
-        # all other table row content unmodified.
-        page.add_redact_annot(fitz.Rect(185,y-1.5,330,y+11.5),fill=(1,1,1))
-        page.add_redact_annot(fitz.Rect(374,y-1.5,535,y+11.5),fill=(1,1,1))
-        pending.append((y,new_rev,new_ebitda))
-    if not pending:
-        # Already corrected; confirm stale 2026 payback language absent.
-        content=page.get_text()
-        if "627.43" in content or "257.98" in content or "2.43 years" in content:
-            raise RuntimeError("Scale rows corrected but old 9000-based payback remains")
+    if _is_correct(page.get_text()):
         return False
-
-    # Intro line contains old "9,000" for the baseline, independent from the
-    # genuinely legitimate 9000 column in the *selling-price sensitivity* grid.
-    page.add_redact_annot(fitz.Rect(53,98,544,112.5),fill=(1,1,1))
-    # Entire old payback paragraph; do not leave a patchwork old line behind.
-    page.add_redact_annot(fitz.Rect(53,537,544,608),fill=(1,1,1))
-    page.apply_redactions(images=0,graphics=0,text=0)
-
-    _fit(page,(54.2,98.5,542,114),
-         "Briquettes Rs. 8,000/MT and wet wood Rs. 2,000/MT are uncontracted owner scenarios. Every Rs. 500/MT movement in",7.7)
-    for y,new_rev,new_ebitda in pending:
-        _fit(page,(192.5,y,329,y+13),f"Rs. {new_rev:.2f} lakh",7.8)
-        _fit(page,(379.6,y,531,y+13),f"Rs. {new_ebitda:.2f} lakh",7.8)
-
-    paragraph=(
-        "At 1,000 saleable MT/month, estimated total initial cash is Rs. 619.43 lakh and "
-        "full-output EBITDA is Rs. 11.499 lakh/month, or about Rs. 137.98 lakh/year. "
-        "Illustrative simple pre-tax, pre-finance payback is about 4.49 years only if "
-        "output and uncontracted Rs. 8,000/MT selling prices hold. This is NOT "
-        "IRR, lender DSCR, or a contractual return; excludes loan costs, rent, "
-        "income tax, extra drying fuel, and operational disruptions."
-    )
-    box=fitz.Rect(54.2,538.0,542.5,608)
-    leftover=page.insert_textbox(box,paragraph,fontsize=8.0,
-                                  fontname="helv",lineheight=1.25,
-                                  color=(0.11,0.11,0.11))
-    if leftover < 0:
-        raise RuntimeError("Corrected p7 payback body overflowed: %s" % leftover)
-
-    text=page.get_text()
-    for bad in ("Rs. 54.00 lakh","Rs. 90.00 lakh","627.43","257.98","2.43 years"):
-        if bad in text: raise RuntimeError("Obsolete page7 claim remains: "+bad)
-    for target in ("Rs. 48.00 lakh","Rs. 60.00 lakh","Rs. 68.00 lakh",
-                   "Rs. 80.00 lakh","Rs. 0.23 lakh","Rs. 11.50 lakh","4.49"):
-        if target not in text: raise RuntimeError("Missing corrected p7 figure: "+target)
+    # Clear whatever is on the page (text + line-art) and redraw from scratch.
+    page.add_redact_annot(page.rect, fill=(1, 1, 1))
+    page.apply_redactions()
+    _draw(page)
+    text = page.get_text()
+    missing = [x for x in CORRECT if x not in text]
+    stale = [x for x in OBSOLETE if x in text]
+    if missing or stale:
+        raise RuntimeError(f"Page 7 regeneration failed self-check; missing={missing} stale={stale}")
     return True
 
+
 def main():
-    if not PDF.is_file(): raise FileNotFoundError(PDF)
-    doc=fitz.open(PDF)
-    if len(doc)!=10: raise RuntimeError("Refusing to replace non-10-page DPR")
-    changed=fix_page(doc[6])
+    if not PDF.is_file():
+        raise FileNotFoundError(PDF)
+    doc = fitz.open(PDF)
+    if len(doc) != 10:
+        raise RuntimeError("Refusing to replace non-10-page DPR")
+    changed = fix_page(doc[6])
     if changed:
-        temp=PDF.with_name("_tmp_corrected_akashya_page7.pdf")
-        doc.save(temp,garbage=4,deflate=True)
+        tmp = PDF.with_name("_tmp_corrected_akashya_page7.pdf")
+        doc.save(tmp, garbage=4, deflate=True)
         doc.close()
-        os.replace(temp,PDF)
-        print("PDF p7 repaired: 600/750/850/1000 MT revenues and EBITDA, Rs. 8,000 scenario, 4.49-year payback")
+        os.replace(tmp, PDF)
+        print("PDF p7 regenerated: 600/750/850/1000 MT at Rs. 8,000/MT, Rs. 8,000 price x wood grid, 4.49-year payback")
     else:
         doc.close()
-        print("PDF p7 already corrected; no binary changes")
+        print("PDF p7 already correct; no binary changes")
 
-if __name__ == "__main__": main()
+
+if __name__ == "__main__":
+    main()
