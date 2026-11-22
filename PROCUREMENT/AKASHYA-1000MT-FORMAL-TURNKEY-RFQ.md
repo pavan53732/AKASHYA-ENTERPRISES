@@ -52,11 +52,11 @@ For every listed **01 log intake/loader; 02 chipping/wet grinder; 03 conveyors/m
 | Input and output guarantees | **Wet kg/h, moisture %, particle-screen histogram, dry kg/h, saleable 90mm kg/h**, timed trial methodology |
 | RPM vs actual piston ram strokes/min | Motor rpm, crank/flywheel rpm, **verified real ram strokes/min under loaded operation**, stroke length, independent sensor or video timing. **No 'BPM' model-name guess.** |
 | Max sustained duty | Hours continuously runnable under specified actual load, 16/20/24h day permitted by OEM, thermal/pressure/lubrication limits and interlocks |
-| Breaks / cooling / relief | **Any OEM-mandated stop after X hours** (exact hours and duration, if real), pre-shift warm-up/shutdown, legally staffed meal and handover coverage; state **NONE mandated** if so |
+| Breaks / cooling / relief | Maximum **loaded** hours per uninterrupted run; any mandatory stop and duration; normal/emergency stop sequences, safe access criteria, cold vs warm restart and time to first saleable output; staffing relief while running. State NONE if the maker confirms a scheduled stop is unnecessary. |
 | Maintenance calendar | Live/hourly inspections vs **machine shutdowns** for every shift/day/week/month/quarter/year; isolation and cooling time separately |
 | Service downtime and output loss | Split cooled/isolated work, actual access and tool change, restart and quality-check minutes. Quote wear life per **running hour and tonne**, kit part numbers/cost and overlapping versus sequential stops. |
 | Energy and thermal fuel | Measured running kW vs connected HP/kW, **kWh per finished MT**, heat input, kg furnace fuel/kg actual water evaporated and fuel tests |
-| Warranty/AMC and response | Wear-part exclusions, OEM labour in Anakapalli, dispatch lead times, 2-year AMC price and commissioning labour |
+| Warranty/AMC and response | Quote part numbers and wear exclusions, current parts rates and validity, freight/GST, technician labour/travel, sharpening/reconditioning policy, verified parts and on-site lead times in Anakapalli, AMC inclusions, and references from comparable lines with service logs. |
 
 The owner uses **400 scheduled h/month** in the 16h×25-day schedule and assumes **340 productive hours**. **Do not deduct the proposed stops again from 340h**: separately break down 60h available downtime allowance into startup/cleaning, planned preventive maintenance, unplanned breakdown and low-feed causes, then calculate real saleable MT. Illustrative planning only: 0.5h/day ×25 =12.5h; 2h/week ×4 =8h; 4h/month =4h; leaves 35.5h of the 60h allowance for other unproductive conditions; vendor must replace with proven duty cycle. No unsupported universal “one-hour relief after eight hours” may be introduced.
 

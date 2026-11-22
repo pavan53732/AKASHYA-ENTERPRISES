@@ -45,7 +45,7 @@ Use the [ordered 19-package BOM](COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) f
 1. Fixed battery limits and exclusions: conveyors/hoppers, magnetic separator, hammer mill, spark detector, dust collection, guards, PLC, fans, coolers, cranes, pipe/duct design, utility connections, civil interface, freight and insurance.
 2. **72-hour witnessed performance test** at site (or comparable agreed prolonged duty), log moisture and wood species documented, output ≥40 tonnes/day during contracted schedule subject to approved maintenance downtime and acceptance protocol.
 3. Separate rated and measured kWh/finished MT, thermal fuel kg/MT, die/wear part lives, hourly water evaporation, dry output moisture, briquette density/ash/GCV, reject rate.
-4. Written service SLA, critical spare inventory and price locks, bearing/die/ram rework times, commissioning and safety obligations, response in Anakapalli, risk allocation.
+4. Written service SLA, critical spare inventory and price locks, bearing/die/ram rework times, commissioning and safety obligations, response in Anakapalli, risk allocation. Require warm/cold restart times, supervised furnace cooldown, separate machine and personnel stops, rates for parts plus labour/travel, and dated logs from similar installations. [Working intervals and clarification list](../MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) · [reviews and spare prices](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md#supplier-reviews-and-durability-evidence).
 5. Milestone payments only after agreed evidence; warranties and refund provisions subject to legal review; no promise that a 15 March bank disbursement will coincide with manufacturing commissioning.
 
 ## Why quotes differ
