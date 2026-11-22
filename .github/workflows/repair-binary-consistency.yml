@@ -1,0 +1,70 @@
+name: Repair and verify 1000MT DPR Excel and PDF binaries
+
+on:
+  push:
+    paths:
+      - .github/workflows/repair-binary-consistency.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: akashya-dpr-binary-repair
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install binary processing dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install formulas pymupdf pypdf
+
+      - name: Add Excel Scenario C (0 pct sale, 8 pct wood, 7 pct other inflation)
+        run: python scripts/add_stress_scenario.py
+
+      - name: Recalculate and cache all Excel formulas
+        run: python scripts/inject_formula_caches.py
+
+      - name: Rebuild full 10-page DPR and correct 8000-rupee scale table
+        run: |
+          python scripts/rebuild_master_dpr.py
+          python scripts/repair_page7_scale.py
+
+      - name: Automated consistency gate - must PASS on Windows-compatible JSON
+        run: python scripts/validate_dpr_consistency.py .
+
+      - name: Formula recalculation vs cache and Stress C check
+        run: python scripts/audit_369_formulas.py
+
+      - name: PDF page geometry inspection
+        run: python scripts/inspect_pdf_layout.py
+
+      - name: Record and publish corrected binary files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf
+          if git diff --cached --quiet; then
+            echo "No binary changes required."
+          else
+            git commit -m "fix(binary): correct 8000-price PDF scale and add 15-year stress scenario C"
+            git push origin HEAD:main
+          fi
