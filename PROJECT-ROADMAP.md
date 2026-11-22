@@ -1,83 +1,48 @@
-# AKASHYA ENTERPRISES
-## Master Project Roadmap & Execution Timeline
-**Project:** 1,000 MT/Month Wood Biomass Briquette Plant  
-**Location:** Anakapalli District, Andhra Pradesh  
-**Target Commissioning:** 2027  
+# AKASHYA ENTERPRISES — critical-path roadmap to 15 March 2027
+**Version:** 22 November 2026. **Hard management target:** secure a **documented first eligible disbursement by 15 March 2027** (113 calendar days from 22 Nov); **NOT** full commissioning or guaranteed loan approval. The Indian financial year is **1 April–31 March**, so FY2026–27 ends **31 March 2027**, not March 15. Year-end may create internal banking targets, but **does not entitle a borrower to faster sanction or payment**. Lenders control eligibility, appraisal, security, own-contribution and milestone-based drawdown.
 
----
+## Critical-path dated gates (parallel workstreams)
+| Target by | Deliverable & responsible lead | Evidence required / go-no-go |
+|---|---|---|
+| **27 Nov 2026** | Promoters + CA: company/entity, promoters' equity source, 15-year strategy, initial lender list | Entity/KYC/PAN/GST status, promoter net-worth and source-of-funds file, signed scope |
+| **30 Nov 2026** | Commercial lead: validate ₹8,000 briquette sales and ₹2,000 wet wood | 3 real buyer discussions with grade/moisture/GCV, ex-GST & freight, buyer credit; 3 raw-wood offers with species and 1,579 MT/mo procurement ability |
+| **05 Dec 2026** | Land/legal/forest lead: short list site and tenure terms | Written site-control options; 15-year desired operating horizon **separate from** land lease and bank loan tenor; written DFO enquiry on wood processing/transit |
+| **08 Dec 2026** | Engineering lead: competitive RFP issued | At least 3 comparable bids for 2 × press, 5–6 TPH wet log intake, minimum 1.6 TPH *water evaporation* plus margin, dryer fuel guarantee, 16/20/24-h duty options |
+| **15 Dec 2026** | Lender engagement + CA: indicative credit eligibility screening | Written bank application checklist; proposed promoter contribution, security, CGTMSE enquiry (if eligible), repayment/DSCR requirements |
+| **20 Dec 2026** | Technical: sample testing and 2-press trial protocol | Wet-wood moisture by species, ash, measured calorific value, briquette moisture, logs/motor sizes, performance warranties |
+| **31 Dec 2026** | Engineering/site: final bank-costed BOM and land option | Line diagrams, quotations with GST/freight/erection, civil estimate, APEPDCL feasibility enquiry, 20% CAPEX uncertainty ledger |
+| **10 Jan 2027** | Regulatory owners: permit/consent submissions | APPCB CTE, forest licence/exemption determination, factory plan, fire and land-use applications, acknowledgement IDs; no construction before required permits |
+| **15 Jan 2027** | Finance: submit complete appraisal packet to 2–3 lenders | Detailed cashflows and downside, promoter equity proof, quotations, site title/lease, KYC/IT returns/bank statements, buyer & feedstock letters |
+| **31 Jan 2027** | Banking: appraisal clarifications and site inspection | Written bank query closure, valuation/security report progress, no assumption of automatic sanction |
+| **15 Feb 2027** | Banking: *target* conditional sanction / credit-committee response | Signed sanction letter if approved; conditions precedent & margin requirements known |
+| **28 Feb 2027** | Legal/finance: compliance with sanction conditions | Executed securities, promoter equity deposit, approved vendor invoices, site/permit status, insurances as required by lender |
+| **05 Mar 2027** | Lender: request eligible first machinery drawdown | Drawdown request and documentation in lender's agreed format; vendor schedule matches project milestones |
+| **15 Mar 2027** | **Target first disbursement** | Bank-issued debit/payment evidence. If sanction/conditions not met, use April onward contingency—not a fake success claim |
+| **31 Mar 2027** | FY end reporting | Final status and revised construction/commissioning schedule irrespective of funding result |
 
-## 🗺️ Execution Milestones (Month 1 to Month 8)
+## Realistic construction/commissioning workstream
+**May–October 2027 is a *planning window*, not a guarantee.** Start physical foundations and equipment orders only after appropriate permits, financing and supplier conditions; pre-fabrication may proceed where lawful and funded. Typical dependencies: land controls → forest/APPCB site consents → foundations/HT connection → vendor supply → mechanical erection → cold commissioning → wet-wood trial → quality tests → APPCB CTO and other operational permission → commercial sales. Exact lead times are supplier and regulator-dependent.
 
-```mermaid
-flowchart TD
-    M1[Month 1: Land Acquisition & Entity Formalization] --> M2[Month 2: Statutory Approvals & Machinery RFPs]
-    M2 --> M3[Month 3: Civil Construction & Power Substation Setup]
-    M3 --> M4[Month 4: Machinery Dispatch & Heavy Machine Foundations]
-    M4 --> M5[Month 5: Erection, Piping & Electrical Cabling]
-    M5 --> M6[Month 6: Raw Wood Stockpiling & Cold Trials]
-    M6 --> M7[Month 7: Hot Trials, Trial Briquetting & APPCB CTO]
-    M7 --> M8[Month 8: Commercial Production & Boiler Offtake Dispatch]
-```
+## Fast-response risk escalation
+- **Any 15 Dec milestone missed:** promoter calls lender/plant engineer immediately and parallelizes bank inquiries; never sign non-refundable capex contract to meet a symbolic date.
+- **Any 10 Jan consent not filed:** mark 15 Mar disbursement **at risk**; lender may decline staged drawdown.
+- **No bank term sheet by 31 Jan:** switch to alternate lenders/equity/downsized modular plan; push commissioning date, rather than invent loan sanction.
+- **₹8,000 sale not independently documented or cost rises:** run downside in [15-year model](FINANCE/15-YEAR-INFLATION-AND-CASHFLOW-MODEL.md), protect working capital, delay final PO.
 
----
+## Owner RACI
+Promoter = final decision and signoffs; CA/finance lead = KYC, cashflow, applications; plant engineer = motor schedules, moisture balance, BOM, civil interfaces; legal/land counsel = site control; DFO liaison = timber source/processing status; EHS consultant = APPCB/fire/factory approvals; commercial lead = buyer and timber LOIs.
 
-## 🏛️ Statutory Clearances & Approvals Checklist
+## 15-year tenure distinctions
+- **Business horizon:** 15 years *after actual commercial commissioning* for asset replacement, inflation, cashflow and exit analysis.
+- **Land:** negotiate tenure adequate for the business horizon and lender security; a 15-year land lease is a proposal, not an existing fact.
+- **Borrowing:** do not assume a 15-year term-loan amortisation; obtain a written bank offer with tenor, interest, moratorium, drawdowns, guarantees and covenants.
+- **No bank disbursement guarantee:** support from CGTMSE is contingent on loan sanction and lender scheme participation.
 
-| Approval / Clearance | Issuing Authority | Scope & Mandatory Pre-Requisites |
-| :--- | :--- | :--- |
-| **District Industries Facilitation** | **District Industries Centre (DIC), Anakapalli** | **Primary Nodal Contact:** General Manager, DIC Anakapalli.<br>• **Email:** `dicanakapalli@gmail.com`<br>• **Phone:** `98484 89948`<br>• Official portal: Single Desk Portal (`apindustries.gov.in`). |
-| **Wood Industry Determination** | **A.P. Forest Department (Divisional Forest Office)** | Ensure written verification of sourcing from exempted agro-forestry timber (*Casuarina / Sarugudu*, *Eucalyptus*, *Subabul*) under the *A.P. Wood Based Industries Rules, 2018*. Prevents wood transit harassment. |
-| **Consent to Establish (CTE)** | **Andhra Pradesh Pollution Control Board (APPCB)** | Online application via `apocmms.nic.in`. **Regulatory Precedent:** APPCB issued CTE to *Sun Bio Mass Pvt Ltd* (Godavari region) under the **Orange Category**, mandating engineered cyclone separators, baghouse filters, stack height >30m, and Forest Dept wood source documentation. |
-| **HT Power Feasibility & Connection** | **APEPDCL (Eastern / Central Power Distribution)** | 11 kV HT connection request for 500 kVA contract maximum demand (CMD); approval of 630 kVA transformer, DP yard, and HT metering cubicle under Tariff HT III(A). |
-| **Factory Plan Approval & License** | **Directorate of Factories, Andhra Pradesh** | Industrial shed architectural layout, ventilation, fire exits, worker sanitary facilities, and machine guard designs under the Factories Act, 1948. |
-| **Fire Safety NOC** | **A.P. State Disaster Response & Fire Services** | Static water reservoir (≥50,000 liters), dedicated diesel hydrant pump, internal/external fire hose reels, and CO2/Dry Chemical Powder extinguishers. |
-| **Ground Water Extraction** | **A.P. Ground Water Dept / APWALTA** | Permission for borewell drilling for cooling water, staff sanitation, and firefighting reserves. |
-| **GST & Commercial Registrations** | **Commercial Taxes Dept / MSME Udyam** | Udyam Registration (Small Enterprise category (Udyam criteria: Plant & Machinery <₹25 Cr, Turnover <₹100 Cr)), GST registration for industrial biomass fuel (HSN code: 4401 / 4402). |
-
----
-
-## 💰 Government Subsidies & Policy Incentives
-
-1. **Andhra Pradesh MSME & Entrepreneur Development Policy 4.0 (2024–29):**
-   * **Investment Subsidy:** Up to 15%–20% on eligible plant and machinery (subject to policy caps for non-SEZ manufacturing units).
-   * **Power Tariff Concession:** Concessional power tariff per unit or fixed rebate for the first 3–5 years of operations.
-   * **Stamp Duty & Land Conversion:** 100% reimbursement of stamp duty and transfer duty paid on land purchase/lease.
-2. **Central MNRE Biomass Programme (BioURJA):**
-   * Previously provided financial assistance of **₹9.00 Lakh per tonne/hour (TPH)** capacity (capped at ₹45 Lakh per project). Phase I concluded on **31 March 2026**; track Phase II guidelines before factoring into debt syndication.
-3. **PMEGP Applicability:**
-   * Normal PMEGP manufacturing loan ceiling is ₹50 Lakh. Because Akashya Enterprises' project cost is **₹5.20 Cr fixed + ₹0.99 Cr WC**, commercial bank term loans (SBI / Canara / Union Bank / SIDBI) are required.
-
----
-
-## 📍 Site & Land Sizing Requirements (Excluding Land Purchase Cost)
-
-### Why Private Land Lease Around Anakapalli is the Best Strategy:
-* **APIIC Industrial Land Category Benchmarks (FY 2026–27):**
-  * *Atchutapuram APSEZ Lease:* ~₹4,042 / m² (**~₹1.64 Crore per acre**).
-  * *IDA Parawada Category:* ~₹8,012 / m² (**~₹3.24 Crore per acre**).
-* **The Strategic Choice:** Buying 2 acres inside APIIC parks would lock up **₹3.3 to ₹6.5 Crore in land alone**! Leasing 1.5–2.0 acres of private industrial/convertible land along the Anakapalli–Atchutapuram road corridor at ₹25,000–₹40,000/month keeps capital focused on heavy machinery and working capital.
-
-* **Total Plot Area Required:** **1.5 to 2.5 Acres** (approx. 65,000 to 108,000 sq ft).
-* **Location Criteria:**
-  * Proximity to National Highway 16 (Chennai–Kolkata highway) or Anakapalli–Atchutapuram arterial road.
-  * Easy turning radius for 10-wheel and multi-axle 25 MT timber trucks.
-  * Direct 11 kV HT transmission line access along the road frontage.
-* **Zoning & Layout Breakdown:**
-  * **Main Covered Production Shed:** 12,000 to 15,000 sq ft (Pre-Engineered Building with 8m eaves height, concrete floor, skylights).
-  * **Outdoor Raw Wood Yard:** 25,000 to 35,000 sq ft for log unloading, debarking, and tractor maneuvering.
-  * **Covered Finished Goods Warehouse:** 4,000 sq ft (capable of holding 150–200 MT bagged and bulk briquettes).
-  * **Weighbridge & Truck In/Out Bay:** 5,000 sq ft (50–60 MT, 12m × 3m pitless deck).
-  * **HT Transformer Yard & Switchgear Room:** 1,500 sq ft fenced compound.
-  * **Administrative Office, QC Lab & Workshop:** 1,500 sq ft.
-  * **Perimeter Fire Road:** 6m wide concrete/gravel road encircling the entire facility.
-
----
-
-## 🏭 Next Steps for Akashya Enterprises Promoters
-
-1. **Issue Turnkey RFP to Machinery Manufacturers:**
-   * Solicit comparative binding proposals from **EcoStan Machineries** (Punjab) and **Infinite Dryer** on guaranteed continuous throughput using coastal A.P. Casuarina/Subabul timber.
-2. **Apply for APPCB CTE & APEPDCL HT Connection:**
-   * Finalize the single-line diagram (SLD) and factory layout to initiate statutory approvals without delay.
-3. **Execute Offtake MOUs with Industrial Boiler Clients:**
-   * Initiate supply discussions with boiler operating companies in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** to lock in first-year offtake commitments at the ₹8,000/MT baseline floor rate.
+## Official references
+- Indian FY runs 1 April–31 March: https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act
+- RBI MSME credit application tracking and document responsibilities: https://www.rbi.org.in/Scripts/FAQView.aspx?Id=84
+- CGTMSE scheme availability does not guarantee a loan: https://www.dcmsme.gov.in/CLCS_TUS_Scheme/Credit_Guarantee_Scheme/Scheme_Guidelines.aspx
+- Small enterprise criteria effective Apr 2025: https://udyamregistration.gov.in/Important.aspx
+- AP PCB applications: https://apocmms.nic.in/APPCB/
+- APEPDCL official portal: https://apeasternpower.com/
+- Equipment studies: [machine specification](MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md), [quote evidence](PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md)
