@@ -194,4 +194,12 @@ for r in range(25, 40):
     cum = lookup.get(('15-YEAR CASH FLOW', f'J{r}'))
     print(f'{yr:2.0f} | {u*100:4.0f}% | {mt:7.0f} | ₹{sale:5.0f} | ₹{wood:5.0f} | ₹{rev:7.2f}L | ₹{opex:7.2f}L | ₹{ebitda:7.2f}L | ₹{repl:4.0f}L | ₹{cum:8.2f}L')
 
-print("\n=== 369-FORMULA AUDIT PASSED 100% WITH ZERO ERRORS ===")
+# Do not report a PASS if diagnostics are non-empty or a stress scenario is absent.
+assert total_f >= 369, f"Expected at least 369 original formula cells, got {total_f}"
+assert not errors, f"Detected {len(errors)} formula errors: {errors[:10]}"
+assert not mismatches, f"Detected {len(mismatches)} cache mismatches: {mismatches[:10]}"
+stress_rows = sheet_formulas.get('15-Year Cash Flow', [])
+stress_addresses = {x['address'] for x in stress_rows}
+assert all(f'J{r}' in stress_addresses for r in range(43,58)), "Missing 15-year Stress Scenario C formulas in J43:J57"
+assert lookup.get(('15-YEAR CASH FLOW','J57')) is not None, "Stress Scenario C year-15 cash cache is missing"
+print(f"=== FULL AUDIT PASSED: {total_f} FORMULAS, 0 ERRORS, 0 CACHE MISMATCHES, ALL 3 SCENARIOS ===")

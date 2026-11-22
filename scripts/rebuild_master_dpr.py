@@ -365,6 +365,11 @@ def rebuild_pdf():
     p10.insert_text(fitz.Point(48.2, 818), 'Akashya Enterprises · Owner Planning Master DPR · 22 Nov 2026 · Anakapalli, AP', fontsize=8, fontname='helv', color=grey_text)
     p10.insert_text(fitz.Point(410.0, 818), 'End of 10-Page Master DPR', fontsize=8, fontname='hebo', color=navy)
 
+    # Correct the previously untouched legacy Rs. 9000 page-7 volume table.
+    from repair_page7_scale import fix_page
+    corrected = fix_page(doc[6])
+    print(f'Corrected PDF p7 scale / payback: {corrected}')
+
     # Save to temp file then replace
     temp_pdf = 'temp_rebuilt_dpr.pdf'
     doc.save(temp_pdf)

@@ -100,6 +100,12 @@ def read_xlsx(path):
             for name, addresses in inspect.items()
             if (cells := sheet_cells.get(name)) is not None
         }
+        check(result, "scenario_c_present",
+              "15-Year Cash Flow" in sheet_cells and all(
+                  ("A"+str(n) in sheet_cells["15-Year Cash Flow"] and
+                   "J"+str(n) in sheet_cells["15-Year Cash Flow"])
+                  for n in range(43,58)),
+              "Stress C must have fifteen complete years in rows 43-57")
         check(result, "model_has_scenario_sheet",
               "Scenarios" in sheet_cells and "15-Year Cash Flow" in sheet_cells,
               "Both moisture sensitivity and long-term model tabs required")
@@ -133,6 +139,12 @@ def read_pdf(path):
           not bool(re.search(r"(?:firm|confirmed|guaranteed)\s+(?:selling\s+)?floor",
                              content, re.I)),
           "₹8,000 buyer rate must be labelled uncontracted")
+    if len(pages) >= 7:
+        p7=pages[6]
+        corrected=all(x in p7 for x in ("48.00", "60.00", "68.00", "80.00", "0.23", "4.46", "7.27", "11.50", "4.49"))
+        obsolete=any(x in p7 for x in ("54.00 lakh", "67.50 lakh", "76.50 lakh", "90.00 lakh", "2.43 years", "627.43 lakh", "257.98 lakh"))
+        check(result,"pdf_page7_8000_scale_and_payback",corrected and not obsolete,
+              "Page 7 must show 600/750/850/1000 MT at Rs. 8000/MT and Rs. 619.43L/137.98L 4.49-year simple payback")
     result["review_notes"] = (
         "Manually inspect PDF p9/p10 for proposed vs selected OEM equipment, "
         "buyer-specific GCV/ash/density/shatter targets, and safe site storage. "
@@ -148,7 +160,8 @@ def main():
     passed = bool(checks) and all(item["status"] == PASS for item in checks)
     result = {"repo_root": str(root), "status": PASS if passed else FAIL,
               "xlsx": xlsx, "pdf": pdf}
-    print(json.dumps(result, indent=2, ensure_ascii=False))
+    # ASCII-only JSON makes the tool reproducible under Windows cp1252 stdout.
+    print(json.dumps(result, indent=2, ensure_ascii=True))
     return 0 if passed else 1
 
 if __name__ == "__main__":
