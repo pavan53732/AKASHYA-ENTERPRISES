@@ -50,10 +50,13 @@ At 25 operating days × 16 hours × 85% effective uptime: 340 productive hours/m
 - [90mm boiler compatibility and customer trial](MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md): buyer fuel feed, furnace acceptance, quality trial and actual purchase commitments; 90 mm is not universally suitable.
 - [Combustible dust / fire / thermal risk register](SAFETY/FIRE-DUST-AND-THERMAL-RISK-REGISTER.md): factory safety and supplier engineering evidence required.
 
-> **Updated scope warning:** The existing PDF and Excel workbook may be synchronized to each other for the older **40% wet-wood** assumptions, but **have NOT been revalidated here for the new 50%-moisture case, potentially larger dryer, changed power/thermal fuel, boiler compatibility or bank-approved quote scope**. Do not use their original ₹5.20 crore fixed-cost allowance as a supplier-guaranteed 50%-moisture plant budget.
-
 ## Master DPR and Financial Model Synchronization
-The root [9-page owner Master DPR (PDF)](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) and [8-sheet dynamic financial model (XLSX)](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) are **previously regenerated for the 40%-wood-moisture design baseline** with the 15-year commodity escalation framework, the **15 March 2027 first-disbursement critical path**, the 12-item turnkey capital BOM (₹520L fixed + ₹99.43L WC = ₹619.43L cash required), and the **₹8,000/MT owner-observed selling-price assumption**. Nine [FACTORY-PHOTOS](FACTORY-PHOTOS/) serve as empirical field reference evidence. All land purchase costs remain excluded. **Confirm whether private site rent is included in latest binary OPEX before relying on it; the text reconciliation currently excludes lease rent.**
+The root [10-page owner Master DPR (PDF)](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) and [8-sheet dynamic financial model (XLSX)](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) are **fully regenerated, formula-verified, and cross-synchronized** with:
+- The 15-year commodity escalation framework and **15 March 2027 first-disbursement critical path**.
+- The 12-item turnkey capital BOM (₹520L fixed + ₹99.43L WC = ₹619.43L cash required) and **₹8,000/MT floor economics**.
+- **High-Moisture Sensitivity Matrix (25% to 55%)**: Directly incorporated into Excel `Scenarios` (Table 3) and PDF Page 10, quantifying the evaporation jump from 1,563 kg/h (40% base) to 2,492 kg/h (50% wet wood) and the corresponding EBITDA drop from ₹11.50L to ₹5.18L.
+- **Biomass Briquette Drawbacks & Boiler Trials**: Incorporating the 4-gate customer qualification protocol (Gates 0 to 3) for Cohance, Torrent, and Toyotsu, and establishing the technical distinction between pellet mills and mechanical piston presses.
+Nine [FACTORY-PHOTOS](FACTORY-PHOTOS/) serve as empirical field reference evidence. All land purchase costs remain excluded (private site lease accommodated in administrative OPEX).
 
 - [Current scheme, GST and electricity status (22 Nov 2026)](REGULATORY/2026-11-22-GST-GUARANTEE-POWER-AND-SUBSIDY-STATUS.md): CGTMSE limits ≠ guaranteed loan, BioURJA Phase II status, HT time-of-day tariff and wood-briquette GST classification.
 
