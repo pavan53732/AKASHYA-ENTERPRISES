@@ -1,0 +1,63 @@
+# AKASHYA ENTERPRISES
+## Master Project Roadmap & Execution Timeline
+**Project:** 1,000 MT/Month Wood Biomass Briquette Plant  
+**Location:** Anakapalli District, Andhra Pradesh  
+**Target Commissioning:** 2027  
+
+---
+
+## 🗺️ Execution Milestones (Month 1 to Month 8)
+
+```mermaid
+flowchart TD
+    M1[Month 1: Land Acquisition & Entity Formalization] --> M2[Month 2: Statutory Approvals & Machinery RFPs]
+    M2 --> M3[Month 3: Civil Construction & Power Substation Setup]
+    M3 --> M4[Month 4: Machinery Dispatch & Heavy Machine Foundations]
+    M4 --> M5[Month 5: Erection, Piping & Electrical Cabling]
+    M5 --> M6[Month 6: Raw Wood Stockpiling & Cold Trials]
+    M6 --> M7[Month 7: Hot Trials, Trial Briquetting & APPCB CTO]
+    M7 --> M8[Month 8: Commercial Production & Boiler Offtake Dispatch]
+```
+
+---
+
+## 🏛️ Statutory Clearances & Approvals Checklist
+
+| Approval / Clearance | Issuing Authority | Scope & Mandatory Pre-Requisites |
+| :--- | :--- | :--- |
+| **Wood Industry Determination** | **A.P. Forest Department (Divisional Forest Office)** | Ensure written verification of sourcing from exempted agro-forestry timber (*Casuarina / Sarugudu*, *Eucalyptus*, *Subabul*) under the *A.P. Wood Based Industries Rules, 2018*. |
+| **Consent to Establish (CTE)** | **Andhra Pradesh Pollution Control Board (APPCB)** | Online application via `apocmms.nic.in`. Submit air pollution control system designs (cyclone separators, pulse-jet baghouse filters, stack height >30 m). |
+| **HT Power Feasibility & Connection** | **APCPDCL (Eastern / Central Power Distribution)** | 11 kV HT connection request for 500 kVA contract maximum demand (CMD); approval of 630 kVA transformer, DP yard, and HT metering cubicle. |
+| **Factory Plan Approval & License** | **Directorate of Factories, Andhra Pradesh** | Industrial shed architectural layout, ventilation, fire exits, worker sanitary facilities, and machine guard designs under the Factories Act, 1948. |
+| **Fire Safety NOC** | **A.P. State Disaster Response & Fire Services** | Static water reservoir (≥50,000 liters), dedicated diesel hydrant pump, internal/external fire hose reels, and CO2/Dry Chemical Powder extinguishers. |
+| **Ground Water Extraction** | **A.P. Ground Water Dept / APWALTA** | Permission for borewell drilling for cooling water, staff sanitation, and firefighting reserves. |
+| **GST & Commercial Registrations** | **Commercial Taxes Dept / MSME Udyam** | Udyam Registration (Medium Enterprise category for capital >₹5 Cr), GST registration for industrial biomass fuel (HSN code: 4401 / 4402). |
+
+---
+
+## 📍 Site & Land Sizing Requirements (Excluding Land Purchase Cost)
+
+* **Total Plot Area:** **1.5 to 2.5 Acres** (approx. 65,000 to 108,000 sq ft).
+* **Location Criteria:**
+  * Proximity to National Highway 16 (Chennai–Kolkata highway) or Anakapalli–Atchutapuram arterial road.
+  * Easy turning radius for 10-wheel and multi-axle 25 MT timber trucks.
+  * Direct 11 kV HT transmission line access along the road frontage.
+* **Zoning & Layout Breakdown:**
+  * **Main Covered Production Shed:** 12,000 to 15,000 sq ft (Pre-Engineered Building with 8m eaves height, concrete floor, skylights).
+  * **Outdoor Raw Wood Yard:** 25,000 to 35,000 sq ft for log unloading, debarking, and tractor maneuvering.
+  * **Covered Finished Goods Warehouse:** 4,000 sq ft (capable of holding 150–200 MT bagged and bulk briquettes).
+  * **Weighbridge & Truck In/Out Bay:** 5,000 sq ft (50–60 MT, 12m × 3m pitless deck).
+  * **HT Transformer Yard & Switchgear Room:** 1,500 sq ft fenced compound.
+  * **Administrative Office, QC Lab & Workshop:** 1,500 sq ft.
+  * **Perimeter Fire Road:** 6m wide concrete/gravel road encircling the entire facility.
+
+---
+
+## 🏭 Next Steps for Akashya Enterprises Promoters
+
+1. **Issue Turnkey RFP to Machinery Manufacturers:**
+   * Solicit comparative binding proposals from **EcoStan Machineries** (Punjab) and **Infinite Dryer** on guaranteed continuous throughput using coastal A.P. Casuarina/Subabul timber.
+2. **Apply for APPCB CTE & APCPDCL HT Connection:**
+   * Finalize the single-line diagram (SLD) and factory layout to initiate statutory approvals without delay.
+3. **Execute Offtake MOUs with Industrial Boiler Clients:**
+   * Initiate supply discussions with boiler operating companies in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** to lock in first-year offtake commitments at ₹9,000/MT.
