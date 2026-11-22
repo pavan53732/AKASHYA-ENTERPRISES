@@ -15,8 +15,8 @@ The plant visited by the promoters operates on whole wood logs, forest offcuts, 
 ### 1. Raw Wood Sourcing & Primary Shredding
 * **Observed Equipment:** **EcoStan Machineries** heavy-duty continuous Log-to-Sawdust Shredder / Crusher (ESM Series).
 * **Photographs:**
-  * [03-ecostan-wood-chipper-close.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/03-ecostan-wood-chipper-close.jpg)
-  * [04-raw-wood-logs-yard-chipper.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/04-raw-wood-logs-yard-chipper.jpg)
+  * [03-ecostan-wood-chipper-close.jpg](FACTORY-PHOTOS/03-ecostan-wood-chipper-close.jpg)
+  * [04-raw-wood-logs-yard-chipper.jpg](FACTORY-PHOTOS/04-raw-wood-logs-yard-chipper.jpg)
 * **Technical Observations:**
   * **Feedstock Profile:** Piles of unbarked, round hardwood tree logs and branching (diameters ranging from 2 inches up to ~10–12 inches).
   * **Machine Construction:** Heavy fabricated steel frame, spring-loaded feed compression rollers, heavy rotor cutting drum with multi-knife configuration, powered by a 100–150 HP high-torque industrial motor.
@@ -27,7 +27,7 @@ The plant visited by the promoters operates on whole wood logs, forest offcuts, 
 ### 2. Intermediate Conveying & Material Transfer
 * **Observed Equipment:** Heavy-duty rubber belt inclined conveyor with steel sidewalls.
 * **Photograph:**
-  * [06-inclined-conveyor-sawdust-discharge.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/06-inclined-conveyor-sawdust-discharge.jpg)
+  * [06-inclined-conveyor-sawdust-discharge.jpg](FACTORY-PHOTOS/06-inclined-conveyor-sawdust-discharge.jpg)
 * **Technical Observations:**
   * Connects the discharge of the EcoStan log shredder directly to the internal covered processing area.
   * Transports coarse wood chips and damp sawdust into internal storage heaps for screening and drying.
@@ -37,8 +37,8 @@ The plant visited by the promoters operates on whole wood logs, forest offcuts, 
 ### 3. Thermal Drying & Air Handling System
 * **Observed Equipment:** Multi-pass Pneumatic Flash / Tube Dryer with Cyclonic Separation Train.
 * **Photographs:**
-  * [01-drying-tower-cyclone-mcc-panel.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg)
-  * [08-pneumatic-flash-dryer-u-tubes.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/08-pneumatic-flash-dryer-u-tubes.jpg)
+  * [01-drying-tower-cyclone-mcc-panel.jpg](FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg)
+  * [08-pneumatic-flash-dryer-u-tubes.jpg](FACTORY-PHOTOS/08-pneumatic-flash-dryer-u-tubes.jpg)
 * **Technical Observations:**
   * **Drying Architecture:** Continuous hot-air pneumatic flash dryer using large-diameter vertical U-ducts, high-capacity induced draft (ID) air-handling fan, and high-efficiency primary and secondary cyclones.
   * **Exhaust & Separation:** Large yellow and black cyclonic separators drop the dried wood particles (10–12% moisture) into ground discharge hoppers while vapor exits through the exhaust ducting.
@@ -49,7 +49,7 @@ The plant visited by the promoters operates on whole wood logs, forest offcuts, 
 ### 4. Bulk Material Movement Inside the Shed
 * **Observed Equipment:** 4WD Agricultural/Industrial Tractor fitted with a heavy Front-End Loader (Bull / John Deere).
 * **Photograph:**
-  * [07-tractor-loader-sawdust-handling.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/07-tractor-loader-sawdust-handling.jpg)
+  * [07-tractor-loader-sawdust-handling.jpg](FACTORY-PHOTOS/07-tractor-loader-sawdust-handling.jpg)
 * **Technical Observations:**
   * Solves the bulk material handling problem cost-effectively. Instead of capital-intensive automated screw scraper systems, the front-loader scoots dried sawdust heaps directly into the briquetting press feed hoppers.
   * **Safety & Dust Hazard:** Airborne wood dust is visibly heavy inside the shed during loader movement. Proper ventilation, dust hoods, and ATEX/flame-proof safety clearances around electrical switchboards are required.
@@ -59,8 +59,8 @@ The plant visited by the promoters operates on whole wood logs, forest offcuts, 
 ### 5. Mechanical Piston Briquetting Press
 * **Observed Equipment:** Heavy-duty mechanical reciprocating ram / piston briquetting press.
 * **Photographs:**
-  * [05-mechanical-piston-press-flywheel.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/05-mechanical-piston-press-flywheel.jpg)
-  * [02-factory-interior-briquette-heap.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg)
+  * [05-mechanical-piston-press-flywheel.jpg](FACTORY-PHOTOS/05-mechanical-piston-press-flywheel.jpg)
+  * [02-factory-interior-briquette-heap.jpg](FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg)
 * **Technical Observations:**
   * **Drive Mechanism:** Twin massive cast-iron flywheels mounted on an ultra-rigid steel chassis to store kinetic energy for high-pressure piston stroke (~1,200–1,500 kg/cm² compression).
   * **Feeding System:** Overhead inclined hopper and motorized screw feeder delivering dried sawdust directly into the compaction chamber.
@@ -71,7 +71,7 @@ The plant visited by the promoters operates on whole wood logs, forest offcuts, 
 ### 6. Finished Product: 90 mm Biomass Briquettes (White Coal)
 * **Observed Product:** High-density cylindrical biomass briquettes.
 * **Photograph:**
-  * [09-90mm-finished-briquettes-cooling-track.jpg](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/09-90mm-finished-briquettes-cooling-track.jpg)
+  * [09-90mm-finished-briquettes-cooling-track.jpg](FACTORY-PHOTOS/09-90mm-finished-briquettes-cooling-track.jpg)
 * **Quality & Commercial Evaluation:**
   * **Diameter:** Standard 90 mm commercial industrial specification.
   * **Visual Compaction:** Distinct, densely packed disk rings (striations) created by reciprocating piston impact strokes.

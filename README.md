@@ -100,30 +100,30 @@ flowchart LR
 ## 📁 Repository Directory & Documentation
 
 * **Executive Documents:**
-  * [`Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) — Comprehensive 8-page internal owner's Detailed Project Report covering process design, machinery sizing, capex, opex, staffing roster, sensitivity analysis, and statutory checklist.
-  * [`Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) — 7-worksheet dynamic financial workbook (`Summary`, `Assumptions`, `Machinery & CAPEX`, `Manpower`, `Operating Cost`, `Scenarios`, `Sources & Notes`).
-  * [`PROJECT-ROADMAP.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/PROJECT-ROADMAP.md) — Master execution schedule, land/site criteria, APPCB CTE/CTO, and AP Forest Department compliance checklist.
+  * [`Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf`](Anakapalli_1000MT_Wood_Briquette_Internal_DPR.pdf) — Comprehensive 8-page internal owner's Detailed Project Report covering process design, machinery sizing, capex, opex, staffing roster, sensitivity analysis, and statutory checklist.
+  * [`Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx`](Anakapalli_1000MT_Briquette_Internal_Cost_Model.xlsx) — 7-worksheet dynamic financial workbook (`Summary`, `Assumptions`, `Machinery & CAPEX`, `Manpower`, `Operating Cost`, `Scenarios`, `Sources & Notes`).
+  * [`PROJECT-ROADMAP.md`](PROJECT-ROADMAP.md) — Master execution schedule, land/site criteria, APPCB CTE/CTO, and AP Forest Department compliance checklist.
 
 * **Machinery & Engineering Analysis:**
-  * [`MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md) — Detailed engineering teardown of the 9 field visit photographs (EcoStan chipper, pneumatic flash dryer, mechanical piston press, loader handling, and 90mm briquette quality).
-  * [`MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md) — Side-by-side strategic comparison of 500 MT vs. 1,000 MT vs. Phased Option C (Start at 500 MT, expand to 1,000 MT).
-  * [`MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) — Breakdown contingency plan, buffer stock decoupling, critical spare parts inventory, and preventive maintenance SOP.
-  * [`MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md) — Rigorous engineering analysis of EcoStan BPM series (BPM 90 HD stroke rate @ 220–240 strokes/min), operating hours (16 hrs vs 20 hrs vs 24 hrs), and complete itemized end-to-end turnkey machinery pricing schedule (₹3.10 Cr machinery + ₹2.10 Cr civil/substation = ₹5.20 Cr).
+  * [`MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md`](MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md) — Detailed engineering teardown of the 9 field visit photographs (EcoStan chipper, pneumatic flash dryer, mechanical piston press, loader handling, and 90mm briquette quality).
+  * [`MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md`](MACHINERY/02-500MT-vs-1000MT-Machinery-and-Cost-Comparison.md) — Side-by-side strategic comparison of 500 MT vs. 1,000 MT vs. Phased Option C (Start at 500 MT, expand to 1,000 MT).
+  * [`MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md`](MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) — Breakdown contingency plan, buffer stock decoupling, critical spare parts inventory, and preventive maintenance SOP.
+  * [`MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md`](MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md) — Rigorous engineering analysis of EcoStan BPM series (BPM 90 HD stroke rate @ 220–240 strokes/min), operating hours (16 hrs vs 20 hrs vs 24 hrs), and complete itemized end-to-end turnkey machinery pricing schedule (₹3.10 Cr machinery + ₹2.10 Cr civil/substation = ₹5.20 Cr).
 
 * **Market Research & Offtake Clients:**
-  * [`MARKET-RESEARCH/01-Local-Competitors-and-Price-Spectrum.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MARKET-RESEARCH/01-Local-Competitors-and-Price-Spectrum.md) — Register of nearby briquette manufacturers (August Briquettes, Sri Datta Bio Fuels, Monomer) and price spectrum analysis (why agro briquettes sell for ₹5,800 while 90mm pure wood commands ₹9,000–₹9,500).
-  * [`MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md) — Documented corporate boiler clients (Cohance Lifesciences, Torrent Pharma, Toyotsu Rare Earths, Visakha Solvents, Teejay) and corporate sales navigation guide.
+  * [`MARKET-RESEARCH/01-Local-Competitors-and-Price-Spectrum.md`](MARKET-RESEARCH/01-Local-Competitors-and-Price-Spectrum.md) — Register of nearby briquette manufacturers (August Briquettes, Sri Datta Bio Fuels, Monomer) and price spectrum analysis (why agro briquettes sell for ₹5,800 while 90mm pure wood commands ₹9,000–₹9,500).
+  * [`MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md`](MARKET-RESEARCH/02-Industrial-Boiler-Buyers-Atchutapuram-Parawada.md) — Documented corporate boiler clients (Cohance Lifesciences, Torrent Pharma, Toyotsu Rare Earths, Visakha Solvents, Teejay) and corporate sales navigation guide.
 
 * **Field Plant Visit Photos (`FACTORY-PHOTOS/`):**
-  * [`01-drying-tower-cyclone-mcc-panel.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg) — Pneumatic flash dryer, cyclone separator & MCC electrical panel.
-  * [`02-factory-interior-briquette-heap.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg) — Factory shed layout and bulk finished briquettes heap.
-  * [`03-ecostan-wood-chipper-close.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/03-ecostan-wood-chipper-close.jpg) — Close-up of EcoStan Machineries log shredder drum and raw logs.
-  * [`04-raw-wood-logs-yard-chipper.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/04-raw-wood-logs-yard-chipper.jpg) — Log yard setup with whole tree branching and chipper feeder.
-  * [`05-mechanical-piston-press-flywheel.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/05-mechanical-piston-press-flywheel.jpg) — Heavy mechanical piston briquetting press and flywheels.
-  * [`06-inclined-conveyor-sawdust-discharge.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/06-inclined-conveyor-sawdust-discharge.jpg) — Inclined rubber belt conveyor carrying sawdust into the shed.
-  * [`07-tractor-loader-sawdust-handling.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/07-tractor-loader-sawdust-handling.jpg) — Bull / John Deere tractor front loader handling sawdust heaps.
-  * [`08-pneumatic-flash-dryer-u-tubes.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/08-pneumatic-flash-dryer-u-tubes.jpg) — Multi-pass pneumatic flash drying U-tubes and exhaust cyclones.
-  * [`09-90mm-finished-briquettes-cooling-track.jpg`](file:///c:/Users/pavan/PROJECTS/AKASHYA-ENTERPRISES/FACTORY-PHOTOS/09-90mm-finished-briquettes-cooling-track.jpg) — Continuous cooling track and dense 90 mm cylindrical briquette pile.
+  * [`01-drying-tower-cyclone-mcc-panel.jpg`](FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg) — Pneumatic flash dryer, cyclone separator & MCC electrical panel.
+  * [`02-factory-interior-briquette-heap.jpg`](FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg) — Factory shed layout and bulk finished briquettes heap.
+  * [`03-ecostan-wood-chipper-close.jpg`](FACTORY-PHOTOS/03-ecostan-wood-chipper-close.jpg) — Close-up of EcoStan Machineries log shredder drum and raw logs.
+  * [`04-raw-wood-logs-yard-chipper.jpg`](FACTORY-PHOTOS/04-raw-wood-logs-yard-chipper.jpg) — Log yard setup with whole tree branching and chipper feeder.
+  * [`05-mechanical-piston-press-flywheel.jpg`](FACTORY-PHOTOS/05-mechanical-piston-press-flywheel.jpg) — Heavy mechanical piston briquetting press and flywheels.
+  * [`06-inclined-conveyor-sawdust-discharge.jpg`](FACTORY-PHOTOS/06-inclined-conveyor-sawdust-discharge.jpg) — Inclined rubber belt conveyor carrying sawdust into the shed.
+  * [`07-tractor-loader-sawdust-handling.jpg`](FACTORY-PHOTOS/07-tractor-loader-sawdust-handling.jpg) — Bull / John Deere tractor front loader handling sawdust heaps.
+  * [`08-pneumatic-flash-dryer-u-tubes.jpg`](FACTORY-PHOTOS/08-pneumatic-flash-dryer-u-tubes.jpg) — Multi-pass pneumatic flash drying U-tubes and exhaust cyclones.
+  * [`09-90mm-finished-briquettes-cooling-track.jpg`](FACTORY-PHOTOS/09-90mm-finished-briquettes-cooling-track.jpg) — Continuous cooling track and dense 90 mm cylindrical briquette pile.
 
 ---
 

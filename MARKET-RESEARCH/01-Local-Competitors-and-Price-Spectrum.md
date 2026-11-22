@@ -38,16 +38,19 @@ graph LR
     --> C["Pure Hardwood 90mm Briquettes<br><b>₹8,500 – ₹9,500 / MT</b><br>Casuarina, Subabul, Eucalyptus logs<br>Ultra-Low Ash (&lt;2–3%), High GCV (3,900–4,200)"]
 ```
 
-### Technical Reasons Your Briquettes Command ₹9,000/MT:
+### Technical & Commercial Reasons High-Grade Briquettes Command ₹8,000 to ₹9,500/MT (vs. ₹5,800 Agro Waste):
 
 1. **High-Pressure Pharma & Chemical Boiler Requirements:**
-   * Modern automated boilers in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** (e.g., Cohance, Torrent, Laurus) cannot burn cheap agro-waste briquettes without causing severe **slagging, clinker formation, and boiler tube fouling**.
-   * Agro-waste (paddy straw, groundnut shells, sugarcane bagasse) contains high alkali metals (silica, potassium, chlorine) with an ash content of **8% to 15%**. This trips boiler dust filters and violates APPCB SPM limits.
-2. **Hardwood Log Briquette Advantages (Akashya Enterprises):**
-   * **Ash Content:** Less than **2.0% – 3.0%** (minimal boiler tube cleaning required).
-   * **Gross Calorific Value (GCV):** **3,800 to 4,200 kcal/kg** (equivalent to 85–90% of B-grade imported coal).
-   * **High Compaction Density (1.1–1.2 g/cm³):** The 90 mm mechanical piston press creates dense "white coal" logs that burn steadily in moving grates and fluidized bed boilers without disintegrating into airborne fly-ash.
-   * **Coal Parity:** At ₹9,000/MT delivered, the cost per 1,000 kcal of usable steam is competitive with imported Indonesian coal (₹10,500–₹12,000/MT) while providing corporate carbon offset credits under ESG mandates.
+   * Modern automated boilers in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** (e.g., Cohance, Torrent, Laurus) often reject low-cost agro-waste briquettes due to risks of **slagging, clinker formation, and boiler tube fouling**.
+   * Agro-waste (paddy straw, groundnut shells, sugarcane bagasse) contains higher alkali metals (silica, potassium, chlorine) with an ash content of **8% to 15%**. This increases ash-handling loads and can challenge APPCB particulate matter (SPM) limits.
+2. **Hardwood Log Briquette Advantages (Akashya Enterprises Target Profile):**
+   * **Ash Content Target:** Less than **2.0% – 3.0%** (substantially lower soot and tube fouling).
+   * **Gross Calorific Value Target:** **3,800 to 4,200 kcal/kg** (equivalent to 85–90% of B-grade imported coal; pending laboratory batch testing).
+   * **High Compaction Density (Target ~1.15–1.25 g/cm³):** The 90 mm mechanical piston press creates dense "white coal" logs that burn steadily in moving grates and fluidized bed boilers without disintegrating into airborne fly-ash.
+   * **Coal Parity:** At our verified **₹8,000/MT floor rate**, the cost per 1,000 kcal of usable steam is highly competitive against imported Indonesian coal (₹10,500–₹12,000/MT) while providing corporate carbon offset support under ESG decarbonization goals.
+
+> [!NOTE]
+> Online marketplace rates represent seller asking prices and small-order listings. Firm industrial transactions for 20–30 MT bulk truckloads depend on contractual GCV guarantees, moisture testing, and delivered freight terms.
 
 ---
 

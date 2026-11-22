@@ -28,11 +28,11 @@ flowchart TD
 | **District Industries Facilitation** | **District Industries Centre (DIC), Anakapalli** | **Primary Nodal Contact:** General Manager, DIC Anakapalli.<br>• **Email:** `dicanakapalli@gmail.com`<br>• **Phone:** `98484 89948`<br>• Official portal: Single Desk Portal (`apindustries.gov.in`). |
 | **Wood Industry Determination** | **A.P. Forest Department (Divisional Forest Office)** | Ensure written verification of sourcing from exempted agro-forestry timber (*Casuarina / Sarugudu*, *Eucalyptus*, *Subabul*) under the *A.P. Wood Based Industries Rules, 2018*. Prevents wood transit harassment. |
 | **Consent to Establish (CTE)** | **Andhra Pradesh Pollution Control Board (APPCB)** | Online application via `apocmms.nic.in`. **Regulatory Precedent:** APPCB issued CTE to *Sun Bio Mass Pvt Ltd* (Godavari region) under the **Orange Category**, mandating engineered cyclone separators, baghouse filters, stack height >30m, and Forest Dept wood source documentation. |
-| **HT Power Feasibility & Connection** | **APCPDCL (Eastern / Central Power Distribution)** | 11 kV HT connection request for 500 kVA contract maximum demand (CMD); approval of 630 kVA transformer, DP yard, and HT metering cubicle under Tariff HT III(A). |
+| **HT Power Feasibility & Connection** | **APEPDCL (Eastern / Central Power Distribution)** | 11 kV HT connection request for 500 kVA contract maximum demand (CMD); approval of 630 kVA transformer, DP yard, and HT metering cubicle under Tariff HT III(A). |
 | **Factory Plan Approval & License** | **Directorate of Factories, Andhra Pradesh** | Industrial shed architectural layout, ventilation, fire exits, worker sanitary facilities, and machine guard designs under the Factories Act, 1948. |
 | **Fire Safety NOC** | **A.P. State Disaster Response & Fire Services** | Static water reservoir (≥50,000 liters), dedicated diesel hydrant pump, internal/external fire hose reels, and CO2/Dry Chemical Powder extinguishers. |
 | **Ground Water Extraction** | **A.P. Ground Water Dept / APWALTA** | Permission for borewell drilling for cooling water, staff sanitation, and firefighting reserves. |
-| **GST & Commercial Registrations** | **Commercial Taxes Dept / MSME Udyam** | Udyam Registration (Medium Enterprise category for capital >₹5 Cr), GST registration for industrial biomass fuel (HSN code: 4401 / 4402). |
+| **GST & Commercial Registrations** | **Commercial Taxes Dept / MSME Udyam** | Udyam Registration (Small Enterprise category (Udyam criteria: Plant & Machinery <₹25 Cr, Turnover <₹100 Cr)), GST registration for industrial biomass fuel (HSN code: 4401 / 4402). |
 
 ---
 
@@ -77,7 +77,7 @@ flowchart TD
 
 1. **Issue Turnkey RFP to Machinery Manufacturers:**
    * Solicit comparative binding proposals from **EcoStan Machineries** (Punjab) and **Infinite Dryer** on guaranteed continuous throughput using coastal A.P. Casuarina/Subabul timber.
-2. **Apply for APPCB CTE & APCPDCL HT Connection:**
+2. **Apply for APPCB CTE & APEPDCL HT Connection:**
    * Finalize the single-line diagram (SLD) and factory layout to initiate statutory approvals without delay.
 3. **Execute Offtake MOUs with Industrial Boiler Clients:**
-   * Initiate supply discussions with boiler operating companies in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** to lock in first-year offtake commitments at ₹9,000/MT.
+   * Initiate supply discussions with boiler operating companies in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** to lock in first-year offtake commitments at the ₹8,000/MT baseline floor rate.

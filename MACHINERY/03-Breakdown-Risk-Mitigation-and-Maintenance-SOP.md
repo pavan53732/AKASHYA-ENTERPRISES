@@ -13,16 +13,16 @@ In a 1,000 MT/month factory operating 25 days/month:
 
 | Breakdown Scenario | Impact on Finished Production | Delayed Revenue | Operational Impact |
 | :--- | :--- | :--- | :--- |
-| **Press #1 Fails (Press #2 Running)** | Production drops by 50% (20 MT/day) | ₹1.80 Lakh / day | Factory continues operating at half capacity. |
-| **Both Presses Down (3 Days)** | Complete shutdown (120 MT lost) | ₹10.80 Lakh | Severe delivery default risk to boiler clients. |
+| **Press #1 Fails (Press #2 Running)** | Production drops by 50% (20 MT/day) | ₹1.60 Lakh / day | Factory continues operating at half capacity. |
+| **Both Presses Down (3 Days)** | Complete shutdown (120 MT lost) | ₹9.60 Lakh | Severe delivery default risk to boiler clients. |
 | **Primary Chipper / Shredder Fails (3 Days)** | No fresh sawdust generated | Buffer depleted | Presses must run on stored dried sawdust stockpile. |
-| **Pneumatic Dryer Fails (5 Days)** | No wet sawdust can be processed | ₹18.00 Lakh delayed | Presses stop once dried buffer runs out. |
+| **Pneumatic Dryer Fails (5 Days)** | No wet sawdust can be processed | ₹16.00 Lakh delayed | Presses stop once dried buffer runs out. |
 
 ---
 
 ## 🛡️ The 5-Pillar Breakdown Mitigation Strategy
 
-### 1. Dual Independent Briquette Press Lines (N+1 Philosophy)
+### 1. Dual 50% Capacity Press Lines (50% Production Protection)
 * By choosing **two 90 mm presses** (each rated at 1.3–2.0 TPH) instead of one giant 3.5 TPH press, a breakdown on one machine never shuts down the entire factory.
 * If Press #1 undergoes ram or die replacement (typically 4–6 hours), Press #2 continues producing 20 MT/day.
 * The factory can schedule routine maintenance on Press #1 during the morning shift and Press #2 during the evening shift without stopping operations.

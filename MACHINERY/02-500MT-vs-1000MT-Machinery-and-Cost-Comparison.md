@@ -49,8 +49,8 @@
 ### Option B: Purchase Two Separate 500 MT Plants (Not Recommended)
 * **Configuration:** Duplicating everything into two parallel mini-plants (2 small chippers, 2 small dryers, 2 presses, duplicate conveyors, panels).
 * **Machinery Budget:** ~₹4.24 Crore | **Fixed CAPEX:** ~₹6.35 Crore.
-* **Monthly EBITDA:** ~₹14.94 Lakh.
-* **Cons:** Costs **₹1.14 Crore more in machinery** and sacrifices ₹6.56 Lakh in monthly profit due to duplicated operators, motors, and lower efficiency.
+* **Monthly EBITDA:** ~₹4.94 Lakh.
+* **Cons:** Costs **₹1.14 Crore more in machinery** and sacrifices ₹6.56 Lakh in monthly operating profit (₹4.94L vs ₹11.50L) due to duplicated operators, motors, and lower efficiency.
 
 ---
 
@@ -83,4 +83,4 @@ To comply with your strict requirement of distinguishing firm prices from prelim
 | **Bull / John Deere Front Loader (~₹25.00 Lakh)** | **Market Benchmark** | Standard commercial equipment dealer quotation range. |
 | **50–60 MT Electronic Weighbridge (~₹13.00 Lakh)** | **Market Benchmark** | Standard pitless industrial weighbridge quotation range. |
 | **Factory Shed & Flooring (~₹60.00 Lakh)** | **Civil Planning Estimate** | ₹1,000–₹1,200 / sq ft for PEB industrial structure (15,000 sq ft). |
-| **11 kV HT Line & 630 kVA Substation (~₹38.00 Lakh)** | **Utility Estimate** | APCPDCL HT III(A) demand charges, transformer, CT/PT, cabling, and DP yard. |
+| **11 kV HT Line & 630 kVA Substation (~₹38.00 Lakh)** | **Utility Estimate** | APEPDCL HT III(A) demand charges, transformer, CT/PT, cabling, and DP yard. |

@@ -86,7 +86,7 @@ Purchasing machinery is only half the investment. The equipment requires industr
 | :---: | :--- | :--- | :---: |
 | **13** | **Factory Shed, Floors & Storage Roofing** | 12,000–15,000 sq ft Pre-Engineered Building (PEB) with 8m eaves height, concrete floor, skylights, and storm gutters. | **₹60.00** |
 | **14** | **Heavy Machine Foundations & Structural Plinths** | Reinforced concrete (RCC) vibration-isolated inertia plinths for the log shredder and two heavy flywheel presses. | **₹24.00** |
-| **15** | **11 kV HT Power Substation & Cabling** | 630 kVA 11 kV/415V outdoor transformer, APCPDCL HT line extension, double pole (DP) yard, CT/PT metering cubicle, and earthing grid. | **₹38.00** |
+| **15** | **11 kV HT Power Substation & Cabling** | 630 kVA 11 kV/415V outdoor transformer, APEPDCL HT line extension, double pole (DP) yard, CT/PT metering cubicle, and earthing grid. | **₹38.00** |
 | **16** | **Concrete Yard Paving, Fire Water & Drainage** | Heavy-duty concrete apron for log yard truck unloading, perimeter drains, and 50,000-liter underground fire water tank. | **₹20.00** |
 | **17** | **Freight, Crane Unloading & Turnkey Erection** | Transport of 10–12 trailer trucks from Punjab/Gujarat to Anakapalli, 25-ton mobile crane hire, laser alignment, and vendor commissioning. | **₹24.00** |
 | **18** | **Statutory Approvals & Structural Design** | APPCB CTE fees, Forest Dept determination, Factory Inspectorate drawing approval, structural engineering certification. | **₹6.00** |
