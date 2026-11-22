@@ -53,19 +53,28 @@ Infinite's **IFD series** lists water removal **AND** dried-product output. **Bo
 
 | Dryer public model | Listed price ₹ lakh / equipment only | OEM water evaporation kg/h | OEM dried-product kg/h at <45% / <50% inlet | Connected HP | Reference furnace fuel upper kg/h | Planning decision |
 |---|---:|---:|---:|---:|---:|---|
-| **Infinite IFD 750** | **₹12.00–15.00L** | **375 – 750** | ~1,000 kg/h | ~30 HP | 75 – 115 kg/h | Undersized pilot/micro flash dryer; too small for 1,000 MT line |
-| **Infinite IFD 1500** | **₹22.00–27.00L** | **1,000 – 1,500** | ~2,000 kg/h | ~45 HP | 180 – 250 kg/h | Insufficient for 40% case (needs 1,563 kg/h); cannot sustain 340h duty |
-| **Infinite IFD 3000** | **₹42.00L** | **1,800** | **3,000 / 2,400** | **67 HP (~50 kW)** | **<440** | 40%-wood evaporation demand **1,563** passes catalogue by 237kg/h (13.2% nameplate spare). But ~**3.08 TPH post-dryer material** must reach presses; **3.00 TPH** cited at <45% inlet is marginal/under target; trial mandatory |
-| **Infinite IFD 5000** | **₹68.00L** | **3,000** | **5,000 / 4,000** | **136 HP (~101 kW)** | **<700** | Nominally covers **2,492 kg/h** water at 50% with ~20% above required duty, **but exact 50% inlet is out of OEM's “<50%” declaration** and must be warranted |
-| **Infinite RFD 1500** | **₹27.00L** | **1,500** | Pre-drying drum | ~45 HP | ~250–320 kg/h | Rotary drum pre-dryer; undersized for 1,000 MT line |
-| **Infinite RFD 2000** | **₹32.00L** | **2,000** on RFD table | Rotary-flash hybrid handles larger particle/chip sizes | **~55 HP** | ~350–450 kg/h | At 45% requires 1,986 kg/h—virtually zero evaporation margin; 50% 340h fails |
-| **Infinite RFD 3000** | **₹45.00–52.00L** | **2,500 – 3,000** | High moisture drum | ~90 HP | ~500–600 kg/h | Mid-large rotary-flash unit; suitable for mixed wood chips |
-| **Infinite RFD 5000** | **₹65.00L** | **3,000+** on RFD table | High-capacity rotary drum + flash loop for green/fibrous wood | **~130 HP** | ~650–750 kg/h | Rotary drum accepts larger wood chips; nominally covers 50% wood (2,492 kg/h water) with reserve |
-| **Infinite IFD 2000** (not RFD) | Model-specific no reliable listed offer | **1,100 kg/h** | **2,000 / 1,500** | **41 HP** | **<250** | **Insufficient** for 40% 340h case; model-name "2000" is *not* 2,000kg water/h |
+| **Infinite IFD3000** | **42** | **1,800** | **3,000 / 2,400** | **67 HP (~50 kW)** | **<440** | 40%-wood evaporation demand **1,563** passes catalogue by 237kg/h (13.2% nameplate spare). But ~**3.08 TPH post-dryer material** must reach presses; **3.00 TPH** cited at <45% inlet is marginal/under target; trial mandatory |
+| **Infinite IFD5000** | **68** | **3,000** | **5,000 / 4,000** | **136 HP (~101 kW)** | **<700** | Nominally covers **2,492 kg/h** water at 50% with ~20% above required duty, **but exact 50% inlet is out of OEM's “<50%” declaration** and must be warranted |
+| **Infinite RFD2000** | **32** | **2,000 kg/h** on RFD reference table (NOT IFD2000) | Rotary-flash hybrid handles larger particle/chip sizes | Model-specific (~55 HP) | Quoted fuel needed | At 45% requires 1,986 kg/h—virtually zero evaporation margin; 50% 340h fails |
+| **Infinite RFD5000** | **65** | **3,000 kg/h** on RFD reference table | High-capacity rotary drum + flash loop for green/fibrous wood | Model-specific (~130 HP) | Quoted fuel needed | Rotary drum accepts larger wood chips; nominally covers 50% wood (2,492 kg/h water) with reserve |
+| **Infinite IFD2000** (not RFD2000) | Model-specific no reliable listed offer | **1,100 kg/h** | **2,000 / 1,500** | **41 HP** | **<250** | **Insufficient** for 40% 340h case; model-name "2000" is *not* 2,000kg water/h |
 | **EcoStan Flash Dryer 40 class** | OEM current price **not posted** | **Not published as guaranteed water/h** | Marketed material throughput 3–4 TPH class | OEM per model | Site trial | Do not compare 3–4 TPH of **material** with 1.8–3.0 TPH **water** |
-| **Radhe small flash dryer listing** | ~**₹18.51L** | Historical reference ~400 kg-water/h; confirm exact model | Not full line | Model-specific | Test | Undersized if evaporation really ~400kg/h |
+| **Radhe small flash dryer listing** | ~**18.51** | Historical reference ~400 kg-water/h; confirm exact model | Not full line | Model-specific | Test | Undersized if evaporation really ~400kg/h |
 
 Source: [Infinite IFD full OEM water/dry/fuel/HP table and exclusions](https://www.infinitedryer.com/ifd.html), [Infinite published listed price ₹42L/₹68L/₹32L](https://www.infinitedryer.in/sitemap.html), [Infinite rotary/flash RFD model family](https://www.infinitedryer.com/rfd.html), [EcoStan dryer](https://www.ecostan.com/products/flash-dryer), [EcoStan mill moisture upper ≤15%](https://www.ecostan.com/products/hammer-mill).
+
+### B.1 Infinite Energy drying systems full model catalog spectrum
+
+| Dryer Model | Technology | Water Evaporation (kg/h) | Dry Product Throughput | Motor Power | Reference Biomass Fuel | Live Equipment Price Indicator | Notes |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **IFD 750** | Pneumatic Flash | 375 – 750 kg/h | ~1,000 kg/h | ~30 HP | 75 – 115 kg/h | **₹12.00 – 15.00 Lakh** | Undersized; pilot/micro flash dryer |
+| **IFD 1500** | Pneumatic Flash | 1,000 – 1,500 kg/h | ~2,000 kg/h | ~45 HP | 180 – 250 kg/h | **₹22.00 – 27.00 Lakh** | Insufficient for 40% case (needs 1,563 kg/h) |
+| **IFD 3000** | Pneumatic Flash | **1,800 kg/h** | **3,000 kg/h** (<45% inlet) | **67 HP (~50 kW)** | **<440 kg/h** | **₹42.00 Lakh** | **Base 40% case**; evaporation passes; dry output borderline |
+| **IFD 5000** | Pneumatic Flash | **3,000 kg/h** | **5,000 kg/h** (<45% inlet) | **136 HP (~101 kW)** | **<700 kg/h** | **₹68.00 Lakh** | **High-moisture 50% case**; covers 2,492 kg/h water evaporation |
+| **RFD 1500** | Rotary Drum + Flash | 1,500 kg/h | Pre-drying drum | ~45 HP | ~250 – 320 kg/h | **₹27.00 Lakh** | Rotary pre-dryer drum; small capacity |
+| **RFD 2000** | Rotary Drum + Flash | 2,000 kg/h | Coarse chip handling | **~55 HP** | ~350 – 450 kg/h | **₹32.00 Lakh** | Handles coarser chips; narrow evaporation headroom |
+| **RFD 3000** | Rotary Drum + Flash | 2,500 – 3,000 kg/h | High-moisture drum | ~90 HP | ~500 – 600 kg/h | **₹45.00 – 52.00 Lakh** | Mixed chip and coarse particle capability |
+| **RFD 5000** | Rotary Drum + Flash | 3,000+ kg/h | Green fibrous wood | **~130 HP** | ~650 – 750 kg/h | **₹65.00 Lakh** | High-moisture rotary-flash unit; handles green unseasoned chips |
 
 **Mass-flow design @340 productive hours, idealised and excluding handling rejects:**
 - At **40% wet basis**: log receiving **4.64 wet MT/h** → water removed **1.563 MT/h** → roughly **3.08 MT/h material after primary drying** (depending how 5% solids loss is allocated) → 2.941 MT/h saleable output. Dryer and hammer mill must BOTH be sized for material flow, and press for finished flow.
