@@ -18,6 +18,17 @@
 
 **Published model links:** [EcoStan press](https://www.ecostan.com/products/briquetting-machine), [older EcoStan 90 RPM brochure](https://5.imimg.com/data5/JG/VV/KA/SELLER-49897310/biomass-briquetting-plant.pdf), [Lehra official](https://lehrafuel.com/biomass-briquetting-machine.php), [Ronak 230 RPM](https://ronakeng.com/manual-briquetting-machine/), [JK90](https://jaykhodiyar.com/briquetting-machine/), [EcoStan ESM150](https://www.ecostan.com/products/sawdust-machine), [Infinite dryer size/water/fuel table](https://www.infinitedryer.com/ifd.html).
 
+### EcoStan Briquetting Machine (BM / BPM) family model catalog
+EcoStan manufactures mechanical piston presses across multiple diameter grades. Sizing and power escalate sharply with briquette diameter:
+
+| Machine model | Output briquette diameter | OEM claimed output (kg/h) | Total connected rated power | Mechanical application & suitability for Akashya |
+| :--- | :---: | :---: | :---: | :--- |
+| **BPM 40 (BM 40)** | 40 mm | Up to 150 – 250 kg/h | **23 HP (~17 kW)** | Pilot / micro-scale unit; too small for commercial industrial supply |
+| **BPM 60 (BM 60)** | 60 mm | Up to 600 – 1,000 kg/h | **47 HP (~35 kW)** | Small commercial enterprise; unsuitable for 90 mm industrial boiler contracts |
+| **BM 70 HD (BPM 70 HD)** | 70 mm | Up to 700 – 1,300 kg/h | **59 HP (~44 kW)** | Medium industrial press; non-compliant with target 90 mm boiler grate standard |
+| **BPM 90 HD (BM 90 HD)** | **90 mm** | **1,300 – 2,000 kg/h**<br>*(Hardwood tested: 1,400–1,600)* | **88.5–89.5 HP (~66.4 kW)**<br>*(75 HP main + feed/lube)* | **Akashya Enterprises baseline model** (2 units required for 1,000 MT/month) |
+| **BPM 100 HD (BM 100 HD)** | 100 mm | 1,400 – 2,500 kg/h | **115–116 HP (~86 kW)** | Large diameter press; requires explicit client acceptance before substitution |
+
 ### What “BPM/hourly strokes” can and cannot tell us
 - **Physical ram rate unknown:** a catalogue crank/shaft **216 RPM** (older EcoStan 90 reference) or **230 RPM** (Ronak Jumbo90) is NOT an OEM-certified **strokes/minute** for the current quote. Require ram-crank ratio, stroke length, sensor-recorded actual strokes during a load trial and exact serial/model.
 - **Production from mass flow, not guessed RPM:** whole factory **2,941 kg finished/h**, each of 2 equal presses **1,471 kg/h**. At an *assumed, not measured* 216 strokes/min each, that is **~114g/stroke**; at 230 strokes/min **~107g/stroke**. Those are only demonstration ratios and cannot certify one briquette per stroke or solid density.
