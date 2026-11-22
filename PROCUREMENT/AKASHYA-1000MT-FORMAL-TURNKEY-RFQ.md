@@ -1,0 +1,69 @@
+# Ready-to-send REQUEST FOR QUOTATION (RFQ): AKASHYA ENTERPRISES
+**Issue draft:** 22 November 2026 · **Status: NOT SENT** · **Project:** 1,000 MT/month 90-mm binderless wood biomass briquette plant · **Destination:** Anakapalli District, Andhra Pradesh, India · **Subject:** Formal signed techno-commercial quotation for complete mechanical piston briquetting line with dual moisture-duty options.
+
+> To: Sales / Technical Proposals team. Please return a dated, signed offer with your letterhead, GSTIN, responsible contact, quotation reference and validity. This specification is a common-bid comparison basis, not an accepted purchase order.
+
+## 1. Project duty and three feedstock cases
+- Saleable finished output **1,000 MT/month**, target **40 MT/day over 25 operating days**, briquettes **90 mm diameter** unless buyer trial establishes another diameter.
+- Incoming wood: clean, untreated, legally procured **Casuarina, Eucalyptus, Subabul** branches/logs and validated mixes; furnish actual batch species, diameters, bark, contaminants and moisture test methodology.
+- Demonstrate performance for **40%, 45% and 50% wet-basis incoming moisture**, with target **10% saleable finished moisture** for mass-balance modelling (actual press-feed limit to be specified by OEM).
+- At 340 **productive** hours/month, incoming wet logs and water evaporation are approximately: **40%: 1,579 wet MT and 1,563 kg-water/h**; **45%: 1,723 wet MT and 1,986 kg-water/h**; **50%: 1,895 wet MT and 2,492 kg-water/h**. These are planning formulas, not warranty values.
+- Supplier must state realistic start-up yields, rejects, thermal drying losses, actual press-feed solids/moisture, and guaranteed **finished saleable output** under agreed test wood.
+
+## 2. Compare operating schedules
+| Alternative | Monthly scheduled | Assumed effective availability | Productive monthly hours | Required total finished TPH | Per press if 2 parallel |
+|---|---:|---:|---:|---:|---:|
+| 16 h/day × 25 days | 400 h | 85% | 340 h | **2.941** | **1.471** |
+| 20 h/day × 25 days | 500 h | 85% | 425 h | **2.353** | **1.176** |
+| 24 h/day × 26 days | 624 h | 80% | 499.2 h | **2.003** | **1.002** |
+Separate statutory compliant shift staffing, cleaning, tool/die replacement, night power demand and net availability. **Never assume 20 h/day 2.5 shifts is automatically legal or cheap.**
+
+## 3. Equipment — quote each line and its battery limits
+**A. Briquetting machines:** Two mechanical piston, 90-mm-class presses; request **minimum 1.60 TPH each sustained saleable** on the chosen dry-wood test basis (higher 1.8–2.0 TPH preferred). State model, one-press and both-press production on wood, working/rated motor HP/kW, exact ram strokes/minute vs crank RPM, vibration, maximum die temperature, power consumption (kWh per saleable tonne), cooling, lubricant, feed moisture and particle size. Include fully guarded feed, motor/control components, discharge cooling and all foundations/installation interfaces.
+
+**B. Log receiving and size reduction:** Quote one **>=6 wet TPH guaranteed** actual capacity option on 50%-moisture wood and a comparable alternate with stronger reserve or **10-TPH reference-class** chipper; alternatively price two smaller machines/backup capability. State max logs Ø/length, wood species, bark, blade life, removal of steel/stones and all feeders, screens and hammer mill capacity required after chipper. A 3–5 TPH *up to* claim alone does not meet 50%-wood guaranteed duty.
+
+**C. Drying train:** Quote two separate alternatives:
+- **Base controlled-moisture package:** >=1,800–2,000 **kg of WATER evaporated per hour** at **40% wet basis incoming** wood, final drying duty per press OEM.
+- **High-moisture package:** >=2,750–3,000 **kg of WATER evaporated per hour** for **50% incoming moisture** at 340 productive hours, with feedstock-specific tests; if applicant wishes 1,000 MT monthly at 50% all season, supplier must guarantee system output.
+For **both**: give independently water-evaporation kg/h vs raw material TPH; wet inlet/outlet temperature and moisture; furnace/hot-air generator, burning fuel type, gross heat duty/efficiency, max and *guaranteed normal* thermal fuel kg/h and kg/kg of water evaporated; connected and running electrical loads; cyclone, ID fan, rotary valve, baghouse/explosion protection, flue/chimney, isolation & interlocks; outlet product and exhaust testing. Specify who supplies each.
+
+**D. All auxiliary production assets:** Log intake and conveyors, magnetic separator, trommel/screens, hammer mills, buffer hoppers/silos with fire-safe storage, dust extraction, loading, cooled briquette tracks, output handling, weighment/packing, workshop/QC requirements, spares and automated controls (MCC/PLC/VFD), platforms/ladders, training and guarded process access.
+
+**E. Electrical and civil:** Provide full motor/connected/running kW list, starting currents, estimated kWh/MT at 40/45/50%, single-line diagram, 11kV/415V connection and transformer recommendation (check proposed 630kVA), machine footprints, loads and vibration/foundation drawings; specify 12,000–15,000 sqft preliminary shed interfaces, fire separation, ducts/chimneys and emergency access.
+
+## 4. Performance, quality, safety guarantees
+- Quoted **sustained finished output** must include moisture conditioning and grading/rejects, not merely instantaneous press rating.
+- **Witnessed 72 logged operating-hour trial** on customer-approved representative wood at agreed 40/45/50% test points; may be spread across lawful shifts. Record feed wet tons/moisture, finished saleable tons/moisture, fines/rejects, water evaporated (closed mass balance), finished diameter/density/GCV/ash, each press hourly output, thermal fuel use, measured kWh/finished tonne, downtime cause and maintenance intervals.
+- Engineering safety must address combustible wood dust, spark/hot particles, emergency stop, furnace cooling, baghouse and silo isolation and no bypass of interlocks. Comply with applicable Indian safety and regulator specifications; provide design and certified documents.
+- OEM to specify maintenance schedule and actual **die/ram/knife wear lifetime as tonne of tested wood**, not undocumented days; provide spare part warranty exclusions, critical part shipment time to Andhra Pradesh and field service SLA.
+- Reference at least **two operating industrial plants** at or above comparable real duty with permission for purchaser inspection.
+
+## 5. Mandatory price breakout (in ₹; indicate GST and units)
+| Quote line | Seller must fill |
+|---|---|
+| Exact model, quantity and full technical schedule | Model code, BOM, all motors/accessories |
+| Ex-works machine price, per item | ₹ excluding GST |
+| Packing/crating/transit insurance | ₹ |
+| Freight FOR Anakapalli site | ₹ |
+| Unloading cranes and on-site assembly | ₹ |
+| Erection, installation, startup and performance acceptance | ₹ |
+| Furnaces, ducting, cyclone, dust/fire protection and chimney | Explicitly INCLUDED or priced as alternate |
+| PLC/MCC, VFD/starter panels, cabling and earthing inside vendor battery | Explicitly INCLUDED or priced as alternate |
+| Civil foundations and shed interfaces | Included/excluded and drawing date |
+| Recommended 2-year wear and emergency spares | Item-wise quantities/prices |
+| Training, GST, taxes, warranty, AMC | Split amounts and terms |
+| Site-installed price including all quoted scope | Final total in ₹ and **scope gaps list** |
+| Quotation validity, dispatch & commissioning delivery | Dates/weeks from accepted PO |
+
+## 6. Commercial conditions for proposals
+Request quotation issue date/validity, escalation clause/price lock to purchase date, supplier ownership of subvendors, warranty from commercial commissioning, 12–24 month defect warranty offer, service response travel to Anakapalli, spares pricing and performance retention. Propose payment linked to design approval, FAT, dispatch, physical arrival, commissioning and site acceptance; negotiate liquidated damages, refund/retention clauses and consequences of performance failure. Contract terms to undergo legal/bank review. **No assumed bank disbursement or non-refundable purchase deposit before financing/permit go-no-go.**
+
+## 7. Attachments requested
+Dimensioned plant layout; civil load/foundation sheet; P&ID + airflow/heat balance; electrical SLD and motor list; formal priced BOM; rate sheet for wear components; sample performance test report; installation plan/lead time; list of exclusions; tax schedule; buyer/fuel compatibility; references and warranty/service copy.
+
+**Response date requested:** earliest feasible written reply and bid validity; promoter's **target first lender disbursement 15 March 2027** is financial planning only and must not be represented as a vendor deadline unless accepted separately.
+
+**Contact:** AKASHYA ENTERPRISES procurement team, Anakapalli District, Andhra Pradesh. Buyer email/phone to be inserted by the promoter; do NOT invent personal contact details.
+
+Supplement: [Bid comparison/evidence form](TECHNICAL-COMMERCIAL-BID-EQUALISATION.md) · [Public pricing evidence](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) · [Supplier send tracker](SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md).
