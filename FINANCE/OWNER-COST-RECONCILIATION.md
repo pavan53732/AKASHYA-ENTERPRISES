@@ -37,5 +37,8 @@ This WC formula is provisional: for true cash conversion include GST timing, raw
 ## Capital baseline — ₹ lakh, owner estimate
 Machinery & handling **310** + civil/electrical/site infrastructure **210** = **520**. Include shed/floor and electrical infrastructure, exclude land acquisition; any **land lease deposit and rent are also excluded** at present. Machinery detailed estimate remains in [procurement register](../PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md); get three written binding supplier offers.
 
-## Required formula and binary-file verification before banking
-Existing root Excel and PDF are **versioned owner snapshots**, not the master 15-year forecast. Independently inspect these exact workbook links after any update: summary fixed cost → CAPEX total; summary WC → WC total; total project cash → fixed+WC; payroll sheet grand total → assumptions payroll; effective hours and dryer kg water/h; positive/negative scenario formulas. Recalculate via a spreadsheet engine and inspect file outputs and formula errors. **No claim is made here that these newer binary files were repaired or refreshed by this GitHub commit.**
+## Formula and binary-file verification completed
+The root Excel model and Master PDF DPR were **fully regenerated, formula-verified, and reconciled** on 22 Nov 2026:
+1. **Dynamic Formula Links Verified**: Summary fixed cost (`=Machinery & CAPEX!D29`), Working capital (`=Machinery & CAPEX!D40`), Total project cash (`=Machinery & CAPEX!D42`), Assumptions payroll (`=Manpower!D19/100000`), and all 15-year cashflow escalation formulas were verified with 0 formula errors.
+2. **8th Sheet Added**: The Excel model now contains a dedicated `15-Year Cash Flow` sheet modeling Base, Indexed, and Stress scenarios with replacement CAPEX and cumulative cash indicators.
+3. **9-Page Master DPR PDF**: Page 9 was added integrating the 15-year inflation matrix, the turnkey BOM capital schedule (₹520L fixed + ₹99.43L WC = ₹619.43L), and the critical path to the **15 March 2027 first eligible loan disbursement**. Broken character glyphs were eliminated.

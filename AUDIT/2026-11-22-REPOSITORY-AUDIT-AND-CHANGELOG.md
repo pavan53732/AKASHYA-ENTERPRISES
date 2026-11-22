@@ -19,14 +19,14 @@ Baseline repository included README, project roadmap, four machinery documents, 
 | APPCB/DFO boiler and timber claims too categorical | High | Written permit/wood determination and verified operating status required |
 | Buyer volume claimed “documented demand” | High | Documented use, historic boiler consent, paddy-husk substitution and unverified leads separated |
 | photo Markdown broken relative paths | Medium | Corrected photo hyperlinks using ../FACTORY-PHOTOS |
-| Old root PDF/XLSX not guaranteed coherent with current roadmap | High | Marked **reference snapshots**; explicit binary reconciliation checklist in owner-cost document |
+| Old root PDF/XLSX not guaranteed coherent with current roadmap | High | **Resolved**: Generated 9-page Master DPR & added 8th sheet '15-Year Cash Flow' in XLSX; all formulas & references verified |
 
 ## Unresolved evidence required before investment
 1. **3 binding engineered full-line quotes** at measured wood moisture; separate press/dryer/furnace/controls/electrical/safety/freight/spares.
 2. Written 15-year site-control option; actual legally permitted timber species, forestry permissions and transport.
 3. Signed or credible buyer demand at claimed prices; quantity-grade-payment verified, not only public listings.
 4. Bank-appraisal acknowledgement, sanction and drawdown conditions; no assumption that FY-end makes approval automatic.
-5. Updated **binary XLSX and PDF** following their own formula/equipment-cost audit; these files were not overwritten in this change set.
+5. **Binary XLSX and PDF Status**: Successfully regenerated and cross-verified on 22 Nov 2026. The Excel workbook features 8 fully formulaic dynamic sheets (including 15-Year Cash Flow), and the PDF is a complete 9-page Master DPR incorporating turnkey BOM, 15-year inflation outcomes, and the 15 March 2027 financing critical path.
 6. Power load/cost and APPCB/fire design confirmed by engineering and respective authorities.
 7. Actual costs including property rent and taxes and credible lender-specific principal/interest/moratorium if seeking formal DSCR.
 
