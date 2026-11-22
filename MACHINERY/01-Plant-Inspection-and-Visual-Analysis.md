@@ -1,33 +1,17 @@
 # Factory inspection photo evidence — AKASHYA ENTERPRISES
 **Audit: 22 Nov 2026.** The nine photographs were taken at the same reference briquette factory. These are **field observations**, not a manufacturer performance certificate or a measurement survey.
 
-| Photo | Directly visible | Interpretation requiring verification |
-|---|---|---|
-| [01: dryer/cyclone/MCC](../FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg) | Tall vessels, ducts and electrical control panel | Cyclone/drying system likely; exact configuration, safe emissions and evaporation rate unknown |
-| [02: factory wide shot](../FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg) | Covered shed, finished briquette heap, two reddish press structures | Two mechanical piston presses likely; press model, rated tonnage and availability not visible |
-| [03: EcoStan close-up](../FACTORY-PHOTOS/03-ecostan-wood-chipper-close.jpg) | Yellow EcoStan-branded machine and log/branch feed | Model *not read* from nameplate; cannot claim ESM100/150 directly |
-| [04: raw wood](../FACTORY-PHOTOS/04-raw-wood-logs-yard-chipper.jpg) | Mixed logs/branches beside machine | Species, legal source, diameter spread, received moisture and delivered wet-MT price need documents |
-| [05: press/flywheel](../FACTORY-PHOTOS/05-mechanical-piston-press-flywheel.jpg) | Mechanical drive/flywheel and steep material feeder | Stroke rate, force, die temperature, wear life not measurable from photo |
-| [06: belt transfer](../FACTORY-PHOTOS/06-inclined-conveyor-sawdust-discharge.jpg) | Inclined conveyor and wood particles | Actual belt capacity, metal separation and blockage monitoring unknown |
-| [07: loader and dust](../FACTORY-PHOTOS/07-tractor-loader-sawdust-handling.jpg) | Tractor loader and airborne dust | Existence/performance of dust fire protection unverified; replication must improve on visible dust |
-| [08: U-ducts](../FACTORY-PHOTOS/08-pneumatic-flash-dryer-u-tubes.jpg) | Tall U-shaped ducts, cyclonic equipment | Consistent with pneumatic flash separation; no proof that rotary drum dryer is present |
-| [09: briquettes](../FACTORY-PHOTOS/09-90mm-finished-briquettes-cooling-track.jpg) | Brown cylindrical briquettes, some cracked/ridged | Diameter **appears ~90mm** but requires caliper; no GCV, ash, moisture or compression measurement |
-
-## Reference plant visual hardware mapping
-From the promoter's inspection photographs of the benchmark operating facility, nine primary hardware subsystems are identified and mapped into the proposed commercial plant layout:
-
-| Observed factory equipment | Visual description in reference photos | Functional purpose in production line |
-| :--- | :--- | :--- |
-| **EcoStan wood-processing machine** | Yellow machine receiving logs and branches | Primary size reduction: converts incoming timber logs into coarse wood particles |
-| **Log feeding conveyor** | Yellow-and-black heavy-duty conveyor | Transports raw logs and cut timber into the primary chipper infeed chute |
-| **Sawdust transfer conveyors** | Inclined belt/screw conveyors inside factory | Moves chipped wood particles to drying columns and dry storage bins |
-| **Two mechanical briquette presses** | Two large reddish machines in the wide factory photograph | Compresses prepared wood particles into dense cylindrical biomass briquettes |
-| **Large drive flywheel** | Prominent flywheel visible on at least one mechanical press | Stores rotational kinetic energy to deliver high-force mechanical compaction strokes |
-| **Drying / air-handling arrangement** | Vertical columns, U-ducts, and hot air handling | Removes moisture from wet wood particles using hot furnace gases |
-| **Cyclone separation equipment** | Tall conical vessels and connected duct piping | Separates dried wood dust from humid exhaust airstream using cyclonic vortex |
-| **Electrical control panels** | Multiple industrial floor-mounted cabinets (MCC) | Houses motor starters, VFDs, safety interlocks, and thermal monitoring |
-| **Material handling equipment** | Tractor loader moving bulk sawdust piles | Transports bulk wood chips/sawdust from receiving yard into plant hopper |
-| **Finished cylindrical briquettes** | Large piles of brown compressed cylindrical blocks | Saleable 90 mm biomass fuel for industrial boiler and furnace offtakers |
+| Reference photo & hardware | Directly visible in photograph | Functional purpose in Akashya 1,000 MT/month plant | Engineering duty check & verification gap |
+|---|---|---|---|
+| [01: dryer/cyclone/MCC](../FACTORY-PHOTOS/01-drying-tower-cyclone-mcc-panel.jpg) | Tall vertical vessels, duct columns, and industrial electrical control cabinets | Hot furnace gas drying, cyclonic dust separation, and centralized power distribution | Verify water evaporation rating ($\ge 1,563\text{ kg/h}$ at 40%, $\ge 2,492\text{ kg/h}$ at 50%); stack emission clearance; MCC motor starter ratings |
+| [02: factory interior & heap](../FACTORY-PHOTOS/02-factory-interior-briquette-heap.jpg) | Covered industrial shed, finished briquette heap, two reddish press structures | Twin mechanical briquette presses operating in parallel within single covered shed | Verify each press delivers $\ge 1.471\text{ TPH}$ continuous output (total $\ge 2.941\text{ TPH}$) over 340 productive hours |
+| [03: EcoStan chipper](../FACTORY-PHOTOS/03-ecostan-wood-chipper-close.jpg) | Yellow EcoStan-branded machine with yellow-and-black feeding conveyor receiving logs | Primary log-to-sawdust size reduction: converts incoming logs/branches into small particles | Nameplate model unverified (ESM150 vs others); require guaranteed $\ge 5.0\text{--}6.0\text{ wet TPH}$ throughput on local hardwood |
+| [04: raw wood yard](../FACTORY-PHOTOS/04-raw-wood-logs-yard-chipper.jpg) | Mixed cut timber logs and branches stacked beside machine infeed | Raw wood intake buffer (63.2 wet MT/day at 40%, 75.8 wet MT/day at 50%) | Document species (Casuarina/Subabul/Mango), legal procurement documentation, received moisture, and weighbridge calibration |
+| [05: mechanical press & flywheel](../FACTORY-PHOTOS/05-mechanical-piston-press-flywheel.jpg) | Heavy mechanical press drive with prominent flywheel and steep material feed hopper | High-pressure reciprocating piston compaction into dense cylindrical blocks | Flywheel 216–230 RPM is geared; true ram stroke count, 200 mm stroke length, continuous bearing temperature ($<65^\circ\text{C}$), and 2–4 bar oil pressure must be verified |
+| [06: sawdust discharge conveyor](../FACTORY-PHOTOS/06-inclined-conveyor-sawdust-discharge.jpg) | Inclined conveyor transporting processed wood particles | Continuous material transfer from primary chipper to dryer and intermediate storage | Verify belt capacity ($\ge 6\text{ TPH}$ wet / $\ge 3.3\text{ TPH}$ dry), magnetic tramp-metal removal, and blockage sensor interlocks |
+| [07: tractor loader](../FACTORY-PHOTOS/07-tractor-loader-sawdust-handling.jpg) | Tractor loader moving bulk sawdust piles with visible airborne dust | Inbound wood unloading, stockpile management, and log yard material manipulation | Open loader handling creates combustible-dust explosion hazards; Akashya plant must incorporate enclosed chutes and dust extraction |
+| [08: pneumatic flash U-ducts](../FACTORY-PHOTOS/08-pneumatic-flash-dryer-u-tubes.jpg) | Tall U-shaped drying columns, ducting, and cyclonic equipment | Rapid pneumatic flash moisture removal via hot furnace flue gas | Particle size limit ($<8\text{ mm}$ for Infinite IFD); verify dry material flow capacity ($\ge 3.08\text{ TPH}$) in addition to water evaporation |
+| [09: finished briquettes & cooling](../FACTORY-PHOTOS/09-90mm-finished-briquettes-cooling-track.jpg) | Brown cylindrical briquettes on cooling track, some surface cracking visible | Dissipates compression heat, cools briquettes to ambient, and stabilizes density | Caliper measurement to verify 90 mm diameter; test shatter resistance, bulk density ($\ge 1.1\text{ g/cm}^3$), moisture ($8\text{--}10\%$), and GCV ($>3,800\text{ kcal/kg}$) |
 
 ---
 
@@ -36,34 +20,34 @@ From the promoter's inspection photographs of the benchmark operating facility, 
 ```
 [Raw Timber Logs & Branches]
              │
-             ▼
+             ▼  (Photo 04: Yard logs beside machine)
 [Log Receiving Conveyor]
+             │  (Photo 03: Yellow-and-black infeed conveyor)
+             ▼
+[EcoStan Wood-to-Sawdust Machine] ──► Converts logs to 2–10 mm particles (Photo 03: Yellow ESM unit)
              │
              ▼
-[EcoStan Wood-to-Sawdust Machine] ──► Converts logs into small particles (2–10 mm)
+[Sawdust Transfer Conveyors] ──► Moves chipped particles (Photo 06: Inclined conveyor)
              │
              ▼
-[Sawdust Collection & Transfer Conveyors]
+[Drying & Cyclone Separation] ──► Reduces moisture 40–50% to 8–12% (Photo 01/08: Vertical U-ducts & tall cyclones)
              │
              ▼
-[Drying, Cyclone Separation & Dust Handling] ──► Reduces moisture from 40–50% to 8–12%
+[Screening / Hammer Mill] ──► Post-dryer sizing to ≤15×8 mm
              │
              ▼
-[Dried Sawdust Screening / Hammer Mill] ──► Ensures uniform particle size (≤15×8 mm)
-             │
-             ▼
-[Dried Sawdust Distribution Bunker]
+[Dried Sawdust Distribution] ──► Fed into press hoppers
              │
       ┌──────┴──────┐
       ▼             ▼
-[Briquette Press 1] [Briquette Press 2] ──► Twin mechanical piston presses (90 mm)
+[Briquette Press 1] [Briquette Press 2] ──► Twin mechanical piston presses (Photo 02/05: Reddish presses & flywheels)
       │             │
       └──────┬──────┘
              ▼
-[Cooling Tracks & Conveyors] ──► Cools and stabilizes hot briquettes to ambient
+[Cooling Tracks & Conveyors] ──► Dissipates heat (Photo 09: Long cooling lines)
              │
              ▼
-[Finished Cylindrical Briquette Storage & Weighbridge Dispatch]
+[Finished Briquette Storage & Dispatch] ──► 90 mm cylindrical fuel (Photo 02/09: Large finished briquette heap)
 ```
 
 ---
