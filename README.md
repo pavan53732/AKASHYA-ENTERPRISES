@@ -18,15 +18,15 @@ The plant processes untreated wood logs, offcuts, and branches using an integrat
 | :--- | :--- | :--- | :--- |
 | **Saleable Production** | **1,000 MT** | **12,000 MT** | Dual 90 mm mechanical piston press lines |
 | **Raw Wood Inflow** | **1,579 MT** | **18,948 MT** | 40% input moisture, 10% finished, 5% dry loss |
-| **Briquette Selling Price** | **₹9,000 / MT** | — | Observed local industrial delivered price |
+| **Briquette Selling Price** | **₹8,000 / MT** | — | Verified commercial floor rate (Pajson Cashew, Renigunta) |
 | **Raw Wood Purchase Price** | **₹2,000 / MT** | — | Locally sourced agro-forestry timber / logs |
-| **Gross Monthly Revenue** | **₹90.00 Lakh** | **₹1,080.00 Lakh (₹10.80 Cr)** | Ex-GST basis |
+| **Gross Monthly Revenue** | **₹80.00 Lakh** | **₹960.00 Lakh (₹9.60 Cr)** | Ex-GST basis (1,000 MT @ ₹8,000/MT) |
 | **Total Operating Expenditure** | **₹68.50 Lakh** | **₹822.00 Lakh (₹8.22 Cr)** | ₹6,850 per finished MT |
-| **Operating Surplus (EBITDA)** | **₹21.50 Lakh** | **₹258.00 Lakh (₹2.58 Cr)** | **23.89% EBITDA Margin** |
+| **Operating Surplus (EBITDA)** | **₹11.50 Lakh** | **₹138.00 Lakh (₹1.38 Cr)** | **14.38% EBITDA Margin** (₹1,150/MT) |
 | **Fixed Capital Investment** | **₹5.20 Crore** | — | Plant, machinery, civil shed, 11 kV line |
-| **Net Working Capital** | **₹1.07 Crore** | — | Raw inventory, finished stock, receivables |
-| **Total Project Outlay** | **₹6.27 Crore** | — | Excluding land cost/lease |
-| **Simple Pre-Tax Payback** | **~2.43 Years** | — | Based on full run-rate EBITDA |
+| **Net Working Capital** | **₹0.99 Crore (₹99.43 L)** | — | Raw inventory, finished stock, 20-day receivables |
+| **Total Project Outlay** | **₹6.19 Crore** | — | Excluding land cost/lease |
+| **Simple Pre-Tax Payback** | **~4.49 Years** | — | Based on full run-rate EBITDA |
 
 ---
 

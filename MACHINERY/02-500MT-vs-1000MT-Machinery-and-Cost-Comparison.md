@@ -2,11 +2,11 @@
 ## 500 MT/Month vs. 1,000 MT/Month Strategic Evaluation
 **Location:** Anakapalli, Andhra Pradesh  
 **Promoter:** M/s Akashya Enterprises  
-**Confirmed Local Rates:** Briquette Selling Price = ₹9,000/MT | Raw Wet Wood = ₹2,000/MT  
+**Confirmed Baseline Rates:** Briquette Selling Price = **₹8,000/MT (Verified Floor Rate)** | Raw Wet Wood = ₹2,000/MT  
 
 ---
 
-## ⚖️ Executive Comparison: 500 MT vs. 1,000 MT
+## ⚖️ Executive Comparison: 500 MT vs. 1,000 MT (At ₹8,000/MT Floor Rate)
 
 | Particulars | 500 MT / Month Line | 1,000 MT / Month Line | Difference & Impact |
 | :--- | :--- | :--- | :--- |
@@ -18,19 +18,20 @@
 | **Scheduled Shifts** | 2 shifts (16 hrs/day), 25 days/mo | 2 shifts (16 hrs/day), 25 days/mo | Same operating hours |
 | **Staffing Headcount** | 22 personnel | 31 personnel | +9 operators/helpers |
 | **HT Power Demand (11 kV)** | ~300 kVA (75,000 kWh/mo) | ~500 kVA (150,000 kWh/mo) | 400 kVA vs 630 kVA Transformer |
-| **Total Monthly Revenue** | **₹45.00 Lakh** | **₹90.00 Lakh** | +₹45.00 Lakh/month |
+| **Total Monthly Revenue** | **₹40.00 Lakh** | **₹80.00 Lakh** | +₹40.00 Lakh/month |
 | **Total Monthly OPEX** | **₹37.53 Lakh** | **₹68.50 Lakh** | +₹30.97 Lakh/month |
-| **Monthly Operating Profit (EBITDA)** | **₹7.47 Lakh** | **₹21.50 Lakh** | **+₹14.03 Lakh/month (+188%)** |
-| **EBITDA Margin** | **16.6%** | **23.9%** | **+7.3% margin expansion** |
-| **Annual Operating Profit (EBITDA)** | **₹89.64 Lakh** | **₹258.00 Lakh (₹2.58 Cr)** | **+₹1.68 Crore/year** |
+| **Monthly Operating Profit (EBITDA)** | **₹2.47 Lakh** *(Marginal)* | **₹11.50 Lakh** *(Healthy)* | **Almost 5x higher profit (+365%)** |
+| **EBITDA Margin** | **6.18%** | **14.38%** | **+8.2% margin expansion** |
+| **Annual Operating Profit (EBITDA)** | **₹29.64 Lakh** | **₹138.00 Lakh (₹1.38 Cr)** | **+₹1.08 Crore/year** |
 | **Fixed Investment (Excl. Land)** | **₹3.69 Crore** | **₹5.20 Crore** | **Only +₹1.51 Crore (+41%)** |
-| **Net Working Capital** | **₹0.57 Crore** | **₹1.07 Crore** | +₹0.50 Crore |
-| **Total Project Cash Required** | **₹4.26 Crore** | **₹6.27 Crore** | +₹2.01 Crore |
-| **Simple Pre-Tax Payback** | **~4.8 Years** | **~2.4 Years** | **Payback is 2x faster** |
+| **Net Working Capital** | **₹0.50 Crore** | **₹0.99 Crore (₹99.43 L)** | +₹0.49 Crore |
+| **Total Project Cash Required** | **₹4.19 Crore** | **₹6.19 Crore** | +₹2.00 Crore |
+| **Simple Pre-Tax Payback** | **~14.1 Years (Unviable)** | **~4.49 Years (Viable)** | **Payback is 3x faster** |
 
-> [!IMPORTANT]
-> **Why 1,000 MT has superior economics:**  
-> The 1,000 MT plant requires only **41% more capital investment** (₹5.20 Cr vs ₹3.69 Cr) because fixed infrastructure—such as the front-end loader (₹25L), 60 MT weighbridge (₹13L), factory shed, electrical yard, and management staff—serves either plant size. This economy of scale increases operating profit nearly **three-fold (from ₹7.47L to ₹21.50L per month)**.
+> [!CRITICAL]
+> **Why 1,000 MT is Mandatory at ₹8,000/MT Selling Rate:**  
+> At the verified floor rate of **₹8,000/MT**, a 500 MT/month plant is barely viable—it generates only **₹2.47 Lakh/month EBITDA** (a meager 6.2% margin) because fixed overheads (loader, weighbridge, management, demand charges) eat up almost all revenue.  
+> In contrast, the **1,000 MT/month plant absorbs fixed overheads efficiently and yields ₹11.50 Lakh/month EBITDA (₹1.38 Crore/year)** at a healthy 14.4% margin. Running at 1,000 MT is the key to commercial success at this price floor.
 
 ---
 
@@ -39,9 +40,9 @@
 ### Option A: One Integrated 1,000 MT Factory (Recommended for Maximum Profit)
 * **Configuration:** 1 high-capacity log chipper (5 TPH) + 1 large 1,800 kg/hr dryer feeding 2 × 90 mm mechanical presses.
 * **Machinery Budget:** ~₹3.10 Crore | **Fixed CAPEX:** ~₹5.20 Crore.
-* **Monthly EBITDA:** ₹21.50 Lakh.
+* **Monthly EBITDA:** **₹11.50 Lakh** (at ₹8,000/MT floor).
 * **Pros:** Lowest initial machinery cost per tonne, highest EBITDA, lower specific power consumption.
-* **Cons:** Requires full capital upfront (~₹6.27 Cr including working capital) and immediate 1,000 MT/month sales commitments.
+* **Cons:** Requires full capital upfront (~₹6.19 Cr including working capital) and immediate 1,000 MT/month sales commitments.
 
 ---
 

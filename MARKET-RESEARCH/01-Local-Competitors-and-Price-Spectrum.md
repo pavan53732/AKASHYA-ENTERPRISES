@@ -23,6 +23,7 @@
 | **North East Company** | PM Palem, Visakhapatnam | Supplier Listing | Sawdust briquettes | Listed at ₹5,800 / MT. |
 | **SRK Biochem** | Visakhapatnam | Supplier Listing | 90 mm Sawdust Boiler Briquettes | Listed at **₹7,800 / MT** (in 50 kg bags). |
 | **Hanuman Enterprises** | Visakhapatnam | Industrial Supplier | Sawdust briquettes for boilers | Listed at **₹9,500 / MT**. |
+| **Pajson Cashew Processing Unit** | Renigunta Mandal & Regional Units | Verified Industrial Boiler Buyer | Continuous Cashew Steaming Boilers | **Promoter Field Verified Floor: ₹8,000 / MT** (Firm commercial baseline). |
 
 ---
 
