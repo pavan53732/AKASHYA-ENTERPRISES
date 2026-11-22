@@ -1,65 +1,27 @@
-# AKASHYA ENTERPRISES
-## Local Competitor Intelligence & Briquette Price Spectrum
-**Territory:** Anakapalli, Munagapaka, Sabbavaram, Kasimkota, Pendurthi & Visakhapatnam  
-**Reference Date:** November 2026  
-**Strategic Focus:** Pure Hardwood Biomass Briquettes (90 mm Cylindrical)  
+# Local wood-briquette competitors and selling-price evidence
+**22 Nov 2026 audit.** These are **advertised asks** or directory information, not completed November invoices or signed bulk 1,000-MT/month offtake. Individual products can differ in ash, GCV, moisture, volume and truck freight.
 
----
+| Name | Area | Evidence status | Public indicative price or note |
+|---|---|---|---|
+| August Briquettes | Thummapala, Anakapalli | Historical public APPCB consent; operating status/production requires confirmation | Advertised ~₹6,000/tonne biomass (not necessarily pure hardwood grade) |
+| Sri Datta Bio Fuels | Venkatapuram/Munagapaka | Business and historical regulatory listings; verify current factory | Agro/recycled listings ~₹5,500–5,800/tonne, product not directly comparable |
+| North East Company | Visakhapatnam | Public marketplace listing | ~₹5,800/tonne biomass/sawdust listing |
+| Solid Ply Pvt Ltd | Dakamarri/Visakhapatnam | Published TradeIndia asking price | **Wooden** briquettes ~₹7,000/tonne |
+| SRK Biochem and other listings | Visakhapatnam | Product-directory pricing; exact spec and terms vary | Around ₹7,800 and above for some sawdust/90mm products |
+| Monomer Industrial Linings | Anakapalli | 90mm sawdust product directory | ~₹9,500/tonne asking; not proof factories transact at this level |
+| Greenfy India / Mani Industries / MS LEP Projects / SNS Biofuels | Anakapalli district/Visakhapatnam belt | Public directory/consent references | No independently verified recent bulk invoice rate |
 
-## 🏢 Competitor Register: Nearby Biomass Briquette Manufacturers
+## Commercial baseline
+The owner has reported a **₹8,000/finished tonne buyer-side observed rate**, entered as a model assumption, not a contracted *floor* across all buyers. Assume ex-GST and clarified ex-factory/delivered only after written offers. The ₹2,000/wet-tonne wood rate is likewise promoter-reported, not a legally sourced, fixed 1,579-MT/month contract.
 
-| Company Name | Location / Mandal | APPCB / Public Status | Capacity / Details | Key Notes & Contact |
-| :--- | :--- | :--- | :--- | :--- |
-| **August Briquettes** | MDR65, Venkupalem, Thummapala, Anakapalli | **APPCB Consent Active** (Valid till 31 Dec 2027) | **10 MT / day** (approx. 250–300 MT/month) | Survey No. 346/2. Email: `sudheer.nemani@gmail.com`. Listed asking price: ~₹6,000/MT. |
-| **Sri Datta Bio Fuels** | Venkatapuram, Munagapaka Mandal | APPCB Registered (Survey Nos. 310/1 & 310/2) | Small to Medium unit | Prop: Mr. G. K. Naidu (Ph: 90004 98656, GSTIN: 37ADYPL0200C1ZV). Listed at ₹5,500–₹5,800/MT (mostly recycled agro waste). |
-| **Monomer Industrial Linings** | Anakapalli Area | Operating Supplier | 90 mm Sawdust Briquettes | Advertised asking price: **₹9,500 / MT** (Validates high-end wood market). |
-| **Karthikeya Infra & Earth Resources** | Anakapalli Area | Operating Supplier | 90 mm Briquettes | Advertised asking price: **₹10,000 / MT**. |
-| **Greenfy India** | Ugginapalem / Bayyavaram, Kasimkota Mandal | APPCB OCMMS Listed | Operational unit | Sits near NH16 Kasimkota junction; active biomass consent. |
-| **Mani Industries** | MSME Industrial Area, Gurrampalem, Pendurthi | APPCB Consent Active | Approved **250 MT / month** | Official MSME cluster manufacturer. |
-| **MS LEP Projects** | Anthakapalli, Sabbavaram Mandal | APPCB OCMMS Listed | Biomass briquetting | Close to Sabbavaram junction. |
-| **Sri Mohana Siva Shakti Biomass** | Gollalapalem, Sabbavaram Mandal | Directory Verified | Briquette manufacturing | Local rural supplier. |
-| **SNS Biofuels** | Gajuwaka / Parawada Industrial Belt | Operating Supplier | Biomass, wood & sawdust briquettes | Proximate to JN Pharma City. |
-| **Solid Ply Pvt Ltd** | Dakamarri, Visakhapatnam | Major Wood / Plywood Unit | 100 MT Minimum Order | Wooden briquettes: ₹7,000/MT; Fuel briquettes: ₹8,500/MT; Sawdust: ₹13,000/MT. |
-| **North East Company** | PM Palem, Visakhapatnam | Supplier Listing | Sawdust briquettes | Listed at ₹5,800 / MT. |
-| **SRK Biochem** | Visakhapatnam | Supplier Listing | 90 mm Sawdust Boiler Briquettes | Listed at **₹7,800 / MT** (in 50 kg bags). |
-| **Hanuman Enterprises** | Visakhapatnam | Industrial Supplier | Sawdust briquettes for boilers | Listed at **₹9,500 / MT**. |
-| **Pajson Cashew Processing Unit** | Renigunta Mandal & Regional Units | Verified Industrial Boiler Buyer | Continuous Cashew Steaming Boilers | **Promoter Field Verified Floor: ₹8,000 / MT** (Firm commercial baseline). |
+## Do not claim without evidence
+- A higher retail listing does NOT prove the same product and volume clears the market at ₹9,000–9,500/MT.
+- Historical APPCB approval is not proof current machines operate or sell in 2026.
+- No factual basis here that cheaper agro briquettes cannot run in *any* pharma boiler; fuel acceptance is boiler/operator specific.
+- No evidence that automatically switching coal to wood briquettes confers monetisable carbon offset credits.
+- Do not compare coal/briquettes by price/tonne alone; calculate **₹/useful Mcal or ₹/tonne of steam**, accounting for GCV, efficiency, ash handling and operating costs.
 
----
+## Required quotation template
+Supplier/customer name; product (pure wood vs agro), GCV by test, ash, moisture, dia, volume (20–30 MT truck vs 100 MT order), price ex-GST, freight, loading, validity date, payment terms, rejection standards, source/invoice evidence and sales contact. Use this before marking any price *confirmed*.
 
-## 💰 The Price Spectrum: Why Prices Range from ₹5,500 to ₹9,500/MT
-
-A critical insight from market intelligence is understanding why online asking prices vary so dramatically:
-
-```mermaid
-graph LR
-    A["Agro Waste / Recycled Briquettes<br><b>₹5,500 – ₹6,000 / MT</b><br>Bagasse, groundnut shell, cotton stalk<br>High Ash (8–14%), Low GCV (3,000–3,400)"] 
-    --> B["Standard Industrial Mix<br><b>₹6,500 – ₹7,500 / MT</b><br>Mixed sawdust + agro residues<br>Medium Ash (4–7%), GCV (3,500–3,800)"]
-    --> C["Pure Hardwood 90mm Briquettes<br><b>₹8,500 – ₹9,500 / MT</b><br>Casuarina, Subabul, Eucalyptus logs<br>Ultra-Low Ash (&lt;2–3%), High GCV (3,900–4,200)"]
-```
-
-### Technical & Commercial Reasons High-Grade Briquettes Command ₹8,000 to ₹9,500/MT (vs. ₹5,800 Agro Waste):
-
-1. **High-Pressure Pharma & Chemical Boiler Requirements:**
-   * Modern automated boilers in **Jawaharlal Nehru Pharma City (JNPC), Parawada** and **Atchutapuram SEZ** (e.g., Cohance, Torrent, Laurus) often reject low-cost agro-waste briquettes due to risks of **slagging, clinker formation, and boiler tube fouling**.
-   * Agro-waste (paddy straw, groundnut shells, sugarcane bagasse) contains higher alkali metals (silica, potassium, chlorine) with an ash content of **8% to 15%**. This increases ash-handling loads and can challenge APPCB particulate matter (SPM) limits.
-2. **Hardwood Log Briquette Advantages (Akashya Enterprises Target Profile):**
-   * **Ash Content Target:** Less than **2.0% – 3.0%** (substantially lower soot and tube fouling).
-   * **Gross Calorific Value Target:** **3,800 to 4,200 kcal/kg** (equivalent to 85–90% of B-grade imported coal; pending laboratory batch testing).
-   * **High Compaction Density (Target ~1.15–1.25 g/cm³):** The 90 mm mechanical piston press creates dense "white coal" logs that burn steadily in moving grates and fluidized bed boilers without disintegrating into airborne fly-ash.
-   * **Coal Parity:** At our verified **₹8,000/MT floor rate**, the cost per 1,000 kcal of usable steam is highly competitive against imported Indonesian coal (₹10,500–₹12,000/MT) while providing corporate carbon offset support under ESG decarbonization goals.
-
-> [!NOTE]
-> Online marketplace rates represent seller asking prices and small-order listings. Firm industrial transactions for 20–30 MT bulk truckloads depend on contractual GCV guarantees, moisture testing, and delivered freight terms.
-
----
-
-## 🎯 Tactical Intelligence for Akashya Enterprises
-
-1. **August Briquettes (Thummapala, Anakapalli):**
-   * Sits only ~5–8 km from Anakapalli town.
-   * Authorized at only **10 MT/day (~250 MT/month)**, operating a single small press line. They do not have the volume to service large 1,000 MT/month corporate boiler supply contracts (e.g., Cohance's 3,600+ tonne requirement).
-2. **Sri Datta Bio Fuels (Munagapaka):**
-   * Sits in rural Munagapaka (Survey Nos. 310/1 & 310/2). Sells cheaper agro/recycled briquettes at ₹5,500–₹5,800/MT. Their customer base is small local jaggery mills or brick kilns, NOT high-specification pharma boilers.
-3. **Monomer Industrial Linings & Hanuman Enterprises:**
-   * Both quote **₹9,500/MT for 90 mm sawdust briquettes**, directly confirming that the industrial boiler market around Anakapalli and Vizag routinely pays ₹9,000+ for dense, pure wood products.
+Public evidence: https://www.tradeindia.com/products/wooden-biomass-briquettes-c8878911.html ; https://www.aajjo.com/product/solid-biomass-briquette-in-visakhapatnam-northeast-company ; https://dir.indiamart.com/visakhapatnam/biomass-briquettes.html . Further sources should be retained with retrieval date. See [financial downside](../FINANCE/15-YEAR-INFLATION-AND-CASHFLOW-MODEL.md).
