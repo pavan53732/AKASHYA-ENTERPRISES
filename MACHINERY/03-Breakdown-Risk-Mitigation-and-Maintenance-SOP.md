@@ -38,6 +38,21 @@ Two presses each expected to deliver 500 MT/month **are not N+1 at full 1,000 MT
 ### Machine-life and running cost estimation
 Historic FAO reports for certain older piston dies: **~500–1,000 operating hours** and an instance of **~1,300h with intermediate reboring**, under specific feedstocks; this is **NOT modern 2026 maker-specific life or price**. Knife/bearing/die life for local Casuarina/Eucalyptus/Subabul is **unknown** until OEM trials. Request per **1000 finished MT**: dies, rams, blades, oil, filters, bearings, screens, electricity, dryer fuel, loss hours, labour and maintenance contractor rate. No exact hourly cooler/oil change is asserted. [FAO background](https://www.fao.org/4/t0275e/t0275e04.htm) · [EcoStan press moisture/size](https://www.ecostan.com/products/briquetting-machine) · [Ronak machine RPM](https://ronakeng.com/manual-briquetting-machine/) · [Infinite IFD duty table](https://www.infinitedryer.com/ifd.html).
 
+### Provisional wear-part service and replacement intervals [Engineering Planning Guide]
+Based on field experience with abrasive hardwood and Indian mechanical piston briquetting plants:
+
+| Component / Subassembly | Typical service life (running hours) | Recommended maintenance action | Changeout downtime | Critical spare stock requirement |
+|---|---:|---|---:|---|
+| **Ram Punch Head / Tip** | **80–150 h** | Inspect for rounding/wear; swap with pre-faced spare; hardface worn tip with high-chromium carbide electrodes | 30–45 min | 4 complete spare punch heads in toolroom |
+| **Taper Die / Collet Rings** | **150–300 h** | Measure internal bore diameter; re-bore to 90 mm profile or replace segmented die collets | 1.0–2.0 h | 2 complete die holder sets + collet rings |
+| **Guide Sleeves / Wear Rings** | **400–800 h** | Inspect alignment and clearance; replace bronze/hardened steel wear bushes | 2.0–3.0 h | 2 sets guide sleeves |
+| **Chipper Knives & Anvils** | **40–80 h (sharpen) / 400–600 h (replace)** | Rotate/re-sharpen knives to correct cutting angle; inspect anvil clearance (1.5–2.0 mm) | 30–60 min | 3 matched knife sets (one running, one ready, one at grinding workshop) |
+| **Hammer Mill Hammers** | **80–120 h (turn edge) / 300–500 h (replace)** | Reverse hammers to utilize all 4 wear corners; replace entire balanced set when worn | 1.0–2.0 h | 2 complete balanced hammer sets |
+| **Hammer Mill Sieve Screens** | **200–400 h** | Check perforation size and screen cracking; replace blinded or worn perforated plate | 30–45 min | 4 replacement screens (3 mm, 5 mm, 8 mm) |
+| **Centralized Lube Oil & Filter** | **500 h (filter) / 1,000–1,500 h (oil flush)** | Replace 10-micron oil filter element; drain, flush, and refill ISO VG 220/320 gear oil | 1.0 h (scheduled stop) | 6 oil filter cartridges + 2 barrels (420 L) gear oil |
+| **Dryer Rotary Airlock Vanes** | **1,000–1,500 h** | Inspect neoprene/EPDM flexible tips; adjust blade clearance to maintain cyclone vacuum seal | 1.0–2.0 h | 2 sets airlock rotor tips + shaft seals |
+| **Conveyor Belts & Roller Bearings** | **2,500–5,000 h** | Grease weekly (NLGI 2 EP grease); replace sealed pillow block bearings upon vibration | 1.0–3.0 h | 4 spare conveyor bearings + 1 belt splice kit |
+
 ## Per-shift operational data to retain
 Log **time at rated output** and **time at feed/quality failure** separately; record plant production, each press discharge, dryer input wettonnes/%moisture, water removed, fuel kg, kWh, unplanned minutes by machine, labour shift, knife/die service minutes and wet/dry particle-screen oversize. A daily sheet should reconcile **wet delivered wood → cleaned feed → dryer water removed → dry press feed → finished passed/rejected product**, or else monthly 1,000 MT cannot be validated.
 
