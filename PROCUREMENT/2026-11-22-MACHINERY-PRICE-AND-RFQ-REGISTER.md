@@ -22,6 +22,34 @@
 
 **Decision:** partial quote received, not selected and not compliant as offered for current 1,000 MT/month 40/50% wetwood basis. At 340 productive h/month one press at quoted max 2.3 TPH gives at most 782 MT (before additional losses); ESM max 3 TPH vs 4.64/5.57 wet TPH required; FDD quoted 35% inlet ceiling excludes both cases. Need revised complete 40/50% duty, actual wet and dry output, kg water/h, guaranteed wood throughput, energy, fuel, operating hours, service and installed cost. See [dryer sizing](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) and [bid equalisation](TECHNICAL-COMMERCIAL-BID-EQUALISATION.md). Retain ₹520L owner fixed CAPEX pending comparable full offers.
 
+## EcoStan official-site evidence coverage — 25 Nov 2026
+
+Catalogue review covers **39 model/configuration entries** (5 BPM, 3 DFC, 4 ESM, 7 HM, 4 DSS, 8 flash, 3 rotary, 3 PSS, 2 ring-die PM); [press model table](../MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md), [dryer and preparation tables](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md). This is not a verified commercial price list. Public listings and the five quoted items retain separate evidence tiers.
+
+| Enquiry topic | Covered from official pages / existing quote | Still requires OEM written data |
+|---|---|---|
+| 1 Machinery models | Model IDs, catalogue TPH/HP, published feed/output limits | Exact prices, model revision, complete accessories |
+| 2 DFC90 | Website vs quote differences; historical 221 machine RPM separately | Loaded physical BPM, motors, flywheel/piston, wood-specific output and energy, cooling |
+| 3 ESM100 | 10-in logs, 106 HP, 2–3 TPH, 2–10 mm website vs 4–8 mm quote | Moisture/species duty, log length, rotor/knife details, actual gradation, wear/prices |
+| 4 FDD25 | 35% quote vs 40% website; 11 dryer options | Wet/dry output basis, evaporation, final moisture, furnace fuel, controls and inclusions |
+| 5 ERS1225 | Quote 2–3 TPH, 2 HP, ₹3.75L; general screen purpose | Wet/dry efficiency, drum RPM, mesh, wear, other models |
+| 6 Conveyor | Quote dimensions, 3 HP, ₹3.35L; conveying types described | Belt speed, incline, capacity, wear, transfer quantities/prices |
+| 7 Plant BOM | Process functions and selected quoted equipment | Complete stage-wise battery limits and exclusions |
+| 8 Plant output | Indicative per-machine ratings only | Integrated saleable output, downtime, buffers, capacity matching |
+| 9 Mass balance | Engineering estimates in moisture model | Measured wood-to-product and fuel balance by species/moisture |
+| 10 Electricity | 244 HP quote; catalogue HP | Measured kWh/t, motor schedule, max demand, transformer/SLD |
+| 11 Maintenance | Generic OEM descriptions and quoted warranty | Approved hours/rest/cleaning/shutdown schedules, wear and downtime |
+| 12 Spares | Historical annexure and public listing references | Current part-numbered prices, life in hours/tonnes, repair times, local stock |
+| 13 Layout | OEM reports design/installation capabilities | Actual drawings, weights, foundations, land/storage/safety infrastructure |
+| 14 Manpower | Individual machine automatic controls; historical press-only staffing | Whole-line staffing, training, automation scope |
+| 15 Warranty | Quote terms; official service contact | Commissioning-based warranty, SLA, AMC, long-term spares |
+| 16 Commercial | Five item prices, GST, advance/lead time in quote | Full installed/delivered price, other models and revised payment terms |
+| 17 Acceptance | OEM reports factory testing as capability | Contracted FAT/SAT, test protocol, guarantees and remedies |
+| 18 References | General manufacturer claims only | Consented local customer references and witnessed operation |
+| 19 Documents | Public catalogue/FAQ/blog | Model manuals, drawings, test reports, complete price lists |
+
+**Supplier-enquiry boundary:** use a neutral information request covering the existing quote, standard model alternatives and comparative operating/moisture conditions. Do not send the internal capacity target, planned quantities, preferred schedule, budget, margins, financing timetable or internal repository links. Full-duty procurement RFQ remains internal until owner authorises release. Nothing sent by this update.
+
 ## Public asking prices by process stage — rechecked 23 November 2026
 Prices shown are public asking prices or dated public commercial samples in ₹ lakh for one listed unit or set. GST, delivered freight, installation, discount at two units and current validity are unknown unless the source states them. The 40% and 50% wet-wood operating cases require separately specified bid scope. See the [source-linked machinery evidence](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 

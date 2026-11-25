@@ -1,5 +1,5 @@
 # BPM 90 mm machinery, 16/20/24-hour duty and quote status
-**Rechecked 23 November 2026.** Published outputs and power are maker or seller claims. Refer to the [source-linked machinery evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) for exact listing scope, one-unit asking prices, GST, freight and validity.
+**Public prices rechecked 23 November 2026; EcoStan OEM model tables rechecked 25 November 2026.** Published outputs and power are maker or seller claims. Refer to the [source-linked machinery evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) for exact listing scope, one-unit asking prices, GST, freight and validity.
 
 ## Terminology
 **BPM** here is part of some maker's *briquette press machine* model family; it does **not** establish the ram's blows-per-minute (stroke count). Previous documentation's **220–240 strokes/min, 180–220°C, pressure 1,200–1,500 kg/cm², longer die life on 20-hour shifts** were not supported by a verified nameplate/test and **must not be represented as factory facts**. Request stroke rate, ram travel, die temperatures and guaranteed output by exact model number.
@@ -17,17 +17,20 @@
 
 **Source URLs for specifications:** [EcoStan OEM current 90HD](https://www.ecostan.com/products/briquetting-machine), [historical EcoStan90 216 RPM /86.5HP PDF](https://5.imimg.com/data5/KN/SO/RT/SELLER-49897310/briquette-machine.pdf), [Lehra LBP90](https://lehrafuel.com/briquette-press-lbp-90.php), [Ronak OEM](https://ronakeng.com/manual-briquetting-machine/), [Jay Khodiyar official](https://jaykhodiyar.com/briquetting-machine/). **Price links, per-variant confidence and seller-name distinctions:** [single authoritative press-price ledger](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 
-For direct comparison, EcoStan's briquette-only claims are below. A diameter change also requires buyer boiler-feed compatibility and a fresh production trial.
+For direct comparison, the 25 Nov 2026 OEM recheck extends the existing table to both press families. All below are **catalogue ratings**, not guaranteed output on local wood. Diameter changes require buyer boiler-feed compatibility and trials.
 
-| EcoStan model | Claimed briquettes kg/h | Rated HP | Approx. rated kW [DERIVED] | Model-specific price evidence |
-|---|---:|---:|---:|---|
-| **BPM 40** | 150–250 | 23 | 17 | Exact price unknown. Seller entries use conflicting diameters. |
-| **BPM 60** | 600–1,000 | 47 | 35 | **₹16.75L** public BM60-coded ask. |
-| **BM 70 HD** | 700–1,300 | 59 | 44 | **₹16.75L** public BM70 sawdust ask. HD suffix unconfirmed for that listing. |
-| **BPM 90 HD** | 1,300–2,000 | 89.5 | 67 | **₹16.75L** soya-husk coded listing. Exact wood-duty set price unknown. |
-| **BPM 100 HD** | 1,400–2,500 | 115 | 86 | Exact price unknown. **₹16.75L** rice-straw advert carries a BM100 code with both 90 and 100 mm sizes. |
+| EcoStan model | Briquettes kg/h | Pellets kg/h | Rated HP | Approx. shaft kW [DERIVED] | Briquette diameter × length (mm) | Briquette feed size | Pellet diameter × length (mm) | Price evidence |
+|---|---:|---:|---:|---:|---|---|---|---|
+| BPM 40 | 150–250 | Not stated | 23 | 17 | 40 × 20–75 | Powder | Not stated | Exact price unknown; conflicting seller sizes |
+| BPM 60 | 600–1,000 | Not stated | 47 | 35 | 60 × 20–100 | <10 mm | Not stated | ₹16.75L BM60-coded public ask |
+| BM 70 HD | 700–1,300 | 500–700 | 59 | 44 | 70 × 25–150 | ≤12 × 5 mm | 10/16 × 25–35 | ₹16.75L BM70 sawdust listing; HD suffix unconfirmed |
+| BPM 90 HD | 1,300–2,000 | 1,000–1,400 | 89.5 | 67 | 90 × 30–150 | ≤15 × 8 mm | 8/10/16 × 25–35 | ₹16.75L soya-husk coded listing; exact wood-duty price unknown |
+| BPM 100 HD | 1,400–2,500 | Not stated | 115 | 86 | 100 × 30–150 | ≤15 × 8 mm | Not stated | Exact price unknown; BM100 rice-straw listing ₹16.75L has conflicting sizes |
+| DFC 70 | 700–1,400 | 500–800 | 63 | 47 | 70 × 25–150 | ≤15 × 8 mm | 10/16 × 25–35 | Exact price unknown |
+| DFC 90 | 1,400–2,000 | 1,000–1,500 | 94 | 70 | 90 × 30–150 | ≤15 × 8 mm | 8/10/16 × 25–35 | ₹27.15L written quote for differing 92 HP revision; see below |
+| DFC 100 | 1,500–2,800 | Not stated in detail table | 119 | 89 | 100 × 30–150 | ≤15 × 8 mm | Not stated | Exact price unknown |
 
-Rated kW is HP × 0.746, rounded to the nearest kW, before electrical losses or loading factors. All catalogue numbers above are **MANUFACTURER CLAIMS**. Loaded ram strokes/min and sustained local wood output are **UNKNOWN** for the five models. [EcoStan model table](https://www.ecostan.com/products/briquetting-machine) · [seller catalogue](https://www.biomassbriquette.net/briquetting-machines.html).
+All eight models specify **8–12% raw-material moisture**. BPM70/90 pellet mode specifies powder feed; the DFC table gives the granulated input dimension, but actual pellet-mode powder requirement needs confirmation. BPM100 table mentions powder for pellets but provides no pellet output; DFC100 prose mentions pellets but gives no pellet dimensions/output. DFC70 summary says up to 1.5 TPH briquettes, detail table 1.4 TPH; use detail table provisionally. DFC side feeds deliver material to the compression chamber from both sides; no measured comparative kWh/t or wear advantage is established. Rated kW = HP × 0.746 rounded, not measured electricity. Loaded ram strokes/min and sustained wood output remain unknown. Sources: [BPM catalogue](https://www.ecostan.com/products/briquetting-machine), [DFC catalogue](https://www.ecostan.com/products/dualfeed-briquetting-machine), [seller catalogue](https://www.biomassbriquette.net/briquetting-machines.html). [Price evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 
 ## Cross-OEM briquette press families — no invented live prices for unsupported SKU ranges
 | OEM | Other diameter models / verified catalogue outputs | Exact non-90mm price evidence |

@@ -1,5 +1,5 @@
 # AKASHYA ENTERPRISES — machinery public price evidence and capacity audit
-**Originally researched 22 November 2026; press, dryer and ancillary listings and OEM specifications rechecked 23 November 2026** · Project: Anakapalli, Andhra Pradesh · 1,000 *saleable* MT/month · 15 March 2027 **target first eligible loan disbursement**, not plant commissioning.
+**Originally researched 22 November 2026; public listings rechecked 23 November; EcoStan OEM product tables, FAQ, blog and service contacts rechecked 25 November 2026** · Project: Anakapalli, Andhra Pradesh · 1,000 *saleable* MT/month · 15 March 2027 **target first eligible loan disbursement**, not plant commissioning.
 
 > **EVIDENCE RULE:** These are publicly advertised prices, supplier-published specifications and technical research observations. **PUBLIC LISTINGS ARE NOT BINDING QUOTES.** A separate written EcoStan partial quotation is now recorded below. Prices may change; dated here means *research observation date* rather than supplier offer validity. Do not issue a PO, revise bank-sanctioned CAPEX, or call suppliers "selected" solely on this list. Every amount must eventually be replaced by a quotation on vendor letterhead with exact model/qty, delivery basis, GST, installation, exclusions, warranty and validity.
 
@@ -56,6 +56,8 @@
 | **Radhe Industrial Corporation / Radhe Equipments India** | RICO Super 70 and separately advertised Radhe Equipments India Super 70 | RICO cites **750 kg/h ±20%, 49 HP** in its description, with **240 machine RPM** and **200 mm stroke length**. Its own table lists ~50 HP. [RICO Super 70](https://radheindcorp.com/product/super-70/) | **RICO price unknown.** Separate Radhe Equipments India plant entry displays **₹19.50L**. [Seller's catalogue](https://www.radhegrouprajkot.com/) |
 | **Ronak Engineering** | Super 70 also named in the maker’s 2020 public materials | Current exact motor, output and RPM unconfirmed. A separate seller, Ronak Agrotech Engineering Pvt Ltd, lists Supreme-70 at 750–850 kg/h. [Ronak Engineering catalogue video](https://www.youtube.com/watch?v=55v-hlUEZGQ) · [Ronak Agrotech listing](https://www.tradeindia.com/products/super-70-briquetting-plant-1645298.html) | **UNKNOWN** |
 
+The complete eight-model EcoStan BPM/DFC input/output, pellet and power table is maintained in [machinery operating-hours research](../MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md); do not create duplicate independent model records. Current DFC70/100 written prices unknown.
+
 ### A4. Procurement reliability and the published Lehra sample’s contractual warnings
 The public Lehra Fuel Industries 90mm offer **is not addressed to AKASHYA, has no proven remaining price validity**, and says **₹23.75L** ex-factory, **GST 18% extra as stated on this historical document** (get CURRENT applicability confirmed by GST/CA), transport/unloading and cranes extra, **40% non-refundable advance** and 60% before dispatch. Its brochure further states **rated capacity is ideal-conditions only** and excludes consumables, bearings and V-belts from warranty, with no compensation for lost production; oil filter **7–10 days** and oil change **3 months** are stated on that maker's document. **These are seller document terms, NOT AKASHYA contract terms or universal OEM maintenance cycles**. Owner should seek safer performance/retention milestones in formal RFQ. [Public Lehra 2026 document](https://5.imimg.com/data5/SELLER/Doc/2026/4/599355057/JI/VP/UE/253839848/white-coal-making-machine.pdf).
 
@@ -106,14 +108,30 @@ Capacities, connected load and fuel are **MANUFACTURER CLAIMS**. Prices are **PU
 
 | Supplier reference | Published material duty and power | Public price / fit to project |
 |---|---|---|
-| **EcoStan Rotary Dryer 50 (RDD 50)** | **3–5 TPH production**, up to **50% moisture handling**, **74 HP**, with an OEM feed size limit **below 25 mm**. Obtain the wet/dry measurement basis and outlet moisture. | Matched asking price and **kg/h water** unknown. A 5 TPH wet-inlet guarantee, if that were the stated basis, would still fall short of **5.57 wet TPH** at 50%. [OEM rotary table](https://www.ecostan.com/products/rotary-dryer) |
-| **EcoStan Flash Dryer 40** | **3–4 TPH material throughput**. Obtain a simultaneous water and product balance. | Exact price and **kg/h water** unknown. [OEM flash table](https://www.ecostan.com/products/flash-dryer) |
 | **Lehra rotary drum family** | Offered in **1/2/3/5 TPH** size classes. Manufacturer describes feed up to approximately **50% moisture**. | Matched asking price and duty at local wood size, exact inlet/outlet moisture and **kg/h water** unknown. [OEM rotary family](https://lehrafuel.com/rotary-drum-dryer.php) |
 | **Radhe Engineering Co RD2000** | Seller shows **1,000–2,000 kg/h drying-capacity field**, with undefined water-vs-material basis. | **₹32.51L** per listed piece. Confirm evaporation, outlet and included furnace/cyclone scope. [RD2000 seller](https://www.radhebriquetting.in/new-items.html) |
 | **Radhe Engineering Co flash Biomass Dryer Machine** | Listing shows **400 kg/h water evaporation**. | **₹18.51L** per listed piece. Below 40% or 50% planning duty as sole dryer. [Flash dryer seller](https://www.radhebriquetting.in/biomass-dryer.html) |
 | **Ronak 2-ton flash-air dryer reference** | OEM lists **2.2–2.4 TPH material input**, **1.8–2.0 TPH output** depending on moisture and **40 HP** stated. | Price and separate guaranteed water evaporation unknown. One listed unit is below the project's full wet and dry flow. [Ronak OEM table](https://ronakeng.com/agriculture-flash-air-dryer/) |
 | **Jay Khodiyar Sawdust Dryer 4000 / smaller sawdust dryer** | 4000: **up to 4 TPH ±10%**, **91 HP** and **up to 35% inlet**. Smaller: **up to 2 TPH ±10%**, **62 HP**, **up to 40% inlet**. Both describe outlet up to **15%** and feed particles up to **5 mm diameter**. | Matched asking prices and evaporation unknown. The 4000's inlet limit excludes both as-received planning cases. The smaller is below full stream; a 15% outlet by itself does not demonstrate press-ready moisture. [4000 OEM](https://jaykhodiyar.com/product/biomass-dryer-machine/) · [Smaller OEM](https://jaykhodiyar.com/product/sawdust-dryer-machine/) |
 
+
+#### EcoStan complete dryer range — manufacturer catalogue, checked 25 Nov 2026
+
+| Model/configuration | Published production (TPH; basis unspecified) | Rated HP | Max input moisture | Feed size (mm) | Listed temperature (°C) | Price evidence |
+|---|---:|---:|---:|---|---:|---|
+| EcoStan single-pass Flash Dryer 3 | up to 0.25 | 5 | 25% | <15 | 150 | Exact written price unknown |
+| EcoStan single-pass Flash Dryer 15 | up to 1.5 | 14 | 25% | <15 | 150 | Exact written price unknown |
+| EcoStan single-pass Flash Dryer 25 | up to 2.5 | 22 | 25% | <15 | 150 | Exact written price unknown |
+| EcoStan single-pass Flash Dryer 40 | up to 4 | 41 | 25% | <15 | 150 | Exact written price unknown |
+| EcoStan double-pass Flash Dryer 3 | 0.15–0.25 | 9 | 40% | <15 | 150 | Exact written price unknown |
+| EcoStan double-pass Flash Dryer 15 | 1–1.5 | 26 | 40% | <15 | 150 | Exact written price unknown |
+| EcoStan double-pass Flash Dryer 25 | 1.5–2.5 | 41 | 40% | <15 | 150 | ₹22.85L written quote for 35%-limited FDD25; not a price for guaranteed 40% duty |
+| EcoStan double-pass Flash Dryer 40 | 3–4 | 77 | 40% | <15 | 150 | Exact written price unknown |
+| EcoStan RDD 20 | 1–2 | 42 | 50% | <25 | 600 | Exact written price unknown |
+| EcoStan RDD 30 | 2–3 | 69 | 50% | <25 | 600 | Exact written price unknown |
+| EcoStan RDD 50 | 3–5 | 74 | 50% | <25 | 600 | Exact written price unknown |
+
+Sources: [flash dryer model tables](https://www.ecostan.com/products/flash-dryer), [rotary dryer model tables](https://www.ecostan.com/products/rotary-dryer). All list dried biomass fuel; flash design uses pneumatic transport, screw feed, ID fans, cyclone separation and airlock discharge. Rotary design uses direct-contact drying. **Catalogue temperature is not the discharged biomass temperature**; measurement location and safe operating limits must be specified by OEM. Rated material TPH is neither a certified wet-input nor dry-output figure; water evaporation, final moisture, fuel per kg evaporated, actual kWh/t and package inclusions unknown for every model. RDD50's 5 TPH maximum would fall short of the 5.57 wet TPH requirement *if* rated on wet input at 50%; its moisture rating alone cannot prove whole-line duty. Do not equate 74 HP rotary vs 77 HP double-pass to lower total energy consumption.
 
 **Mass-flow design @340 productive hours, idealised and excluding handling rejects:**
 - At **40% wet basis**: log receiving **4.64 wet MT/h** → water removed **1.563 MT/h** → roughly **3.08 MT/h material after primary drying** (depending how 5% solids loss is allocated) → 2.941 MT/h saleable output. Dryer and hammer mill must BOTH be sized for material flow, and press for finished flow.
@@ -149,6 +167,42 @@ Capacities, connected load and fuel are **MANUFACTURER CLAIMS**. Prices are **PU
 | **Initial wear and emergency spares** | 2 × OEM press ram/die kits, spare chipper blades, screens, seals, blower fan bearings, airlock drives | Keep 1 critical spare set with replenishment SLA | Depends OEM catalog | **5–14** | Vendor itemised 2-year consumption; keep minimum 1 set punches, dies, knives, and motor contacts in stock |
 
 **Do not add alternative machines together.** A log-to-sawdust ESM machine may perform both chipping and primary grinding; Lehra wet-rated 10TPH chipper-grinder may replace that, not duplicate it. Dry HM is only needed where actual dryer particle and press tolerances demand it.
+
+### C0. EcoStan feed preparation and cleaning model range — 25 Nov OEM recheck
+
+| Model | Published output TPH | Rated HP | Published material limits | Price evidence |
+|---|---:|---:|---|---|
+| ESM 50 | 0.6–1 | 53 | logs ≤6 in; 2–10 mm output | Exact written price unknown |
+| ESM 75 | 1.5–2 | 79.5 | logs ≤8 in; 2–10 mm output | ₹25.55L ESM-75-coded seller ask with conflicting 1–5 TPH, not verified |
+| ESM 100 | 2–3 | 106 | logs ≤10 in; OEM 2–10 mm, quoted 4–8 mm | ₹25.55L written quote |
+| ESM 150 | 3–5 | 159 | logs ≤12 in; 2–10 mm output | Exact written price unknown |
+| HM 20 | 0.15–0.25 | 28 | ≤25 mm feed; ≤15% moisture; 3–15 mm output | Unknown |
+| HM 60 | 1–2* | 91 | same HM limits | Unknown |
+| HM 100 | 2–3 | 133 | same HM limits | ₹18.05L public listing; not written quote |
+| HM 150 | 3–4 | 190 | same HM limits | Unknown |
+| HM 220 | 4–5 | 272.5 | same HM limits | Unknown |
+| HM 270 | 5–8 | 342.5 | same HM limits | Unknown |
+| HM 425 | 8–10 | 517.5 | same HM limits | Unknown |
+| DSS 50 | 1–2 | 50 | wood-specific size/moisture limits unknown | Unknown |
+| DSS 80 | 2–3 | 80 | same DSS uncertainty | Unknown |
+| DSS 120 | 3–5 | 120 | same DSS uncertainty | Unknown |
+| DSS 200 | 7–10 | 200 | same DSS uncertainty | Unknown |
+| PSS 15 | 1–1.5 | 14 | <15 mm feed; ≤15% moisture | Unknown |
+| PSS 25 | 2–2.5 | 27 | same PSS limits | Unknown |
+| PSS 40 | 3–4 | 41 | same PSS limits | Unknown |
+
+*HM60 detailed table reverses the endpoints (2.0–1.0); normalized as 1–2 pending confirmation. Sources: [ESM](https://www.ecostan.com/products/sawdust-machine), [HM](https://www.ecostan.com/products/hammer-mill), [DSS](https://www.ecostan.com/products/dual-shaft-shredder), [PSS](https://www.ecostan.com/products/pneumatic-stone-separator). ESM converts wet/dry hardwood and softwood logs to sawdust in one pass, with automatic controls; maximum moisture, species-specific throughput, rotor speed, knife wear, oversize fraction and included log feed are not confirmed. HM uses replaceable screens and dual-side operation; do not run wet wood above stated limit. DSS uses paired blade shafts, cleaning fingers, auto-reverse/forward and optional in/out conveyors; do not infer wood-log suitability from mixed-waste throughput. PSS removes dense contaminants; separation efficiency, biomass loss and proper stage need testing; no substitute for engineered upstream tramp-metal protection. PSS15/25 are below ~3.08 TPH full dry stream; PSS40 has potential but is not proven.
+
+#### Supporting equipment and optional pellet branch
+
+The [22 Jan 2025 OEM technical article](https://www.ecostan.com/blog/the-essential-role-of-shredder-sawdust-machine-hammer-mill-chipper-dryer-and-supportive-machinery-in-biomass-processing) identifies box feeders (metered supply), rotary screens and vibrating tables (grading), dust collectors, screw/belt/chain/bucket conveyors and pellet coolers. These are capability descriptions, not model-level offers or proof of inclusion. Pellet cooler is for pellets, not automatically a briquette cooling system. [FAQ](https://www.ecostan.com/faqs) gives conventional wood chipper output 30–50 mm, larger than both EcoStan dryer feed limits; require a finer stage or an explicitly compatible dryer. No independently confirmed ancillary model price beyond quoted ERS1225 and cleated belt; obtain model, dimensions, throughput, power, wear and included scope.
+
+| Separate pellet-only candidate | Published pellet TPH | HP | Price |
+|---|---:|---:|---|
+| PM 180 ring die | 1–2 | 191.5 | Unknown |
+| PM 335 ring die | 2.5–4 | 335 | Unknown |
+
+[Ring die OEM catalogue](https://www.ecostan.com/products/ring-die-pellet-mill): powder feed, 10–15% moisture, 6/8/10 mm pellets, 25–50 mm adjustable length. Comparison only, not part of current briquette BOM. Do not combine pellet mill with press costs unless separately approved. Bale unroller and cow-dung log machine are outside wood-only process scope.
 
 ### C1. Written ancillary prices (23 Nov 2026)
 **ERS1225 ₹3.75L** (2–3 TPH, 2 HP); **cleated conveyor ₹3.35L** (1000 mm × 10 mm belt, 25 ft, 3 HP, throughput unknown). Both one unit Ex-Works ex-GST. No confirmed extra conveying, dryer auxiliaries, cooling or safety package; [quote register](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) is the primary commercial source.
