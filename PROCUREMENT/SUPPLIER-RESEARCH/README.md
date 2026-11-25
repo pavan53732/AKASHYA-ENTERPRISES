@@ -6,10 +6,14 @@ Owner-directed workflow: research **one manufacturer at a time** before proceedi
 |---|---|---|---|---|
 | 1 | EcoStan | [01-ECOSTAN.md](01-ECOSTAN.md) | Scoped public catalogue audit complete; written data pending | [Draft](../SUPPLIER-ENQUIRIES/01-ECOSTAN.md) |
 | 2 | Lehra Fuel Tech | [02-LEHRA-FUEL-TECH.md](02-LEHRA-FUEL-TECH.md) | Full public catalogue & all subsidiary model pages verified; written data pending | [Draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md) |
-| 3 | Jay Khodiyar | [03-JAY-KHODIYAR.md](03-JAY-KHODIYAR.md) | Full public website (`sitemap_index.xml`) & 20-page official brochure PDF verified; written pricing & trials pending | [Draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md) |
-| 4 | RICO | [04-RICO.md](04-RICO.md) | Full public website (`wp-sitemap.xml` / WooCommerce `/shop/`) & 4-page brochure PDF verified (`19` master records); zero whole-log chippers, scope/GST/trials pending | [Draft](../SUPPLIER-ENQUIRIES/08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) |
-| 5 | Ronak Engineering | [05-RONAK-ENGINEERING.md](05-RONAK-ENGINEERING.md) | Full public website, both PDF brochures (`16p`/`4p`) & TrustSEAL storefront verified (`20` master records); written pricing, moisture limits & trials pending | [Draft](../SUPPLIER-ENQUIRIES/06-RONAK-ENGINEERING.md) |
+| 3 | Jay Khodiyar | [03-JAY-KHODIYAR.md](03-JAY-KHODIYAR.md) | Full public website (`sitemap_index.xml`) & 20-page official brochure PDF reviewed; 30 master records including historical wet-prep pages; pricing & trials pending | [Draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md) |
+| 4 | RICO | [04-RICO.md](04-RICO.md) | Full public website (`wp-sitemap.xml` / WooCommerce `/shop/`) & 4-page brochure PDF verified (`24` master records after secondary-site cross-check); DWC-30/60 listed, scope/GST/trials pending | [Draft](../SUPPLIER-ENQUIRIES/08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) |
+| 5 | Ronak Engineering | [05-RONAK-ENGINEERING.md](05-RONAK-ENGINEERING.md) | Full public website, both PDF brochures (`16p`/`4p`) & TrustSEAL storefront verified (`21` master records); written pricing, moisture limits & trials pending | [Draft](../SUPPLIER-ENQUIRIES/06-RONAK-ENGINEERING.md) |
 | 6 | Infinite Energy (dryer specialist) | [06-INFINITE-ENERGY.md](06-INFINITE-ENERGY.md) | Full `infinitedryer.com` (15 pages) & `infinitedryer.in` (22 pages, 0 PDFs) audit verified (`26` master records; **6 of 6 complete**); written pricing, mass/fuel balance & paid trials pending | [Draft](../SUPPLIER-ENQUIRIES/07-INFINITE-ENERGY-DRYER.md) |
+
+## Machinery-by-machinery comparison
+
+The six public dossier reviews are complete within the recorded scope. The [primary wood preparation comparison](../../MACHINERY/06-PRIMARY-WOOD-PREPARATION-COMPARISON.md) starts the cross-supplier stage review.
 
 ## Required review sequence
 

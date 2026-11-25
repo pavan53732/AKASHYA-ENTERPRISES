@@ -1,6 +1,6 @@
 # Jay Khodiyar Machine Tools — manufacturer-specific technical investigation
 
-**INTERNAL ONLY — 25 November 2026.** Sequential public-source review: full official website (`jaykhodiyar.com`, `sitemap_index.xml` / 198 discovered URLs, all product/technical/support pages, redirect checks) AND official 20-page downloadable company brochure PDF examined. No written quotation addressed to AKASHYA ENTERPRISES; zero factory/brochure prices published; actual local wood test data, motor breakdowns, and loaded strokes/min remain open. [Shared master](../MACHINERY-MASTER.csv) tracks **27 Jay Khodiyar catalogue/legacy entries** (`JK-65/75/90`, `SH-50/WC-75/WC-100`, `JKWC75/100/150`, `JKCM75/100/150`, `50 HP Chipper Grinder`, `VC-30/50/75/100`, `HM-50/75/100 (100 HP)/100 (150 HP)`, `JK-BD-2000/3000/5000`, plus `JK-VP100/175/225` pellet-only comparison). Do not send this file externally. [External draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md).
+**INTERNAL ONLY — 25 November 2026.** Sequential public-source review: full official website (`jaykhodiyar.com`, `sitemap_index.xml` / 198 discovered URLs, all product/technical/support pages, redirect checks) AND official 20-page downloadable company brochure PDF examined. No written quotation addressed to AKASHYA ENTERPRISES; zero factory/brochure prices published; actual local wood test data, motor breakdowns, and loaded strokes/min remain open. [Shared master](../MACHINERY-MASTER.csv) tracks **30 Jay Khodiyar catalogue/legacy entries** (`JK-65/75/90`, `SH-50/WC-75/WC-100`, `JKWC75/100/150`, `JKCM75/100/150`, `50 HP Chipper Grinder`, `VC-30/50/75/100`, `HM-50/75/100 (100 HP)/100 (150 HP)`, `JK-BD-2000/3000/5000`, plus `JK-VP100/175/225` pellet-only comparison). Do not send this file externally. [External draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md).
 
 ## 1. Supplier identity, contacts and website integrity check
 
@@ -47,6 +47,8 @@ Sources: [Briquetting Machine](https://jaykhodiyar.com/briquetting-machine/), [B
 | **Brochure PDF (p. 12)** | **Chipper grinder (50 HP)** | 50 | ≤2 TPH | ≤50 mm Ø × ≤500 mm L | Input moisture **`Up to 30%`**; output `≤20 mm` (wood chips & agro waste) |
 
 **Critical finding:** The `5 TPH` class (`JKWC150` `170 HP` / `JKCM150` `176 HP`) no longer appears on `/wood-chipper/` (where `/product/wood-chipper-5tph/` redirects to `WC-100` capping at `3–4 TPH`). Even at `5 TPH`, nominal output falls below `5.57 wet TPH` (50% moisture) and offers narrow margin over `4.64 wet TPH` (40% moisture). Further, `≤15–20 mm` chips cannot feed fine turbo/flash dryers (`≤3×10 mm` or `<8 mm`) without secondary size reduction.
+
+The cross-supplier stage review also records the historical [85 HP Wood Powder Machine](https://jaykhodiyar.com/product/wood-powder-machine/), [110 HP Sawdust Machine](https://jaykhodiyar.com/product/sawdust-machine/) and [63 HP Chipper Grinder 2000](https://jaykhodiyar.com/product/biomass-chipper-grinder/). Treat these as separate evidence records with possible SKU overlap; the [primary wood preparation comparison](../../MACHINERY/06-PRIMARY-WOOD-PREPARATION-COMPARISON.md) preserves the competing limits and brochure differences.
 
 ### 3.2 Veneer chippers / crushers (4 models — new catalogue evidence)
 
@@ -122,4 +124,4 @@ For 1,000 MT/month over 340 productive hours (`≥4.64 / 5.57 wet TPH`, `1,563 /
 
 ## 9. Review gate
 
-Complete public website (`sitemap_index.xml` / 198 URLs, all live product/redirect/support pages) and 20-page official brochure PDF audit finished for Jay Khodiyar Machine Tools (**27 master records**). Zero verified factory prices, zero loaded BPM/stroke measurements, and zero evaporation/fuel curves are published. Use [updated Jay Khodiyar draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md) for outreach (do not send this dossier). **Next manufacturer in sequential public research: Radhe Industrial Corporation (RICO).** No outreach sent.
+Complete public website (`sitemap_index.xml` / 198 URLs, all live product/redirect/support pages) and 20-page official brochure PDF audit finished for Jay Khodiyar Machine Tools (**30 master records**, including 3 historical wet-prep pages). Zero verified factory prices, zero loaded BPM/stroke measurements, and zero evaporation/fuel curves are published. Use [updated Jay Khodiyar draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md) for outreach (do not send this dossier). **All 6 sequential public reviews are now tracked under [Sequential Review Tracker](README.md).** No outreach sent.
