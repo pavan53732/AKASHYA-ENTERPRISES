@@ -1,0 +1,58 @@
+{
+  "description": "Source prototype, not selected machinery or actual fuel curve. Fuel factor and price jointly calibrate existing Rs600/t at 40% moisture, not independent evidence. Fixed escalation simplified, existing 15-year owner forecast retained.",
+  "base": {
+    "days": 25,
+    "hours": 16,
+    "availability": 0.85,
+    "moisture": 0.4,
+    "finishedMoisture": 0.1,
+    "loss": 0.05,
+    "target": 1000,
+    "wetTPH": 6,
+    "dryTPH": 3.3,
+    "evapTPH": 2,
+    "pressTPH": 3.2,
+    "transferSaleableTPH": 3.2,
+    "moistureLimit": 0.4,
+    "woodPrice": 2000,
+    "salePrice": 8000,
+    "kwhPerT": 150,
+    "tariff": 6.6316,
+    "fuelKgPerWaterT": 300,
+    "fuelPricePerKg": 3.7623762376237626,
+    "variableOtherPerT": 555,
+    "fixedMonthly": 1542500,
+    "capex": 52000000,
+    "workingCapital": 9943000
+  },
+  "escalation": {
+    "sale": 0.03,
+    "wood": 0.06,
+    "power": 0.05,
+    "fuel": 0.05,
+    "other": 0.05,
+    "fixed": 0.05,
+    "utilisation": [
+      0.6,
+      0.75,
+      0.85,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "replacement": {
+      "6": 3000000,
+      "10": 5000000,
+      "13": 3000000
+    }
+  }
+}

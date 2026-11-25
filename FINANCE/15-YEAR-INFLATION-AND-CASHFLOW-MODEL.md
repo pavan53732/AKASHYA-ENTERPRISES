@@ -20,6 +20,8 @@
 | Factory effective running time | 25 days × 16 scheduled hours/day × 85% = 340 hours/month |
 | Two 90 mm presses | 2.941 MT/hour total; 1.471 MT/hour per press while both run |
 
+**25 Nov source prototype:** [scenario engine](../scripts/plant_scenario_model.mjs) introduces capacity/moisture-constrained bounds and separately escalated energy/fuel inputs. [Scope and calibration](MACHINERY-CAPEX-REBASE-AND-40-50-MOISTURE-OPTIONS.md#capacity-constrained-scenario-prototype--25-nov-2026). Existing tables retain owner baseline, not unverified new supplier costs.
+
 ## Transparent nominal escalation assumptions
 | Input | Base | Better realisation | Stress | Evidence status |
 |---|---:|---:|---:|---|

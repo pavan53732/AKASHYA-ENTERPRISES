@@ -11,7 +11,7 @@
 | **Lehra Fuel Tech LBP90** | **Up to 2,000** | **69/86 HP** page description, **88.5 HP** technical table | Separate Fuel Tech 90 mm sample: 87.5 HP, 8–12% feed. Published RPM and loaded strokes unknown. | **₹21.75L** directory listing with model unconfirmed. **₹23.75L** 90 mm press and handling samples, under separate Fuel Tech and Fuel Industries names. |
 | **Radhe Engineering Co Jumbo-90** | **1,500** seller | **100 HP** seller | Feed specification, machine RPM and loaded strokes/min unknown for this advert. | **₹22.51L** for this seller’s machine. |
 | **Radhe Industrial Corporation (RICO) Jumbo 90** | **1,500 ±20%** | **~91 HP** OEM description | **240 machine RPM**, **200 mm stroke length**; actual loaded strokes/min unknown. | Exact RICO price unknown. Radhe Equipments India separately shows a **₹21L Jumbo 90 plant**. |
-| **Ronak Jumbo90** | **1,000–1,500** official | **91HP official**; **93.5HP** on ₹17.90L listing | Official **230 RPM** machine and **200mm stock**; 25mm feed size, not a verified physical punch rate | **₹17.90L**, **₹21.00L** and **₹21.75L** distinct active seller asks |
+| **Ronak Jumbo90** | **1,200–1,500** current OEM; legacy 1,000–1,500 | **93.5 HP** current OEM; legacy 91 HP | Official **230 RPM** machine and **200mm stock**; 25mm feed size, not a verified physical punch rate | **₹17.90L**, **₹21.00L** and **₹21.75L** distinct active seller asks |
 | **Jay Khodiyar JK90** | **1,000–2,000** | **91 HP** | 8–12% feed; verified loaded strokes/min unknown. | **₹5L hydraulic-labelled 90 mm** and **₹8L mixed-size** ads. Exact mechanical JK90 scope/price unknown. |
 | **EcoStan 100 HD** | **1,400–2,500** | **115HP** | **100mm**, NOT 90mm | Price **not verified for exact SKU** |
 
@@ -40,6 +40,17 @@ All eight models specify **8–12% raw-material moisture**. BPM70/90 pellet mode
 | **Jay Khodiyar** | **JK65 500–700kg/h/59HP; JK75 700–1,000kg/h/69HP** | No exact SKU public fixed price verified; [official JK line](https://jaykhodiyar.com/briquetting-machine/) |
 | **Radhe** | **RICO Super 70: 750 kg/h ±20%, 49 HP in description, 240 machine RPM** | Exact RICO price unknown. Radhe Equipments India separately lists a **₹19.50L Super 70 plant**. [RICO](https://radheindcorp.com/product/super-70/) · [Seller](https://www.radhegrouprajkot.com/) |
 | **Ronak** | Ronak Engineering names **Super 70** in its older public catalogue material; current model specs need written confirmation. | Matched public price unknown. A separate Ronak Agrotech seller lists Supreme-70 without price. [source-linked machinery evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) |
+
+### Peer manufacturer catalogue recheck — 25 Nov 2026
+
+| Supplier / model family | Published capacity and HP | Evidence and remaining gaps |
+|---|---|---|
+| Lehra Fuel Tech and separate lehra.com catalogue | 40/50/60/70/80/90/100 mm: 0.25/0.60/0.90/1.20/1.50/2.00/2.50 TPH; 18/35/47/59/71.5/87.5/114 HP | General family table on both sites; individual LBP90 descriptions differ (69/86, 88.5 HP). Identify seller and exact motor schedule. [Fuel Tech](https://www.lehrafuel.com/biomass-briquetting-machine.php) · [lehra.com](https://lehra.com/biomass-briquetting-machine/) |
+| Ronak | Jumbo90 1.2–1.5 TPH /93.5 HP; Super70 0.6–0.8 TPH /59 HP | OEM claims 40–45 /25–30 kWh per operating hour, 10–15% feed moisture, ≤25 mm feed. Not independently measured wood performance. Legacy 91 HP/230 RPM remains separate. [Current OEM](https://ronakeng.com/biomass-briquette-machine/) |
+| Jay Khodiyar | JK65 0.5–0.7 TPH/59 HP; JK75 0.7–1 TPH/69 HP; JK90 1–2 TPH/91 HP | 8–12% feed; OEM 24×7 claim does not establish actual rest/maintenance duty. [OEM](https://jaykhodiyar.com/briquetting-machine/) |
+| Radhe Engineering Co | Jumbo90 1.5 TPH /100 HP supplier description | ₹22.51L public ask, not installed price. RICO and Radhe Equipments are separate records. [Catalogue](https://www.radhebriquetting.in/biomass-briquetting-plant.html) |
+
+Ronak and Radhe Engineering Co 1.5 TPH catalogue maxima fall below the tender's 1.6 TPH sustained per-press requirement. Two at 1.5 × 340 hours give 1,020 MT gross theoretical, with very little headroom. No vendor qualifies on catalogue alone.
 
 ### RPM ≠ piston strokes per minute; no false “hardwood tested” throughput
 Published machine speeds are **216 RPM** for older EcoStan 90 documentation, **230 RPM** for Ronak Jumbo 90 and **240 RPM** for RICO Jumbo 90 and Super 70. The current EcoStan BPM 90 HD is rated **89.5 HP**, with loaded strokes/min unknown. No exact supplied press has a witnessed local-hardwood stroke count or sustained-run result. The RFQ asks for both measurements.

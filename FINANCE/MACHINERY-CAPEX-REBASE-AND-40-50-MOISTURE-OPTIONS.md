@@ -28,6 +28,23 @@ Three high-risk intersections control whether budget is feasible:
 
 **Do not calculate high-moisture project cash by adding IFD5000's ₹68L price to an already-included ₹75L furnace/dryer budget.** Instead replace matched dry/furnace subsystem on a quote-by-quote basis, then add tested wet-milling, safety, HT and working capital deltas. Price 16/20/24hr cases with maker-specific service stops and annual maintenance, rather than guessed universal hourly cooling gaps. Sources: [current live-price evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md), [maintenance allowances](../MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md).
 
+## Capacity-constrained scenario prototype — 25 Nov 2026
+
+[Executable source](../scripts/plant_scenario_model.mjs) · [illustrative input values](SCENARIO-INPUTS-ILLUSTRATIVE.json). Required wet intake, dried product, evaporation and saleable press duty are separate. A missing capacity produces only a conditional upper bound and suppresses financial results; moisture outside a stated rating blocks output. The model accepts different shift durations, availability, measured energy/fuel inputs and 15 separate annual utilisation factors; separately escalates sale, wood, electricity, fuel, other variable and fixed costs. It is not an equipment selector or bank forecast.
+
+| Calibration check @340 productive h | 40% wood | 50% wood |
+|---|---:|---:|
+| Raw wood MT per saleable MT | 1.579 | 1.895 |
+| Wet TPH required | 4.644 | 5.573 |
+| Dry TPH required | 3.080 | 3.080 |
+| Evaporation TPH required | 1.563 | 2.492 |
+
+**Mass-balance assumption made explicit:** inherited water figures assume dry-only rejected solids after the dryer, with 100 kg water retained in each tonne of finished briquettes. Dryer outlet before rejection is 1.04737 MT per saleable MT (~9.55% moisture). If rejection instead leaves at 10% moisture, dried throughput becomes 1.05263 MT and evaporation at 40% is 0.52632 rather than 0.53158 MT per saleable tonne. Both are theoretical; obtain stage-wise measured reject moisture. Do not mix assumptions across capacity checks.
+
+Baseline monthly EBITDA calibration ~₹11.50L, not new evidence. Fuel rate and price are jointly calibrated to the original ₹600/finished MT at 40% and are not vendor estimates. Existing 15-year table is preserved, since this prototype simplifies fixed-cost escalation. At 35% quote, assuming 2.5 TPH wet dryer input yields a conditional maximum ~583 MT/month (unknown evaporation/dry/transfer capacities), not guaranteed production; 40/50% exceed the 35% offered limit.
+
+**Binary gate:** existing root workbook and PDF are unchanged. Their validators hard-code eight sheets and ten pages. Extend and execute actual formula/cache/layout checks before publishing expanded files. Do not represent this source model as a regenerated or independently validated workbook/PDF. No supplier selection or budget rebasing.
+
 ## Finance rules
 1. **Keep ₹520L as a planning placeholder** and place a visible **“quotation uncertainty / high-moisture capex TBD”** risk annotation beside it in lender planning. Do not treat the outdated broad ~₹4.0–5.5Cr internet inference as an upper bound. [Expanded 19-package owner cost estimate](../PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) now gives a **wide internal ₹425–796L fixed-price envelope** for the 40% planning configuration (₹250–444L machinery + ₹175–352L civil/power/erection, all **[EST]**, not bids), **not** an approved revision to the ₹520L owner model.
 2. Add line-by-line supplier bid equalisation, compare total cash outflow including unrecoverable GST, advances and retention timing; reconcile with civil engineer and APEPDCL actual connection quotation.
