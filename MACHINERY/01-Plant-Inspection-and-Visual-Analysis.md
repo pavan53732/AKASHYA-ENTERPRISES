@@ -54,6 +54,32 @@ The duties are for Akashya’s proposed **1,000 saleable MT/month at 340 product
 
 [Itemised BOM](../PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) · [Service and repairs by machine](03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md#operating-controls--equipment-specific-estimated-checkrestservice-windows) · [Component price evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md#c-whole-line-ancillary-machinery--exact-technical-scope-indicative-prices-and-bottlenecks).
 
+### Machine-by-machine use and interface engineering
+
+The [expanded machine master](../PROCUREMENT/MACHINERY-MASTER.csv) records model-specific published values separately from generic engineering use, component wear and validation gaps. **98 records, 32 columns**; 13 additional catalogue entries. Catalogue figures are not guaranteed. For the process stages below, use actual wet/dry material density and measured distribution, not nominal capacity alone.
+
+| Machine | Working purpose and location | Input → output / selection test | Critical wear or failure points |
+|---|---|---|---|
+| Weighbridge, log yard loader | Inbound weight, stock and controlled feeding | Weigh wet lot; sample moisture/species; loader payload and reach must suit truck and hopper | Load cells, hydraulics, pins, tyres; inspection and calibration |
+| Receiving deck, feeder and magnet | Meter raw logs, reject foreign objects | Log size and bulk flow to cutting chamber; upstream ferrous removal plus stone control | Belt/chain, rolls, drive, hopper bridging; guard and isolate |
+| Log eater / sawdust maker | Direct knife cutting of logs | Wet logs → sawdust; e.g. ESM100 quote 4–8 mm vs catalogue 2–10 mm; measure gradation and knife duty | Knife, anvil, feed rollers, rotor bearings |
+| Drum chipper / shredder | Alternate primary or coarse reduction | Chips or shreds may need further reduction; select by measured dryer cut, not name | Knives/cutters, anvil, shaft, gearbox; tramp metal damage |
+| Rotary or vibrating screen | Separate fines/oversize | Screen cut selected to dryer/press limits; wet-rated before dryer, dry-rated after; recycle oversize | Mesh blinding, bearings, imbalance |
+| Wet buffer/box feeder | Smooth upstream flow and dryer dosing | Usable buffer volume = mass / measured bulk density; avoid wet stock degradation and bridging | Agitator, screw, level sensor; no assumed safe storage time |
+| Flash dryer | Fast pneumatic hot-gas drying of fine feed | Fine particles → lower moisture; simultaneous wet feed, evaporation and dry output must balance | Fan, duct erosion, cyclone, airlock, heat controls |
+| Rotary dryer / hybrid RFD | Pre-dry coarser/wetter compatible material; RFD adds flash finishing | Match moisture band and size; downstream press feed may need further sizing | Drive, supports, seals, lifters, fan, refractory |
+| Furnace/fuel feed | Provide thermal energy, not mechanical HP | Fuel moisture and CV, fuel mass and heat efficiency; separate product and fuel flows | Refractory, ash, feeding; combustion/fire protection |
+| Cyclone/airlock/ID fan | Gas-solid separation and pressure-controlled discharge | Cyclone collection and airlock capacity; fan airflow and static pressure, not only TPH | Impeller, seals, bearings, erosion; cyclone alone not final dust protection |
+| Hammer mill | Screen-controlled reduction of pre-sized material | Normally dry-side rework; only wet duty where OEM approves; no automatic duplicate with log eater | Hammers/screens, rotor, bearings; sparks and dust |
+| Pneumatic stone separator | Density classification | Dry material where moisture-limited; verify reject fraction and biomass recovery | Fan, duct, airlock; not substitute for metal detection |
+| Dry hopper / screw distributor | Meter each press consistently | Dried, graded feed; avoid segregation, bridging and starvation | Screw flight, gearbox, sensors; dust containment |
+| Mechanical piston press | Densify biomass by cyclic compression | Correct moisture/size → diameter and density; measure actual loaded strokes, rejects and saleable kg/h | Die/collar, ram, crank/rod, flywheel drive, bearings, lube |
+| Cooling track / cutter / handling | Cool and convey briquettes before storage | Match thermal residence and output; test cooled core temperature and durability | Guide, cutter, rollers, chain; guard hot material |
+| Dust collector / fire systems | Control airborne combustible dust and ignition | Engineered airflow, differential pressure, isolation, detection and protection | Filters, seals, fans, detectors; competent dust/fire engineering |
+| MCC/PLC/transformer | Power distribution, metering and safe sequencing | Full motor schedule, peak kVA, start current, protective interlocks; avoid duplicated panel costs | Contactors, drives, sensors, cables; approved electrical design |
+
+Engineering descriptions are general, not OEM-specific confirmation of parts, included supply or service life. Unknown values must stay blank until the exact model/serial revision manual or trial substantiates them. Use [maintenance SOP](03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md) for operating controls and the [BOM](../PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) for package scope; the table does not add CAPEX.
+
 ## Evidence hierarchy
 - **Observed:** wood logs, chipper, conveyors, visible dust, ducts/cyclones, heavy press drive and finished cylindrical briquettes.
 - **Plausible but unproven:** 90mm product, two operating briquetting lines, pneumatic multi-pass flash drying, EcoStan ESM family.

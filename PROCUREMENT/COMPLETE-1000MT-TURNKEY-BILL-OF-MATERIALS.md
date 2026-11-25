@@ -26,6 +26,8 @@ Price source and model detail for presses, wood prep, dryers, weighbridges, load
 
 **Partial supplier evidence (25 Nov):** [EcoStan quote](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) ₹82.65L ex GST / ₹97.527L gross, 244 HP (~182 kW shaft) across five units. Not an installed package, not technically sized for 40/50% feed or 340-hour 1,000 MT target. Preserve all owner and engineering bands; price actual missing scope and revised capacities separately.
 
+**Engineering interfaces:** see [machine-by-machine applications, input/output and wear](../MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md#machine-by-machine-use-and-interface-engineering) and [expanded model master](MACHINERY-MASTER.csv). Ronak and RICO additional preparation/dryer options require matched trial and prices; no additional units or CAPEX inserted. Quote furnace, transfer, screening, cyclone and safety accessories only once per package.
+
 ### Equipment loading and mechanical reality
 - **At 25 days ×16 scheduled hours ×85% availability = 340 productive hours**, plant must sell **40 MT/day**. An OEM **rated 1.5 TPH each** press pair produces **1,020 MT/mo theoretical** at 340h (mere **2% reserve**) and can miss after feed rejects. Full design asks each press **1.6 TPH sustained** with measured wood.
 - **Incoming 50% wood is not the same as 50% press-feed moisture**; the 90mm press feed is generally **8–12%**. Fine particle, temperature and bulk-density acceptance differs per OEM. The [public OEM comparison](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) has each exact variant and its limits.

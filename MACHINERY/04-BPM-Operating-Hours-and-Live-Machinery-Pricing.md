@@ -53,6 +53,20 @@ All eight models specify **8–12% raw-material moisture**. BPM70/90 pellet mode
 
 Ronak's 1.5 TPH catalogue maximum falls below the internal 1.6 TPH sustained per-press requirement. RICO's material-dependent nominal 1.5 TPH ±20% does not establish sustained duty. Two at 1.5 × 340 hours give 1,020 MT gross theoretical, with very little headroom. No vendor qualifies on catalogue alone.
 
+### Additional press specifications from current OEM pages (25 Nov)
+
+| Parameter | RICO Jumbo 90 | RICO Super 70 | Ronak Jumbo 90 | Ronak Super 70 |
+|---|---|---|---|---|
+| Feed | ≤25 mm, max 12% | 10 mm prose vs 25 mm table; max 12% | ≤25 mm, 10–15% | ≤25 mm, 10–15% |
+| Briquette length | 150–400 mm prose; approx 1 ft table | Same stated range | 50–300 mm | 50–300 mm |
+| Motor schedule HP | 75 main +10 feed +3 screw +3 lube =91 | 40 main +5 feed +3 screw +2 lube =50 (49 prose) | 93.5 HP total | 59 HP total |
+| Current claim | 80–100 A | 40–65 A | 86–102 A | 42–45 A |
+| Energy claim | 35–40 kWh/MT | 35–40 kWh/MT | 40–45 kWh/running h | 25–30 kWh/running h |
+| Machine RPM / stroke | 240 / 200 mm | 240 / 200 mm | Current loaded BPM unknown | Current loaded BPM unknown |
+| Dimensions | Foundation 16×5 ft; room 25×15 ft | Foundation 16×5 ft; room 12×4 ft (verify clearance) | OEM generic land 4,000–4,500 ft²; room 25×70 or 35×70 ft, allocation unclear | Same generic figures |
+
+Sources: [RICO Jumbo](https://radheindcorp.com/product/jumbo-90/), [RICO Super](https://radheindcorp.com/product/super-70/), [Ronak](https://ronakeng.com/biomass-briquette-machine/). Ronak publishes six labourers plus one skilled operator per 8h shift for its generic setup; no confirmed entire-line staffing. Dividing Ronak's reported electricity and catalogue rate independently gives an **illustrative, unpaired** Jumbo90 envelope 26.7–37.5 kWh/t (40/1.5 to 45/1.2), Super70 31.25–50 kWh/t (25/0.8 to 30/0.6). RICO's claim is already per MT; none is metered whole-plant data. No claims of actual BPM, full installed load, uptime or guaranteed service intervals.
+
 ### RPM ≠ piston strokes per minute; no false “hardwood tested” throughput
 Published machine speeds are **216 RPM** for older EcoStan 90 documentation, **230 RPM** for Ronak Jumbo 90 and **240 RPM** for RICO Jumbo 90 and Super 70. The current EcoStan BPM 90 HD is rated **89.5 HP**, with loaded strokes/min unknown. No exact supplied press has a witnessed local-hardwood stroke count or sustained-run result. The RFQ asks for both measurements.
 

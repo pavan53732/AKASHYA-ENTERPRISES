@@ -72,6 +72,9 @@ The **23 November 2026** check covers EcoStan, Lehra, Radhe, Ronak, Jay Khodiyar
 ## Additional numerical consistency gate & binary reconciliation — 22 November 2026
 **Follow-up defects resolved and verified (FQ-01 through FQ-04):** In commit `50a8440`, the PDF page-7 scale/payback table was regenerated cleanly at the current ₹8,000 owner economics (4.49-year simple payback on ₹619.43L cash outlay / ₹137.98L annual EBITDA); the workbook's 15-Year Cash Flow sheet had Stress Scenario C fully embedded in rows 43–57; and all 521 formula cells across all 8 sheets were evaluated and populated with XML `<v>` caches via `scripts/inject_formula_caches.py`. Automated validation `python scripts/validate_dpr_consistency.py .` reports `status: PASS` with zero formula errors (`#REF!`, `#DIV/0!`, NaN) and zero layout collisions.
 
+## 25 Nov machinery engineering database
+[Expanded 98-record, 32-column machinery master](PROCUREMENT/MACHINERY-MASTER.csv) covers approved suppliers only, with source-linked additional motor, size, duty, fuel, dimensions and scope fields; [process-stage uses and interfaces](MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md#machine-by-machine-use-and-interface-engineering). New entries are catalogue candidates, not selected machinery. Unknown measured figures remain open; existing cost model unchanged.
+
 ## 25 Nov staged model upgrade
 [Machine-readable candidate master](PROCUREMENT/MACHINERY-MASTER.csv), [scenario source](scripts/plant_scenario_model.mjs) and [calibration inputs](FINANCE/SCENARIO-INPUTS-ILLUSTRATIVE.json) support preliminary moisture and stage-constrained analysis. Existing verified XLSX/PDF remain unchanged; expanded binary and visual audits pending. See [finance reconciliation](FINANCE/MACHINERY-CAPEX-REBASE-AND-40-50-MOISTURE-OPTIONS.md). Unknown values are not zero; no supplier selected.
 
