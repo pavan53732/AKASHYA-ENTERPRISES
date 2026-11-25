@@ -53,6 +53,6 @@ Baseline monthly EBITDA calibration ~₹11.50L, not new evidence. Fuel rate and 
 5. **No irreversible purchase decision** before year-round moisture and legal timber source tests, 3 comparable complete quotes, site permissions and signed buyer fuel trial acceptance.
 
 ## Procurement timing
-26–27 Nov send RFQs; 8 Dec first bids target; 15–20 Dec technical comparison; 31 Dec bank-draft BOM target; 15 Jan lender application; 15 Mar 2027 *conditional* first-eligible-disbursement milestone. Dates are *owner targets*, not supplier commitments.
+26–27 Nov owner sends neutral preliminary enquiries to [five primary OEMs plus Infinite dryer](../PROCUREMENT/SUPPLIER-ENQUIRIES/README.md); project-specific RFQ internal until approved; 8 Dec first bids target; 15–20 Dec technical comparison; 31 Dec bank-draft BOM target; 15 Jan lender application; 15 Mar 2027 *conditional* first-eligible-disbursement milestone. Dates are *owner targets*, not supplier commitments.
 
 Supporting: [supplier contacts](../PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md) · [equalisation](../PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md) · [15-year business scenarios](15-YEAR-INFLATION-AND-CASHFLOW-MODEL.md) · [moisture mass balance](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md).

@@ -4,6 +4,8 @@
 ## Terminology
 **BPM** here is part of some maker's *briquette press machine* model family; it does **not** establish the ram's blows-per-minute (stroke count). Previous documentation's **220–240 strokes/min, 180–220°C, pressure 1,200–1,500 kg/cm², longer die life on 20-hour shifts** were not supported by a verified nameplate/test and **must not be represented as factory facts**. Request stroke rate, ram travel, die temperatures and guaranteed output by exact model number.
 
+**Active outreach:** [five primary OEMs and Infinite dryer specialist](../PROCUREMENT/SUPPLIER-ENQUIRIES/README.md). RICO is the active Radhe entity; Engineering Co and Equipments India evidence is reserve only. Prior catalogue figures and asking prices remain historical comparisons.
+
 ## Nameplate / public catalogue reference — exact verified models, not continuous hardwood guarantees
 | Model | Manufacturer-published output kg/hour | Power | Feed, genuine RPM detail | **Public source-specific price** |
 |---|---:|---|---|---|

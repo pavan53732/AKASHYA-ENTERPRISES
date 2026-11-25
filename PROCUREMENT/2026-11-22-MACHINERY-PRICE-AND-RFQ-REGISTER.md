@@ -84,13 +84,17 @@ Use the [ordered 19-package BOM](COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) f
 - Earlier ~380–420kW connected load is **unreconciled**: example 2×89.5HP presses +159HP log eater +190HP HM150 +67HP IFD3000 = **~444kW motor rating before auxiliaries**. 150,000kWh/mo over 340h implies **441kW productive-hour equivalent average** (some consumption can occur outside productive h). Require 630/800/1000kVA engineering load alternatives and real energy tests.
 
 ## Bid comparison template (fill after each supplier proposal)
+Active candidates: [five primary OEMs and Infinite dryer specialist](SUPPLIER-ENQUIRIES/README.md). Reserve records retained as evidence only. No ranking is a passed technical bid.
 | Supplier | Quote number/date/validity | Exact model + duty guarantee | Presses | Dryer water evaporation kg/h | Wet wood TPH | Connected kW | Delivered ex-GST capex | GST | Erection | Warranty/service SLA | Status |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---|---|
 | EcoStan | ES/26-27/08526 · 23 Nov · expires 18 Dec 2026 | DFC90 + ESM100 + ERS1225 + conveyor + FDD25; no duty guarantee | 1 | Unknown | 2–3 nameplate ESM; wet duty unknown | ~182 shaft kW (244 HP) | Delivered TBD; ex works ₹82.65L | ₹14.877L | Initial visit included; total TBD | 12 months from sale mechanical; SLA TBD | **Partial quotation received; 40/50% duty not compliant as offered** |
 | Infinite Energy / dryer integrator | Pending | IFD/RFD with furnace, cyclone & safety | — | Pending | — | Pending | Pending | Pending | Pending | Pending | **No quote** |
-| Independent second full-line integrator | Pending | Equivalent guaranteed full line | 2 | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
+| Lehra Fuel Tech | Pending | Standard package / exact model TBD | Pending | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
+| Jay Khodiyar | Pending | Standard package / exact model TBD | Pending | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
+| Radhe Industrial Corporation (RICO) | Pending | Standard package / exact model TBD | Pending | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
+| Ronak Engineering | Pending | Standard package / exact model TBD | Pending | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
 
-## Supplier RFP acceptance criteria
+## Internal supplier RFP acceptance criteria (owner-authorised release only)
 1. Fixed battery limits and exclusions: conveyors/hoppers, magnetic separator, hammer mill, spark detector, dust collection, guards, PLC, fans, coolers, cranes, pipe/duct design, utility connections, civil interface, freight and insurance.
 2. **72-hour witnessed performance test** at site (or comparable agreed prolonged duty), log moisture and wood species documented, output ≥40 tonnes/day during contracted schedule subject to approved maintenance downtime and acceptance protocol.
 3. Separate rated and measured kWh/finished MT, thermal fuel kg/MT, die/wear part lives, hourly water evaporation, dry output moisture, briquette density/ash/GCV, reject rate.
@@ -112,6 +116,6 @@ Primary manufacturer https://www.infinitedryer.com/ifd.html ; alternate high-moi
 ## Cross-model press/price status: authoritative register only (23 November 2026)
 The old duplicated multi-manufacturer table with smooth ₹ ranges for *every* 40/60/70/90/100mm model was removed because no exact source pages substantiated those as live executable prices. See the **current source-specific price list** at the beginning of this register and [per-manufacturer OEM specifications plus source URLs](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) for distinct 90mm entries. Smaller-model asks include EcoStan BM60 and BM70 and Radhe Equipments India Super 70. The evidence ledger identifies the seller and scope of each.
 
-**Quote status (25 Nov):** EcoStan **PARTIAL WRITTEN QUOTE RECEIVED; full turnkey offer pending**, Lehra Fuel Tech **NO QUOTE**, Lehra Fuel Industries **PUBLIC SAMPLE ONLY**, Fuelforge **PUBLIC LISTING ONLY**, Jay Khodiyar **NO QUOTE**, Radhe **NO QUOTE**, Ronak **NO QUOTE**, Infinite Dryer **NO QUOTE**. No outbound common RFQ evidence recorded; EcoStan quotation supplied by owner. [Contact/quotation tracker](SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md).
+**Quote status (25 Nov):** EcoStan **PARTIAL WRITTEN QUOTE RECEIVED; full turnkey offer pending**, Lehra Fuel Tech **NO QUOTE**, Lehra Fuel Industries **PUBLIC SAMPLE ONLY**, Fuelforge **PUBLIC LISTING ONLY**, Jay Khodiyar **NO QUOTE**, RICO **NO QUOTE**, Radhe Engineering Co / Radhe Equipments India **RESERVE; NO QUOTE**, Ronak **NO QUOTE**, Infinite Dryer **NO QUOTE**. No outbound common RFQ evidence recorded; EcoStan quotation supplied by owner. [Contact/quotation tracker](SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md).
 
 **OEM acceptance still central:** 2 ×1.5 finishedTPH ×340h =1,020MT, only 2% theoretical margin. At least **≥1.60 finishedTPH each** under agreed local hardwood test is a *buyer RFQ target*, not a published success. Published machine speeds are 216 RPM (older EcoStan 90), 230 RPM (Ronak Jumbo 90) and 240 RPM (RICO Jumbo 90 and Super 70). Loaded ram strokes/min remain unknown. 40/50% incoming wetwood requires tested wetwood screening and certified dryer water-output plus dry-material mass-flow capability. Public listing prices do not resolve these uncertainties.

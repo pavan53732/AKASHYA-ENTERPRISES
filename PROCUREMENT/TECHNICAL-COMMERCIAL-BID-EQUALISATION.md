@@ -1,8 +1,10 @@
 # Technical and commercial bid equalisation — to complete after signed RFQs arrive
 **Status as at 23 Nov 2026; source-specific press price verification updated: PARTIAL ECOSTAN WRITTEN OFFER RECEIVED 25 NOV / NO FULL INSTALLED BID / NOTHING SELECTED.** Do not insert invented figures in blank cells, mark compliance on a product listing, or accept lower-spec machine based on price alone.
 
+**Active shortlist:** [five primary OEMs plus Infinite dryer specialist](SUPPLIER-ENQUIRIES/README.md). Reserve supplier historical asks are comparison evidence, not active bids. RICO is distinct from Radhe Engineering Co. Internal gates below are not preliminary enquiry text.
+
 ## Gate 1 — technical pass/fail
-| Required criterion | EcoStan | Lehra | Jay Khodiyar | Radhe | Ronak | Dryer specialist |
+| Required criterion | EcoStan | Lehra Fuel Tech | Jay Khodiyar | RICO | Ronak | Infinite Energy (dryer only) |
 |---|---|---|---|---|---|---|
 | Exact OEM model and signed datasheet | DFC90/ESM100/ERS1225/FDD25 identified; signed datasheets pending | PENDING | PENDING | PENDING | PENDING | PENDING |
 | >=2 presses × >=1.60 TPH sustained wood output | NOT MET as offered: one DFC90, indicative only | PENDING | PENDING | PENDING | PENDING | N/A |
@@ -31,13 +33,14 @@
 |---|---:|---|---:|---|
 | EcoStan **BPM90HD** | **1,300–2,000** | **89.5 HP** official | **16.75** BM90HD-coded soya-husk listing; **25.95** BM90/100-family listing | Quote the exact hardwood configuration. Older 216 machine RPM is a separate reference. |
 | Lehra Fuel Tech **LBP90** | **Up to 2,000** | **69/86 HP** prose, **88.5 HP** table | **21.75** directory with exact model unresolved; **23.75** older Fuel Tech 90 mm set sample | Specify offered model, motor list and handling scope. Lehra Fuel Industries and Fuelforge records remain distinct. |
-| Radhe Engineering Co **Jumbo-90** | **~1,500** | **100 HP** seller claim | **22.51** | The **240 machine RPM** claim belongs to the separately documented RICO Jumbo 90. Confirm the priced machine’s strokes and sustained duty. |
+| RICO **Jumbo 90** | **1,500 ±20%** | **~91 HP** OEM description | **Unknown** | 240 machine RPM, 200 mm stroke; actual sustained wood output and exact offer unknown. [OEM](https://radheindcorp.com/product/jumbo-90/) |
+| Radhe Engineering Co (reserve) **Jumbo-90** | **~1,500** | **100 HP** seller claim | **22.51** | The **240 machine RPM** claim belongs to the separately documented RICO Jumbo 90. Confirm the priced machine’s strokes and sustained duty. |
 | Ronak **Jumbo90** | **1,200–1,500** current OEM; legacy 1,000–1,500 | **93.5 HP** current OEM; legacy 91 HP | **17.90 /21.00 /21.75** (three different seller listings) | No guaranteed ≥1.6TPH; official 230 machine RPM is not verified ram count |
 | Jay Khodiyar **JK90** | **1,000–2,000** | **91 HP** official | **5.00** hydraulic-labelled 90 mm / **8.00** mixed-size listings; **BRQ-9075 price unknown** | Exact mechanical JK90 price, included equipment and output on wood remain unknown. |
 
 All prices in [model-specific URLs and evidence tiers](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) were rechecked **23 November 2026**. **DO NOT** enter these amounts in Bid A/B/C below or mark a candidate technically compliant solely on any listing. Lehra Fuel Industries public 90mm offer carries ex-factory GST and transport exclusions and is not offered to AKASHYA. Actual EcoStan partial quotation is recorded below; remaining comparable complete bid fields stay pending.
 
-[Candidate register](MACHINERY-MASTER.csv) is for screening, not a passed bid. Ronak and Radhe Engineering Co catalogue 1.5 TPH maxima are below 1.6 TPH sustained target. No bidder selected.
+[Candidate register](MACHINERY-MASTER.csv) is for screening, not a passed bid. Ronak and reserve Radhe Engineering Co catalogue maxima of 1.5 TPH are below the sustained target; RICO's 1.5 TPH ±20% material-dependent claim does not establish sustained performance. No bidder selected.
 
 ## Gate 2 — ex-works to installed cost, ₹ lakh
 | Equalisation item | Bid A | Bid B | Bid C |
