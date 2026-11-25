@@ -2,20 +2,22 @@
 
 **Created:** 25 Nov 2026. **All files are drafts; no email, WhatsApp, call or form submission has been sent by this edit.** The owner will contact suppliers and obtain written quotations. Existing EcoStan partial quotation remains recorded separately. These are self-contained English drafts with an optional first-contact WhatsApp text and detailed email; copy only the relevant draft content. No internal production target, preferred shift or machine quantity, project budget, margins, financing plan or repository link belongs in outgoing enquiries.
 
-| Supplier / seller | Draft | Contact status |
-|---|---|---|
-| EcoStan India Pvt Ltd | [Open enquiry](01-ECOSTAN.md) | Existing partial quote; follow-up draft |
-| Lehra Fuel Tech Pvt Ltd | [Open enquiry](02-LEHRA-FUEL-TECH.md) | Recorded business email; verify before sending |
-| Lehra Fuel Industries | [Open enquiry](03-LEHRA-FUEL-INDUSTRIES.md) | Direct contact needs verification |
-| Jay Khodiyar Machine Tools | [Open enquiry](04-JAY-KHODIYAR.md) | Recorded business email; verify before sending |
-| Radhe Engineering Co | [Open enquiry](05-RADHE-ENGINEERING-CO.md) | Direct contact needs verification |
-| Ronak Engineering | [Open enquiry](06-RONAK-ENGINEERING.md) | Recorded business email; verify before sending |
-| Infinite Energy Pvt Ltd / Infinite Dryer | [Open enquiry](07-INFINITE-ENERGY-DRYER.md) | Recorded business email; verify before sending |
-| Radhe Industrial Corporation (RICO) | [Open enquiry](08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) | Direct contact needs verification |
-| Radhe Equipments India | [Open enquiry](09-RADHE-EQUIPMENTS-INDIA.md) | Direct contact needs verification |
-| Fuelforge India Pvt Ltd | [Open enquiry](10-FUELFORGE-INDIA.md) | Direct contact needs verification |
+## Active suppliers — owner-approved priority
 
-Lehra Fuel Tech, Lehra Fuel Industries and Fuelforge are separate seller records pending legal-entity confirmation; Radhe Engineering Co, RICO and Radhe Equipments India likewise must not be conflated. Infinite Energy receives a dryer-specific request. No assumption that every firm makes every component. The detailed mails request the same comparative fields and supplier-specific catalogue discrepancies rather than re-requesting all published basic specifications. No competing supplier's prices are disclosed.
+| Priority | Supplier | Draft | Contact status |
+|---|---|---|---|
+| 1 | EcoStan India Pvt Ltd | [Open enquiry](01-ECOSTAN.md) | Partial quotation received; follow-up |
+| 2 | Lehra Fuel Tech Pvt Ltd | [Open enquiry](02-LEHRA-FUEL-TECH.md) | Verify recorded email |
+| 3 | Jay Khodiyar Machine Tools | [Open enquiry](04-JAY-KHODIYAR.md) | Verify recorded email |
+| 4 | Radhe Industrial Corporation (RICO) | [Open enquiry](08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) | Verify direct contact |
+| 5 | Ronak Engineering | [Open enquiry](06-RONAK-ENGINEERING.md) | Verify recorded email |
+| Specialist | Infinite Energy / Infinite Dryer | [Open enquiry](07-INFINITE-ENERGY-DRYER.md) | Verify recorded email |
+
+Five primary OEMs and one dryer specialist only. Preliminary catalogue-fit ranking, not verified reliability or a purchase award. All offers must pass equal technical and ownership-cost gates. EcoStan and Lehra have broad preparation/press/dryer ranges; Jay has relevant wood preparation and claimed regional installations; RICO has mechanical presses and drying options; Ronak is a price/technical comparator with lower published maximum press output. Infinite supplies independent dryer comparison. Verify actual local wood duty and service.
+
+## Reserve suppliers — not for initial outreach
+
+[Reserve folder](RESERVE/README.md): Lehra Fuel Industries, Radhe Engineering Co, Radhe Equipments India, Fuelforge. Preserve historical evidence; do not conflate legal entities. Stable draft file IDs are not priority ranks. Activate reserves only with explicit owner approval.
 
 ## Mandatory agent instructions
 

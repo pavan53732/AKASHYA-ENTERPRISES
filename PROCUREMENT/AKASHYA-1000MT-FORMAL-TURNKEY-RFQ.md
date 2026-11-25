@@ -1,4 +1,5 @@
-# Ready-to-send REQUEST FOR QUOTATION (RFQ): AKASHYA ENTERPRISES
+# INTERNAL ONLY — project-specific REQUEST FOR QUOTATION (RFQ): AKASHYA ENTERPRISES
+**Do not send without explicit owner authorisation.** Use [active preliminary supplier enquiries](SUPPLIER-ENQUIRIES/README.md) for initial quotation collection. This file contains confidential internal project requirements.
 **Issue draft:** 22 November 2026 · **Technical BOM/maintenance expansion 23 November 2026** · **Status: NOT SENT** · **Project:** 1,000 MT/month 90-mm binderless wood biomass briquette plant · **Destination:** Anakapalli District, Andhra Pradesh, India · **Subject:** Formal signed techno-commercial quotation for complete mechanical piston briquetting line with dual moisture-duty options.
 
 > To: Sales / Technical Proposals team. Please return a dated, signed offer with your letterhead, GSTIN, responsible contact, quotation reference and validity. This specification is a common-bid comparison basis, not an accepted purchase order.

@@ -1,10 +1,9 @@
-# Radhe Engineering Co — preliminary technical and commercial enquiry
+# Radhe Equipments India — preliminary technical and commercial enquiry
 
-**Status:** DRAFT — NOT SENT. Verify the recipient on the supplier's own site before use.
+**Status:** RESERVE DRAFT — NOT SENT. Do not contact in the initial round unless the owner explicitly activates this supplier. Verify the recipient on the supplier's own site before use.
 
-**To:** Confirm official direct sales email before sending; directory telephone only in current records.
-**Supplier reference:** https://www.radhebriquetting.in/profile.html
-**Public contact recorded:** +91 79425 53285 (directory contact; verify)
+**To:** Confirm direct sales email from official catalogue before sending.
+**Supplier reference:** https://www.radhegrouprajkot.com/
 
 ## Short WhatsApp / first-contact message (optional)
 
@@ -12,9 +11,9 @@ Hello, We are evaluating machinery for wood briquette production in Andhra Prade
 
 ## Full email / detailed message (copy from subject to sign-off)
 
-**Subject:** Fresh technical and commercial quotation — Radhe Engineering mechanical wood briquetting equipment
+**Subject:** Itemised quotation and technical specifications — Radhe Equipments India briquette plants
 
-Dear Radhe Engineering Co Sales and Technical Team,
+Dear Radhe Equipments India Sales and Technical Team,
 
 We have reviewed the available product information and would appreciate your current model-specific technical details and prices.
 
@@ -24,16 +23,15 @@ We are independently evaluating commercial wood briquette machinery and standard
 
 Please quote the following available machinery and confirm any discontinued, revised or additional models. For each, identify exact model/revision, catalogue and actual sustained output, input/output limits, motor schedule, accessories, and current individual price. If you do not manufacture a listed item, identify the actual OEM or mark it unavailable.
 
-- Jumbo-90 / RE-90 and all other available mechanical press models (confirm exact current model designations).
-- Wood chipper, sawdust machine, wood cutter-cum-hammer mill, secondary grinder, shredder, flash/rotary dryer and complete furnace/handling packages, where supplied.
-- Separate optional pellet equipment from wood briquette equipment.
+- Jumbo 90 plant, Super 70 plant and all other current mechanical press or plant offerings.
+- Wood intake, log processing, milling, drying/furnace, screening and conveyors, cooling and safety systems, as offered by your company.
+- Bare machinery, press-with-accessories sets and complete interconnected plant packages to be quoted separately.
 
 ## Model-specific clarifications
 
-1. Your seller listings describe a Jumbo-90 around 1,500 kg/h and 100 HP. Confirm whether these figures apply to the current mechanical press, the actual motor schedule, wood-specific continuous production and physical loaded piston strokes/min. Do not rely on specifications from similarly named Radhe companies.
-2. Public references describe a 2 TPH/40 HP sawdust machine and a separate 1.5 TPH/15 HP cutter/hammer mill. Clarify whether these accept whole fresh logs or pre-sized wood, actual wet/dry rates, size, moisture and hardness limits, blade and hammer life, and other higher-capacity models.
-3. Published dryer listings describe RD2000 material capacity around 1,000–2,000 kg/h without a clear evaporation basis and a separate flash dryer with 400 kg/h evaporation. Identify the offered dryer models, current prices and complete thermal performance including feed/outlet moisture, simultaneous water and dry output, energy and furnace inclusion.
-4. Please provide the current machinery and spares catalogue on your own legal entity letterhead, with GSTIN, manufacturer/model, serial-family warranty and parts support. Confirm whether equipment is manufactured in-house or sourced separately.
+1. Your catalogue lists Jumbo 90 and Super 70 plant offerings. Kindly confirm exact model, actual manufacturer, equipment included in each listing, installed power, output diameter, sustained wood production and current unit/set price.
+2. Please clarify if these are manufactured by Radhe Equipments India or distributed from a third party, and identify exact serial/model family, motor list, crank/flywheel speed and actual piston strokes/min. Published specifications for similarly named Radhe companies should not be assumed applicable.
+3. Provide a stage-by-stage BOM, all missing accessory prices and scope of commissioning, local service, warranty provider and parts supply. Quote on your own legal entity letterhead with GSTIN.
 
 ## Wood briquetting performance (per press)
 

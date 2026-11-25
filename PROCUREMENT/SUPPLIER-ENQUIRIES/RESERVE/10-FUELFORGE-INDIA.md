@@ -1,6 +1,6 @@
 # Fuelforge India Pvt Ltd — preliminary technical and commercial enquiry
 
-**Status:** DRAFT — NOT SENT. Verify the recipient on the supplier's own site before use.
+**Status:** RESERVE DRAFT — NOT SENT. Do not contact in the initial round unless the owner explicitly activates this supplier. Verify the recipient on the supplier's own site before use.
 
 **To:** Confirm current direct sales contact on the product listing before sending.
 **Supplier reference:** https://www.lehrafuelindustries.com/briquetting-machine.html

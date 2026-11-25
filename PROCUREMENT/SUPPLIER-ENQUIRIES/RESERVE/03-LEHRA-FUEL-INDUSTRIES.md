@@ -1,6 +1,6 @@
 # Lehra Fuel Industries — preliminary technical and commercial enquiry
 
-**Status:** DRAFT — NOT SENT. Verify the recipient on the supplier's own site before use.
+**Status:** RESERVE DRAFT — NOT SENT. Do not contact in the initial round unless the owner explicitly activates this supplier. Verify the recipient on the supplier's own site before use.
 
 **To:** Confirm current sales contact through the supplier's own commercial channel before sending.
 **Supplier reference:** https://5.imimg.com/data5/SELLER/Doc/2026/4/599355057/JI/VP/UE/253839848/white-coal-making-machine.pdf
