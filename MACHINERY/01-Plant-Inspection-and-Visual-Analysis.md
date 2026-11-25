@@ -46,7 +46,7 @@ The duties are for Akashya’s proposed **1,000 saleable MT/month at 340 product
 | Process equipment | Required input → output | Where to find the equipment detail |
 |---|---|---|
 | **Loader, weighbridge and log receiving** | Log, branch and sawmill-waste lots → weighed and sampled feed. **63.2 / 75.8 wet MT/day** at **40% / 50% moisture**. Size the proposed **50–60 MT** bridge for actual trucks. | BOM packages **09, 10, 03** |
-| **Log feeder, chipper and inclined transfer** | Metered logs → sized wet particles, **≥6 wet TPH** design target. Match output to the dryer inlet. Infinite **IFD <8 mm**, **RFD <16 mm**. | BOM packages **03, 01** |
+| **Log feeder, chipper and inclined transfer** | Metered logs → sized wet particles, **≥6 wet TPH** design target. Match output to the dryer inlet. Infinite **IFD <8 mm**. Use **RFD <12 mm** as the provisional screening limit while the OEM reconciles the published **<12 / <15 / <16 mm** limits and confirms particle geometry. | BOM packages **03, 01** |
 | **Dryer, furnace, fan, cyclone and airlock** | **4.64 / 5.57 wet TPH** → **~3.08 TPH dried material** and **1,563 / 2,492 kg/h water evaporation**. Match outlet moisture to downstream equipment. | BOM package **04**, [dryer and moisture design](05-WOOD-MOISTURE-AND-DRYER-SIZING.md) |
 | **Dry screen, optional hammer mill and feed distribution** | **~3.08 fresh TPH** → graded, metered press feed. Size mill for actual oversize plus recycle, or the whole stream if required. | BOM packages **02, 03** |
 | **Two presses, flywheel and cooling** | Typically **8–12% press-feed moisture** within OEM limits → saleable 90 mm product. RFQ target **1.60 TPH each**. Match each cooling outlet to the offered press. | BOM packages **05, 06**, [press models and rated outputs](04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md) |
@@ -56,7 +56,7 @@ The duties are for Akashya’s proposed **1,000 saleable MT/month at 340 product
 
 ### Machine-by-machine use and interface engineering
 
-The [expanded machine master](../PROCUREMENT/MACHINERY-MASTER.csv) records model-specific published values separately from generic engineering use, component wear and validation gaps. **98 records, 32 columns**; 13 additional catalogue entries. Catalogue figures are not guaranteed. For the process stages below, use actual wet/dry material density and measured distribution, not nominal capacity alone.
+The [expanded machine master](../PROCUREMENT/MACHINERY-MASTER.csv) records model-specific published values separately from generic engineering use, component wear and validation gaps. **198 records, 34 columns**, including separate numeric dry-output bounds where a range is published. Catalogue figures are not guaranteed. For the process stages below, use actual wet/dry material density and measured distribution, not nominal capacity alone.
 
 | Machine | Working purpose and location | Input → output / selection test | Critical wear or failure points |
 |---|---|---|---|
