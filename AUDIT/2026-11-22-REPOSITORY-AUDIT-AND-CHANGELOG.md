@@ -1,4 +1,6 @@
 # Deep repository audit — changes implemented 22 November 2026
+
+> **25 November 2026 scope update:** This is a historical audit log, not the current supplier shortlist or price register. Superseded supplier observations below remain only as the original dated audit record. The owner has removed all non-shortlisted machinery suppliers from the current working procurement files. Use the [approved supplier enquiries](../PROCUREMENT/SUPPLIER-ENQUIRIES/README.md) and [current machinery master](../PROCUREMENT/MACHINERY-MASTER.csv) for present decisions; do not reintroduce excluded sellers from this history.
 ## Reviewed inventory
 Baseline repository included README, project roadmap, four machinery documents, two market-research files, 9 photos, root owner PDF and root 7-sheet XLSX. New documents were added for 15-year inflation, first-disbursement plan, price evidence, approvals/site horizon, cost reconciliation and daily KPIs. Photos retained unchanged.
 
