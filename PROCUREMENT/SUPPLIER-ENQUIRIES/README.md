@@ -17,6 +17,10 @@
 
 Lehra Fuel Tech, Lehra Fuel Industries and Fuelforge are separate seller records pending legal-entity confirmation; Radhe Engineering Co, RICO and Radhe Equipments India likewise must not be conflated. Infinite Energy receives a dryer-specific request. No assumption that every firm makes every component. The detailed mails request the same comparative fields and supplier-specific catalogue discrepancies rather than re-requesting all published basic specifications. No competing supplier's prices are disclosed.
 
+## Mandatory agent instructions
+
+All supplier-facing drafts and follow-ups must comply with the root [AGENTS.md supplier-communication policy](../../AGENTS.md#mandatory-supplier-communication-policy--preliminary-quotation-collection), including its include/exclude rules and owner-approval gate. Review the exact outgoing content and attachments before release. This index is internal navigation, not an attachment to suppliers.
+
 ## Handling quotations and replies
 
 - Verify the business contact, GSTIN/legal seller and current offer; use the short message for routing and full email for itemised response. Ask for PDF letterhead and Excel/CSV technical tables if available. Keep each quote's reference/date/validity and exact model revision, price and inclusion/exclusion scope.
