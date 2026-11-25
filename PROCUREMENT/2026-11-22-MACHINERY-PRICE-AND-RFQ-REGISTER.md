@@ -52,6 +52,10 @@ Catalogue review covers **39 model/configuration entries** (5 BPM, 3 DFC, 4 ESM,
 
 **Supplier-enquiry boundary:** use a neutral information request covering the existing quote, standard model alternatives and comparative operating/moisture conditions. Do not send the internal capacity target, planned quantities, preferred schedule, budget, margins, financing timetable or internal repository links. Full-duty procurement RFQ remains internal until owner authorises release. Nothing sent by this update.
 
+## Lehra Fuel Tech sequential technical review — 25 Nov 2026
+
+[Manufacturer dossier](SUPPLIER-RESEARCH/02-LEHRA-FUEL-TECH.md) and [existing enquiry](SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md) now distinguish 53 model/family records, including press conflicts, Log Eater vs CG alternatives, HD/LD dryers/grinders and ancillary equipment. No written Lehra quotation received; inherited public prices are not current offers. Fifteen unresolved information groups remain open. No price or financial baseline change.
+
 ## Public asking prices by process stage — rechecked 23 November 2026
 Prices shown are public asking prices or dated public commercial samples in ₹ lakh for one listed unit or set. GST, delivered freight, installation, discount at two units and current validity are unknown unless the source states them. The 40% and 50% wet-wood operating cases require separately specified bid scope. See the [source-linked machinery evidence](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 

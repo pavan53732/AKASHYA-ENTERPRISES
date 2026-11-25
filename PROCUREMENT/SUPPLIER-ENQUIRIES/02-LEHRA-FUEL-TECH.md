@@ -24,16 +24,18 @@ We are independently evaluating commercial wood briquette machinery and standard
 
 Please quote the following available machinery and confirm any discontinued, revised or additional models. For each, identify exact model/revision, catalogue and actual sustained output, input/output limits, motor schedule, accessories, and current individual price. If you do not manufacture a listed item, identify the actual OEM or mark it unavailable.
 
-- LBP series, including LBP 40/60/70/90/100 and any current 50/80 mm models; identify exact current designations and diameters.
+- LBP 40/60/70/90/100, 50/80 mm family entries (confirm current availability), Combo 70/90 (separate briquette/pellet tooling and pricing).
 - Log Eater 1/2/3/5/10 TPH families; chipper-cum-grinder 5/10 TPH and alternatives, hammer mills, wet/dry screening and rework.
-- Rotary dryer nominal 1/1.5/2/3/5 TPH classes, flash dryers if available, furnace and supporting equipment.
-- Dust collectors, separators, twin-shaft shredders, feeders, vibrating screens, conveyors and cooling tracks; price individual units and packages.
+- Rotary 1/1.5/2/3/5 TPH classes; flash HD-1/2/2.5 and LD-1/2, furnace and supporting equipment.
+- Hammer mill HD 1.2/2/3/5/7.5 and LD 1/2/3, shredders 1/2/5, stone separators 1.5/2.5, vibrating screens 1.2/2.5/5 TPH; 28/56 bag dust collectors, 20/30 ft auto feeders, screw/belt/drag-chain conveyors and cooling tracks; price individual units and packages.
 
 ## Model-specific clarifications
 
 1. Your LBP90 product page describes power as 69/86 HP in prose and 88.5 HP in its table; an older commercial sample lists 87.5 HP. Please distinguish main motor, auxiliary motors, total connected power and exact offered revision. Confirm actual output on hardwood versus the catalogue maximum of 2 TPH, including bulk density assumptions.
-2. Confirm whether the general 40–100 mm family table applies to current LBP models, where output and motor ratings differ; provide separate wood-specific performance and unit prices.
+2. LBP40 individual page states 300 kg/h versus 250 kg/h in the family table; LBP60 states 46 HP versus 47 HP; LBP100 mentions 89/114 HP. Confirm exact revisions and current 50/80 mm availability. Combo 90 lists 12–18 mm pellets versus 6–12 mm on the family page; confirm exact pellet sizes, hourly units and changeover scope. Give wood-specific rates, and distinguish powder requirement for LBP40/60/70 from ground or granulated feed on other presses.
 3. For Log Eater models, clarify wet input versus sawdust output; smaller references mention 80–100 HP main motor and the 10 TPH reference 250–300 HP. Provide total connected load, inlet log sizes, cut size distribution, feed conveyor scope, blade wear and measured kWh/t. Compare direct log-to-sawdust versus chipper-grinder route.
+3a. Log Eater 3 TPH page includes both 3TPH and 5TPH labels; 5 TPH lists 150–200 HP, 10 TPH 250–300 HP. Confirm main versus combined HP. CG-10 family table lists 160 HP versus 180–200 HP on its individual page; CG-5 lists 107.5 HP versus 100–110 HP. Please clarify model revision, actual fresh wood duty and measured sieve distribution. Hammer mill HD3 link is unavailable, and the family table lists 2.5 TPH/82 HP rather than an identified 3 TPH model; please share exact HD/LD model sheets.
+3b. Flash family table gives different ratings than individual HD/LD model pages. Confirm each variant, density limits, total motor load and the meaning of the approximately 25% to 10% moisture description. HD2 page also repeats HD1 model label. For stone separators the family capacity field appears to contain a moisture figure; confirm actual wet/dry throughput. Distinguish feeder storage tonnage from tonnes/hour and provide model-specific fan curves and filter details.
 4. Rotary dryer published material capacity and approximately 50% moisture limit do not establish evaporation. Supply simultaneous wet input, dry output, outlet moisture and fuel data including exact 50% where permissible; quote furnace and auxiliaries separately.
 5. Please provide a fresh dated unit offer for press plus screw feeder/cooling track, and separate bare-machine and optional package prices. Confirm legal seller, manufacturer, invoicing and warranty entity on your own letterhead.
 

@@ -3,6 +3,8 @@
 
 > **EVIDENCE RULE:** These are publicly advertised prices, supplier-published specifications and technical research observations. **PUBLIC LISTINGS ARE NOT BINDING QUOTES.** A separate written EcoStan partial quotation is now recorded below. Prices may change; dated here means *research observation date* rather than supplier offer validity. Do not issue a PO, revise bank-sanctioned CAPEX, or call suppliers "selected" solely on this list. Every amount must eventually be replaced by a quotation on vendor letterhead with exact model/qty, delivery basis, GST, installation, exclusions, warranty and validity.
 
+**Sequential OEM dossiers:** [EcoStan](SUPPLIER-RESEARCH/01-ECOSTAN.md) · [Lehra Fuel Tech](SUPPLIER-RESEARCH/02-LEHRA-FUEL-TECH.md). Lehra review adds named model/family variants, with model-page vs family-table conflicts and missing duty explicitly marked. No new signed offer or price.
+
 **Current outreach shortlist:** [EcoStan, Lehra Fuel Tech, Jay Khodiyar, RICO, Ronak plus Infinite dryer specialist](SUPPLIER-ENQUIRIES/README.md). Only these six machinery suppliers are in the current comparison. Use model and legal-seller-specific evidence.
 
 ## A. Every press manufacturer — public PRICE LISTINGS vs OEM-rated BPM/model capacities (fresh check 23 Nov 2026)
@@ -146,7 +148,7 @@ Sources: [flash dryer model tables](https://www.ecostan.com/products/flash-dryer
 - Infinite IFD/RFD existing table retains water and dry output separately, strict <50% IFD and <60% RFD limits. No new installed prices verified.
 - Lehra Fuel Tech lists ancillary dust collectors, shredders, separators, feeders, screens and conveyors; obtain matched RICO dryer and wood-preparation offers. Detailed duty and price data remain incomplete.
 
-[Machine-readable master](MACHINERY-MASTER.csv) contains 98 catalogue or quotation records across the six approved suppliers (39 EcoStan catalogue entries plus five quoted variants; other suppliers selected models only). Empty numbers are unknown, not zero. Infinite moisture bands and quoted variants must not be conflated. The existing price ledger remains authoritative for multiple seller offers and ancillary scope. No supplier contacted.
+[Machine-readable master](MACHINERY-MASTER.csv) contains 134 catalogue or quotation records across the six approved suppliers (39 EcoStan catalogue entries plus five quoted variants; other suppliers selected models only). Empty numbers are unknown, not zero. Infinite moisture bands and quoted variants must not be conflated. The existing price ledger remains authoritative for multiple seller offers and ancillary scope. No supplier contacted.
 
 ### B2b. Deeper OEM specification recheck — 25 Nov 2026
 
