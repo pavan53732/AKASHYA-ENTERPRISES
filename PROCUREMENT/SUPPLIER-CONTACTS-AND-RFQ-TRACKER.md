@@ -13,11 +13,14 @@
 
 **EcoStan official contacts and capability rechecked 25 Nov:** [contact page](https://www.ecostan.com/contact-us); [infrastructure](https://www.ecostan.com/infrastructure) reports 245,000 sq ft, 400+ team, 24+ machine categories and 500+ machines/year, in-house design, assembly, testing and installation. These are company claims, not local SLA or performance guarantees. Direct spare/wear/manual queries to service department; refer to [19-topic coverage matrix](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md#ecostan-official-site-evidence-coverage--25-nov-2026). Neutral preliminary enquiry only; no disclosure of internal project scale, budget, preferred shifts or internal links without owner approval. No outreach sent by this edit.
 
+## Preliminary supplier enquiries (owner to send)
+[Individual copy-ready drafts for ten supplier/seller records](SUPPLIER-ENQUIRIES/README.md) are prepared, including separate Lehra and Radhe entities and Infinite Dryer. All drafts remain unsent; existing EcoStan partial quote status unchanged. Verify contacts for additional sellers; record replies here only when received. Use the neutral drafts first; the project-specific RFQ, scope column above, timing and questions below are **internal comparison/approval gates**, not text to share before owner approval.
+
 ## RFQ batch plan and ownership — tied to March 2027 financing critical path
 | By date | Task | Evidence of completion |
 |---|---|---|
 | **25 Nov 2026** | Technical owner finalises feedstock types, 40/45/50% cases and site tender basis | Signed common RFQ v1 and required quotation format |
-| **26–27 Nov 2026** | Promoter/commercial owner sends identical RFQ to P01–P05 and D01 | Sent-mail headers/message IDs or portal tickets; add to this register |
+| **26–27 Nov 2026** | Promoter/commercial owner sends individual preliminary enquiries; full common RFQ only if owner authorises disclosure | Sent-mail headers/message IDs or portal tickets; add to this register |
 | **02 Dec 2026** | Supplier acknowledgement; clarification call for exact model, duty and BOM inclusion | CRM call log / written reply |
 | **08 Dec 2026** | First round techno-commercial offers received if suppliers respond | Quote IDs, dated PDF, signed company letterhead, validity |
 | **15 Dec 2026** | Equalise and escalate missing alternatives for 50% moisture | Technical deviation register and prices excl/add freight/GST |
