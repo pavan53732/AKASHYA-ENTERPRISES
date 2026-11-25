@@ -39,7 +39,7 @@
 
 All prices in [model-specific URLs and evidence tiers](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) were rechecked **23 November 2026**. **DO NOT** enter these amounts in Bid A/B/C below or mark a candidate technically compliant solely on any listing. Lehra Fuel Tech's older public sample is not a current offer to AKASHYA. Actual EcoStan partial quotation is recorded below; remaining comparable complete bid fields stay pending.
 
-[Candidate register](MACHINERY-MASTER.csv) is for screening, not a passed bid. Ronak's catalogue maximum of 1.5 TPH is below the sustained target; RICO's 1.5 TPH ±20% material-dependent claim does not establish sustained performance. No bidder selected.
+[Candidate register](MACHINERY-MASTER.csv) (`189` records; all **6 of 6** sequential public supplier audits complete including [Infinite Dossier](SUPPLIER-RESEARCH/06-INFINITE-ENERGY.md)) is for screening, not a passed bid. Ronak's catalogue maximum of 1.5 TPH is below the sustained target; RICO's 1.5 TPH ±20% material-dependent claim does not establish sustained performance; Infinite Energy's `<12/<15/<16 mm` RFD particle-size conflict, `<45%/<50%` IFD ceiling, and unpriced HAG/prep/dust-collector/stack exclusions remain unresolved pending written wood-duty offers. No bidder selected.
 
 ## Gate 2 — ex-works to installed cost, ₹ lakh
 | Equalisation item | Bid A | Bid B | Bid C |

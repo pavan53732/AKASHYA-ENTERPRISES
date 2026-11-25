@@ -121,9 +121,9 @@ The 1.563 MT/hour water-evaporation requirement assumes **40% incoming moisture 
 
 ## Dryer and sustained operating duty
 
-- **IFD3000 (₹42L public ask):** 1,800 kg/h catalogue evaporation clears the 40% requirement. Dried output of 3,000 kg/h at <45% inlet requires reconciliation with the ~3,080 kg/h line balance.
-- **IFD5000 (₹68L public ask):** 3,000 kg/h catalogue evaporation. Require a written test at exactly 50% inlet, outside the brochure’s <50% limit.
-- **RFD2000 (₹32L public ask):** 1,250 kg/h water evaporation, below the 40% baseline. **RFD5000** publishes 3,200 kg/h evaporation and 3,000 kg/h dried output at <60% inlet, with the current public price shown as **Ask for Price**. [source-linked machinery evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
+- **IFD3000 (₹42L storefront ask):** 1,800 kg/h catalogue evaporation clears the 40% requirement. Dried output of 3,000 kg/h at <45% inlet (`ifd.html` prose `<45%` vs table `<50%`) requires reconciliation with the ~3,080 kg/h line balance, `<8 mm` screen/cage-mill prep, and excluded dust collector/`>30 ft` chimney ([Infinite Dossier](../PROCUREMENT/SUPPLIER-RESEARCH/06-INFINITE-ENERGY.md)).
+- **IFD5000 (₹68L storefront ask):** 3,000 kg/h catalogue evaporation. Require a written test at exactly 50% inlet, outside the brochure’s <50% limit (and resolve conflicting `₹22L` `5,000 kg/hr` listing under `briquetting-machines.html`).
+- **RFD2000 (₹32L storefront ask):** 1,250 kg/h water evaporation, below the 40% baseline. **RFD5000** publishes 3,200 kg/h evaporation and 3,000 kg/h dried output at <60% inlet, with the current public price shown as **Ask for Price**; **RFD** feed limit conflicts **`<12 mm` homepage vs `<15 mm` bullet vs `<16 mm` table**. [source-linked machinery evidence](../PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
 
 **Historical wear evidence, not modern warranty:** FAO's older Indian piston-press discussion quotes certain dies roughly **500–1,000 operating hours**, and another field reference **~1,300h** under particular materials and reboring schedules. This cannot be extrapolated as a replacement every 500h for EcoStan, Lehra, Radhe, Ronak or Jay Khodiyar. OEM signed wood-specific consumables and maintenance windows control. [FAO wear discussion](https://www.fao.org/4/t0275e/t0275e04.htm).
 
