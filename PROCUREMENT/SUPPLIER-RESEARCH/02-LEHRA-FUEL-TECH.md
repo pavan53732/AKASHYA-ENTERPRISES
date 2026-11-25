@@ -1,6 +1,6 @@
 # Lehra Fuel Tech Pvt Ltd — manufacturer-specific technical investigation
 
-**INTERNAL ONLY — 25 November 2026.** Sequential public-source review: manufacturer family and principal model pages examined; full individual catalogue/manual review and actual operating data remain open. No written quote addressed to this project. [Shared master](../MACHINERY-MASTER.csv) contains 53 Lehra model/family entries; family-table and navigation-only entries are explicitly distinguished. Do not send this file externally. [External draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md).
+**INTERNAL ONLY — 25 November 2026.** Sequential public-source review: manufacturer family, principal model pages, and **all 33 subsidiary equipment pages** (plus 2 capacity/dryer guides) examined directly on `lehrafuel.com`; full PDF manuals, pricing, and actual operating data remain open. No written quote addressed to this project. [Shared master](../MACHINERY-MASTER.csv) contains 53 Lehra model/family entries; family-table and individual-model discrepancies are explicitly distinguished. Do not send this file externally. [External draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md).
 
 ## 1. Identity and capability
 
@@ -49,24 +49,47 @@ Do not merge conflicting ratings. Current model pages for LBP40/60/70 show powde
 
 [Family page](https://www.lehrafuel.com/chipper-cum-grinder.php) describes conveyor, drum knives, perforated screen and optional further hammer milling; blades can be resharpened. It does not establish direct production of press-ready powder or accepted log moisture.
 
-| Class TPH | Family HP | Individual page / caveat |
-|---:|---:|---|
-| 0.3 | 10 | Family only |
-| 1 | 42 | Family; model scope unverified |
-| 2 | 62 | Family; model scope unverified |
-| 3 | 80 | Family; model scope unverified |
-| 5 | 107.5 | [CG-5](https://www.lehrafuel.com/chipper-cum-grinder-5-ton.php): 100–110 HP; continuous claim |
-| 10 | 160 | [CG-10](https://www.lehrafuel.com/chipper-cum-grinder-10-ton.php): 180–200 HP; continuous claim; reconcile |
+| Class TPH | Family HP | Model code | Individual page HP | Source / caveat |
+|---:|---:|---|---|---|
+| 0.3 | 10 | *(None listed)* | No individual page | Family table only; confirm availability |
+| 1 | 42 | **CG-1** | **20–25 HP** | [CG-1](https://www.lehrafuel.com/chipper-cum-grinder-1-ton.php): continuous; wood/bamboo/agro; **42 vs 20–25 HP mismatch** |
+| 2 | 62 | **CG-2** | **40–45 HP** | [CG-2](https://www.lehrafuel.com/chipper-cum-grinder-2-ton.php): continuous; wood/bamboo/agro; **62 vs 40–45 HP mismatch** |
+| 3 | 80 | **CG-3** | **60–65 HP** | [CG-3](https://www.lehrafuel.com/chipper-cum-grinder-3-ton.php): continuous; wood/bamboo/agro; **80 vs 60–65 HP mismatch** |
+| 5 | 107.5 | **CG-5** | **100–110 HP** | [CG-5](https://www.lehrafuel.com/chipper-cum-grinder-5-ton.php): continuous; family 107.5 vs model 100–110 HP |
+| 10 | 160 | **CG-10** | **180–200 HP** | [CG-10](https://www.lehrafuel.com/chipper-cum-grinder-10-ton.php): continuous; **160 vs 180–200 HP mismatch** |
 
-**Use:** alternative to direct Log Eater, not necessarily a second mandatory machine. Test the exact wet feed, output size and rework. Do not size electricity using 160 HP CG10 until motor schedule reconciled. Need log size/moisture/species limits, real intake/output, knife count/grade, sharpening cycles/time/price, rotor RPM, screen and feed design, kWh/t and downtime.
+**Use:** alternative to direct Log Eater, not necessarily a second mandatory machine. Test the exact wet feed, output size and rework. Do not size electricity using `CG-10`'s 160 HP family value or `CG-1/2/3`'s lower/higher conflicting HP until exact motor schedule is reconciled. Need log size/moisture/species limits, real intake/output, knife count/grade, sharpening cycles/time/price, rotor RPM, screen and feed design, kWh/t and downtime.
 
 ### Hammer mills
 
-[Family](https://www.lehrafuel.com/hammer-mill-grinder.php): rotor impact grinding, screens, pneumatic discharge to cyclone, protected bearings; wood chips listed as feed. Family table: 1.2/2/2.5/5/7.5 TPH with 42/55/82/142/190 HP respectively (first source label HP/hr is dimensionally ambiguous, confirm nameplate). Navigation separately lists high-density 1.2/2/3/5/7.5 and low-density 1/2/3 classes. The HD3 link returned 404; family 2.5 TPH figure cannot be assigned to HD3, nor family HP assumed for LD variants. Master lists named classes, not new confirmed exact SKU ratings. Need exact density band, moisture limit, feed/output size, screen, rotor/hammer wear and actual kWh/t. Dry-side rework provisionally; wet grinding not approved by reviewed evidence.
+[Family page](https://www.lehrafuel.com/hammer-mill-grinder.php): rotor impact grinding, screens, pneumatic discharge to cyclone, protected bearings; wood chips listed as feed. Family table lists 1200/2000/2500/5000/7500 kg/h with `42 hp/Hr` (dimensionally ambiguous unit), `55`, `82`, `142`, and `190` HP respectively. Direct verification of all eight individual HD and LD model pages confirms **all return HTTP 200** (including **HM-HD-3**, resolving the earlier suspected 404), and reveals systematic power and capacity discrepancies against the family table:
+
+| Model code | Class / feed | Model page TPH | Model page HP | Family table comparison | Source |
+|---|---|---:|---|---|---|
+| **HM-HD-1.2** | High-density | 1.2 | **30–35 HP** | Family 1.2 TPH / **42 hp/Hr** | [HM-HD-1.2](https://www.lehrafuel.com/hammer-mill-grinder-high-density-material-1.2.php) |
+| **HM-HD-2** | High-density | 2 | **50–55 HP** | Family 2.0 TPH / **55 hp** | [HM-HD-2](https://www.lehrafuel.com/hammer-mill-grinder-high-density-material-2.php) |
+| **HM-HD-3** | High-density | **3** | **70–75 HP** | Family omits 3 TPH; lists **2.5 TPH / 82 hp** | [HM-HD-3](https://www.lehrafuel.com/hammer-mill-grinder-high-density-material-3.php) |
+| **HM-HD-5** | High-density | 5 | **100–110 HP** | Family 5.0 TPH / **142 hp** | [HM-HD-5](https://www.lehrafuel.com/hammer-mill-grinder-high-density-material-5.php) |
+| **HM-HD-7.5** | High-density | 7.5 | **150–160 HP** | Family 7.5 TPH / **190 hp** | [HM-HD-7.5](https://www.lehrafuel.com/hammer-mill-grinder-high-density-material-7.5.php) |
+| **LM-1** | Low-density | 1 | **20–25 HP** | Not in family table | [LM-1](https://www.lehrafuel.com/hammer-mill-grinder-low-density-material-1.php) |
+| **LM-2** | Low-density | 2 | **40–45 HP** | Not in family table | [LM-2](https://www.lehrafuel.com/hammer-mill-grinder-low-density-material-2.php) |
+| **LM-3** | Low-density | 3 | **60–65 HP** | Not in family table | [LM-3](https://www.lehrafuel.com/hammer-mill-grinder-low-density-material-3.php) |
+
+All eight individual pages specify `Continuous` operation and list wood chips, bamboo, and corn cobs (HD) or paddy husk, sawdust, straw, and bagasse (LD), but omit bulk density boundaries, moisture limits, screen apertures, rotor RPM, and hammer wear. Dry-side rework provisionally; wet grinding not approved by reviewed evidence.
 
 ## 4. Drying systems
 
-[Rotary family](https://www.lehrafuel.com/rotary-drum-dryer.php): approximate 50% inlet, wood/briquette hot-air generator, screw feed, drum lifters, suction fan, cyclone/rotary valve, adjustable outlet. Ratings 1/1.5/2/3/5 TPH and 19/25/40/55/63 HP. Menu has only 1/2/3/5; 1.5 family-only. Wet/dry basis, evaporation, exact outlet and fuel unknown.
+[Rotary family](https://www.lehrafuel.com/rotary-drum-dryer.php): approximate 50% inlet, wood/briquette hot-air generator, screw feed, drum lifters, suction fan, cyclone/rotary valve, adjustable outlet. Family table lists 1/1.5/2/3/5 TPH and 19/25/40/55/63 HP; `1.5 TPH` has no individual submodel page, while the four verified individual submodel pages (`RD-1/2/3/5`, all HTTP 200, `Continuous`, Biomass/Agro-Residues) report different HP ranges:
+
+| Model code | TPH | Individual page HP | Family table HP | Source |
+|---|---:|---|---|---|
+| **RD-1** | 1 | **20–25 HP** | 19 HP | [RD-1](https://www.lehrafuel.com/rotary-drum-dryer-1-ton-per-hour.php) |
+| *(1.5 TPH family)* | 1.5 | No individual page | 25 HP | [Family](https://www.lehrafuel.com/rotary-drum-dryer.php) |
+| **RD-2** | 2 | **30–35 HP** | 40 HP | [RD-2](https://www.lehrafuel.com/rotary-drum-dryer-2-ton-per-hour.php) |
+| **RD-3** | 3 | **40–45 HP** | 55 HP | [RD-3](https://www.lehrafuel.com/rotary-drum-dryer-3-ton-per-hour.php) |
+| **RD-5** | 5 | **60–65 HP** | 63 HP | [RD-5](https://www.lehrafuel.com/rotary-drum-dryer-5-ton-per-hour.php) |
+
+Wet/dry basis, water evaporation kg/h, exact outlet moisture, drum dimensions, and fuel consumption remain unknown on all rotary pages.
 
 [Flash family](https://www.lehrafuel.com/flash-dryer.php) describes around 25% to around 10% moisture, not a guaranteed maximum or outlet at all duties. Family lists 0.3/1.2–1.5/2–2.5/2.8 TPH and 3/13/22/37 HP. Individual models:
 
@@ -82,14 +105,14 @@ HD2 page repeats HD1/HD2 labels; family table not matched to these variants. Nee
 
 ## 5. Ancillary machinery
 
-| Family | Available published options | Purpose and missing data |
+| Family | Available published options (subsidiary pages verified HTTP 200) | Purpose and missing data |
 |---|---|---|
-| [Dual shaft shredder](https://www.lehrafuel.com/dual-shaft-shredder.php) | 1/2/5 TPH; 2 TPH example 30 HP, ~2300×1000×2100 mm, ~3000 kg; cutter Ø250×25 mm, 9CrSi/high alloy | Coarse prep if needed; test wood size/moisture, cutters/RPM and wear; other motor schedules unknown |
-| [Stone separator](https://www.lehrafuel.com/stone-separator.php) | 1.5/2.5 TPH; family particles up to 15 mm | Dense debris separation; source capacity field incorrectly reads 8–12% compression moisture; no verified moisture limit; test recovery/efficiency and stage |
-| [Auto feeder](https://www.lehrafuel.com/auto-feeder.php) | 20 ft (2–3 ton), 30 ft (3–5 ton); family ~1.2–2.5 TPH, 6–12 HP | Metering and buffering; distinguish storage mass vs flow, family ratings not mapped |
-| [Vibrating screen](https://www.lehrafuel.com/vibrating-screen.php) | 1.2/2.5/5 TPH with 1.2/2.5/5 HP options | Grading/rework; verify correspondence, mesh, wet/dry duty and oversize |
-| [Dust collector](https://www.lehrafuel.com/dust-collector.php) | 28/56 bags; family 1,500–15,000 CFM, 5–40 HP, up to 99% claimed separation | Dust extraction; no specific fan curve/filter area/emission guarantee or explosion protection, exact prices unknown |
-| [Conveyors](https://www.lehrafuel.com/conveyor.php) | Screw (10–20 ft, 2–3 HP family), belt, drag chain | Transfers; density-based capacity, width/speed, incline, scope/wear and price unknown |
+| [Dual shaft shredder](https://www.lehrafuel.com/dual-shaft-shredder.php) | [1 TPH](https://www.lehrafuel.com/dual-shaft-shredder-1-ton-per-hour.php) / [2 TPH](https://www.lehrafuel.com/dual-shaft-shredder-2-ton-per-hour.php) / [5 TPH](https://www.lehrafuel.com/dual-shaft-shredder-5-ton-per-hour.php); family 2 TPH lists 30 HP, ~2300×1000×2100 mm, ~3000 kg, Ø250×25 mm 9CrSi cutters | Coarse prep if needed (auto-reverse described); individual 1/2/5 TPH pages omit HP, cutter specs, and dimensions; test wood size/moisture, RPM and wear |
+| [Stone separator](https://www.lehrafuel.com/stone-separator.php) | [1.5 TPH](https://www.lehrafuel.com/stone-separator-1.5-ton-per-hour.php) (**14 HP**, **≤15% moisture**, **Below 15 mm**) / [2.5 TPH](https://www.lehrafuel.com/stone-separator-2.5-ton-per-hour.php) (**14 HP**, **≤15% moisture**, states **"Above 15 mm"**) | Dry-side contaminant separation only (**≤15% limit excludes wet 40–50% wood**); reconcile "Above 15 mm" anomaly on 2.5 TPH page; verify recovery/efficiency and airflow |
+| [Auto feeder](https://www.lehrafuel.com/auto-feeder.php) | [AF-20](https://www.lehrafuel.com/auto-feeder-20-feet-long-2-3-ton-capacity.php) (20 ft, 2–3 tons; menu misprints "2–5 ton", **3–5 HP**) / [AF-30](https://www.lehrafuel.com/auto-feeder-30-feet-long-3-5-ton-capacity.php) (30 ft, 3–5 tons, **3–5 HP**); family 1.2–2.5 TPH, 6–12 HP | Metering and buffering; individual **3–5 HP** conflicts with family **6–12 HP**; distinguish storage mass vs hourly flow rate |
+| [Vibrating screen](https://www.lehrafuel.com/vibrating-screen.php) | [VS-1.2](https://www.lehrafuel.com/vibrating-screen-1.2-ton-per-hour-capacity.php) (1.2 TPH) / [VS-2.5](https://www.lehrafuel.com/vibrating-screen-2.5-ton-per-hour-capacity.php) (2.5 TPH) / [VS-5](https://www.lehrafuel.com/vibrating-screen-5-ton-per-hour-capacity.php) (5 TPH, mislabelled **Model VS-2.5** in table); all three list **2–3 HP** vs family 1.2/2.5/5 HP | Grading/rework; mesh "As per Requirement"; reconcile HP mismatch and VS-5 model typo; verify wet/dry duty and oversize |
+| [Dust collector](https://www.lehrafuel.com/dust-collector.php) | [28 bags](https://www.lehrafuel.com/dust-collector-28-bags.php) / [56 bags](https://www.lehrafuel.com/dust-collector-56-bags.php) (manual shaker or pulse-jet); family 1,500–15,000 CFM, 5–40 HP, up to 99% claimed separation | Dust extraction; neither submodel page specifies CFM, m² filter area, static pressure, or motor HP; no explosion protection or exact prices |
+| [Conveyors](https://www.lehrafuel.com/conveyor.php) | [Screw](https://www.lehrafuel.com/screw-conveyor.php) (10'/17'/20'/40' at **2/3/3/7.5 hp**, table header misprints "S.Conveyor/Conveyor Belts"); [Belt BC-600](https://www.lehrafuel.com/belt-conveyor.php) (**600 mm**, **2–5 HP**); [Drag chain DCC-2](https://www.lehrafuel.com/drag-chain-conveyor.php) (**Up to 2 TPH**, **3–5 HP**) | Transfers; Screw & BC-600 omit TPH; **DCC-2 (2 TPH max) is below full single-stream plant flow (~3.08 dry / 4.64–5.57 wet TPH)** |
 
 [FAQ](https://www.lehrafuel.com/faq.php) gives generic drying, grinding, hopper compression and cooling sequence and guarding/dust/ventilation advice, not a plant layout or model maintenance schedule. Furnaces, cyclones, cooling tracks, hoppers and central controls require scope-specific BOM and prices.
 
@@ -99,7 +122,7 @@ Existing [price ledger](../2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) records 
 
 ## 7. Internal process suitability — never disclose
 
-Current internal design ~4.64/5.57 wet TPH (40/50% moisture), 3.08 dry TPH, 1.563/2.492 TPH evaporation at 340 productive h. A 5 TPH primary prep nominal rate falls short of 5.57 if on equivalent wet input; 10 TPH class candidate but requires actual local hardwood test and full motor scope. Rotary 5 TPH cannot meet 5.57 wet TPH if rating means wet input, and no evaporation curve. LBP90 and Combo90 nameplate 2 TPH are candidates, not a qualified sustained 1.6 TPH/press. LBP100 requires separate buyer diameter acceptance. Screen 5 TPH class merits assessment on dry stream; smaller stone separators may need parallel or partial stream, not automatically selected. No full Lehra line is proven; do not rebase finances or order equipment.
+Current internal design ~4.64/5.57 wet TPH (40/50% moisture), 3.08 dry TPH, 1.563/2.492 TPH evaporation at 340 productive h. A 5 TPH primary prep nominal rate falls short of 5.57 if on equivalent wet input; 10 TPH class candidate but requires actual local hardwood test and full motor scope. Rotary `RD-5` (5 TPH) cannot meet 5.57 wet TPH if rating means wet input, and no evaporation curve. `LBP90` and `Combo90` nameplate 2 TPH are candidates, not a qualified sustained 1.6 TPH/press. `LBP100` requires separate buyer diameter acceptance. Stone separators (`1.5/2.5 TPH`, `14 HP`, `≤15% moisture`) are strictly dry-side and undersized individually for full ~3.08 dry TPH; `DCC-2` drag chain (2 TPH max) is also below single-stream flow; `VS-5` (5 TPH) merits dry-stream assessment once `2–3 HP` vs `5 HP` motor spec and `VS-2.5` typo are clarified. No full Lehra line is proven; do not rebase finances or order equipment.
 
 ## 8. What to obtain directly from Lehra
 
@@ -110,11 +133,11 @@ Current internal design ~4.64/5.57 wet TPH (40/50% moisture), 3.08 dry TPH, 1.56
 | L03 | Loaded physical BPM, individual motors, ram/die/flywheel and lubrication/cooling details | Pending |
 | L04 | Real wood production, rejects, cooled quality and metered energy by species | Pending |
 | L05 | Log Eater wet duty, log size, sieve distribution, power and blade wear; 3 TPH identity | Pending |
-| L06 | CG10 160 vs 180–200 HP, actual wood moisture duty, CG5 and other motor schedules | Pending |
-| L07 | Exact HD/LD hammer models, HD3 vs 2.5 TPH mismatch, wet limits and grinding tests | Pending |
+| L06 | CG-1/2/3/5/10 family-vs-model HP mismatches (`42/62/80/107.5/160` vs `20–25/40–45/60–65/100–110/180–200`), actual wood moisture duty, 0.3 TPH status | Pending |
+| L07 | Hammer mills `HM-HD-1.2/2/3/5/7.5` (`30–35/50–55/70–75/100–110/150–160 HP`) vs family (`42/55/82/142/190 HP`, 2.5 TPH row) and `LM-1/2/3` limits, mesh, wear and tests | Pending |
 | L08 | Flash model/family conflicts, density classes and simultaneous drying curves for every dryer | Pending |
-| L09 | Rotary 50% duty, actual evaporation, outlet, fuel and thermal performance | Pending |
-| L10 | Screen, feeder, separator, shredder, dust collector and conveyor exact spec, wear and prices | Pending |
+| L09 | Rotary `RD-1/2/3/5` (`20–25/30–35/40–45/60–65 HP` vs family `19/40/55/63 HP`), 1.5 TPH availability, 50% duty, evaporation, outlet, fuel and thermal data | Pending |
+| L10 | Ancillary reconciliations: Stone separator 2.5 TPH `Above 15 mm`, `VS-5` model/HP typo, `AF-20/30` 3–5 vs 6–12 HP & TPH, Shredder 1/2/5 HP/dims, Dust 28/56 CFM/HP, `BC-600`/`DCC-2`/Screw TPH and prices | Pending |
 | L11 | Full integrated standard BOM and operating schedules, mass balance per tonne | Pending |
 | L12 | Maintenance/rest/cleaning, part-numbered spares, repair and overhaul, metered energy | Pending |
 | L13 | Electrical SLD, layout, foundation, staffing, controls, training, safety | Pending |
@@ -123,4 +146,4 @@ Current internal design ~4.64/5.57 wet TPH (40/50% moisture), 3.08 dry TPH, 1.56
 
 ## 9. Review gate
 
-Public family inventory and key individual model review completed within stated scope. Individual subsidiary model pages for hammer mills (including 404), smaller chippers, rotary variants and ancillary submodels have not all been independently verified. No verified measured performance, firm current quotation, operating manuals or spare costs. Keep these gaps explicit. Use [updated supplier draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md), not internal dossier. Next public review Jay Khodiyar; Lehra open technical gaps remain pending. No outreach sent.
+Public family inventory, principal model pages, and **all 33 subsidiary equipment pages** (`HM-HD-1.2/2/3/5/7.5`, `LM-1/2/3`, `CG-1/2/3/5/10`, `RD-1/2/3/5`, shredders 1/2/5, stone separators 1.5/2.5, auto feeders AF-20/30, vibrating screens VS-1.2/2.5/5, dust collectors 28/56, screw/belt/drag-chain conveyors) returned HTTP 200 and are verified within public scope (`0.3 TPH` CG and `1.5 TPH` rotary have no dedicated submodel pages). No verified measured performance, firm current quotation, operating manuals, or spare prices on public site. Keep open discrepancies explicit. Use [updated supplier draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md), not internal dossier. Next public review Jay Khodiyar; Lehra written replies remain pending. No outreach sent.

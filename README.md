@@ -75,7 +75,7 @@ The **23 November 2026** check covers EcoStan, Lehra, Radhe, Ronak, Jay Khodiyar
 ## Supplier-by-supplier technical review
 [Sequential supplier research](PROCUREMENT/SUPPLIER-RESEARCH/README.md) — EcoStan first; Lehra Fuel Tech family/key model review recorded, Jay Khodiyar next, RICO, Ronak and Infinite dryer. [EcoStan dossier](PROCUREMENT/SUPPLIER-RESEARCH/01-ECOSTAN.md) separates 39 catalogue entries, five quoted items, engineering uses, conflicts and supplier questions. Internal only; public review is not a technical qualification.
 
-[Lehra Fuel Tech dossier](PROCUREMENT/SUPPLIER-RESEARCH/02-LEHRA-FUEL-TECH.md) — 53 model/family entries, conflicts and supplier gaps; subsidiary model pages and written responses remain pending.
+[Lehra Fuel Tech dossier](PROCUREMENT/SUPPLIER-RESEARCH/02-LEHRA-FUEL-TECH.md) — 53 model/family entries across main and subsidiary pages verified (no 404; family-vs-model power/model discrepancies logged); written pricing and responses remain pending.
 
 ## 25 Nov machinery engineering database
 [Expanded 134-record, 32-column machinery master](PROCUREMENT/MACHINERY-MASTER.csv) covers approved suppliers only, with source-linked additional motor, size, duty, fuel, dimensions and scope fields; [process-stage uses and interfaces](MACHINERY/01-Plant-Inspection-and-Visual-Analysis.md#machine-by-machine-use-and-interface-engineering). New entries are catalogue candidates, not selected machinery. Unknown measured figures remain open; existing cost model unchanged.

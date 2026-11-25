@@ -5,7 +5,7 @@ Owner-directed workflow: research **one manufacturer at a time** before proceedi
 | Order | Supplier | Research dossier | Current sequential review | Enquiry |
 |---|---|---|---|---|
 | 1 | EcoStan | [01-ECOSTAN.md](01-ECOSTAN.md) | Scoped public catalogue audit complete; written data pending | [Draft](../SUPPLIER-ENQUIRIES/01-ECOSTAN.md) |
-| 2 | Lehra Fuel Tech | [02-LEHRA-FUEL-TECH.md](02-LEHRA-FUEL-TECH.md) | Family inventory and key model review completed; subsidiary model pages and written data pending | [Draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md) |
+| 2 | Lehra Fuel Tech | [02-LEHRA-FUEL-TECH.md](02-LEHRA-FUEL-TECH.md) | Full public catalogue & all subsidiary model pages verified; written data pending | [Draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md) |
 | 3 | Jay Khodiyar | Not created | Next public review | [Draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md) |
 | 4 | RICO | Not created | Queued | [Draft](../SUPPLIER-ENQUIRIES/08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) |
 | 5 | Ronak Engineering | Not created | Queued | [Draft](../SUPPLIER-ENQUIRIES/06-RONAK-ENGINEERING.md) |
