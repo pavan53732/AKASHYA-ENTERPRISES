@@ -53,11 +53,11 @@ Promoter = final decision and signoffs; CA/finance lead = KYC, cashflow, applica
 References: [moisture sizing](MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) · [buyer trial](MARKET-RESEARCH/03-90MM-BOILER-COMPATIBILITY-TRIAL-PROTOCOL.md) · [risk register](SAFETY/FIRE-DUST-AND-THERMAL-RISK-REGISTER.md).
 
 ## Live machinery research and RFQ milestones — integrated 22 Nov 2026
-The [dated public price register](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) is now available. **Formal vendor bids have not been sent or received in this GitHub update.** Use [ready-to-send project RFQ](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md) and [six-supplier sending log](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md). After vendor replies, use [technical/commercial equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md) rather than inserting marketplace prices into bank DPR.
+The [dated public price register](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) is now available. **Owner supplied EcoStan partial quotation ES/26-27/08526 on 25 Nov (issued 23 Nov, expires 18 Dec).** Common RFQ dispatch remains unevidenced; full 40/50% duty installed bids pending. Use [ready-to-send project RFQ](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md) and [six-supplier sending log](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md). After vendor replies, use [technical/commercial equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md) rather than inserting marketplace prices into bank DPR.
 
 - **26–27 Nov:** send common scope to 5 press/integrator candidates and Infinite dryer; obtain receipt evidence.
-- **02 Dec:** call bidders, verify model/motor mismatch (EcoStan 89.5 HP BPM90HD versus 117 HP BM90/100 marketplace item) and exact quote validity.
-- **08 Dec:** target first written bid responses (not guaranteed).
+- **02 Dec:** call bidders, verify model/motor mismatch (EcoStan quoted DFC90 92 HP versus current DFC90 94 HP; distinct from BPM90HD) and exact quote validity.
+- **08 Dec:** target complete revised written bid responses (not guaranteed); resolve EcoStan missing scope, moisture and capacity before 18 Dec validity.
 - **15–20 Dec:** compare all 40/45/50% moisture obligations, actual kg-water/h, kWh/MT, furnace fuel, 2-year spares, installation and service response.
 - **31 Dec:** issue internally approved draft bank cost schedule only after >=3 complete offers, site utilities/civil and CAPEX uncertainty are documented.
 - **15 Jan 2027:** application pack should contain signed vendor offers. Bank disbursement target remains **15 March 2027** subject to sanction conditions.

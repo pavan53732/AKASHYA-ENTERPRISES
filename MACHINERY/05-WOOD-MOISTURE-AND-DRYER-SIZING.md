@@ -53,6 +53,14 @@ For screening/regrind loops, estimate machine circulation as **fresh feed ÷ (1 
 - At 50% moisture, wet-wood log processing also needs **1,895/340 = 5.57 wet TPH** before extra margin: a published “3–5 TPH” wood machine may be insufficient. At 40% it already needs **4.64 wet TPH**.
 - A larger dryer, longer operation, pre-seasoned wood or extra dryer train are mutually different options, each changing capex, staffing, thermal fuel and reliability. **No recommendation to buy a 3,000 kg/h dryer until seasonal wood-moisture distribution is sampled and a supplier guarantees energy balance.**
 
+### Quoted FDD 25 / ESM 100 combination — 25 Nov 2026
+
+[EcoStan written quote register](../PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md): FDD 25 ₹22.85L ex GST, 41 HP, 1.5–2.5 TPH unspecified wet/dry basis, **maximum 35% incoming material moisture**. Current [OEM double-pass FD25](https://www.ecostan.com/products/flash-dryer) lists 40%, <15 mm feed, dried biomass fuel and temperature up to 150°C; these are catalogue claims, not amendments to the quotation. ESM100 ₹25.55L, 106 HP, 2–3 TPH, logs ≤10 in, quoted 4–8 mm output versus [OEM 2–10 mm](https://www.ecostan.com/products/sawdust-machine). Obtain actual size distribution and wetwood trials; no automatic elimination of screening/rework.
+
+**[DERIVED]** At 35% wet feed and 10% dried moisture (zero solids losses), if 2.5 TPH refers to wet feed, dried output = 2.5×0.65/0.90 = **1.806 TPH**, evaporation ~694 kg/h; if 2.5 TPH refers to dry output, required wet feed = **3.462 TPH** and evaporation ~962 kg/h, above the ESM100 nameplate maximum. At 340 productive h one DFC press at max 2.3 TPH yields ≤782 MT even before line losses. Both 40/50% cases remain outside quoted moisture limit; at 340 h the line needs 4.64/5.57 wet TPH and ~3.08 dried TPH. Even 24h scheduling does not cure moisture ceiling or prove duty. Obtain alternate dryer/pre-dryer and matched line scope.
+
+For reference only, per saleable tonne at **15/20/25/30/35% wet-basis input** using the repository's 5% dry-solids-loss assumption and 10% finished moisture: wet wood input ≈ **1.115/1.184/1.263/1.353/1.457 MT**. These are not vendor-tested yields; reject moisture and furnace fuel excluded. Keep existing 40/50% scenarios and avoid mixing with other illustrative loss assumptions.
+
 ## Required wood moisture test and supplier RFP
 1. Select at least **3 legal timber supply sources** and separate Casuarina, Eucalyptus and Subabul loads.
 2. Sample **>=3 different shipments per supplier/species** as initial screening, including surface/interior pieces from the load; seasonal sampling needed to know full-year distribution. This is owner research design, not an Indian mandatory standard.

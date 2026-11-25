@@ -1,10 +1,10 @@
 # AKASHYA ENTERPRISES — machinery public price evidence and capacity audit
 **Originally researched 22 November 2026; press, dryer and ancillary listings and OEM specifications rechecked 23 November 2026** · Project: Anakapalli, Andhra Pradesh · 1,000 *saleable* MT/month · 15 March 2027 **target first eligible loan disbursement**, not plant commissioning.
 
-> **EVIDENCE RULE:** These are publicly advertised prices, supplier-published specifications and technical research observations. **NONE IS A CURRENT SIGNED BINDING QUOTATION TO AKASHYA.** Prices may change; dated here means *research observation date* rather than supplier offer validity. Do not issue a PO, revise bank-sanctioned CAPEX, or call suppliers "selected" solely on this list. Every amount must eventually be replaced by a quotation on vendor letterhead with exact model/qty, delivery basis, GST, installation, exclusions, warranty and validity.
+> **EVIDENCE RULE:** These are publicly advertised prices, supplier-published specifications and technical research observations. **PUBLIC LISTINGS ARE NOT BINDING QUOTES.** A separate written EcoStan partial quotation is now recorded below. Prices may change; dated here means *research observation date* rather than supplier offer validity. Do not issue a PO, revise bank-sanctioned CAPEX, or call suppliers "selected" solely on this list. Every amount must eventually be replaced by a quotation on vendor letterhead with exact model/qty, delivery basis, GST, installation, exclusions, warranty and validity.
 
 ## A. Every press manufacturer — public PRICE LISTINGS vs OEM-rated BPM/model capacities (fresh check 23 Nov 2026)
-**CORRECTION TO PRIOR VERSION:** Earlier ₹18–26 lakh ranges and “hardwood tested 1.4–1.6 TPH” statements were not supported by exact, current model-specific vendor quotations or test reports. They are **withdrawn as verified fact**. This table includes **distinct currently retrievable public asking-price listings**, with their actual source URLs. An *online asking price* may be stale, mislabelled, contingent, exclude motors, or carry invalid tax conditions. **No seller has supplied AKASHYA with a dated, signed, currently valid price quotation**. Prices are in INR for one item or one stated set. GST, freight to Anakapalli, erection, site electrical scope, quantity discounts and current validity are unknown unless expressly stated. The press-feed moisture below is dry-process feed. The project alternatives use 40% and 50% incoming wet wood (wet basis).
+**CORRECTION TO PRIOR VERSION:** Earlier ₹18–26 lakh ranges and “hardwood tested 1.4–1.6 TPH” statements were not supported by exact, current model-specific vendor quotations or test reports. They are **withdrawn as verified fact**. This table includes **distinct currently retrievable public asking-price listings**, with their actual source URLs. An *online asking price* may be stale, mislabelled, contingent, exclude motors, or carry invalid tax conditions. **EcoStan has supplied a dated partial-scope quotation; signature/authority and full installed scope remain pending.** Prices are in INR for one item or one stated set. GST, freight to Anakapalli, erection, site electrical scope, quantity discounts and current validity are unknown unless expressly stated. The press-feed moisture below is dry-process feed. The project alternatives use 40% and 50% incoming wet wood (wet basis).
 
 ### A1. One-machine price evidence — separate listing, exact model, source and confidence
 | Supplier / exact listing | Advertised ₹ lakh **per unit/listing** | Published listing scope and capacity | Confidence / what is NOT demonstrated | Live public source |
@@ -29,6 +29,9 @@
 | **Jay Khodiyar BRQ-9075** | **PRICE NOT CURRENTLY VISIBLE** | TradeIndia model **1,200–1,500kg/h**, 90mm, “Get Latest Price” | **LIST / spec only**; cached snippets showing ₹14.50L cannot establish a current displayed price for this model | [BRQ-9075 seller page](https://www.tradeindia.com/products/jumbo-brq-9075-briquetting-machine-911772.html) |
 
 **Price discrepancy to resolve, not invent away:** The **Jay Khodiyar ₹5L/₹8L** 90mm web prices are real *advertised page figures*, yet the same pages describe 1,200–2,000kg/h machines. **Do not call them “bare frame” without a seller breakdown; do not budget two new fitted JK90 machines at ₹10–16L from them.** Conversely the older repo’s **₹21–23L Jay complete setup range has NO fresh directly attributable advertised seller link verified here** and is removed as a “live price”. Similarly Ronak’s price range genuinely spans three *separate SKUs/listings*, not a signed ₹17.9L installed machine.
+
+### A1a. Written DFC 90 price (23 Nov 2026; separate from marketplace asks)
+[Quote ES/26-27/08526](./2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) lists **₹27.15L ex-GST**, one DFC90 (92 HP, 1.3–2.3 TPH briquettes); expires 18 Dec. Do not conflate with similarly priced broad BM listings or BPM90HD. Current [OEM DFC90](https://www.ecostan.com/products/dualfeed-briquetting-machine) differs at 94 HP and 1.4–2.0 TPH. [Historical annexure](https://fr.scribd.com/document/616563512/ECOSTAN-DualFeed-90) lists 221 machine RPM, not verified ram strokes. Full performance remains untested.
 
 ### A2. Actual current OEM published 90-mm specifications — not guaranteed hard-wood duty
 | OEM / model | OEM-rated finished briquettes per hour | Nameplate motor | Published feed, OEM source | Recorded shaft RPM vs physical piston strokes |
@@ -122,6 +125,9 @@ Capacities, connected load and fuel are **MANUFACTURER CLAIMS**. Prices are **PU
 
 **Service allowances [ENGINEERING, NOT OEM]:** bag filter ΔP and hot-gas O₂/temperature logging every running hour; cyclone and spark collection every shift; burner ash removal and rotary-airlock inspection at approved safe shutdown; **10–30 min per shift** inspection allowance, **2–4h weekly**, **4–8h/month**, all included in 85% general availability. Hazard detection/LOTO and contractor-approved isolation decide whether a stop is needed, not a universal cool-off after X hours.
 
+### B3. Written ESM100 and FDD25 prices (23 Nov 2026)
+**ESM100 ₹25.55L**, 106 HP, 2–3 TPH, 10-in logs, quoted 4–8 mm output (OEM 2–10 mm); **FDD25 ₹22.85L**, 41 HP, 1.5–2.5 TPH, 35% maximum inlet (OEM 40% double-pass). Both ex-GST, Ex-Works, one unit. Wet/dry throughput basis, actual evaporation and furnace inclusion unresolved. [Quote register](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) · [capacity assessment](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md).
+
 ## C. Whole-line ancillary machinery — exact technical scope, indicative prices and bottlenecks
 **Process order (subject to OEM wet-particle tests):** legal timber weigh-in & sampling → loader/log deck → tramp-metal/stone removal → **log-to-sawdust / wet-rated primary grind** (size checks) → **dryer + furnace + cyclone + controlled dust system** → **dry-rated secondary mill only if necessary** → screen/metal removal → safe day hopper → split to **two 90mm piston presses** → cooling tracks → finished storage → weigh/dispatch. **If dryer's required feed is <8mm and sawdust maker produces 2–10mm, screen/recirculate 8–10mm fraction or choose compatible equipment; do NOT assume guaranteed zero oversize.** Listed prices were observed **23 Nov 2026**, in INR per stated unit or set. Confirm validity, GST, freight to Anakapalli, installation and included scope.
 
@@ -143,6 +149,9 @@ Capacities, connected load and fuel are **MANUFACTURER CLAIMS**. Prices are **PU
 | **Initial wear and emergency spares** | 2 × OEM press ram/die kits, spare chipper blades, screens, seals, blower fan bearings, airlock drives | Keep 1 critical spare set with replenishment SLA | Depends OEM catalog | **5–14** | Vendor itemised 2-year consumption; keep minimum 1 set punches, dies, knives, and motor contacts in stock |
 
 **Do not add alternative machines together.** A log-to-sawdust ESM machine may perform both chipping and primary grinding; Lehra wet-rated 10TPH chipper-grinder may replace that, not duplicate it. Dry HM is only needed where actual dryer particle and press tolerances demand it.
+
+### C1. Written ancillary prices (23 Nov 2026)
+**ERS1225 ₹3.75L** (2–3 TPH, 2 HP); **cleated conveyor ₹3.35L** (1000 mm × 10 mm belt, 25 ft, 3 HP, throughput unknown). Both one unit Ex-Works ex-GST. No confirmed extra conveying, dryer auxiliaries, cooling or safety package; [quote register](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) is the primary commercial source.
 
 ### Public spare and service-item price checks
 
@@ -169,7 +178,7 @@ Official examples are **89.5 HP ×2** presses, **159 HP ESM150**, **133–190 HP
 - **[LIST]** publicly visible seller asking price not including contractual scope.
 - **[EST]** engineering comparison allowance derived for internal budgeting, **not an observed sale price**.
 - **[OWNER / PLANNING ESTIMATE]** 40% incoming wet wood: ₹310L machinery + ₹210L site/civil/utilities = ₹520L fixed, excluding land. At 50%, required intake is 1,895 wet MT/month and evaporation is 2,492 kg/h at 340 h. Incremental costs require wet-wood trials and scoped quotes.
-- **[RFQ]** signed model-specific techno-commercial offer delivered to Anakapalli is absent; nobody has received a formal quote for the integrated line.
+- **[WRITTEN QUOTE]** EcoStan partial Ex-Works quote received (₹82.65L + ₹14.877L IGST); no full installed 1,000 MT/month quote. See [quote register](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md).
 
 ## D. Provisional project capital comparison — DO NOT relabel as quotes
 - **Current owner BOM:** ₹310L machinery/handling + ₹210L site/civil/utilities = **₹520L fixed**, plus **₹99.43L estimated opening working capital** = ~₹619.43L excluding land. These are planning budgets, not bank-approved capex.

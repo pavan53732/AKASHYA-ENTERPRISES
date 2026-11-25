@@ -45,6 +45,12 @@ Published machine speeds are **216 RPM** for older EcoStan 90 documentation, **2
 
 **Manufacturer sample maintenance evidence (Lehra Fuel Industries 90mm document):** publication says oil filter **every 7–10 days**, oil change **each 3 months**, and consumables/bearings/V-belts excluded from its 1-year warranty; Lehra's *other legal business entity* and other machine makes need their own manuals. Do not imply all brands require a mandatory rest period after 8h. [Public commercial PDF](https://5.imimg.com/data5/SELLER/Doc/2026/4/599355057/JI/VP/UE/253839848/white-coal-making-machine.pdf).
 
+### DFC 90 specific evidence — received 23 Nov quote, reviewed 25 Nov
+
+**[WRITTEN QUOTE]** DFC 90 (not BPM90HD), ₹27.15L ex-GST, 92 HP, 1.3–2.3 TPH briquettes, 0.7–1.4 TPH pellets, 90 mm briquettes / 10,16 mm pellets, granulated feed 8–12% moisture. In-feed screw, motors and PLC included. [Quote register](../PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md). **[OEM]** current [DualFeed catalogue](https://www.ecostan.com/products/dualfeed-briquetting-machine) instead lists 94 HP, 1.4–2.0 TPH briquettes, 1.0–1.5 TPH pellets, 8/10/16 mm pellets, 30–150 mm briquette length, feed up to 15×8 mm. Obtain offered revision and fitted tooling.
+
+**[HISTORICAL / third-party uploaded annexure]** [DualFeed 90, pp. 2–5](https://fr.scribd.com/document/616563512/ECOSTAN-DualFeed-90) describes 221 machine RPM, 75 HP main + 10 HP side-feed + 5 HP in-feed + 1 HP lube + 1 HP distributor = 92 HP; 20-ft feed screw, 30-ft cooling line and 1 operator + 2 labour for press only. Historical pellet diameter/length differs from current offer. Do not infer 221 loaded ram strokes/min or guaranteed included cooling line/parts. Confirm flywheel/crank speed, loaded physical strokes, main-motor make/efficiency, cooling, 24h duty and consumables in writing.
+
 ## Schedule mathematics
 | Schedule | Operating days/month | Scheduled hours | Availability assumption | Productive hours | Total TPH needed | Each of two presses TPH |
 |---|---:|---:|---:|---:|---:|---:|

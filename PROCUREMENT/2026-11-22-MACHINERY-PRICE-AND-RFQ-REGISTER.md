@@ -1,6 +1,27 @@
 # Machinery price evidence and formal RFQ register
 **Research first compiled:** 22 Nov 2026. **OEM and public listings rechecked:** 23 Nov 2026. **Do not confuse a live public *asking price* with a binding quotation.** INR, quoted asking prices may omit GST, delivery to Anakapalli, civil foundations, controls, commissioning, warranties and performance tests.
 
+## Written EcoStan quotation received — 25 November 2026
+
+**[WRITTEN QUOTE / promoter-supplied PDF]** EcoStan India Pvt Ltd, quotation **ES/26-27/08526**, dated **23 Nov 2026**, expires **18 Dec 2026**. Source: owner-supplied four-page `Quotation - ES_26-27_08526.pdf`, pp. 1–4. Commercial letterhead PDF received; signature/authority and applicability to purchasing entity to be confirmed. Original PDF retained privately (public repository does not publish bank/customer details). All quantities below are **one each**, Ex-Works, INR, 18% IGST extra; rated output is indicative, not guaranteed.
+
+| Item code | Exact quoted machine | Rated capacity / material | HP | Ex-GST ₹ lakh |
+|---|---|---|---:|---:|
+| ES050015 | DFC 90 DualFeed briquetting | 1.3–2.3 TPH briquettes 90 mm; 0.7–1.4 TPH pellets 10/16 mm; granulated feed 8–12% moisture | 92 | 27.15 |
+| ES050027 | ESM 100 sawdust | 2–3 TPH; logs up to 10 in; output 4–8 mm | 106 | 25.55 |
+| ES050085 | ERS 1225 rotary screener | 2–3 TPH | 2 | 3.75 |
+| ES050058 | Chevron-cleated belt conveyor | 1000 mm wide, 10 mm thick, 25 ft long; flow not stated | 3 | 3.35 |
+| ES050031 | FDD 25 double-pass flash dryer | 1.5–2.5 TPH (wet/dry basis UNKNOWN); granulated feed up to 35% moisture | 41 | 22.85 |
+| **Total** | **5 machines** | **Partial scope** | **244** | **82.65** |
+| IGST 18% | | | | **14.877** |
+| **Ex-Works gross** | | | | **97.527** |
+
+**Scope confirmed:** DFC in-feed screw, high-efficiency motors and PLC panel; ESM motors, PLC panel and manual reverse foot switch. Other accessories (furnace/fuel feed, cyclone, blower/airlocks, chimney, dust and explosion safety, log feed, buffer silos, cooling tracks, interconnecting conveyors, separator, central power, spares and packing/weighing) require itemised confirmation. Do not assume that all five machines constitute an installed turnkey line.
+
+**Terms (pp. 2–4):** 40% nonrefundable advance, 60% before delivery; 90 working days after advance, collection readiness 3 days after full payment. Transport/offloading and packing if needed extra. Initial installation technician visit included; subsequent visits chargeable; customer provides board/lodging, civil works, lifting, skilled electrical/installation workers and 10 kVA welding set. Mechanical warranty 12 months from sale; motors/panels/gears covered by their suppliers; consumables, bearings and belts excluded; genuine spares and OEM-supervised commissioning required; customer pays defective-part freight and reports noticed defects within two working days. No production-loss cover. Negotiate FAT/SAT, performance remedies, commissioning-based warranty and retention before PO.
+
+**Decision:** partial quote received, not selected and not compliant as offered for current 1,000 MT/month 40/50% wetwood basis. At 340 productive h/month one press at quoted max 2.3 TPH gives at most 782 MT (before additional losses); ESM max 3 TPH vs 4.64/5.57 wet TPH required; FDD quoted 35% inlet ceiling excludes both cases. Need revised complete 40/50% duty, actual wet and dry output, kg water/h, guaranteed wood throughput, energy, fuel, operating hours, service and installed cost. See [dryer sizing](../MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) and [bid equalisation](TECHNICAL-COMMERCIAL-BID-EQUALISATION.md). Retain ₹520L owner fixed CAPEX pending comparable full offers.
+
 ## Public asking prices by process stage — rechecked 23 November 2026
 Prices shown are public asking prices or dated public commercial samples in ₹ lakh for one listed unit or set. GST, delivered freight, installation, discount at two units and current validity are unknown unless the source states them. The 40% and 50% wet-wood operating cases require separately specified bid scope. See the [source-linked machinery evidence](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md).
 
@@ -23,7 +44,7 @@ Prices shown are public asking prices or dated public commercial samples in ₹ 
 | **05 Jay Khodiyar 90mm-related listings** | **5.00 / 8.00** | **[LIST / very low, scope unknown]** The ₹5L advert is labelled hydraulic; ₹8L covers a mixed-size description. Exact mechanical JK90 and included equipment are unknown. OEM JK90 **91HP, 1.0–2.0TPH**. [₹5.00](https://www.tradeindia.com/products/briquette-making-machine-c436877.html) · [₹8.00](https://www.tradeindia.com/products/briquettes-making-machine-c10409274.html) · [OEM](https://jaykhodiyar.com/briquetting-machine/) |
 | **05 Jay Khodiyar BRQ-9075** | **No current readable price** | 90mm **1.2–1.5TPH** model listed but seller page now **“Get Latest Price”**. [Listing](https://www.tradeindia.com/products/jumbo-brq-9075-briquetting-machine-911772.html) |
 
-**Still unknown for all brands:** exact machine invoice, ₹/HP accessories, verified ram strokes/min (NOT machine RPM), genuine wood-only sustained finished output ≥1.60TPH per press, GST, delivered-to-Anakapalli cost, installation, power measured kWh/MT, spare wear-life and 16/20/24h duty guarantee. The **₹52L owner twin-press cost** remains a working budget, **not an updated actual quote**. Do not derive “minimum whole press factory” from ₹5L Jay listing.
+**Still unknown for all brands:** exact machine invoice (written partial EcoStan quote is not an invoice), ₹/HP accessories, verified ram strokes/min (NOT machine RPM), genuine wood-only sustained finished output ≥1.60TPH per press, GST, delivered-to-Anakapalli cost, installation, power measured kWh/MT, spare wear-life and 16/20/24h duty guarantee. The **₹52L owner twin-press cost** remains a working budget, **not an updated actual quote**. Do not derive “minimum whole press factory” from ₹5L Jay listing.
 
 ## Required guaranteed process duty for 1,000 finished MT/month
 
@@ -37,7 +58,7 @@ Use the [ordered 19-package BOM](COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md) f
 ## Bid comparison template (fill after each supplier proposal)
 | Supplier | Quote number/date/validity | Exact model + duty guarantee | Presses | Dryer water evaporation kg/h | Wet wood TPH | Connected kW | Delivered ex-GST capex | GST | Erection | Warranty/service SLA | Status |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---|---|
-| Ecostan | Pending | BM/BPM 90 HD + ESM150-class | 2 | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
+| EcoStan | ES/26-27/08526 · 23 Nov · expires 18 Dec 2026 | DFC90 + ESM100 + ERS1225 + conveyor + FDD25; no duty guarantee | 1 | Unknown | 2–3 nameplate ESM; wet duty unknown | ~182 shaft kW (244 HP) | Delivered TBD; ex works ₹82.65L | ₹14.877L | Initial visit included; total TBD | 12 months from sale mechanical; SLA TBD | **Partial quotation received; 40/50% duty not compliant as offered** |
 | Infinite Energy / dryer integrator | Pending | IFD/RFD with furnace, cyclone & safety | — | Pending | — | Pending | Pending | Pending | Pending | Pending | **No quote** |
 | Independent second full-line integrator | Pending | Equivalent guaranteed full line | 2 | Pending | Pending | Pending | Pending | Pending | Pending | Pending | **No quote** |
 
@@ -63,6 +84,6 @@ Primary manufacturer https://www.infinitedryer.com/ifd.html ; alternate high-moi
 ## Cross-model press/price status: authoritative register only (23 November 2026)
 The old duplicated multi-manufacturer table with smooth ₹ ranges for *every* 40/60/70/90/100mm model was removed because no exact source pages substantiated those as live executable prices. See the **current source-specific price list** at the beginning of this register and [per-manufacturer OEM specifications plus source URLs](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) for distinct 90mm entries. Smaller-model asks include EcoStan BM60 and BM70 and Radhe Equipments India Super 70. The evidence ledger identifies the seller and scope of each.
 
-**No signed vendor offer received:** EcoStan **NO QUOTE**, Lehra Fuel Tech **NO QUOTE**, Lehra Fuel Industries **PUBLIC SAMPLE ONLY**, Fuelforge **PUBLIC LISTING ONLY**, Jay Khodiyar **NO QUOTE**, Radhe **NO QUOTE**, Ronak **NO QUOTE**, Infinite Dryer **NO QUOTE**. No buyer correspondence was sent. [Contact/quotation tracker](SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md).
+**Quote status (25 Nov):** EcoStan **PARTIAL WRITTEN QUOTE RECEIVED; full turnkey offer pending**, Lehra Fuel Tech **NO QUOTE**, Lehra Fuel Industries **PUBLIC SAMPLE ONLY**, Fuelforge **PUBLIC LISTING ONLY**, Jay Khodiyar **NO QUOTE**, Radhe **NO QUOTE**, Ronak **NO QUOTE**, Infinite Dryer **NO QUOTE**. No outbound common RFQ evidence recorded; EcoStan quotation supplied by owner. [Contact/quotation tracker](SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md).
 
 **OEM acceptance still central:** 2 ×1.5 finishedTPH ×340h =1,020MT, only 2% theoretical margin. At least **≥1.60 finishedTPH each** under agreed local hardwood test is a *buyer RFQ target*, not a published success. Published machine speeds are 216 RPM (older EcoStan 90), 230 RPM (Ronak Jumbo 90) and 240 RPM (RICO Jumbo 90 and Super 70). Loaded ram strokes/min remain unknown. 40/50% incoming wetwood requires tested wetwood screening and certified dryer water-output plus dry-material mass-flow capability. Public listing prices do not resolve these uncertainties.

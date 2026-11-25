@@ -1,10 +1,10 @@
 # OEM supplier contacts and quotation status tracker
 **Compiled 22 November; 90mm press prices/seller identity rechecked 23 November 2026.**
-**Important:** No emails, contact forms, phone calls or formal quote requests have actually been sent by this repository update. All statuses **UNSENT / NO SIGNED QUOTE** unless replaced with real dated evidence. Check phone/email on vendor site before outreach.
+**Important:** No emails, contact forms, phone calls or formal quote requests have actually been sent by this repository update. Other vendors remain **UNSENT / NO SIGNED QUOTE** unless evidenced. EcoStan partial quotation supplied by owner; common RFQ transmission not evidenced. Check phone/email on vendor site before outreach.
 
 | ID | Company / location | Public business contact | Scope to quote | Official evidence | First contact sent | Reply / quote evidence |
 |---|---|---|---|---|---|---|
-| P01 | **EcoStan India Pvt Ltd**, Ludhiana, Punjab | **sales@ecostan.com** · +91 161 5200150 · +91 99140 33800 | 2 × **BPM 90 HD** (89.5 HP, 1.3–2.0 TPH), ESM150 (159 HP, 2–10 mm), HM150 (190 HP, ≤15% feed moisture), plus full 40/50% duty. Exact installed prices **unknown**. | https://www.ecostan.com/contact-us | **UNSENT** | **No signed quote** |
+| P01 | **EcoStan India Pvt Ltd**, Ludhiana, Punjab | **sales@ecostan.com** · +91 99140 33800 | Received one DFC90, ESM100, ERS1225, 25-ft conveyor, FDD25; revise for two-press 40/50% duty and complete installation | https://www.ecostan.com/contact-us | **Prior owner contact; common RFQ proof pending** | **ES/26-27/08526, 23 Nov, valid to 18 Dec; ₹82.65L ex GST / ₹97.527L gross Ex-Works. Partial quote; [details](2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md)** |
 | P02 | **Lehra Fuel Tech Pvt Ltd**, Punjab | **info@lehrafuel.com** · +91 98152 00337 · +91 96580 00037 | 2 × **LBP90** (up to 2 TPH; reconcile 69/86 HP prose and 88.5 HP table). Verify exact unit behind ₹21.75L directory ask and current scope versus ₹23.75L Fuel Tech public sample. Quote 10 TPH log eater and chipper-grinder separately. | https://www.lehrafuel.com/ | **UNSENT** | **No signed quote** |
 | P03 | **Jay Khodiyar Machine Tools**, Rajkot, Gujarat | **info@jaykhodiyar.com** / **sales@jaykhodiyar.com** · +91 76000 00014 / 16 / 18 / 19 · +91 98253 25361 WhatsApp | 2 × **JK90** (91 HP / 1–2 TPH). Reconcile the ₹5L hydraulic-labelled and ₹8L mixed-size listings with required mechanical model. Quote the **170 HP / 5 TPH** OEM wood chipper and actual wet duty. | https://jaykhodiyar.com/contact/ | **UNSENT** | **No signed quote** |
 | P04 | **Radhe Engineering Co**, Rajkot, Gujarat | +91 79425 53285 (directory contact; verify direct mobile/email) | 2 × **Radhe Engineering Co Jumbo-90** (₹22.51L public ask, 100 HP, ~1.5 TPH seller). RICO is a separate catalogue; its own Jumbo 90 publishes 240 machine RPM. Require ≥1.6 saleable TPH on wood and loaded strokes/min for offered unit. | https://www.radhebriquetting.in/profile.html | **UNSENT** | **No signed quote** |
@@ -25,7 +25,7 @@
 
 ## Questions to ask at first contact
 1. Can you sign off **at least 1.60 MT/h saleable 90-mm wood briquettes per press** for 340 productive hours/month and fully specified wood?
-2. Is the motor power **89.5 HP (EcoStan BPM90HD)** or **117 HP (EcoStan BM90/100 listing)**? Which exact commercial model and net rated performance will be supplied?
+2. EcoStan quoted **DFC90 92 HP** vs current DFC90 catalogue **94 HP**; distinct from BPM90HD 89.5 HP. Confirm serial/configuration and actual loaded strokes/min, wood output, included dies and motor schedule.
 3. For 50% fresh logs, who guarantees **>5.57 wet TPH wood intake** and **2,492 kg water/h removal** at 340h? Which options quote >=3,000 kg/h evaporation with reserve?
 4. Is 90-mm output sustained at the supplier-prescribed press-feed moisture and particle size? Who bears reject/wetwood trial risk?
 5. Can seller provide **A.P. / Telangana service reference**, a witnessed 72-hour acceptance test and written spare prices?

@@ -84,6 +84,9 @@ Log **time at rated output** and **time at feed/quality failure** separately; re
 - Finished briquettes: 2–3 days/80–120 MT protected dry stock, subject to safe fire-rated storage.
 - On-site OEM-specified spares: dies, rams, knife sets, bearings, lubricating system, approved electrical parts and dryer fan/airlock components; costing ₹6–8 lakh is **preliminary**.
 
+### EcoStan quoted service terms and unresolved maintenance — 25 Nov 2026
+[Written quote pp. 3–4](../PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) provides 12-month mechanical warranty from sale, excludes bearings/belts/consumables, supplier electrical warranty, genuine spares and OEM commissioning conditions, first visit included and later visits chargeable. Historical [DFC90 annexure](https://fr.scribd.com/document/616563512/ECOSTAN-DualFeed-90) lists extra briquette die/collar, split pipe, ram cap and four extra punches; these are not confirmed inclusions in current offer. Actual 8/16/24h duty, required cooldown, blade/die wear in hours/tonnes, part numbers, service intervals and prices remain UNKNOWN. Keep engineering inspection windows provisional; request written machine-wise maintenance manuals, two-year spares pricing and service SLA, no assumed mandatory rests. Confirm actual plant staffing and training; historical press-only staffing 1 operator + 2 labour is not whole-line staffing.
+
 ## Vendor contract clauses
 Require acceptance test, 12-month defect warranty terms, spare price list and availability years 1–5, published repair procedures, local service response schedule, technician training, root-cause reporting, explicit wear-part and force-majeure exclusions, and safety certification. Do not promise “die change in three hours” or “48-hour engineer on-site” without signed supplier acceptance.
 

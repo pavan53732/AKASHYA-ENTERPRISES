@@ -3,8 +3,10 @@
 
 ## Old baseline retained until written technical bids
 - Plant/machinery/handling planning allowance: **₹310 lakh**; civil/utility/erection allowance: **₹210 lakh**; **fixed total ₹520 lakh excluding land**.
-- Opening working capital estimate **₹99.43 lakh** → total initial owner cash plan **₹619.43 lakh** excluding land and several cash contingencies. Vendor quotes **not obtained**. Never treat marketplace prices as binding.
+- Opening working capital estimate **₹99.43 lakh** → total initial owner cash plan **₹619.43 lakh** excluding land and several cash contingencies. One partial Ex-Works vendor quotation received; complete comparable installed quotes not obtained. Never treat marketplace prices as binding.
 - Existing Excel and 10-page DPR are *previous owner modelling snapshots*. This live-price research does **not** overwrite them or prove existing figures are exact. Cashflow sensitivity still assumes owner prices and unverified power/drying fuel.
+
+**25 Nov quote reconciliation:** [EcoStan ES/26-27/08526](../PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md) totals **₹82.65L + ₹14.877L IGST = ₹97.527L Ex-Works** for one each of five machines. At 40% advance on gross (if vendor confirms tax basis), cash ₹39.0108L; remaining ₹58.5162L before delivery; advance nonrefundable under stated terms. Delivery/offload, site costs and full integrated equipment extra/unknown; quoted capacities fail 340h and 35% dryer ceiling excludes 40/50% scenarios. **Do not subtract ₹82.65L from ₹520L or scale this partial line blindly.** Bank CAPEX/working capital remain unchanged pending comparable complete scope, moisture trial and acceptance guarantees.
 
 ## Counterfactual buyer options to price separately
 | Technical option | Line design | Public machinery evidence | Important cost risk |

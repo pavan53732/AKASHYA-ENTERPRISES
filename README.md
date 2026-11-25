@@ -55,14 +55,14 @@ The **23 November 2026** check covers EcoStan, Lehra, Radhe, Ronak, Jay Khodiyar
 
 **New active procurement files:**
 - [**Detailed OEM press RPM, per-machine capacities, wet/dry inputs, fuel/HP, and public prices** — rechecked 23 Nov](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
-- [EcoStan, Lehra, Jay Khodiyar, Radhe, Ronak, Infinite supplier contacts / unsent RFQ tracker](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md)
+- [EcoStan, Lehra, Jay Khodiyar, Radhe, Ronak, Infinite supplier contacts / RFQ and received-quote tracker](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md)
 - [Full turnkey 1,000-MT/month formal RFQ — ready to send](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md)
 - [Side-by-side technical/commercial bid equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md)
 - [**Ordered 19-package factory BOM, low/high rough installed estimates, input/output and HP**](PROCUREMENT/COMPLETE-1000MT-TURNKEY-BILL-OF-MATERIALS.md)
 - [**Per-machine inspections, run durations, stop windows, safe operator relief and maintenance**](MACHINERY/03-Breakdown-Risk-Mitigation-and-Maintenance-SOP.md)
 - [₹5.20Cr fixed-CAPEX placeholder and 40% vs 50%-moisture machine options](FINANCE/MACHINERY-CAPEX-REBASE-AND-40-50-MOISTURE-OPTIONS.md)
 
-**23 November engineering estimates, NOT quotations:** the itemised 12 machinery and 7 civil/HT/installation components give a broad **₹4.25–7.96Cr fixed cost planning envelope** excluding land; the previous **₹5.20Cr** remains unchanged as owner budget. A valid supplier quote must address **wet 40–50% wood to <8mm pre-dryer**, a dryer that supports **both 1.563/2.492TPH water evaporation and ~3.08TPH dry product**, 2 press output, and full HT power. **No genuine binding OEM offer yet.**
+**23 November engineering estimates, NOT quotations:** the itemised 12 machinery and 7 civil/HT/installation components give a broad **₹4.25–7.96Cr fixed cost planning envelope** excluding land; the previous **₹5.20Cr** remains unchanged as owner budget. A valid supplier quote must address **wet 40–50% wood to <8mm pre-dryer**, a dryer that supports **both 1.563/2.492TPH water evaporation and ~3.08TPH dry product**, 2 press output, and full HT power. **One partial written EcoStan quotation received (23 Nov, valid to 18 Dec), not a complete binding turnkey offer.** [Quote register](PROCUREMENT/2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md): ₹82.65L ex-GST / ₹97.527L gross Ex-Works, one DFC90, ESM100, ERS1225, conveyor and FDD25; 244 HP, insufficient for 340h target and quoted dryer inlet max 35%. Owner budget unchanged.
 
 **Engineering rejection triggers:** two advertised 1.5-TPH presses provide only ~2% nameplate spare capacity under 340 productive hours; a 5-TPH max wood chipper is below the 50% moisture **5.57 wet TPH** requirement; a "2 TPH dryer" without guaranteed **water evaporation** is insufficient. **No supplier is yet technically/commercially selected**.
 
