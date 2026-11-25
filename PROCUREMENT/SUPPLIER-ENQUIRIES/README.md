@@ -15,9 +15,7 @@
 
 Five primary OEMs and one dryer specialist only. Preliminary catalogue-fit ranking, not verified reliability or a purchase award. All offers must pass equal technical and ownership-cost gates. EcoStan and Lehra have broad preparation/press/dryer ranges; Jay has relevant wood preparation and claimed regional installations; RICO has mechanical presses and drying options; Ronak is a price/technical comparator with lower published maximum press output. Infinite supplies independent dryer comparison. Verify actual local wood duty and service.
 
-## Reserve suppliers — not for initial outreach
-
-[Reserve folder](RESERVE/README.md): Lehra Fuel Industries, Radhe Engineering Co, Radhe Equipments India, Fuelforge. Preserve historical evidence; do not conflate legal entities. Stable draft file IDs are not priority ranks. Activate reserves only with explicit owner approval.
+Only these six suppliers are approved. No additional supplier drafts without owner approval. Stable draft file IDs are not priority ranks.
 
 ## Mandatory agent instructions
 

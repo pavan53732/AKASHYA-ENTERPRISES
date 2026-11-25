@@ -55,7 +55,7 @@ References: [moisture sizing](MACHINERY/05-WOOD-MOISTURE-AND-DRYER-SIZING.md) ·
 ## Live machinery research and RFQ milestones — integrated 22 Nov 2026
 The [dated public price register](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) is now available. **Owner supplied EcoStan partial quotation ES/26-27/08526 on 25 Nov (issued 23 Nov, expires 18 Dec).** Common RFQ dispatch remains unevidenced; full 40/50% duty installed bids pending. Use [active supplier enquiries](PROCUREMENT/SUPPLIER-ENQUIRIES/README.md) and [supplier tracker](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md); the [project RFQ](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md) is INTERNAL ONLY until owner approves release. After vendor replies, use [technical/commercial equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md) rather than inserting marketplace prices into bank DPR.
 
-- **26–27 Nov:** owner sends neutral individual enquiries to the five primary OEMs and Infinite dryer; obtain receipt evidence. Reserve outreach paused.
+- **26–27 Nov:** owner sends neutral individual enquiries to the five primary OEMs and Infinite dryer; obtain receipt evidence. No other machinery supplier outreach without owner approval.
 - **02 Dec:** call bidders, verify model/motor mismatch (EcoStan quoted DFC90 92 HP versus current DFC90 94 HP; distinct from BPM90HD) and exact quote validity.
 - **08 Dec:** target complete revised written bid responses (not guaranteed); resolve EcoStan missing scope, moisture and capacity before 18 Dec validity.
 - **15–20 Dec:** compare all 40/45/50% moisture obligations, actual kg-water/h, kWh/MT, furnace fuel, 2-year spares, installation and service response.

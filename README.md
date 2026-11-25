@@ -57,7 +57,7 @@ The **23 November 2026** check covers EcoStan, Lehra, Radhe, Ronak, Jay Khodiyar
 
 **New active procurement files:**
 - [**Detailed OEM press RPM, per-machine capacities, wet/dry inputs, fuel/HP, and public prices** — rechecked 23 Nov](PROCUREMENT/2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md)
-- [Active supplier enquiries: five primary OEMs plus Infinite dryer specialist](PROCUREMENT/SUPPLIER-ENQUIRIES/README.md) — EcoStan, Lehra Fuel Tech, Jay Khodiyar, RICO, Ronak in priority order; four reserve drafts retained.
+- [Active supplier enquiries: five primary OEMs plus Infinite dryer specialist](PROCUREMENT/SUPPLIER-ENQUIRIES/README.md) — EcoStan, Lehra Fuel Tech, Jay Khodiyar, RICO, Ronak in priority order; no reserve supplier folder.
 - [Supplier contacts and received-quote tracker](PROCUREMENT/SUPPLIER-CONTACTS-AND-RFQ-TRACKER.md)
 - [Full turnkey 1,000-MT/month formal RFQ — INTERNAL ONLY until owner approves release](PROCUREMENT/AKASHYA-1000MT-FORMAL-TURNKEY-RFQ.md)
 - [Side-by-side technical/commercial bid equalisation](PROCUREMENT/TECHNICAL-COMMERCIAL-BID-EQUALISATION.md)
