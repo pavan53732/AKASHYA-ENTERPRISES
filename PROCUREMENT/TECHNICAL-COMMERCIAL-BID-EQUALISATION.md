@@ -33,7 +33,7 @@
 |---|---:|---|---:|---|
 | EcoStan **BPM90HD** | **1,300–2,000** | **89.5 HP** official | **16.75** BM90HD-coded soya-husk listing; **25.95** BM90/100-family listing | Quote the exact hardwood configuration. Older 216 machine RPM is a separate reference. |
 | Lehra Fuel Tech **LBP90** | **Up to 2,000** | **69/86 HP** prose, **88.5 HP** table | **21.75** directory with exact model unresolved; **23.75** older Fuel Tech 90 mm set sample | Specify offered model, motor list and handling scope. |
-| RICO **Jumbo 90** | **1,500 ±20%** | **~91 HP** OEM description | **Unknown** | 240 machine RPM, 200 mm stroke; actual sustained wood output and exact offer unknown. [OEM](https://radheindcorp.com/product/jumbo-90/) |
+| RICO **Jumbo 90** | **1,500 ±20%** | **~91 HP** OEM description | **22.00** *(OEM webshop `SKU: RICO-1`; GST/scope unverified)* | 240 machine RPM, 200 mm stroke; actual sustained wood output and exact written offer unknown. [Product](https://radheindcorp.com/product/jumbo-90/) · [Shop](https://radheindcorp.com/shop/jumbo-90/) · [RICO Dossier](SUPPLIER-RESEARCH/04-RICO.md) |
 | Ronak **Jumbo90** | **1,200–1,500** current OEM; legacy 1,000–1,500 | **93.5 HP** current OEM; legacy 91 HP | **17.90 /21.00 /21.75** (three different seller listings) | No guaranteed ≥1.6TPH; official 230 machine RPM is not verified ram count |
 | Jay Khodiyar **JK90** | **1,000–2,000** | **91 HP** official | **5.00** hydraulic-labelled 90 mm / **8.00** mixed-size listings; **BRQ-9075 price unknown** | Exact mechanical JK90 price, included equipment and output on wood remain unknown. |
 
