@@ -17,6 +17,10 @@ Five primary OEMs and one dryer specialist only. Preliminary catalogue-fit ranki
 
 Only these six suppliers are approved. No additional supplier drafts without owner approval. Stable draft file IDs are not priority ranks.
 
+## Internal technical research
+
+Use the [sequential supplier research tracker](../SUPPLIER-RESEARCH/README.md) to check each company's published evidence and remaining gaps before revising its own external draft. Never share that folder or its links with suppliers.
+
 ## Mandatory agent instructions
 
 All supplier-facing drafts and follow-ups must comply with the root [AGENTS.md supplier-communication policy](../../AGENTS.md#mandatory-supplier-communication-policy--preliminary-quotation-collection), including its include/exclude rules and owner-approval gate. Review the exact outgoing content and attachments before release. This index is internal navigation, not an attachment to suppliers.

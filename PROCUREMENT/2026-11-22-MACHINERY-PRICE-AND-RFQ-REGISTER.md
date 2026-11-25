@@ -24,6 +24,8 @@
 
 ## EcoStan official-site evidence coverage — 25 Nov 2026
 
+[Manufacturer-specific dossier](SUPPLIER-RESEARCH/01-ECOSTAN.md) consolidates model tables, wood-process applications, quotation differences and 15 outstanding deliverables. This is an internal sequential research view, not the external enquiry. The recorded quote and evidence hierarchy remain unchanged.
+
 Catalogue review covers **39 model/configuration entries** (5 BPM, 3 DFC, 4 ESM, 7 HM, 4 DSS, 8 flash, 3 rotary, 3 PSS, 2 ring-die PM); [press model table](../MACHINERY/04-BPM-Operating-Hours-and-Live-Machinery-Pricing.md), [dryer and preparation tables](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md). This is not a verified commercial price list. Public listings and the five quoted items retain separate evidence tiers.
 
 | Enquiry topic | Covered from official pages / existing quote | Still requires OEM written data |
