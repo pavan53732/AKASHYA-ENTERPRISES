@@ -8,8 +8,8 @@ Owner-directed workflow: research **one manufacturer at a time** before proceedi
 | 2 | Lehra Fuel Tech | [02-LEHRA-FUEL-TECH.md](02-LEHRA-FUEL-TECH.md) | Full public catalogue & all subsidiary model pages verified; written data pending | [Draft](../SUPPLIER-ENQUIRIES/02-LEHRA-FUEL-TECH.md) |
 | 3 | Jay Khodiyar | [03-JAY-KHODIYAR.md](03-JAY-KHODIYAR.md) | Full public website (`sitemap_index.xml`) & 20-page official brochure PDF verified; written pricing & trials pending | [Draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md) |
 | 4 | RICO | [04-RICO.md](04-RICO.md) | Full public website (`wp-sitemap.xml` / WooCommerce `/shop/`) & 4-page brochure PDF verified (`19` master records); zero whole-log chippers, scope/GST/trials pending | [Draft](../SUPPLIER-ENQUIRIES/08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) |
-| 5 | Ronak Engineering | Not created | Next public review | [Draft](../SUPPLIER-ENQUIRIES/06-RONAK-ENGINEERING.md) |
-| 6 | Infinite Energy (dryer specialist) | Not created | Queued | [Draft](../SUPPLIER-ENQUIRIES/07-INFINITE-ENERGY-DRYER.md) |
+| 5 | Ronak Engineering | [05-RONAK-ENGINEERING.md](05-RONAK-ENGINEERING.md) | Full public website, both PDF brochures (`16p`/`4p`) & TrustSEAL storefront verified (`20` master records); written pricing, moisture limits & trials pending | [Draft](../SUPPLIER-ENQUIRIES/06-RONAK-ENGINEERING.md) |
+| 6 | Infinite Energy (dryer specialist) | Not created | Next public review | [Draft](../SUPPLIER-ENQUIRIES/07-INFINITE-ENERGY-DRYER.md) |
 
 ## Required review sequence
 
