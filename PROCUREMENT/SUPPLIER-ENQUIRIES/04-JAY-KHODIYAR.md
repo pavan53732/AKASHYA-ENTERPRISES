@@ -1,8 +1,8 @@
 # Jay Khodiyar Machine Tools — preliminary technical and commercial enquiry
 
-**Status, 26 November 2026:** Initial enquiry sent 25 November; clarification exchanged and technical sheets received 26 November. Latest follow-up is a draft awaiting owner review.
+**Status, 26 November 2026:** Initial enquiry sent 25 November; clarification exchanged and technical sheets received 26 November. Follow-up sent; five machine prices received by email at 12:37 IST. Integrated package pending.
 
-## Reply to the five technical sheets — DRAFT, NOT SENT
+## Reply to the five technical sheets — SENT — 26 November 2026
 
 Dear Mr. Savaliya,
 
