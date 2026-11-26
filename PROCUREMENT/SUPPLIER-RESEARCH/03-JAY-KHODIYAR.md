@@ -8,6 +8,20 @@ The 25 November enquiry requested individual and integrated-line prices. On 26 N
 
 All figures below are supplier sheet ratings. Moisture basis is unspecified. “Units/h” preserves the supplier's approximate electrical consumption terminology. Connected power, running consumption and measured energy per saleable tonne are distinct.
 
+### Subsequent priced response — 26 November, 12:37 IST
+
+The supplier answered the follow-up with [five written basic prices and commercial terms](../2026-11-22-MACHINERY-PRICE-AND-RFQ-REGISTER.md). The proposed route is logs/branches → chipper → dryer → dry feed → JK-90 → cooling track. The branch crusher is optional. The role and cost of screening, recirculation, wet grinding and post-dryer milling remain unresolved.
+
+| Priced machine | Latest supplier statement and reconciliation with the earlier sheet |
+|---|---|
+| 3 TPH chipper | Hardwood, softwood or wood waste; ≤50% inlet moisture, ≤20 mm output, ≤3,000 kg/h, 114 HP / 85 kW. Exact log diameter depends on configuration. Supplier estimates 70–80% below 15 mm. No screened distribution or net wet-line throughput supplied. |
+| 3 TPH hammer mill | ≤20% feed moisture, 50 × 25 × 25 mm input, ≤8 mm output depending on screen, 2,200–3,000 kg/h. Email gives 98 HP / 73 kW versus sheet 96 HP / 72 kW. |
+| 3 TPH turbo/flash dryer | 73 HP / 54.43 kW; recommended particles about 1–5 mm diameter × 1–15 mm length. Email describes inlet moisture as “up to 35/50%” and allows up to 50% at reduced output versus 45% sheet ceiling. Outlet target 10–15% may exceed the press limit. Derated throughput, matched evaporation, outlet moisture and fuel rate still require a test. |
+| 50 HP crusher | Branches ≤50 mm or chips; ≤30% moisture, ≤2,000 kg/h, 50 HP / 37.28 kW. Email states ≤20 mm discharge versus ≤25 mm on the sheet. |
+| JK-90 press | 90 mm, ≤12% moisture, reduce feed over 20 mm, 91 HP / 67.85 kW, machine speed 230–240 RPM. Email gives 1,000–2,500 kg/h depending on density and moisture versus 900–2,000 kg/h ±10% on the sheet. Sustained saleable hardwood output and ram strokes/min remain unverified. |
+
+For an integrated proposal the supplier requests wood species, approximate log/branch diameters, measured moisture, confirmed daily supply and operating hours. No installed total or performance guarantee was issued.
+
 ### Mechanical presses — Briquetting Machine Comp.pdf, p. 1
 
 | Email model / sheet label | Capacity kg/h (±10%, material dependent) | Cylinder diameter × length mm | Feed sizing and moisture | Connection HP / kW | Machine RPM | Approx. A | Up to approx. units/h | Approx. kg |
