@@ -6,18 +6,18 @@
 ## Gate 1 — technical pass/fail
 | Required criterion | EcoStan | Lehra Fuel Tech | Jay Khodiyar | RICO | Ronak | Infinite Energy (dryer only) |
 |---|---|---|---|---|---|---|
-| Exact OEM model and signed datasheet | DFC90/ESM100/ERS1225/FDD25 identified; signed datasheets pending | PENDING | PENDING | PENDING | PENDING | PENDING |
-| >=2 presses × >=1.60 TPH sustained wood output | NOT MET as offered: one DFC90, indicative only | PENDING | PENDING | PENDING | PENDING | N/A |
-| 90-mm product dimension/press-feed moisture guaranteed | PENDING | PENDING | PENDING | PENDING | PENDING | N/A |
-| >=6 wet TPH logs at 50% wood or fully priced alternative | NOT MET as offered: ESM100 max 3 TPH | PENDING | PENDING | PENDING | PENDING | N/A |
-| **40/50% green wood → dryer inlet <8mm**, wet-rated grinder/screen guaranteed | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
-| Dry-rated hammer mill kept after drying, input ≤OEM-moisture ceiling, net ~3.08TPH dried material | PENDING | PENDING | PENDING | PENDING | PENDING | N/A |
-| >=1,800 kg/h water evaporation at 40% | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
-| Dryer **dry-material output ≥3.08TPH** at actual 40% inlet, not water-only | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
-| **Exactly 50.0% wetwood** accepted and tested (brochure '<50%' does NOT include boundary) | NOT MET: FDD25 quoted max 35% | PENDING | PENDING | PENDING | PENDING | PENDING |
-| >=2,750–3,000 kg/h water evaporation high-moisture option | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
-| Complete motor kW list and energy kWh/finished tonne | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
-| Physical ram strokes/min **measured separately from RPM**; service cycles documented | PENDING | PENDING | PENDING | PENDING | PENDING | N/A |
+| Exact OEM model and signed datasheet | DFC90/ESM100/ERS1225/FDD25 identified; signed datasheets pending | Five sheets received; signed revisions pending | PENDING | PENDING | PENDING | PENDING |
+| >=2 presses × >=1.60 TPH sustained wood output | NOT MET as offered: one DFC90, indicative only | Jumbo-90 rated 0.9–2.0 TPH ±10%; sustained saleable hardwood TPH unverified | PENDING | PENDING | PENDING | N/A |
+| 90-mm product dimension/press-feed moisture guaranteed | PENDING | 90 mm; 8–12% sheet rating; acceptance pending | PENDING | PENDING | PENDING | N/A |
+| >=6 wet TPH logs at 50% wood or fully priced alternative | NOT MET as offered: ESM100 max 3 TPH | Chipper-5000 up to 5 TPH; below 6 wet TPH | PENDING | PENDING | PENDING | N/A |
+| **40/50% green wood → dryer inlet <8mm**, wet-rated grinder/screen guaranteed | PENDING | Chips ≤20 mm; both dryers require ≤15 mm; wet sizing unproven | PENDING | PENDING | PENDING | PENDING |
+| Dry-rated hammer mill kept after drying, input ≤OEM-moisture ceiling, net ~3.08TPH dried material | PENDING | Hammer 3TPH max 3 TPH at ≤20%; full-stream duty unproven | PENDING | PENDING | PENDING | N/A |
+| >=1,800 kg/h water evaporation at 40% | PENDING | No evaporation rating | PENDING | PENDING | PENDING | PENDING |
+| Dryer **dry-material output ≥3.08TPH** at actual 40% inlet, not water-only | PENDING | 1.2–2 / 2–3 TPH; stream unidentified | PENDING | PENDING | PENDING | PENDING |
+| **Exactly 50.0% wetwood** accepted and tested (brochure '<50%' does NOT include boundary) | NOT MET: FDD25 quoted max 35% | Dryer-2000/3000 max 35/45%; neither covers 50% | PENDING | PENDING | PENDING | PENDING |
+| >=2,750–3,000 kg/h water evaporation high-moisture option | PENDING | No high-moisture option evidenced | PENDING | PENDING | PENDING | PENDING |
+| Complete motor kW list and energy kWh/finished tonne | PENDING | Connected ratings and approximate units/h only | PENDING | PENDING | PENDING | PENDING |
+| Physical ram strokes/min **measured separately from RPM**; service cycles documented | PENDING | Machine RPM known; loaded strokes/min pending | PENDING | PENDING | PENDING | N/A |
 | OEM written **continuous 16/20/24h duty** and cooling/break/stoppage requirements | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
 | **630/800/1000kVA** engineering load alternatives (nameplate vs 150kWh/MT) | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
 | Wood-dust explosion/fire protection engineered | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |

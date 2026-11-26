@@ -8,7 +8,7 @@
 |---|---|---|---|
 | 1 | EcoStan India Pvt Ltd | [Open enquiry](01-ECOSTAN.md) | Partial quotation received; follow-up |
 | 2 | Lehra Fuel Tech Pvt Ltd | [Open enquiry](02-LEHRA-FUEL-TECH.md) | Verify recorded email |
-| 3 | Jay Khodiyar Machine Tools | [Open enquiry](04-JAY-KHODIYAR.md) | Verify recorded email |
+| 3 | Jay Khodiyar Machine Tools | [Open enquiry](04-JAY-KHODIYAR.md) | Technical sheets received 26 Nov; follow-up drafted |
 | 4 | Radhe Industrial Corporation (RICO) | [Open enquiry](08-RADHE-INDUSTRIAL-CORPORATION-RICO.md) | Verify direct contact |
 | 5 | Ronak Engineering | [Open enquiry](06-RONAK-ENGINEERING.md) | Verify recorded email |
 | Specialist | Infinite Energy / Infinite Dryer | [Open enquiry](07-INFINITE-ENERGY-DRYER.md) | Verify recorded email |

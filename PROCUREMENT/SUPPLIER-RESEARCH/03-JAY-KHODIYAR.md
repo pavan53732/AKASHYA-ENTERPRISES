@@ -2,6 +2,61 @@
 
 **INTERNAL ONLY — 25 November 2026.** Sequential public-source review: full official website (`jaykhodiyar.com`, `sitemap_index.xml` / 198 discovered URLs, all product/technical/support pages, redirect checks) AND official 20-page downloadable company brochure PDF examined. No written quotation addressed to AKASHYA ENTERPRISES; zero factory/brochure prices published; actual local wood test data, motor breakdowns, and loaded strokes/min remain open. [Shared master](../MACHINERY-MASTER.csv) tracks **30 Jay Khodiyar catalogue/legacy entries** (`JK-65/75/90`, `SH-50/WC-75/WC-100`, `JKWC75/100/150`, `JKCM75/100/150`, `50 HP Chipper Grinder`, `VC-30/50/75/100`, `HM-50/75/100 (100 HP)/100 (150 HP)`, `JK-BD-2000/3000/5000`, plus `JK-VP100/175/225` pellet-only comparison). Do not send this file externally. [External draft](../SUPPLIER-ENQUIRIES/04-JAY-KHODIYAR.md).
 
+## Supplier correspondence and five specification sheets received 26 November 2026
+
+The 25 November enquiry requested individual and integrated-line prices. On 26 November at 10:20 IST the supplier asked about new plant versus expansion, target TPH, daily raw material, inlet moisture and purchase scope. The buyer confirmed a proposed new plant and requested comparable individual and integrated options. The buyer clarified the scope of one source’s time-limited wood offer. Aggregate daily supply and measured moisture remain unknown. The offer alone cannot establish plant size. At 10:50 IST the supplier supplied five single-page technical sheets, requested a shortlist covering press, chipper, mill and dryer, and offered a technical discussion. It will prepare individual and integrated prices after shortlisting. No commercial offer, validity, signed performance guarantee or trial results accompanied the sheets. Original correspondence and attachments are retained privately.
+
+All figures below are supplier sheet ratings. Moisture basis is unspecified. “Units/h” preserves the supplier's approximate electrical consumption terminology. Connected power, running consumption and measured energy per saleable tonne are distinct.
+
+### Mechanical presses — Briquetting Machine Comp.pdf, p. 1
+
+| Email model / sheet label | Capacity kg/h (±10%, material dependent) | Cylinder diameter × length mm | Feed sizing and moisture | Connection HP / kW | Machine RPM | Approx. A | Up to approx. units/h | Approx. kg |
+|---|---|---|---|---|---|---|---|---|
+| JK-65 / 65 mm | Up to 800 | 65 × 50–300 | ≤10 mm, cut longer feed; 8–10% | 59 / 43.99 | 200–210 | 59–73 | 32 | 4,400 |
+| JK-75 / 75 mm | Up to 1,000 | 75 × 50–300 | ≤10 mm, cut longer feed; 8–10% | 69 / 51.45 | 200–210 | 59–73 | 32 | 5,200 |
+| JK-90 / JUMBO-90 | 900–2,000 | 90 × 50–350 | 15 mm stated; cut if longer than 20 mm; 8–12% | 91 / 67.85 | 230–240 | 75–85 | 40 | 8,200 |
+
+Per press the sheet lists one trained operator and two unskilled workers per shift, plus one tractor-loader operator. Confirm Jumbo feed acceptance between 15 and 20 mm, actual shaft measured, loaded ram strokes/min and simultaneous cooled saleable output. The smaller press diameters are explicit on this sheet; prior web/brochure differences remain documented below.
+
+### Log preparation — Chipper Machine (Comp).pdf, p. 1
+
+| Sheet model | Up to kg/h | Max feed size mm | Connection HP / kW | Approx. units/h | Approx. kg |
+|---|---:|---:|---|---:|---:|
+| Chipper-2000 | 2,000 | 200 | 89 / 66.4 | 50 | 7,500 |
+| Chipper-3000 | 3,000 | 300 | 114 / 85 | 60 | 8,000 |
+| Chipper-5000 | 5,000 | 400 | 171 / 127.5 | 75 | 10,000 |
+
+All three accept wood logs/waste, lengths 300–4,000 mm and moisture up to 50%. Output is powder and chips up to 20 mm. Capacity depends on material and feed rate. Each lists two workers and one loader operator per shift. The practical-load field reads “Up to 80 Efficiency (Approx)” without a unit or test basis. Model equivalence with WC, JKWC and JKCM codes needs written confirmation.
+
+### Branch crusher — Biomass Crusher 50HP.pdf, p. 1
+
+Accepts branches up to 50 mm, wood chips or biomass waste. Maximum inlet moisture 30%; crushed product up to 25 mm. Up to 2,000 kg/h ±10%, dependent on density and moisture. Main crusher motor 50 HP / 37.28 kW, Siemens/ABB; machine mass approximately 1–1.2 tonnes. Confirm relationship to SH-50 and 50 HP Chipper Grinder. This sheet does not establish service on full-size wet logs.
+
+### Hammer mills — Product Highlights of  Hammer Mill.pdf, p. 1
+
+| Sheet model | Up to kg/h | Connection HP / kW | Approx. units/h |
+|---|---:|---|---:|
+| Hammer 2TPH | 2,000 | 71 / 53 | 40 |
+| Hammer 3TPH | 3,000 | 96 / 72 | 45 |
+
+Both accept agro/forestry waste, 25 mm feed size, 50 mm feed length and up to 20% moisture. Output is powder/dust up to 8 mm, customisable. Throughput depends on material and in-feed ratio. Each lists two workers and one loader operator per shift. Both repeat the undefined “Up to 80 Efficiency (Approx)” load field. Exact correspondence to HM models, screen aperture, recirculation and usable throughput require confirmation.
+
+### Dryers — Drying System (comp).pdf, p. 1
+
+| Sheet model | Stated production kg/h (stream unspecified) | Max inlet moisture | Feed size | HP | Hot-air inlet / outlet °C | ID fan up to m³/h |
+|---|---|---:|---|---:|---|---:|
+| Biomass Dryer-2000 | 1,200–2,000 | 35% | ≤15 mm | 61 | 350–450 / 80–90 | 20,000 |
+| Biomass Dryer-3000 | 2,000–3,000 | 45% | ≤15 mm | 73 | 350–500 / 80–90 | 32,000 |
+
+Both list wood logs, wood waste and briquettes as furnace fuels. The outlet temperature is for air. Neither sheet identifies evaporation, wet feed and dried discharge at the same duty, final solids moisture or fuel rate. No Dryer-5000 sheet was enclosed.
+
+### Internal line-fit assessment
+
+- The 5 TPH chipper ceiling exceeds the calculated 4.64 wet TPH baseline only on paper; it falls below 5.57 wet TPH at the 50% case. Verify sustained hardwood throughput and screened yield.
+- Direct transfer of up-to-20 mm chips or up-to-25 mm crusher product into a ≤15 mm dryer requires a demonstrated size-control step. The hammer mills accept ≤20% moisture and the crusher ≤30%; the sheets do not establish either as a green-wood grinder at 40–50%.
+- Only Dryer-3000 covers 40% on the stated inlet limits. Both supplied dryers fall below 50%. Even at 40%, neither a 3.08 TPH dried discharge nor 1,563 kg/h baseline evaporation is established. Request a separately sized higher-moisture option and test data.
+- The larger mill tops out at 3 TPH against approximately 3.08 TPH fresh dried flow. Confirm whether only screened oversize needs milling. Jumbo-90 spans the internal 1.60 TPH sustained target on a catalogue basis only. Price, net sustained output, downtime, fuel, integrated staffing and acceptance terms remain open.
+
 ## 1. Supplier identity, contacts and website integrity check
 
 - **Entity & Works:** Jay Khodiyar Machine Tools (JKMT), Samrat Industrial Area, Street No. 2, Gondal Road, Rajkot 360004, Gujarat, India. Established 1994; owner/chairman Mr. Sanjay Tilala. [About](https://jaykhodiyar.com/about-us/) · [Contact](https://jaykhodiyar.com/contact/)

@@ -1,6 +1,10 @@
 # Machinery price evidence and formal RFQ register
 **Research first compiled:** 22 Nov 2026. **OEM and public listings rechecked:** 23 Nov 2026. **Do not confuse a live public *asking price* with a binding quotation.** INR, quoted asking prices may omit GST, delivery to Anakapalli, civil foundations, controls, commissioning, warranties and performance tests.
 
+## Jay Khodiyar response — 26 November 2026
+
+Five [technical sheets covering eleven variants](SUPPLIER-RESEARCH/03-JAY-KHODIYAR.md) received. Individual and integrated prices follow a model shortlist. No price, GST, validity or installed cost was offered. Public listings below retain their original evidence classification.
+
 ## Written EcoStan quotation received — 25 November 2026
 
 **[WRITTEN QUOTE / promoter-supplied PDF]** EcoStan India Pvt Ltd, quotation **ES/26-27/08526**, dated **23 Nov 2026**, expires **18 Dec 2026**. Source: owner-supplied four-page `Quotation - ES_26-27_08526.pdf`, pp. 1–4. Commercial letterhead PDF received; signature/authority and applicability to purchasing entity to be confirmed. Original PDF retained privately (public repository does not publish bank/customer details). All quantities below are **one each**, Ex-Works, INR, 18% IGST extra; rated output is indicative, not guaranteed.

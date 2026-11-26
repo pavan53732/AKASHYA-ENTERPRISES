@@ -1,6 +1,28 @@
 # Jay Khodiyar Machine Tools — preliminary technical and commercial enquiry
 
-**Status:** DRAFT — NOT SENT. Verify the recipient on the supplier's own site before use.
+**Status, 26 November 2026:** Initial enquiry sent 25 November; clarification exchanged and technical sheets received 26 November. Latest follow-up is a draft awaiting owner review.
+
+## Reply to the five technical sheets — DRAFT, NOT SENT
+
+Dear Mr. Savaliya,
+
+Thank you for the five specification sheets. Please prepare a comparative quotation around the Jumbo-90 mechanical press. For the wood preparation and drying stages, please quote the Chipper-3000 and Chipper-5000, the Hammer 2TPH and 3TPH, and the Biomass Dryer-2000 and 3000 individually. Please show the matched combination your team recommends for each supported hardwood feed condition. A separate unit-price line for the JK-65 and JK-75 will let us compare the press options. Please list the 50 HP crusher separately for branches and chips. These are models for quotation and technical evaluation.
+
+1. Chipper-to-dryer connection. Your chippers produce chips up to 20 mm, the crusher produces up to 25 mm, and both dryers accept up to 15 mm. How would you handle the oversized fraction while the wood is still wet? Please identify the screen, wet-rated grinder or recirculation equipment you would supply, price it, and state net throughput after screening. Your hammer mills list a 20% moisture ceiling. Please show where each mill belongs in the flow and whether it handles all material or only oversize.
+
+2. Dryer duty and furnace. For each dryer, please identify what its kg/h rating measures. At representative tested inlet moistures up to the stated 35% and 45% limits, please give wet feed kg/h, inlet moisture, water removed kg/h, dried discharge kg/h and outlet moisture from the same run. Please state whether moisture is on a wet basis. Include particle size, furnace fuel type, fuel moisture, fuel kg/h and electricity use. If you supply a system rated for 50% inlet moisture, please identify it and quote it as a separate option with its own duty data.
+
+3. Press and hardwood performance. Please confirm the Jumbo-90 feed-size limit between 15 and 20 mm, the shaft measured at 230–240 RPM and the physical loaded ram strokes per minute. Please share a representative hardwood trial showing species, feed moisture, productive hours, cooled saleable output, rejects and metered electricity per saleable tonne. What output and quality would you guarantee at an acceptance trial? Please indicate the sample quantity and preparation needed, test location, cost and who records input and finished weights. Our incoming wood moisture and total daily availability are still unconfirmed.
+
+4. Matched line and operating costs. Please identify exact current model codes and revisions against the names on your five sheets. For each recommended configuration, include a simple material flow, limiting stage, wet wood and furnace fuel required per tonne of cooled briquettes, connected load and typical running demand. Please clarify the “up to 80 efficiency” entry, shared labour per shift, maximum continuous run and planned maintenance stops. Please include typical service lives, replacement intervals and current prices for knives, hammers, screens, dies and rams.
+
+5. Written quotation for delivery to Anakapalli, Andhra Pradesh. Please give individual machine prices and a separate itemised integrated-package total. Identify included and optional feeders, conveyors, screens, furnace, cyclones, dust and fire protection, cooling tracks, panels, cabling and buyer-side works. Please separate ex-works price, GST, freight and insurance, installation, commissioning and training. Include legal seller, quotation date and validity, lead time, payment terms, warranty, local service response and spare-part lead times.
+
+A model-wise price sheet first would help if trial records or layout drawings take longer. Please distinguish catalogue ratings, measured results and performance you can guarantee, and flag any data still pending. We can then use a technical call to resolve the open sizing questions.
+
+Thank you and regards
+
+## Original first-contact template (historical)
 
 **To:** sales@jaykhodiyar.com
 **CC (optional):** info@jaykhodiyar.com
