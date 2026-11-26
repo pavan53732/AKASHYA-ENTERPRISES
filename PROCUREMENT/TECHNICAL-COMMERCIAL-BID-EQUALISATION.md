@@ -6,18 +6,18 @@
 ## Gate 1 — technical pass/fail
 | Required criterion | EcoStan | Lehra Fuel Tech | Jay Khodiyar | RICO | Ronak | Infinite Energy (dryer only) |
 |---|---|---|---|---|---|---|
-| Exact OEM model and signed datasheet | DFC90/ESM100/ERS1225/FDD25 identified; signed datasheets pending | Five sheets received; signed revisions pending | PENDING | PENDING | PENDING | PENDING |
-| >=2 presses × >=1.60 TPH sustained wood output | NOT MET as offered: one DFC90, indicative only | Jumbo-90 rated 0.9–2.0 TPH ±10%; sustained saleable hardwood TPH unverified | PENDING | PENDING | PENDING | N/A |
-| 90-mm product dimension/press-feed moisture guaranteed | PENDING | 90 mm; 8–12% sheet rating; acceptance pending | PENDING | PENDING | PENDING | N/A |
-| >=6 wet TPH logs at 50% wood or fully priced alternative | NOT MET as offered: ESM100 max 3 TPH | Chipper-5000 up to 5 TPH; below 6 wet TPH | PENDING | PENDING | PENDING | N/A |
-| **40/50% green wood → dryer inlet <8mm**, wet-rated grinder/screen guaranteed | PENDING | Chips ≤20 mm; both dryers require ≤15 mm; wet sizing unproven | PENDING | PENDING | PENDING | PENDING |
-| Dry-rated hammer mill kept after drying, input ≤OEM-moisture ceiling, net ~3.08TPH dried material | PENDING | Hammer 3TPH max 3 TPH at ≤20%; full-stream duty unproven | PENDING | PENDING | PENDING | N/A |
-| >=1,800 kg/h water evaporation at 40% | PENDING | No evaporation rating | PENDING | PENDING | PENDING | PENDING |
-| Dryer **dry-material output ≥3.08TPH** at actual 40% inlet, not water-only | PENDING | 1.2–2 / 2–3 TPH; stream unidentified | PENDING | PENDING | PENDING | PENDING |
-| **Exactly 50.0% wetwood** accepted and tested (brochure '<50%' does NOT include boundary) | NOT MET: FDD25 quoted max 35% | Dryer-2000/3000 max 35/45%; neither covers 50% | PENDING | PENDING | PENDING | PENDING |
-| >=2,750–3,000 kg/h water evaporation high-moisture option | PENDING | No high-moisture option evidenced | PENDING | PENDING | PENDING | PENDING |
-| Complete motor kW list and energy kWh/finished tonne | PENDING | Connected ratings and approximate units/h only | PENDING | PENDING | PENDING | PENDING |
-| Physical ram strokes/min **measured separately from RPM**; service cycles documented | PENDING | Machine RPM known; loaded strokes/min pending | PENDING | PENDING | PENDING | N/A |
+| Exact OEM model and signed datasheet | DFC90/ESM100/ERS1225/FDD25 identified; signed datasheets pending | PENDING | Five sheets received; signed revisions pending | PENDING | PENDING | PENDING |
+| >=2 presses × >=1.60 TPH sustained wood output | NOT MET as offered: one DFC90, indicative only | PENDING | Jumbo-90 rated 0.9–2.0 TPH ±10%; sustained saleable hardwood TPH unverified | PENDING | PENDING | N/A |
+| 90-mm product dimension/press-feed moisture guaranteed | PENDING | PENDING | 90 mm; 8–12% sheet rating; acceptance pending | PENDING | PENDING | N/A |
+| >=6 wet TPH logs at 50% wood or fully priced alternative | NOT MET as offered: ESM100 max 3 TPH | PENDING | Priced chipper up to 3 TPH; 5 TPH alternative unpriced | PENDING | PENDING | N/A |
+| **40/50% green wood → dryer inlet <8mm**, wet-rated grinder/screen guaranteed | PENDING | PENDING | Chips ≤20 mm; both dryers require ≤15 mm; wet sizing unproven | PENDING | PENDING | PENDING |
+| Dry-rated hammer mill kept after drying, input ≤OEM-moisture ceiling, net ~3.08TPH dried material | PENDING | PENDING | Hammer 3TPH max 3 TPH at ≤20%; full-stream duty unproven | PENDING | PENDING | N/A |
+| >=1,800 kg/h water evaporation at 40% | PENDING | PENDING | No evaporation rating | PENDING | PENDING | PENDING |
+| Dryer **dry-material output ≥3.08TPH** at actual 40% inlet, not water-only | PENDING | PENDING | 1.2–2 / 2–3 TPH; stream unidentified | PENDING | PENDING | PENDING |
+| **Exactly 50.0% wetwood** accepted and tested (brochure '<50%' does NOT include boundary) | NOT MET: FDD25 quoted max 35% | PENDING | 3 TPH dryer: email claims up to 50% at reduced output; trial outstanding | PENDING | PENDING | PENDING |
+| >=2,750–3,000 kg/h water evaporation high-moisture option | PENDING | PENDING | Evaporation at 50% unquantified | PENDING | PENDING | PENDING |
+| Complete motor kW list and energy kWh/finished tonne | PENDING | PENDING | Connected ratings and approximate units/h only | PENDING | PENDING | PENDING |
+| Physical ram strokes/min **measured separately from RPM**; service cycles documented | PENDING | PENDING | Machine RPM known; loaded strokes/min pending | PENDING | PENDING | N/A |
 | OEM written **continuous 16/20/24h duty** and cooling/break/stoppage requirements | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
 | **630/800/1000kVA** engineering load alternatives (nameplate vs 150kWh/MT) | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
 | Wood-dust explosion/fire protection engineered | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING |
@@ -35,7 +35,7 @@
 | Lehra Fuel Tech **LBP90** | **Up to 2,000** | **69/86 HP** prose, **88.5 HP** table | **21.75** directory with exact model unresolved; **23.75** older Fuel Tech 90 mm set sample | Specify offered model, motor list and handling scope. |
 | RICO **Jumbo 90** | **1,500 ±20%** | **~91 HP** OEM description | **22.00** *(OEM webshop `SKU: RICO-1`; GST/scope unverified)* | 240 machine RPM, 200 mm stroke; actual sustained wood output and exact written offer unknown. [Product](https://radheindcorp.com/product/jumbo-90/) · [Shop](https://radheindcorp.com/shop/jumbo-90/) · [RICO Dossier](SUPPLIER-RESEARCH/04-RICO.md) |
 | Ronak **Jumbo90** | **1,200–1,500** current OEM; legacy 1,000–1,500 | **93.5 HP** (`69.72 kW`) current OEM; legacy 91 / 88 HP | **17.90 / 21.00 / 21.75** (three different seller listings) | No guaranteed ≥1.6TPH (max 1.5 TPH leaves 2% paper margin); official 230 machine RPM ≠ verified ram count; TrustSEAL states `Quality Measures: No`. [OEM](https://ronakeng.com/biomass-briquette-machine/) · [Dossier](SUPPLIER-RESEARCH/05-RONAK-ENGINEERING.md) |
-| Jay Khodiyar **JK90** | **1,000–2,000** | **91 HP** official | **5.00** hydraulic-labelled 90 mm / **8.00** mixed-size listings; **BRQ-9075 price unknown** | Exact mechanical JK90 price, included equipment and output on wood remain unknown. |
+| Jay Khodiyar **JK90** | **1,000–2,000** | **91 HP** official | **5.00** hydraulic-labelled 90 mm / **8.00** mixed-size listings; **BRQ-9075 price unknown** | Email basic price ₹22.25L; package scope and sustained saleable output pending. |
 
 All prices in [model-specific URLs and evidence tiers](2026-11-22-LIVE-MACHINERY-PRICE-EVIDENCE.md) were rechecked **23 November 2026**. **DO NOT** enter these amounts in Bid A/B/C below or mark a candidate technically compliant solely on any listing. Lehra Fuel Tech's older public sample is not a current offer to AKASHYA. Actual EcoStan partial quotation is recorded below; remaining comparable complete bid fields stay pending.
 
@@ -44,8 +44,8 @@ All prices in [model-specific URLs and evidence tiers](2026-11-22-LIVE-MACHINERY
 ## Gate 2 — ex-works to installed cost, ₹ lakh
 | Equalisation item | Bid A | Bid B | Bid C |
 |---|---|---|---|
-| Bidder / quote number / date / expiration | EcoStan ES/26-27/08526 · 23 Nov 2026 · 18 Dec 2026 (partial) | **AWAITING** | **AWAITING** |
-| Priced equipment ex works, ex GST | 82.65 (five machines only) | TBD | TBD |
+| Bidder / quote number / date / expiration | EcoStan ES/26-27/08526 · 23 Nov 2026 · 18 Dec 2026 (partial) | Jay Khodiyar email, 26 Nov; five unit prices, formal PDFs pending | **AWAITING** |
+| Priced equipment ex works, ex GST | 82.65 (five machines only) | 135.25 (one each, optional crusher included; package pending) | TBD |
 | Missing feeder/chipper/hammer mill/metal separator | TBD | TBD | TBD |
 | Wet-rated **<8mm** pre-dryer grinder/screen and recycle line (if needed) | TBD | TBD | TBD |
 | Dryer **dry-output** & water duty guarantee 40% and exactly 50% | TBD | TBD | TBD |
@@ -57,7 +57,7 @@ All prices in [model-specific URLs and evidence tiers](2026-11-22-LIVE-MACHINERY
 | HT transformer/connection, civil, site & shed | TBD | TBD | TBD |
 | Spares, 2-year support and warranty reserves | TBD | TBD | TBD |
 | Estimated per-shift stops, rest/relief and 2-year maintenance labour (priced) | TBD | TBD | TBD |
-| Taxes / GST (show recoverable vs cash cost separately) | 14.877 IGST; gross 97.527 Ex-Works; ITC eligibility TBD | TBD | TBD |
+| Taxes / GST (show recoverable vs cash cost separately) | 14.877 IGST; gross 97.527 Ex-Works; ITC eligibility TBD | 24.345 GST; 159.595 gross for those five units | TBD |
 | **Like-for-like installed total ex GST** | **TBD** | **TBD** | **TBD** |
 | **Like-for-like installed cash outlay including GST timing** | **TBD** | **TBD** | **TBD** |
 | 50%-wood moisture premium vs 40% duty | TBD | TBD | TBD |
