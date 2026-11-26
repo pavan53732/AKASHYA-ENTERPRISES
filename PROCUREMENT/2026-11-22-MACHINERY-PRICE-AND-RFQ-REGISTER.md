@@ -3,7 +3,19 @@
 
 ## Jay Khodiyar response — 26 November 2026
 
-Five [technical sheets covering eleven variants](SUPPLIER-RESEARCH/03-JAY-KHODIYAR.md) received. Individual and integrated prices follow a model shortlist. No price, GST, validity or installed cost was offered. Public listings below retain their original evidence classification.
+At 12:37 IST the supplier emailed these **basic ex-works Rajkot prices** after reviewing the shortlist. The earlier [five technical sheets](SUPPLIER-RESEARCH/03-JAY-KHODIYAR.md) remain the source for catalogue ratings. The email mentions individual quotations but contains no quotation PDF. Quote numbers and detailed inclusions are unverified.
+
+| Machine as priced | Basic price (₹ lakh) |
+|---|---:|
+| JK-90 mechanical briquetting press, 90 mm | 22.25 |
+| Wood chipper, 3 TPH | 33.75* |
+| Hammer mill, 3 TPH | 32.25* |
+| Turbo/flash biomass dryer, 3 TPH | 33.25 |
+| Biomass crusher, 50 HP | 13.75 |
+
+The supplier did not explain the two asterisks. Arithmetic for one of each: **₹135.25 lakh basic + ₹24.345 lakh GST (18%) = ₹159.595 lakh**. The crusher is a separate option and the proposed flow omits the hammer mill. This sum cannot establish an integrated or delivered plant cost.
+
+**Terms reported by email.** 40% advance; balance 60% within 30 days or before dispatch as applicable. Validity 30 days subject to revised project-specific quotation; warranty 12 months from sale subject to machine terms. Delivery depends on the individual quotation and advance. Erection and commissioning included as individually specified. Freight, transport, unloading, crane and transit insurance are buyer-arranged. Technician travel, lodging and site arrangements remain subject to the missing individual terms.
 
 ## Written EcoStan quotation received — 25 November 2026
 
